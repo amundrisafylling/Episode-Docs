@@ -4,6 +4,8 @@ Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data
 
 ![img](../../../../images/flow/snowflake-get-datareader.png)
 
+**Example** ![img](../../../../images/strz.jpg)  
+This flow reads a large dataset (20,000 orders) from Snowflake using a DataReader, converts the stream into a Parquet file, and uploads it to blob storage.
 <br/>
 
 ## Properties

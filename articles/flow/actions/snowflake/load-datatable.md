@@ -4,6 +4,8 @@ Loads data from a [Snowflake](https://docs.snowflake.com/en/user-guide-getting-s
 
 ![img](../../../../images/flow/snowflake-load-datatable.png)
 
+**Example** ![img](../../../../images/strz.jpg)  
+This flow loads sales data from Snowflake into memory as a DataTable, exports the top-selling products, and uploads the result to blob storage.
 <br/>
 
 ## Properties

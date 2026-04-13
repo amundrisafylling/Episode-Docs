@@ -6,6 +6,9 @@ Executes a query command in a [Snowflake](https://docs.snowflake.com/en/user-gui
 
 <br/>
 
+**Example** ![img](../../../../images/strz.jpg)  
+This flow retrieves a single value (the current user’s display name) from Snowflake and passes it to a function for logging.
+
 ## Properties
 
 | Name         | Type       | Description                                       |
