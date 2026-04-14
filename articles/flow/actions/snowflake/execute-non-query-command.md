@@ -33,7 +33,7 @@ This flow retrieves a list of active clients, updates their status to Premium in
 
 ## Using parameters
 
-Declare and assign variables in the **Parameters** property, then reference them in the query using a `:` prefix.
+Declare and assign variables in the **Expression and parameters** property, then reference them in the query using a `:` prefix.
 
 ```sql
 SELECT Display_Name FROM Snowflake.Account_Usage.Users WHERE USER_ID = :UserId
@@ -43,7 +43,7 @@ SELECT Display_Name FROM Snowflake.Account_Usage.Users WHERE USER_ID = :UserId
 
 ## Using flow variables in the expression
 
-Flow variables can be interpolated directly into the SQL expression. First [declare the variable](../built-in/declare-variable.md) as `Global` and [assign it a value](../built-in/set-variable.md) in a previous action, then reference it in the expression using curly brackets.
+Flow variables can be interpolated directly into the SQL expression. First [declare the variable](../built-in/declare-variable.md) as `Global` in a previous action, then reference it in the expression using curly brackets.
 
 ```sql
 -- TableName is a Global flow variable declared and assigned in a previous action.

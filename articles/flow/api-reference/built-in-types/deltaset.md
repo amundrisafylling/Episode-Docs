@@ -37,4 +37,4 @@ Represents a cell in a DeltaRow.
 |--------------------|----------------------|-------------------------------------------------|
 | ColumnName         | [string](https://learn.microsoft.com/en-us/dotnet/api/system.string)   | The name of the column represented by the cell. |
 | Value              | [object](https://learn.microsoft.com/en-us/dotnet/api/system.object)   | The value of the cell.                          |
-| IsUpdateOrDelteKey | [bool](https://learn.microsoft.com/en-us/dotnet/api/system.boolean)    | Specifies whether or not the cell represents a column to match on when performing an update or delete. | 
+| IsUpdateOrDeleteKey | [bool](https://learn.microsoft.com/en-us/dotnet/api/system.boolean)    | Specifies whether or not the cell represents a column to match on when performing an update or delete. | 
