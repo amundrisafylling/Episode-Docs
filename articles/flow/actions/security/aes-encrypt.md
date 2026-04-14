@@ -6,7 +6,7 @@ This action allows users to encrypt content using the AES algorithm.
 
 ## Properties
 
-| Name                 | Type     | Description                         |
+| Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
 |   Encryption key              | Required | The key used to encrypt the content. This is required by the AES algorithm. The length of the key is 256bit.                                    |
 |  Initialization vector          | Required |  The vector used to encrypt the content.  |

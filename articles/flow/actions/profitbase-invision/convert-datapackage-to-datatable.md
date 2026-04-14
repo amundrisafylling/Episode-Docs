@@ -16,7 +16,7 @@ This flow executes a SQL script[SQL Script returning data](./sql-script/execute-
 
 ## Properties
 
-| Name                | Type     | Description |
+| Name                | Required | Description |
 |---------------------|----------|-------------|
 | Title               | Optional | A descriptive label for the action displayed in the Flow editor. |
 | Source DataPackage  | Required | The DataPackage, typically returned from a [SQL Script returning data](./sql-script/execute-sql-script-returning-datapackage.md) action, to convert to a .NET DataTable. |

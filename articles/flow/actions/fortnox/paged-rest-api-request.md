@@ -14,7 +14,7 @@ In the example above, a **paginated REST API Request** is used to retrieve accou
 
 ## Properties
 
-| Name            | Type     | Description          |
+| Name            | Required | Description          |
 |---------------- | -------- | ---------------------|
 | Title           | Optional | The title or name of the request.  |
 | Connection      | Required | The [Fortnox Connection](./connection.md) used to make an authenticated request to the Fortnox REST API. |

@@ -9,7 +9,7 @@ To manage users and applications in your Microsoft Entra ID tenant, you must fir
 
 ## Properties
 
-| Name            | Type     | Description                                                                 |
+| Name            | Required | Description                                                                 |
 |-----------------|----------|-----------------------------------------------------------------------------|
 | Tenant ID       | Required | The Microsoft Entra Tenant ID associated with the Entra ID subscription. You can find it in the Azure portal where you created the Service Principal. |
 | Client ID       | Required | The ID of the Entra ID App (Service Principal) that has been granted access to the Entra ID API. |

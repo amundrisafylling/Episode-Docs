@@ -21,7 +21,7 @@ In short, this Flow automates the process of loading Excel data from Blob Storag
 
 ## Properties
 
-| Name            | Type      | Description                                               |
+| Name            | Required | Description                                               |
 |-----------------|-----------|-----------------------------------------------------------|
 | Title                     | Optional  | The title or name of the action.                                                 |
 | Variables   | Required  | Defined variables.                                  |

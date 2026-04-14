@@ -14,7 +14,7 @@ This flow receives a message containing a JSON text with log data from RabbitMQ 
 
 ## Properties
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | Title          | Optional | A descriptive label for the trigger configuration. |
 | Connection     | Required | Select or add an **RabbitMQ connection**. |

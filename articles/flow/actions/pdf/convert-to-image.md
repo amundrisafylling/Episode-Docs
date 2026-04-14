@@ -10,7 +10,7 @@ Its primary use case is extracting data from PDFs using OCR techniques, rather t
 
 ## Properties
 
-| Name        | Type         | Description                           |
+| Name        | Required | Description                           |
 |-------------|--------------|---------------------------------------|
 | File data   | Required     | The PDF file (stream or byte array) to convert.  |
 | Output format | Required   | The format to convert to (png of jpg). |

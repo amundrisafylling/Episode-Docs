@@ -7,7 +7,7 @@ This action allows users to decrypt content using the AES algorithm.
 
 ## Properties
 
-| Name                 | Type     | Description                         |
+| Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
 |   Encryption key | Required | The key used to decrypt the content. This is required by the AES algorithm |
 |  Initialization vector | Required |  The vector used to decrypt the content. |

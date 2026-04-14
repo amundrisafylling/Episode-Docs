@@ -24,7 +24,7 @@ This action allows saving a text as a list of records in a SQL server vector col
 ## Properties
 
 
-| Name               | Type      | Description                                                                 |
+| Name               | Required | Description                                                                 |
 |--------------------|-----------|-----------------------------------------------------------------------------|
 | Title              | Optional  | The title or name of the action.                                           |
 | Connection         | Required  | Select or define your SQL server connection.                               |

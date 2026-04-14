@@ -13,7 +13,7 @@ Use this action to fetch emails from a shared mailbox in Outlook and process the
 ## Properties
 
 <!--prettier-ignore-->
-| Property            | Type      | Description                                               |
+| Property            | Required | Description                                               |
 |---------------------|-----------------------------------------------------------------------|
 | Connection          | Required  | Specifies the [Microsoft 365 Outlook connection](outlook-connection.md) that the trigger should use to check for new emails. |
 | Shared Email account | Required | Specifies the email account to fetch emails from, for example `support@corp.com` |

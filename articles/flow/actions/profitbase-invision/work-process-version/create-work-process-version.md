@@ -6,7 +6,7 @@ This action creates a new version of an existing work process in a draft state. 
 
 ## Properties 
 
-| Name                 | Type     | Description                         |
+| Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
 | Title                |          |   A descriptive title for the action.         |
 | Connection           | Required | [InVision Connection](../invision-connection.md).                 |

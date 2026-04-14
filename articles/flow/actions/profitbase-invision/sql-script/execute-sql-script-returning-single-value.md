@@ -13,7 +13,7 @@ This flow executes a SQL query defined in an InVision Solution to retrieve a sin
 
 ## Properties
 
-| Name                 | Type       | Description                                                                                     |
+| Name                 | Required | Description                                                                                     |
 |----------------------|------------|-------------------------------------------------------------------------------------------------|
 | Title                | Optional   | A custom title for the action. If not specified, the default action name is used.              |
 | Connection           | Required   | A valid [InVision Connection](../invision-connection.md) used to execute the SQL script.                                     |

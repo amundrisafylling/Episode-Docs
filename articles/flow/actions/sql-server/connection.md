@@ -17,7 +17,7 @@ Before entering server details, select the appropriate **connection type** (auth
 
 ## SQL Server and Microsoft Entra Password Authentication
 
-| Property                       | Type     | Description |
+| Property                       | Required | Description |
 |--------------------------------|----------|-------------|
 | Server name                    | Required | The SQL Server hostname, IP address, or named instance. |
 | Database name                  | Required | The specific database to connect to. |
@@ -29,7 +29,7 @@ Before entering server details, select the appropriate **connection type** (auth
 
 ## Microsoft Entra Service Principal Authentication
 
-| Property                       | Type     | Description |
+| Property                       | Required | Description |
 |--------------------------------|----------|-------------|
 | Server name                    | Required | The SQL Server hostname, IP address, or named instance. |
 | Database name                  | Required | The specific database to connect to. |
@@ -41,7 +41,7 @@ Before entering server details, select the appropriate **connection type** (auth
 
 ## User Connection String
 
-| Property         | Type     | Description |
+| Property         | Required | Description |
 |------------------|----------|-------------|
 | Connection String | Required | A full custom connection string that defines all necessary parameters for connecting to SQL Server. |
 

@@ -14,7 +14,7 @@ The **Set variable** action is used to assign runtime values, such as the blob f
 
 ## Properties
 
-| Name           | Data Type | Description                                                                  |
+| Name           | Required | Description                                                                  |
 |----------------|-----------|------------------------------------------------------------------------------|
 | Title          | Optional  | The title or name of the action.                                             |
 | Variable       | Required  | The variable that will receive the assigned value.                           |

@@ -13,7 +13,7 @@ The example above retrieves all file informations from a share using the **Get S
 
 ## Properties
 
-| Name                           | Type      | Description |
+| Name                           | Required | Description |
 |--------------------------------|-----------|-------------|
 | Connection                     | Required  | The [Azure Files connection](./connecting-to-azure-files.md) to a share. |
 | Directory                      | Optional  | The directory to retrieve information from. |

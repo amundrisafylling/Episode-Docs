@@ -23,7 +23,7 @@ For example, an Excel file can be loaded using the [Open Excel file as DataReade
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                 |
+| Name                 | Required | Description                                                                                 |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------- |
 | Title       | Optional |  The title of the action.   |
 | Connection           | Required | Specify the [connection](connecting-to-amazon-s3.md) to the Amazon S3 bucket. |

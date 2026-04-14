@@ -13,7 +13,7 @@ This flow iterates through projects, calculates time and material [estimates](..
 
 ## Properties
 
-| Name                    | Type         | Description                                                |
+| Name                    | Required | Description                                                |
 |-------------------------|--------------|------------------------------------------------------------|
 | Connection              | Required     | A valid [InVision Connection](../invision-connection.md).                               |
 | Delete from table       | Required     | The table to delete from                                   |

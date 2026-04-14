@@ -10,7 +10,7 @@ This flow uses an AI Agent powered by a Google Vertex AI chat model to retrieve 
 
 ## Properties
 
-| Name                  | Type      | Description |
+| Name                  | Required | Description |
 |-----------------------|-----------|-------------|
 | Title                 | Optional  | The title of the model. |
 | Connection            | Required  | Defines the [connection](vertexai-connection.md) to **OpenAI**. |

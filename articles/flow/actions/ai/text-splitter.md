@@ -12,7 +12,7 @@ This flow [reads](../onedrive/read-file-from-onedrive-as-byte-array.md) files fr
 
 ## Properties
 
-| Name                  | Type     | Description                                                                 |
+| Name                  | Required | Description                                                                 |
 |-----------------------|----------|-----------------------------------------------------------------------------|
 | Name                 | Optional | The name of the action or operation.                                       |
 | Splitter type         | Required | Read documentation below.  ![img](../../../../images/strz2.jpg)                         |
@@ -33,7 +33,7 @@ Splits text by characters into chunks of a specified size, optionally allowing o
 
 **Additional properties**
 
-| Name          | Type     | Description                                                   |
+| Name          | Required | Description                                                   |
 |---------------|----------|---------------------------------------------------------------|
 | Chunk size    | Required | The number of characters to split after.                      |
 | Chunk overlap | Optional | The number of common characters in two consecutive chunks.     |
@@ -46,7 +46,7 @@ Divides text based on token count using a chosen encoding, useful for models wit
 
 **Additional properties**
 
-| Name          | Type     | Description                                                                 |
+| Name          | Required | Description                                                                 |
 |---------------|----------|-----------------------------------------------------------------------------|
 | EncodingName  | Optional | The encoder that will count the tokens.                                     |
 | Max tokens    | Required | The maximum number of tokens in a chunk.                                    |
@@ -60,7 +60,7 @@ Breaks down documents at specific Markdown headers, ideal for structured texts l
 
 **Additional properties**
 
-| Name              | Type     | Description                                                                 |
+| Name              | Required | Description                                                                 |
 |-------------------|----------|-----------------------------------------------------------------------------|
 | Headers to split on | Optional | The markdown headers to split on.                                           |
 | Include header      | Optional | Denotes if the headers themselves should be included in the output.         |

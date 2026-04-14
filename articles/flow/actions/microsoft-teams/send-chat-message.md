@@ -10,7 +10,7 @@ Use this action to send a message to a user in Microsoft Teams. The action suppo
 
 ## Properties
 
-| Name           | Type           | Description                        |
+| Name           | Required           | Description                        |
 |----------------|----------------|------------------------------------|
 | Connection     | Required       | The [connection](./connection.md) to the Teams account. Setting up a connection requires a **Microsoft Work or School account**.|
 | User (ID)      | Required       | The ID of the user to send the message to. This can be the `Object ID (OID)` or the `user principal name (UPN)` of the user in **Microsoft Entra ID**  |

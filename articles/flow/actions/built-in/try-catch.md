@@ -18,7 +18,7 @@ This flow demonstrates how Try / Catch is used to handle runtime errors in a con
 
 ## Properties
 
-| Property                   | Data type | Description |
+| Property                   | Required | Description |
 |----------------------------|-----------|-------------|
 | Title                  | Optional  | A descriptive name for the **Try / Catch** block. |
 | Exception variable name Optional  | Name of the variable that will store information about the exception when an error occurs in the **Try** block. |

@@ -10,7 +10,7 @@ This flow is triggered by an HTTP request and performs a complete calculation pr
 
 ## Properties
 
-| Name              | Type      | Description                                                |
+| Name              | Required | Description                                                |
 |-------------------|-----------|------------------------------------------------------------|
 | Title             | Optional  | Custom title for the action.                               |
 | Batch size        | Optional  | Number of rows to write per batch.                         |

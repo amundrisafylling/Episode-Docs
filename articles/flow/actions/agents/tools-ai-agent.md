@@ -26,7 +26,7 @@ Include all the Word documents as attachments to the email.
 <br/>
 
 ## Properties
-| Name            | Type         | Description                         |
+| Name            | Required | Description                         |
 |-----------------|--------------|-------------------------------------|
 | Tools usage     | Optional     | Specifies whether the agent should use tool calling directly, or write and execute code to use the tools. [Read more about this topic below.](#tools-include) |
 | Instructions    | Required     | The instruction given at the start of a conversation that sets the behavior, tone, and goals for the agent. It acts like a guide or personality primer, telling the chat model how it should respond (e.g., formal vs. casual), what role it should play (e.g., teacher, assistant, coder) and optionally what stategy you want it to prefer for decision making.  |

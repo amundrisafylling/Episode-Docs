@@ -12,7 +12,7 @@ This flow loads data into a Dimension and then publishes it. It begins with load
 
 ## Properties 
 
-| Name                 | Type     | Description                                      |
+| Name                 | Required | Description                                      |
 |----------------------|----------|--------------------------------------------------|
 | Title                |          |   A descriptive title for the action.      |
 | Connection           | Required | [InVision Connection](invision-connection.md).                             |

@@ -13,7 +13,7 @@ This Flow [retrieves](function.md) a list of employees, iterates over each emplo
 
 ## Properties
 
-| Name            | Data Type | Description                                                   |
+| Name            | Required | Description                                                   |
 |-----------------|-----------|---------------------------------------------------------------|
 | Title           | Optional  | The title or name of the action.                              |
 | Items           | Required  | The collection of items to iterate over.                      |

@@ -34,7 +34,7 @@ This Flow monitors for updated files in Azure Blob Storage. [If](../../actions/b
 
 ## Properties
 
-| Name                   | Type     | Description |
+| Name                   | Required | Description |
 |------------------------|----------|-------------|
 | Title              | Optional | A custom label for this trigger. This name will appear when selecting the trigger in a Flow. |
 | Connection         | Required | An [Azure Blob container connection](../../actions/azure-blob-storage/azure-blob-container-connection.md). |

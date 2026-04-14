@@ -7,7 +7,7 @@ Add an entity to an Azure Table.
 
 ## Properties
 
-| Name                   | Type       | Description          |
+| Name                   | Required | Description          |
 |------------------------|------------|-------------------|
 | Title              | Optional   | A user-defined title for the action.            |
 | Connection         | Required   | Specify the [connection](connecting-to-azure-table-storage.md) to the Azure Table Storage account.            |

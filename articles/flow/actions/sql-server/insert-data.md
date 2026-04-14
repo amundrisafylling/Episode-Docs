@@ -20,7 +20,7 @@ The example above takes a file from storage, reads its JSON content, saves the d
 
 ## Properties
 
-| Name                  | Type      | Description                                                                 |
+| Name                  | Required | Description                                                                 |
 |-----------------------|-----------|-----------------------------------------------------------------------------|
 | Title                 | Optional  | A descriptive title for the action.                                         |
 | Connection            | Required  | The [SQL Server Connection](./connection.md).                               |

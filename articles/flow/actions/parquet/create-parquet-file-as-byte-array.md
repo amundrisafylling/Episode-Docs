@@ -14,7 +14,7 @@ Return value used:
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                                                                                          |
+| Name                 | Required | Description                                                                                                                                                                          |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Title    |    Optional      |      The title for the create action.               |
 | Source               | Required | Specifies the source of the data, which can either be a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) or [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable). |

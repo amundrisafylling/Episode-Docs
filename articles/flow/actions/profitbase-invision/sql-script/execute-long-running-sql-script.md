@@ -12,7 +12,7 @@ This flow [prepares](../../built-in/function.md) a parameters object and a langu
 
 ## Properties
 
-| Name                 | Type     | Description |
+| Name                 | Required | Description |
 |----------------------|----------|-------------|
 | Title                | Optional | A descriptive label for the action displayed in the Flow editor. |
 | Connection           | Required | Defines the [InVision connection](../invision-connection.md) used to access the Profitbase InVision environment. The connection provides the credentials required to execute the SQL script. |

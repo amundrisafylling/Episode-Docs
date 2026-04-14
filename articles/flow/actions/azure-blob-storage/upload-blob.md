@@ -10,7 +10,7 @@ This flow extracts data from a table, convert it into a CSV file, and upload it 
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Connection       | Required  | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
 | Dynamic connection | Optional   | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action.    |

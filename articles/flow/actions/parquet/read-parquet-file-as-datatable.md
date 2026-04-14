@@ -16,7 +16,7 @@ The flow starts with a [Function](../built-in/function.md) that returns a list o
 
 ## Properties
 
-| Name                | Type     | Description |
+| Name                | Required | Description |
 |---------------------|----------|-------------|
 | Title               | Optional | A descriptive name for the action shown in the flow. |
 | File contents       | Required | The contents of the Parquet file provided as either a stream or a byte array. |

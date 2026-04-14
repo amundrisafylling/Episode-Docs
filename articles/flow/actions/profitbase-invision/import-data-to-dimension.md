@@ -12,7 +12,7 @@ It reads data from a file stored in [Blob Storage](../azure-blob-storage/read-bl
 ## Properties
 
 <!-- prettier-ignore -->
-| Name                 | Type     | Description                                            |
+| Name                 | Required | Description                                            |
 | -------------------- | -------- | ------------------------------------------------------ |
 | Title                | Optional | The name of the action as shown in the flow.        |
 | Connection           | Required | A valid [InVision Connection](invision-connection.md) used to perform the import.       |

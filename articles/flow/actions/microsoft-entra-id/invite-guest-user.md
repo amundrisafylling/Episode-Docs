@@ -11,7 +11,7 @@ This flow invites a guest user to a Microsoft Entra ID tenant. Instead of using 
 
 ## Properties
 
-| Name                     | Type     | Description                                                                 |
+| Name                     | Required | Description                                                                 |
 |--------------------------|----------|-----------------------------------------------------------------------------|
 | Title                    | Optional | The title of the action.                                                    |
 | Connection               | Required | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) the delegated or application permission **User.Invite.All** (least privilege) to create invitations. |

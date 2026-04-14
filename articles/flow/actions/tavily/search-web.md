@@ -15,7 +15,7 @@ This Flow uses a [Truncate table](../../actions/sql-server/truncate-table.md) ac
 
 ## Properties
 
-| Name                | Type       | Description |
+| Name                | Required | Description |
 |---------------------|------------|-------------|
 | Title           | Optional   | The title of the action. |
 | Connection      | Required   | Tavily [connection](connection.md) used for executing the query. |

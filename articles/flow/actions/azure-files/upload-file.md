@@ -12,7 +12,7 @@ The example above illustrates how to first create a folder, and then transfer fi
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Connection       | Required  | The [Azure Files connection](./connecting-to-azure-files.md) to a Share. |
 | Target Directory | Optional  | Directory to store the file in. |

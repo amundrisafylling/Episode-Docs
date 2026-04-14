@@ -13,7 +13,7 @@ Use this action to fetch emails from a personal mailbox in Outlook and process t
 ## Properties
 
 <!--prettier-ignore-->
-| Property            | Type      | Description                                               |
+| Property            | Required | Description                                               |
 |---------------------|-----------------------------------------------------------------------|
 | Connection          | Required  | Specifies the [Microsoft 365 Outlook connection](outlook-connection.md) that the trigger should use to check for new emails. |
 | Disabled            | Optional  | Specifies if the action should be disabled.  |

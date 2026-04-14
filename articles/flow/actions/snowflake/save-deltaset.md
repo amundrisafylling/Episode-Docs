@@ -6,8 +6,11 @@ A typical use case for this action is to save the changes made by users in the [
 
 ![img](/images/flow/snowflake-save-deltaset.png)
 
+**Example** ![img](../../../../images/strz.jpg)  
+This flow [receives](../../triggers/power-bi/writeback-table-trigger.md) a DeltaSet of changes from a Power BI writeback table and saves those changes to a Snowflake table by applying inserts, updates, and deletes.
+
 ## Properties
-| Name         | Type      | Description                                 |
+| Name         | Required | Description                                 |
 |--------------|-----------|---------------------------------------------|
 | Title        | Optional  | A descriptive title of the action.          |
 | Connection   | Required  | The Snowflake [connection](./connecting-to-snowflake.md). |

@@ -10,7 +10,7 @@ The main table is typically the table that data is read from, written to and/or 
 
 ## Parameters
 
-| Name                   | Type       | Description                                                                                                                                                     |
+| Name                   | Required | Description                                                                                                                                                     |
 |------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Reference table name   | Required   | The name of the reference table that participates in the the Data Context definition and contains the data that determintes the slice of the main table.        |
 | Reference column name  | Required   | The name of the column in the reference table that that the main table is joined on.                                                                            |

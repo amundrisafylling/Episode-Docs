@@ -12,7 +12,7 @@ It executes a SQL query, exposes the result as a **DataReader**, and passes that
 
 ## Properties
 
-| Name | Data type | Description |
+| Name | Required | Description |
 |------|----------|-------------|
 | Title | Optional | The name of the action as shown in the flow. |
 | Connection | Required | The Google BigQuery [connection](connecting-to-bigquery.md) used to execute the query. |

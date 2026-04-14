@@ -33,7 +33,7 @@ Do NOT wrap the response in Markdown annotation.
 
 ## Properties
 
-| Name                  | Type      | Description |
+| Name                  | Required | Description |
 |-----------------------|-----------|-------------|
 | Title                 | Optional  | The title of the model. |
 | Connection            | Required  | Defines the [connection](azure-ai-connection.md) to **Microsoft Foundry** resource. |

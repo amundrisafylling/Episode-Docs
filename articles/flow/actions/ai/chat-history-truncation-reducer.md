@@ -13,7 +13,7 @@ This flow ensures chat history is dynamically managed and trimmed, keeping inter
 
 ## Properties 
 
-| Name                    | Type      | Description                                           |
+| Name                    | Required | Description                                           |
 |-------------------------|-----------|-------------------------------------------------------|
 | Title                   | Optional  | The name of the action or operation.                  |
 | Target count            | Required  | The desired number of target/history messages after reduction           |

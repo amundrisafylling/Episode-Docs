@@ -13,7 +13,7 @@ Inherits from [Text Control](textcontrol.md).
 |---------------------|----------------------------------------|
 | Click               | Specifies the name of the Function to call when the user clicks the button. |
 | Disabled            | Use the Disabled property to disable a control or set it to read-only. Note that you cannot use both a Binding AND the control APIs at the same time to set the disabled state of a control. If the Disabled property of a control has a Binding, using the control.Disable() or control.Enable() APIs will not work (binding will win). The disabled property support data binding or an explicit value (true, false). |
-| Type                | Specifies the default look of the button. Valid values are `Default`, `Primary`, `Secondary`, `Confirm`, `Icon`, and `Link`.|
+| Required | Specifies the default look of the button. Valid values are `Default`, `Primary`, `Secondary`, `Confirm`, `Icon`, and `Link`.|
 | Image               | Specifies the image to display. The value can be a named image, an image in your web assets library (@images/my-image-name.png), or a URL. |
 | Hotkey              | Specifies the hotkey for the control, for example `Alt + B`. |
 

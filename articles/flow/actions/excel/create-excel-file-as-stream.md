@@ -12,7 +12,7 @@ This Flow [exports sales data](../sql-server/get-entities.md) for September 2024
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                   |
+| Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | Source               | Required | Specifies the source of the data, which can either be a DataTable or DataReader.                              |

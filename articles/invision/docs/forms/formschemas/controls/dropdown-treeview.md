@@ -5,7 +5,7 @@ Inherits from [Control](control.md).
 A dropdown control that display selectable items as a tree (hierarchial) structure. The control supports multi-select, and selected item(s) are displayed in the dropdown's selected items tray.
 
 ## Properties
-| Name            | Type          | Description                      |
+| Name            | Required | Description                      |
 |-----------------|---------------|----------------------------------|
 | Name            | Optional      | Specify the name to access the control API programatically, for example `this.controls.myDropdownTree.expandAll()` |
 | MultiSelect     | Optional      | Whether or not the user can select multiple items. Default is false. |

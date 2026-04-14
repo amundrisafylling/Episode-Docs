@@ -12,7 +12,7 @@ This Flow reads a Board Meeting Log (Excel file) from [OneDrive](../onedrive/rea
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                   |
+| Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
 | Title                | Optional | The title of the action.                                                 |
 | File Data            | Required | Specifies the source of the Excel file, which can either be a Stream or a Byte Array.                         |

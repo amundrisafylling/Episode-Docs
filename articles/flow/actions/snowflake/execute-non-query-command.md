@@ -4,6 +4,10 @@ Executes a SQL command in a [Snowflake](https://docs.snowflake.com/en/user-guide
 
 ![img](../../../../images/flow/snowflake-execute-command.png)
 
+
+**Example** ![img](../../../../images/strz.jpg)  
+This flow retrieves a list of active clients, updates their status to Premium in a Snowflake database, and then returns the number of users that were successfully upgraded.
+
 > [!NOTE]
 > This action does not return the result of the executed query. It simply returns the number of rows affected by the query.
 
@@ -11,7 +15,7 @@ Executes a SQL command in a [Snowflake](https://docs.snowflake.com/en/user-guide
 
 ## Properties
 
-| Name                      | Type | Description                                                                       |
+| Name                      | Required | Description                                                                       |
 | ------------------------- | --------- | --------------------------------------------------------------------------------- |
 | Title                     | Optional  | The title or name of the command.                                                 |
 | Connection                | Required  | [The Snowflake connection](./connecting-to-snowflake.md).                         |

@@ -13,7 +13,7 @@ This flow illustrates using the [Tools AI Agent](../agents/tools-ai-agent.md) to
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                          |
+| Name                 | Required | Description                                                                                          |
 |----------------------|----------|------------------------------------------------------------------------------------------------------|
 | Title                | Optional | The title or name of the action.                                                                     |
 | Object to convert    | Required | The object (e.g. variable or expression) that should be converted.                                   |

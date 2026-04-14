@@ -11,7 +11,7 @@ The REST **API Request with paging** action enables you to interact with the [Po
 
 ## Properties
 
-| Name            | Type     | Description                                                                                   |
+| Name            | Required | Description                                                                                   |
 |----------------- | -------- | --------------------------------------------------------------------------------------------- |
 | Title           | Optional | The title or name of the request.                              |
 | Connection      | Required | The [PowerOffice Go Connection](./poweroffice-go-connection.md) used to make an authenticated request to PowerOffice Go REST API.     |

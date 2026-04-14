@@ -12,7 +12,7 @@ The example above shows a Flow that use a [dynamic connection](./create-connecti
 ## Properties
 
 <!--prettier-ignore-->
-| Name          | Type     | Description                                                                                                                                                                          |
+| Name          | Required | Description                                                                                                                                                                          |
 | ------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Connection    | Required | The [connection](./connection.md) used to make an authenticated request to the Finago Office REST API. |
 | Dynamic connection | Optional | Use this option if You need to create a connection using different credentials stored outside the workspace (for example in your own database). It is also useful when To dynamically create a connection, use the [Create Finago Office Connection](./create-connection.md) action.  |

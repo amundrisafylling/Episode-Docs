@@ -27,7 +27,7 @@ Include all the Word documents as attachments to the email.
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title            | Optional  | The title of the tool.                                 |
 | Connection    | Required | A [Microsoft 365 Outlook connection](./outlook-connection.md) which grants Profitbase Flow access to the email account. |

@@ -18,7 +18,7 @@ This flow demonstrates how an AI agent uses the **Flow AI tool** to invoke anoth
 
 ## Properties
 
-| Name                         | Type     | Description                                                                 |
+| Name                         | Required | Description                                                                 |
 |------------------------------|----------|-----------------------------------------------------------------------------|
 | Title                        | Optional | The name of the Flow AI tool as exposed to the AI agent. When a flow is selected from the list, the title is automatically set to the name of the flow.     |
 | Flow                         | Required | The flow that will be invoked by the AI agent when this tool is called.    |

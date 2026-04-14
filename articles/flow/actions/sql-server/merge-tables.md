@@ -9,7 +9,7 @@ This action provides a lightweight wrapper for the [Merge](https://learn.microso
 
 ## Properties
 
-| Name         | Type       | Description                                       |
+| Name         | Required | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
 | Title              | Optional        | A descriptive title for the action.               |
 | Connection      | Required | The [SQL Server Connection](./connection.md).         |

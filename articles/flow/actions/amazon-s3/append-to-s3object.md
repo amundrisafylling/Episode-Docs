@@ -9,7 +9,7 @@ This flow ensures that data is either appended to an existing file or a new obje
 
 ## Properties
 
-| Name        | Type     | Description                                                                                 |
+| Name        | Required | Description                                                                                 |
 | ----------- | -------- | ------------------------------------------------------------------------------------------- |
 | Title       | Optional |  The title of the action.   |
 | Connection  | Required | Specify the [connection](connecting-to-amazon-s3.md) to the Amazon S3 bucket. |

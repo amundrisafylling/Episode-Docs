@@ -13,7 +13,7 @@ The example above shows how to read employees from Hogia and insert the result i
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional | The title or name of the request. |
 | Connection | Required | The [Hogia Connection](./connection.md) used to make an authenticated request to the Hogia REST API. |

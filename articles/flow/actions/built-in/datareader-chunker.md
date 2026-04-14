@@ -17,7 +17,7 @@ Actions used in the flow are: SQL Server [Get DataReader](../sql-server/get-data
 
 ## Properties
 
-| Name                | Type     | Description                                                                                                                  |
+| Name                | Required | Description                                                                                                                  |
 | ------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------- |
 | DataReader          | Required | The [IDataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) to split into chunks (or "batches"). |
 | Chunk variable name | Required | The name of the chunker.                                                                                                     |

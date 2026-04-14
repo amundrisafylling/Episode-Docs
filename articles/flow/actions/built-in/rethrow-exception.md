@@ -12,7 +12,7 @@ This flow executes a budget [calculation](function.md) inside a [Try/Catch](try-
 
 ## Properties
 
-| Name        | Type     | Description                                                                 |
+| Name        | Required | Description                                                                 |
 |-------------|----------|-----------------------------------------------------------------------------|
 | Title       | Optional | A custom name for the action, used to make the flow easier to read.        |
 | Disabled    | Optional | When enabled, the action is skipped during flow execution.                |

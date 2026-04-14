@@ -10,7 +10,7 @@ Reads a JSON file [byte](https://learn.microsoft.com/en-us/dotnet/api/system.byt
 
 ## Properties
 
-| Name                     | Type     | Description                 |
+| Name                     | Required | Description                 |
 | ------------------------ | -------- | --------------------------- |
 | Title                    |          |                             |
 | JSON                     | Required | A JSON-formatted byte array or stream that provides the data. |

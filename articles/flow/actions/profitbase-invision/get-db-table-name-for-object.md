@@ -12,7 +12,7 @@ This flow retrieves the name of a database table, converts the result to a [CSV 
 
 ## Properties
 
-| Name                 | Data Type | Description                                                                 |
+| Name                 | Required | Description                                                                 |
 |----------------------|-----------|-----------------------------------------------------------------------------|
 | Title                | Optional  | The title or name of the action.                                            |
 | Connection           | Required  | The [InVision Connection](invision-connection.md) used to resolve the database object.                |

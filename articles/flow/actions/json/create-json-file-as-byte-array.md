@@ -10,7 +10,7 @@ Creates a JSON file from a [string](https://learn.microsoft.com/en-us/dotnet/api
 
 ## Properties
 
-| Name                     | Type     | Description                 |
+| Name                     | Required | Description                 |
 | ------------------------ | -------- | --------------------------- |
 | Title                    |          |                             |
 | JSON string                   | Required | A JSON-formatted string that provides the data. |

@@ -7,7 +7,7 @@ Gets data from Xledger using GraphQL.
 
 ## Properties
 
-| Name                  | Type      | Description                                                              |
+| Name                  | Required | Description                                                              |
 |-----------------------|-----------|--------------------------------------------------------------------------|
 | Title                | Optional  | The title or name of the command.                                       |
 | Connection           | Required  | [The Xledger connection](./connecting-to-xledger.md).                   |

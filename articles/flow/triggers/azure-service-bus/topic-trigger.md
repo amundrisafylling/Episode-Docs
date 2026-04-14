@@ -15,7 +15,7 @@ When a message arrives, the Flow checks whether the payload contains the expecte
 
 ## Properties
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | Title          |  Optional | A descriptive label for the trigger configuration. |
 | Connection     | Required |Azure Service Bus connection string used to authenticate and connect to the service. |

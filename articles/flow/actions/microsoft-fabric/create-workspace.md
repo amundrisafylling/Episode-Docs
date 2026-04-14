@@ -10,7 +10,7 @@ Creates a [Workspace](https://learn.microsoft.com/en-us/fabric/get-started/creat
 
 ## Properties
 
-| Name                | Type     | Description    |
+| Name                | Required | Description    |
 |---------------------|----------|------------------------------------|
 | Connection          | Required | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Make sure to choose an authentication method with required privileges. |
 | Workspace Name      | Required | Specifies the name of the workspace to be created or accessed.    |

@@ -8,7 +8,7 @@ Use this action to send emails from a `shared` Microsoft 365 Outlook mailbox. If
 
 ## Properties
 
-| Name        | Type     | Description                                                                                                                      |
+| Name        | Required | Description                                                                                                                      |
 | ----------- | -------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Connection  | Required | A [Microsoft 365 Outlook connection](./outlook-connection.md) with access to the shared email account specified in `From email`. |
 | From email  | Required | The shared email account to use as the sender account, for example `support@corp.com`.                                           |

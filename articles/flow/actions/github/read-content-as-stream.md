@@ -12,7 +12,7 @@ This flow iterates through content, streams the file, and uploads the file to an
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional | The title of the action.   |
 | Authentication |  Optional | Select an authentication token. See below. |

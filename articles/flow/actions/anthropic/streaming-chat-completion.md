@@ -14,7 +14,7 @@ The Flow above shows how to provide real-time completions to a chat client. Exte
 
 ## Properties
 
-| Name                    | Type      | Description |
+| Name                    | Required | Description |
 |-------------------------|-----------|-------------|
 | Title                   | Optional  | The title of the action. |
 | Connection              | Required  | Defines the [connection](anthropic-connection.md) to Anthropic. The connection provides the API key needed to access Anthropic models. |

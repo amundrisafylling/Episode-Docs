@@ -13,7 +13,7 @@ The example above illustrates a Flow that reads rows (customer information) from
 
 ## Properties
 
-| Name                      | Type      | Description                                                                       |
+| Name                      | Required | Description                                                                       |
 | ------------------------- | --------- | --------------------------------------------------------------------------------- |
 | Title                     | Optional  | The title or name of the action.                                                  |
 | Value                     | Required  | The value to return from the Flow.                                                |

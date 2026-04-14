@@ -15,7 +15,7 @@ This flow is triggered when a [new email arrives in a shared mailbox](../../trig
 
 ## Properties
 
-| Property     | Data type | Description |
+| Property     | Required | Description |
 |--------------|-----------|-------------|
 | Title    | Optional  | A descriptive name for the If-Else action. |
 | Cases    | Required  | Defines one or more conditional cases that determine which branch of the flow is executed. |

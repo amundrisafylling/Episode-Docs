@@ -4,7 +4,7 @@ To send a Teams message with attachment(s), the document(s) [must already exist 
 1) In the `Attachments` property of the action, add attachements by defining their Id, Name, Content type and Content Url. 
 2) In the message, a reference to the attachment **must** be included on the form `<attachment id="GUID"></attachment>`. The Id in the attachments tag in the message **must** match the Id of the attachment in the Attachements dialog. (See example below) 
 
-| Name         | Type                | Description             |
+| Name         | Required | Description             |
 |--------------|---------------------|-------------------------|
 | Id           | Required            | The Id of the attachment. This must be a valid GUID. |
 | Name         | Required            | The name of the attachment, for example the file name. |

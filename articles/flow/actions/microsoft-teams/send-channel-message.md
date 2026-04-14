@@ -10,7 +10,7 @@ Use this action to send a message to a Microsoft Teams channel. The action suppo
 
 ## Properties
 
-| Name           | Type           | Description                        |
+| Name           | Required           | Description                        |
 |----------------|----------------|------------------------------------|
 | Connection     | Required       | The [connection](./connection.md) to the Teams account. Setting up a connection requires a **Microsoft Work or School account**.|
 | Team (ID)      | Required       | The ID of the team that the channel belongs to. |

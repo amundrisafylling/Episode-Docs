@@ -8,7 +8,7 @@ Uploads a file to a Lakehouse in Microsoft Fabric to make it ready for analytics
 
 ## Properties
 
-| Name                             | Type     | Description         |
+| Name                             | Required | Description         |
 |----------------------------------|----------|----------------------------------------------------------------------------------|
 | Title                            | Optional | The title for the upload action to the Lakehouse.  |
 | Connection                       | Required | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Note! Make sure to choose an authentication method and user with the required priviliges. |

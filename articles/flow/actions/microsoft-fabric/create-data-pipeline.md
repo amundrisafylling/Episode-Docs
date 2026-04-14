@@ -9,7 +9,7 @@ Use this action to automate deployments of Data Pipelines to Fabric Workspaces, 
 <br/>
 
 ## Properties
-| Name          | Type     | Description                             |
+| Name          | Required | Description                             |
 |---------------|----------|-----------------------------------------|
 | Connection    | Required | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Note! Make sure to choose an authentication method and user with the required priviliges. Please refer to the [Microsoft Fabric API - Create Data Pipeline documentation](https://learn.microsoft.com/en-us/rest/api/fabric/datapipeline/items/create-data-pipeline) for details. |
 | Workspace Id  | Required | The Workspace that you want to create the Data Pipeline in. |
@@ -21,7 +21,7 @@ Use this action to automate deployments of Data Pipelines to Fabric Workspaces, 
 ## Returns
 This action returns a **DataPipeline** response with the following properties:
 
-| Name          | Type      | Description                           |
+| Name          | Required | Description                           |
 |---------------|-----------|---------------------------------------|
 | Description   | string    | The item description.                 |
 | DisplayName   | string    | The name of the Data Pipeline (as defined by the Pipeline name property above). |

@@ -9,7 +9,7 @@ This flow retrieves a list of OneDrive items (files and optionally folders) from
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                                                                     |
+| Name                 | Required | Description                                                                                                                                                     |
 | -------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Connection           | Required | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`.                                                  |
 | File                 | Required | The path to the file in OneDrive. When using a [OneDriveItem](./api-reference/onedrive-item.md), use the `Path` property like shown in the example image below. |

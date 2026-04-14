@@ -26,7 +26,7 @@ This flow is triggered whenever a new email arrives in the connected Outlook mai
 ## Properties
 
 <!--prettier-ignore-->
-| Property            | Type      | Description                                               |
+| Property            | Required | Description                                               |
 |---------------------|-----------------------------------------------------------------------|
 | Connection          | Required  | Specifies the [Microsoft 365 Outlook connection](../../actions/microsoft-365-outlook/outlook-connection.md) that the trigger should use to check for new emails. |
 | Polling interval    | Required  | Specifies how often to check for new emails.              |

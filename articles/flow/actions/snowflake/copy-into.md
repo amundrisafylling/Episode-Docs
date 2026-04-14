@@ -6,11 +6,13 @@ A [stage](https://docs.snowflake.com/en/sql-reference/sql/create-stage) is a loc
 
 ![img](../../../../images/flow/snowflake-copy-data.png)
 
+**Example** ![img](../../../../images/strz.jpg)  
+This flow creates a CSV stream from input data using [Create CSV file as stream](../csv/create-csv-file-as-stream.md), uploads it to a stage with [Upload Blob](../azure-blob-storage/upload-blob.md), and then loads the data into a Snowflake table.
 <br/>
 
 ## Properties
 
-| Name                      | Data type | Description                                                                                         |
+| Name                      | Required | Description                                                                                         |
 |---------------------------|-----------|-----------------------------------------------------------------------------------------------------|
 | Title                     | Optional  | The title or name of the command.                                                                   |
 | Connection                | Required  | The Snowflake [connection](./connecting-to-snowflake.md).                                          |

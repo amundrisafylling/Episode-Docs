@@ -6,7 +6,7 @@ This node enables the dynamic generation of an Xledger connection, allowing seam
 
 ## Properties
 
-| Name                  | Type      | Description                                                              |
+| Name                  | Required | Description                                                              |
 |-----------------------|-----------|--------------------------------------------------------------------------|
 | Title                | Optional  | The title or name of the connection.                                    |
 | Production API key   | Required  | The Xledger API key for the Production environment.                     |

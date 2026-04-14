@@ -16,7 +16,7 @@ This flow receives a list of notifications from a [User Chat](../../../invision/
 
 ## Properties
 
-| Name                 | Type       | Description                                                   |
+| Name                 | Required | Description                                                   |
 |----------------------|------------|---------------------------------------------------------------|
 | Test data            | Optional   | Use this property to define test data to use when you run the Flow manually from the Designer during development. The test data is NOT used when data is triggered from an InVision user chat. |
 | Output variable name | Required   | The name of the variable that the output from the trigger is stored in. |

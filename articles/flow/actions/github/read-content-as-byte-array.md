@@ -14,7 +14,7 @@ This flow iterates through content, reads the file as byte array, and uploads th
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional | The title of the action.   |
 | Authentication |  Optional | Select an authentication token. See below. |

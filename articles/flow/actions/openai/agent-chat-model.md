@@ -11,7 +11,7 @@ This flow uses an AI Agent powered by an OpenAi chat model to retrieve a list of
 
 ## Properties
 
-| Name                  | Type      | Description |
+| Name                  | Required | Description |
 |-----------------------|-----------|-------------|
 | Title                 | Optional  | The title of the model. |
 | Connection            | Required  | Defines the [connection](openai-connection.md) to **OpenAI**. |

@@ -15,7 +15,7 @@ This flow retrieves filtered client data from a [GraphQL API](../graphql/graphql
 
 ## Properties
 
-| Name          | Type     | Description                                                                 |
+| Name          | Required | Description                                                                 |
 |---------------|----------|-----------------------------------------------------------------------------|
 | Title         | Optional | The title or name of the action.                                            |
 | Configuration | Required | Opens the configuration editor for the GraphQL request.                    |
@@ -29,7 +29,7 @@ Returns the requested data converted to the object type defined in the Response 
 
 ## Configuration
 
-| Name          | Type     | Description                                                                 |
+| Name          | Required | Description                                                                 |
 |---------------|----------|--------------------------------------------------|
 | URI           | Required | The endpoint URL of the GraphQL API to which the request will be sent.     |
 | Method        | Required | The HTTP method for the request         |

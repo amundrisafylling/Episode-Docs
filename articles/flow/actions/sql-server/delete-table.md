@@ -10,7 +10,7 @@ If the table does not exist, this action does nothing (no error is raised).
 
 ## Properties
 
-| Name            | Type         | Description                                       |
+| Name            | Required | Description                                       |
 |-----------------|--------------|---------------------------------------------------|
 | Title              | Optional        | A descriptive title for the action.               |
 | Connection      | Required | The [SQL Server Connection](./connection.md).         |

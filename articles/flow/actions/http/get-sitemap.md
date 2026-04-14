@@ -11,7 +11,7 @@ This flow retrieves a **sitemap** from a specified URL, [validates](../built-in/
 
 ## Properties
 
-| Name                 | Type      | Description |
+| Name                 | Required | Description |
 |----------------------|----------|-------------|
 | Title           | Optional | The name of the operation for retrieving the sitemap. Default: "Get sitemap". |
 | Sitemap URL     | Required | The URL of the sitemap to be fetched. The user needs to provide a value. If the provided URL does not contain or end with an XML file containing the sitemap (e.g., `yourwebsite.com`), `"sitemap.xml"` is automatically appended. If the URL ends with `".xml"` (e.g., `yourwebsite.com/sitemap-file.xml), it is regarded as the sitemap.
