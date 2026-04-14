@@ -8,7 +8,7 @@ Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                   |
+| Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | File contents | Required       |  The contents of the file, provided as either a stream or a byte array. |

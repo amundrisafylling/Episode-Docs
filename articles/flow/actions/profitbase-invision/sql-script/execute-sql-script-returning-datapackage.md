@@ -20,7 +20,7 @@ To work with the data returned from the action, convert the result to a .NET Dat
 
 ## Properties
 
-| Name                 | Type     | Description |
+| Name                 | Required | Description |
 |----------------------|----------|-------------|
 | Title                | Optional | A descriptive label for the action displayed in the Flow editor. |
 | Connection           | Required | Defines the [InVision connection](../invision-connection.md) used to execute the SQL script. |

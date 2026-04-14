@@ -14,7 +14,7 @@ Use this action to send emails from a `personal` Microsoft 365 Outlook mailbox. 
 ## Properties
 
 <!--prettier-ignore-->
-| Name        | Type     | Description                                                                                                                       |
+| Name        | Required | Description                                                                                                                       |
 | ----------- | -------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Connection  | Required | A [Microsoft 365 Outlook connection](./outlook-connection.md) which grants Profitbase Flow access to sending email from a personal email account. The `sender` address will be the email account used to log on when creating the M365 Outlook connection. |
 | To          | Optional | The email address of the primary recipient. Use semicolon to specify multiple recipients `(user1@corp.com; user2@corp.com)`. |

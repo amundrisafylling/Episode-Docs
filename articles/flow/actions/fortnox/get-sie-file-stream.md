@@ -18,7 +18,7 @@ The example above shows how a SIE file is read from Fortnox and parsed with the 
 
 ## Properties
 
-| Name            | Type     | Description            |
+| Name            | Required | Description            |
 |---------------- | -------- | ---------------------- |
 | Title           | Optional | The title or name of the request.                              |
 | Connection      | Required | The [Fortnox Connection](./connection.md) used to make an authenticated request to the Fortnox REST API. |

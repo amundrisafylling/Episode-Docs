@@ -13,7 +13,7 @@ The `REST API Request with paging` action enables you to call [Dynamics 365 Busi
 ## Properties
 
 <!--prettier-ignore-->
-| Name          | Type     | Description                                                                                                                                                                         |
+| Name          | Required | Description                                                                                                                                                                         |
 | ------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Connection    | Required | The [Dynamics 365 Business Central connection](./dynamics365-business-central-api-v2-connection.md) used to make an authenticated request to the Dynamics 365 Business Central API. |
 | Dynamic connection | Optional | Use this option of you needs to create a connection using credentials stored outside the workspace, for example in your own Azure SQL or PostgreSQL database. When this property is defined, Flow will use the `Dynamic connection` at runtime, and `Connection` only at design time. To dynamically create a connection, use the [Create Dynamics 365 Business Central connection](./create-api-connection.md) action.  |

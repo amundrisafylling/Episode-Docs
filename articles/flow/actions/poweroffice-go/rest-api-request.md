@@ -13,7 +13,7 @@ The **REST API Request** action allows you to interact with [PowerOffice Go REST
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional | The title or name of the request. |
 | Connection      | Required | The [PowerOffice Go Connection](./poweroffice-go-connection.md) used to make an authenticated request to PowerOffice REST API. |

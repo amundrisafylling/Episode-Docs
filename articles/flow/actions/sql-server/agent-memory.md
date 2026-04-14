@@ -14,7 +14,7 @@ This example shows an agent using 3 [Flow AI tools](../ai/flow-ai-tool.md) for w
 <br/>
 
 ## Properties
-| Name               | Type          | Description                  |
+| Name               | Required | Description                  |
 |--------------------|---------------|------------------------------|
 | Connection         | Required      | The [SQL Server Connection](./connection.md). |
 | Dynamic connection | Optional      | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |

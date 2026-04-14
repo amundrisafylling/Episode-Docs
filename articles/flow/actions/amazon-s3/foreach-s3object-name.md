@@ -9,7 +9,7 @@ This flow validate that the number of products is exactly 17 before proceeding w
 
 ## Properties
 
-| Name                      | Type     | Description                                                                                 |
+| Name                      | Required | Description                                                                                 |
 | ------------------------- | -------- | ------------------------------------------------------------------------------------------- |
 | Title       | Optional |  The title of the action.   |
 | Connection                | Required | Specify the [connection](connecting-to-amazon-s3.md) to the Amazon S3 bucket. |

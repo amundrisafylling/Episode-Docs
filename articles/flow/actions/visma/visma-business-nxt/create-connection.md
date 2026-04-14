@@ -8,7 +8,7 @@ If you store the credentials for the Visma Business NXT outside Flow (for exampl
 ## Properties
 
 
-| Name            | Type      | Description                                                |
+| Name            | Required | Description                                                |
 |-----------------|-----------|------------------------------------------------------------|
 | Client ID       | Required  | A unique identifier for the client application.        |
 | Client secret   | Required  | A confidential key used to authenticate the client.    |

@@ -13,7 +13,7 @@ This Flow reads all URLs from a [website sitemap](get-sitemap.md), converts the 
 
 ## Properties
 
-| Name                 | Type     | Description                                                       |
+| Name                 | Required | Description                                                       |
 | -------------------- | -------- | --------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | URL                  | Required | Specifies the addresse to a web page.                        |

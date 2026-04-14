@@ -10,7 +10,7 @@ Executes a command in a PostgreSQL database. This action is useful when you want
 
 ## Properties
 
-| Name                        | Type     | Description                                                                                      |
+| Name                        | Required | Description                                                                                      |
 | --------------------------- | -------- | ------------------------------------------------------------------------------------------------ |
 | Title                       | Optional | The title or name of the command.                                                                |
 | Connection                  | Required | The PostgreSQL database [connection](postgresql-connection.md).                                                                    |

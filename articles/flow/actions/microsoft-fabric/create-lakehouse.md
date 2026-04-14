@@ -7,7 +7,7 @@ Creates a Lakehouse in a Microsoft Fabric Workspace.
 <br/>
 
 ## Properties
-| Name          | Type     | Description                             |
+| Name          | Required | Description                             |
 |---------------|----------|-----------------------------------------|
 | Connection    | Required | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Note! Make sure to choose an authentication method and user with the required priviliges.  |
 | Workspace Id  | Required | The Workspace that you want to create the Lakehouse in. |

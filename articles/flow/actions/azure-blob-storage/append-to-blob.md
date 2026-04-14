@@ -10,7 +10,7 @@ Actions used in the flow are: SQL Server [Get DataReader](../sql-server/get-data
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title             |       |                                             |
 | Connection       | Required  | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |

@@ -8,7 +8,7 @@ Loads the contents of an Excel sheet into memory as a [DataTable](https://learn.
 
 ## Properties
 
-| Name                | Type     |Description     |
+| Name                | Required |Description     |
 | ------------------- | -------- | --------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | File contents | Required       |  The contents of the file, provided as either a stream or a byte array. |

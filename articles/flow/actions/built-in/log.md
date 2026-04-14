@@ -14,7 +14,7 @@ This flow automates the process of converting a DOCX document to a PDF, uploadin
 
 ## Properties
 
-| Name          | Type     | Description                                                                 |
+| Name          | Required | Description                                                                 |
 |---------------|----------|-----------------------------------------------------------------------------|
 | Title         | Optional | The title or name of the action.                                           |
 | Data to log   | Required | The data to log, which can be a hard coded value or an object (such as a variable).       |

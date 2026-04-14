@@ -44,7 +44,7 @@ To create a Dynamics 365 Business Central APIv2 Connection, add a Dynamics 365 a
 
 ### Properties
 
-| Name                                      | Type     | Description                                                                                  |
+| Name                                      | Required | Description                                                                                  |
 | ----------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
 | Tenant ID                                 | Required | The Entra Tenant Id associated with the Dynamics 365 Business Central subscription.          |
 | Client ID                                 | Required | The id of the Entra ID App which has been granted access to the Business Central API.        |

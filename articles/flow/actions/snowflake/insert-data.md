@@ -11,7 +11,7 @@ This flow retrieves customer data from SQL Server, applies a transformation step
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
 | Title | Optional | The name of the action. |
 | Connection | Required |  The Snowflake [connection](./connecting-to-snowflake.md). |

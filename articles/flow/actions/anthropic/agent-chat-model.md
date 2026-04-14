@@ -9,7 +9,7 @@ This flow uses an AI Agent powered by an Anthropic chat model to retrieve a list
 
 ## Properties
 
-| Name                   | Type      | Description |
+| Name                   | Required | Description |
 |------------------------|-----------|-------------|
 | Title              | Optional  | The display name of the action in your flow. |
 | Connection         | Required  | Defines the [connection](anthropic-connection.md) to Anthropic. The connection provides the API key needed to access Anthropic models. |

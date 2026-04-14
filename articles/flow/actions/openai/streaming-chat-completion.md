@@ -16,7 +16,7 @@ The example above shows a Flow that provides chat completions to a chat client. 
  
 ## Properties
 
-| Name                  | Type      | Description |
+| Name                  | Required | Description |
 |-----------------------|-----------|-------------|
 | Title                 | Optional  | The title of the action. |
 | Connection            | Required  | Defines the [connection](openai-connection.md) to **OpenAI**. |

@@ -15,7 +15,7 @@ Actions used in the flow are: SQL Server [Get DataReader](../sql-server/get-data
 
 ## Properties
 
-| Name                     | Type     | Description                 |
+| Name                     | Required | Description                 |
 | ------------------------ | -------- | --------------------------- |
 | Title                    |          |                             |
 | Source                   | Required | Specifies the source of the data, which can either be a DataTable or DataReader. |

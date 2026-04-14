@@ -11,7 +11,7 @@ This flow checks if there are client secrets about to expire in any of the app r
 
 ## Properties
 
-| Name                     | Type     | Description                                                                 |
+| Name                     | Required | Description                                                                 |
 |--------------------------|----------|-----------------------------------------------------------------------------|
 | Title                    | Optional | The title of the action.                                                    |
 | Connection               | Required | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) **Application.Read.All** to list client secrets for an application (broader permissions like Application.ReadWrite.All also work but are not required). |

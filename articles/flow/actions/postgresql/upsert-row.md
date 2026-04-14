@@ -12,7 +12,7 @@ The Flow above illustrates how to use the `Insert or Update row` action to save 
 
 ## Properties
 
-| Name                  | Type     | Description                                                                       |
+| Name                  | Required | Description                                                                       |
 | --------------------- | -------- | --------------------------------------------------------------------------------- |
 | Title                 | Optional | A descriptive title for the action.                                               |
 | Connection            | Required | The PostgreSQL database [connection](postgresql-connection.md).                   |

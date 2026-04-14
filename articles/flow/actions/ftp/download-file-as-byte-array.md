@@ -13,7 +13,7 @@ This flow **downloads** an invoice as a PDF file from an FTP server, [converts](
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional |   The title of the action.       |
 | Connection | Required  | Select a connection to the FTP or SFTP server where the file is located. |

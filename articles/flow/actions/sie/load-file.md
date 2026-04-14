@@ -18,7 +18,7 @@ The example above shows how a SIE file is read from the [Fortnox REST API](../fo
 
 ## Properties
 
-| Name            | Type     | Description          |
+| Name            | Required | Description          |
 |-----------------|----------|----------------------|
 | Title           | Optional | The title or name of the action.  |
 | Source          | Required | A stream or byte array containing SIE file content. |

@@ -12,7 +12,7 @@ This Flow downloads the [HTML](http-request.md) of a specified page, converts th
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                   |
+| Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | File Data            | Required | Specifies the source of the HTML text, which can either be a string, a Stream or a Byte Array.                |

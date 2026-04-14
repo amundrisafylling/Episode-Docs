@@ -10,7 +10,7 @@ Executes a Dataflow in an InVision Solution.
 <br/>
 
 ## Properties
-| Name                 | Type     | Description                                       |
+| Name                 | Required | Description                                       |
 |----------------------|----------|---------------------------------------------------|
 | Title                | Optional | A descriptive title for the action.               |
 | Connection           | Required | [InVision Connection](invision-connection.md).                              |

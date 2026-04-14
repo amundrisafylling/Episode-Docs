@@ -20,7 +20,7 @@ List<Customer> customers;
 
 ## Properties
 
-| Name         | Type       | Description                                       |
+| Name         | Required | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
 | Title           |  Optional | The title or name of the command.      |
 | Connection      | Required | The [SQL Server Connection](./connection.md).         |

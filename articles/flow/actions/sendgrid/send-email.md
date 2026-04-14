@@ -27,7 +27,7 @@ Refer to the official documentation for additional setup and best practices:
 
 ## Action Properties
 
-| Property            | Type     | Description |
+| Property            | Required | Description |
 |---------------------|----------|-------------|
 | Title           | Optional  | A custom label for the action in the Flow UI. |
 | Connection      | Required | Choose or create a SendGrid connection with a valid API key. |

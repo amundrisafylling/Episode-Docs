@@ -6,7 +6,7 @@ Truncates(empties) a table in a SQL Server database.
 
 ## Properties
 
-| Name         | Type       | Description                                       |
+| Name         | Required | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
 | Title              | Optional        | A descriptive title for the action.               |
 | Connection      | Required | The [SQL Server Connection](./connection.md).         |

@@ -14,7 +14,7 @@ This flow runs daily using a [schedule](../../triggers/schedule-trigger.md), [re
 
 ## Properties
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | Title          | Optional | A descriptive label for the action.			   |
 | Connection     | Required | Select the RabbitMQ connection. |

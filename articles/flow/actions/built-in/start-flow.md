@@ -13,7 +13,7 @@ This flow receives order data, checks if it contains the necessary details, and 
 
 ## Properties 
 
-| Name        | Type      | Description |
+| Name        | Required | Description |
 |------------|----------|-------------|
 | Title      | Optional | The title of the action. |
 | Flow       | Required | The name of the flow to start, choose existing flow from the dropdown list. |

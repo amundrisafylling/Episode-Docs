@@ -13,7 +13,7 @@ This flow first updates the Price List using [custom SQL](../sql-server/update-e
 
 ## Properties
 
-| Property                        | Data type | Description |
+| Property                        | Required | Description |
 |---------------------------------|-----------|-------------|
 | Title                       | Optional  | A descriptive name for the action. |
 | Connection                  | Optional  | InVision connection used to access the target environment where the object cache should be cleared. |

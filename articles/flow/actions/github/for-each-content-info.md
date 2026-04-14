@@ -12,7 +12,7 @@ This Flow copies files from a Github repository to an InVision File Storage. It 
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional | The title of the action.   |
 | Authentication |  Optional | Select an authentication token. |

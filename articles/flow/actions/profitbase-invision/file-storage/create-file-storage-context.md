@@ -13,7 +13,7 @@ This flow **creates a File Storage context**, [reads a blob](../../azure-blob-st
 
 ## Properties
 
-| Name                | Type     | Description                                                                 |
+| Name                | Required | Description                                                                 |
 |---------------------|----------|-----------------------------------------------------------------------------|
 | Connection          | Required | The [InVision connection](../invision-connection.md) used to access File Storage.    |
 | File storage        | Required | The [File Storage](../../../../invision/docs/filestorage.md) where the context should be created.                      |

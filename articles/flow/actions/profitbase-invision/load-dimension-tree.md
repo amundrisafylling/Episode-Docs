@@ -4,7 +4,7 @@ Loads an entire dimension to memory as a parent-child [DimensionTree](./load-dim
 
 ## Properties
 
-| Name                  | Type     | Description |
+| Name                  | Required | Description |
 |-----------------------|----------|-------------|
 | Title                 | Optional | A descriptive label for the action displayed in the Flow editor. |
 | Connection            | Required | Defines the [InVision connection](invision-connection.md) used to access the Profitbase InVision environment. The connection contains the credentials required to load the dimension structure. |

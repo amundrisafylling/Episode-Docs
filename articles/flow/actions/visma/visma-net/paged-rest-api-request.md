@@ -11,7 +11,7 @@ The **REST API Request with paging** action allows you to use the [Visma.Net](ht
 
 ## Properties
 
-| Name            | Type     | Description                                                                                   |
+| Name            | Required | Description                                                                                   |
 |----------------- | -------- | -------------------------------------------------------------- |
 | Title           | Optional | The title or name of the request.                         |
 | Connection      | Required | The [Visma.Net Connection](./visma-net-connection.md) used to make an authenticated request to Tripletex REST API.         |

@@ -12,7 +12,7 @@ This action will run a Data Pipeline and wait for it to complete before executin
 <br/>
 
 ## Properties
-| Name          | Type     | Description                             |
+| Name          | Required | Description                             |
 |---------------|----------|-----------------------------------------|
 | Connection    | Required | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Note! Make sure to choose an authentication method and user with the required priviliges. Please refer to the [Microsoft Fabric API - Run On Demand Item Job documentation](https://learn.microsoft.com/en-us/rest/api/fabric/core/job-scheduler/run-on-demand-item-job) for details. |
 | Workspace     | Required | The Workspace that contains the Data Pipeline to run. You can specify the `id` of the Workspace by typing it into the editor, selecting a (string) variable, or selecting it from the list of Workspace displayed in the popup. |

@@ -12,7 +12,7 @@ For each message, it validates that required customer fields are present and, if
 
 ## Properties
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | Title          |  Optional | A descriptive label for the trigger configuration.|
 | Connection     | Required | [Azure Service Bus connection](../../actions/azure-service-bus/connecting-to-azure-service-bus.md). |

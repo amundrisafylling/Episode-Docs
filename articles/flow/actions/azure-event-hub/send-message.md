@@ -11,7 +11,7 @@ Actions used in the flow are: [Function](../built-in/function.md), [Foreach](../
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title			   |  Optional | A descriptive label for the action.					|
 | Connection       | Required  | Azure Event Hub connection used to authenticate and connect to the service. |

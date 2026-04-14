@@ -11,7 +11,7 @@ This flow uses **Get files info** to retrieve a list of information per file in 
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional |   The title of the action.       |
 | Connection | Required  | Select a connection to the FTP or SFTP server where files are located.|

@@ -9,7 +9,7 @@ The example above illustrates a Flow that stores a document in SQL Server. It us
 
 ## Properties 
 
-| Name                    | Type      | Description                                           |
+| Name                    | Required | Description                                           |
 |-------------------------|-----------|-------------------------------------------------------|
 | Title                      | Optional  | The name of the action or operation.                                       |
 | Input text                 | Required  | The text to split into chunks.                                             |
@@ -32,7 +32,7 @@ Splits text by characters into chunks of a specified size, optionally allowing o
 
 **Additional properties**
 
-| Name                    | Type      | Description                                           |
+| Name                    | Required | Description                                           |
 |-------------------------|-----------|-------------------------------------------------------|
 | Chunk size              | Required  | Maximum number of characters in each chunk.          |
 | Chunk overlap           | Optional  | Number of overlapping characters between chunks.     |
@@ -46,7 +46,7 @@ Divides text based on token count using a chosen encoding, useful for models wit
 
 **Additional properties**
 
-| Name                     | Type      | Description                                                       |
+| Name                     | Required | Description                                                       |
 |--------------------------|-----------|-------------------------------------------------------------------|
 | EncodingName            | Required  | The name of the token encoding to be used.                       |
 | Max tokens               | Required  | The maximum number of tokens per chunk.                          |
@@ -61,7 +61,7 @@ Breaks down documents at specific Markdown headers, ideal for structured texts l
 
 **Additional properties** 
 
-| Name                       | Type      | Description                                                                 |
+| Name                       | Required | Description                                                                 |
 |----------------------------|-----------|-----------------------------------------------------------------------------|
 | Headers to split on        | Optional  | Comma-separated list of Markdown headers to use as split points.           |
 | Include headers in output  | Optional  | If enabled, includes the header text in each chunk.                        |

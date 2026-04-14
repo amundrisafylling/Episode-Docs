@@ -11,7 +11,7 @@ This Flow reads a presentation (PowerPoint file) from [OneDrive](../onedrive/rea
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                   |
+| Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | File Data            | Required | Specifies the source of the PowerPoint file, which can either be a Stream or a Byte Array.     |

@@ -8,7 +8,7 @@ Extracts content from a PDF file and returns it as a JSON string.
 
 ## Properties
 
-| Name            | Type     | Description                                                                 |
+| Name            | Required | Description                                                                 |
 |-----------------|----------|-----------------------------------------------------------------------------|
 | fileContent   | Required   | Byte array of the PDF file to be extracted.     |
 | outputFormat  | Required   | Defines the structure of the extracted result. Options: `JSON_Raw`, `JSON_Simplified`, `JSON_Hierarchical`. |

@@ -14,7 +14,7 @@ To create a Flow Package press the Create button under the Package tab in a Work
 
 ### Properties
 
-| Name                     | Type     | Description                 |
+| Name                     | Required | Description                 |
 | ------------------------ | -------- | --------------------------- |
 | Name                     | Required | The name of the package. This will be displayed in the lists where the package is referenced. When an package export is made, this name together with the version will be used to give the export file its name. |
 | Version                  | Required | The version of the package, which must follow the x.y.z format, where x, y, and z are digits between 0 and 999. The z (patch version) is optional.|

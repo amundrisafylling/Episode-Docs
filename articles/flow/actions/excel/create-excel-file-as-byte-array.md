@@ -8,7 +8,7 @@ Creates an Excel file from a [DataTable](https://learn.microsoft.com/en-us/dotne
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                   |
+| Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | Source               | Required | Specifies the source of the data, which can either be a DataTable or DataReader.                              |

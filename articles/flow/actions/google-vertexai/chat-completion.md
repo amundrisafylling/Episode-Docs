@@ -8,7 +8,7 @@ Unlike the [streaming](streaming-chat-completion.md) version, this action delive
 
 ## Properties
 
-| Name                  | Type      | Description |
+| Name                  | Required | Description |
 |-----------------------|-----------|-------------|
 | Title             | Optional  | The title of the action. |
 | Connection        | Required  | Defines the [connection](vertexai-connection.md) to **VertexAI**. |

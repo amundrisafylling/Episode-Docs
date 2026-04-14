@@ -13,7 +13,7 @@ This Flow reads a documentation (Word file) from [OneDrive](../onedrive/read-fil
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                   |
+| Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | File Data            | Required | Specifies the source of the Word file, which can either be a Stream or a Byte Array.                          |

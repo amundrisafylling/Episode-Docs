@@ -5,7 +5,7 @@ If no [Table](table-relationship.md) or [Parameter relationships](parameter-rela
 
 ### Properties
 
-| Name                    | Type         | Description                                                |
+| Name                    | Required | Description                                                |
 |-------------------------|--------------|------------------------------------------------------------|
 | Connection              | Required     | A valid [InVision Connection](../invision-connection.md).                               |
 | Source table            | Required     | The table or view to read data from.                       |

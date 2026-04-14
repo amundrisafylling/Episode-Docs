@@ -6,7 +6,7 @@ This action deploys a version of a work process. It creates a solution based on 
 
 ## Properties
 
-| Name                 | Type     | Description                         |
+| Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
 | Title                |          |  A descriptive title for the action.     |
 | Connection           | Required | [InVision Connection](../invision-connection.md).                 |

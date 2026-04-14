@@ -23,7 +23,7 @@ All
 
 **MySet (Auto Transactions)**
 
-| X    | Y   | Value  | Type      |
+| X    | Y   | Value  | Required |
 |------|-----|--------|-----------|
 | *    | *   | 100    | Phone     |
 | A    | T   | 200    | Internet  |

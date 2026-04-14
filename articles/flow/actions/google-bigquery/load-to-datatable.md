@@ -10,7 +10,7 @@ Loads data from a Google BigQuery database into memory as a [DataTable](https://
 
 ## Properties
 
-| Name                        | Type     | Description                                                                                      |
+| Name                        | Required | Description                                                                                      |
 | --------------------------- | -------- | ------------------------------------------------------------------------------------------------ |
 | Title                       | Optional | The title or name of the action.                                                                 |
 | Connection                  | Required | The Google BigQuery database connection.                                                                    |

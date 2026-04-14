@@ -7,7 +7,7 @@ By defining the Parameter relationship, you essentially define a WHERE clause on
 
 ## Parameters
 
-| Name                   | Type       | Description                                                                                                                                                     |
+| Name                   | Required | Description                                                                                                                                                     |
 |------------------------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Parameter name         | Required   | The name of the parameter that participates in the the Data Context definition and contains the data that determintes the slice of the main table.              |
 | Target column name     | Required   | The name of the column in the main table that we want to filter on.                                                                                             |

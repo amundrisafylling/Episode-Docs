@@ -7,7 +7,7 @@ This action opens a version of a work process for input. The state of this versi
 
 ## Properties
 
-| Name                 | Type     | Description                         |
+| Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
 | Title                |          | A descriptive title for the action.     |
 | Connection           | Required | [InVision Connection](../invision-connection.md).                 |

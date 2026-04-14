@@ -12,7 +12,7 @@ This flow retrieves a [sitemap](../../actions/http/get-sitemap.md) from a specif
 
 ## Properties
 
-| Name               | Data Type | Description                                                   |
+| Name               | Required | Description                                                   |
 |--------------------|-----------|---------------------------------------------------------------|
 | Title              | Optional  | The title or name of the action.                              |
 | Function Name      | Optional  | The name of the function being defined.                       |

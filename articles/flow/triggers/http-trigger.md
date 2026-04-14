@@ -18,7 +18,7 @@ This flow is triggered by an incoming HTTP request. It first retrieves the total
 
 ## Properties
 
-| Name                 | Type     | Description                         |
+| Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
 | Title                |          |  |
 | Output data type           | Required |The type of data returned by the HTTP trigger after processing the request. |

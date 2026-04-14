@@ -35,7 +35,7 @@ When the PDF is split into multiple chunks (pages or groups of pages), each chun
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                   |
+| Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | File Data            | Required | Specifies the source of the PDF file.                         |

@@ -6,7 +6,7 @@ This action involves closing a version of a work process for input. The state of
 
 ## Properties
 
-| Name                 | Type     | Description                         |
+| Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
 | Title                |          |    A descriptive title for the action.                                  |
 | Connection           | Required | [InVision Connection](../invision-connection.md).                 |

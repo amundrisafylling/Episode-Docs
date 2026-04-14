@@ -12,7 +12,7 @@ This flow creates a CSV stream from input data using [Create CSV file as stream]
 
 ## Properties
 
-| Name                      | Data type | Description                                                                                         |
+| Name                      | Required | Description                                                                                         |
 |---------------------------|-----------|-----------------------------------------------------------------------------------------------------|
 | Title                     | Optional  | The title or name of the command.                                                                   |
 | Connection                | Required  | The Snowflake [connection](./connecting-to-snowflake.md).                                          |

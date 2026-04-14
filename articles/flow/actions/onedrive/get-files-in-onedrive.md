@@ -10,7 +10,7 @@ This flow retrieves a list of OneDrive items (files and optionally folders) from
 
 ## Properties
 
-| Name                 | Type     | Description                                                                                                    |
+| Name                 | Required | Description                                                                                                    |
 | -------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
 | Connection           | Required | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`. |
 | Folder               | Optional | The OneDrive folder to read from.                                                                              |

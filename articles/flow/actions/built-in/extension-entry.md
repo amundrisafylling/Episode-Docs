@@ -31,7 +31,7 @@ This pattern is useful when building reusable extensions that return standardize
 
 ## Properties
 
-| Name               | Type     | Description |
+| Name               | Required | Description |
 |--------------------|----------|-------------|
 |  Name           | Optional   | The name of the flowchart entry point. |
 |  Is upgradable  | Optional  | Indicates whether this entry can be upgraded. |

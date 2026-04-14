@@ -11,7 +11,7 @@ This flow [downloads](download-file-as-byte-array.md) an invoice as a PDF file f
 
 ## Properties 
 
-| Name                  | Type      | Description                                                                 |
+| Name                  | Required | Description                                                                 |
 |-----------------------|-----------|-----------------------------------------------------------------------------|
 | Title                 | Optional  | The title of the action.                                                   |
 | Connection            | Required  | Select a connection to the FTP or SFTP server where you plan to upload your file. |

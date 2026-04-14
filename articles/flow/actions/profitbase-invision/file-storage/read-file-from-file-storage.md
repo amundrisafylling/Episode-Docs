@@ -12,7 +12,7 @@ This flow takes a PDF file from File Storage, sends it to the [Adobe PDF Service
 
 ## Properties
 
-| Name                 | Type       | Description                                                                 |
+| Name                 | Required | Description                                                                 |
 |----------------------|------------|-----------------------------------------------------------------------------|
 | Title                | Optional   | A descriptive title for the action.                                       |
 | Connection           | Required   | The [InVision connection](../invision-connection.md) used to access File Storage.   |

@@ -12,7 +12,7 @@ This flow takes a  documentation file (in DOCX format) from [OneDrive](../onedri
 
 ## Properties
 
-| Name                   | Type     | Description                                                                                                                                                     |
+| Name                   | Required | Description                                                                                                                                                     |
 |------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Connection         | Required | The connection to the [Adobe PDF Services](https://developer.adobe.com/document-services/docs/overview/pdf-services-api/).                                          |
 | Source format      | Required | The format from which the PDF will be converted. |

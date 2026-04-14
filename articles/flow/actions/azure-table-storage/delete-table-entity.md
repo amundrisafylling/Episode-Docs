@@ -14,7 +14,7 @@ This flow [iterates](foreach-table-entity.md) through each employee in an Azure 
 
 ## Properties
 
-| Name                   | Type       | Description                |
+| Name                   | Required | Description                |
 |------------------------|------------|---------------------------------|
 | Title              | Optional   | A user-defined title for the action.                 |
 | Connection         | Required   | Specify the [connection](connecting-to-azure-table-storage.md) to the Azure Table Storage account.        |

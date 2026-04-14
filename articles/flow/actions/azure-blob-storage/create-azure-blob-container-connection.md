@@ -17,7 +17,7 @@ Actions used in the flow are: PostgreSQL [Get entity](../postgresql/get-entity.m
 
 [Read about SAS URI for Azure Blob container connections here](./azure-blob-container-connection.md#sas-uri)
 
-| Property         | Type      | Description                      |
+| Property         | Required | Description                      |
 |------------------|-----------|----------------------------------|
 | SAS URI          | Required  | The SAS URI used to connect to the Azure Blob container. |
 
@@ -25,7 +25,7 @@ Actions used in the flow are: PostgreSQL [Get entity](../postgresql/get-entity.m
 
 [Read about Connection strings for Azure Blob container connections here](./azure-blob-container-connection.md#connection-string-and-container-name)
 
-| Property          | Type     | Description                     |
+| Property          | Required | Description                     |
 |-------------------|----------|---------------------------------|
 | Connection string | Required | The connection string to use when connecting to an Azure Blob container. |
 | Container name    | Required | The container you want to connect to.  |

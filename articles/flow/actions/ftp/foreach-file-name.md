@@ -11,7 +11,7 @@ This flow uses **For each file info** to iterate through all files in a specific
 
 ## Properties
 
-| Name                          | Type      | Description                                                                 |
+| Name                          | Required | Description                                                                 |
 |-------------------------------|-----------|-----------------------------------------------------------------------------|
 | Title                         | Optional  | The title of the action.                                                   |
 | Connection                    | Required  | Select a connection to the FTP or SFTP server where files are located.     |

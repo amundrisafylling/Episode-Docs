@@ -12,7 +12,7 @@ This flow iterates through each employee in an Azure Table, checks if they’ve 
 
 ## Properties
 
-| Name                   | Type      | Description                                                                                          |
+| Name                   | Required | Description                                                                                          |
 |------------------------|-----------|-----------------------------------------------------|
 | Title                  | Optional  | A user-defined title for the action.     |
 | Connection             | Required  | Specify the [connection](connecting-to-azure-table-storage.md) to the Azure Table Storage account. |

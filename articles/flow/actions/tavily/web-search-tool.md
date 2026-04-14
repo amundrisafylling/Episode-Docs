@@ -19,7 +19,7 @@ The Flow is useful when building chat-based experiences that require both conver
 
 ## Properties
 
-| Name                | Type       | Description |
+| Name                | Required | Description |
 |---------------------|------------|-------------|
 | Title           | Optional   | The title of the action. |
 | Connection      | Required   | The Tavily [connection](connection.md) used to authenticate and perform the search. |

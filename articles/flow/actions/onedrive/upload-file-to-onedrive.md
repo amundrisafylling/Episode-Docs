@@ -16,7 +16,7 @@ This flow reads data from SQL Server, generates an Excel file from the retrieved
 ## Properties
 
 <!--prettier-ignore-->
-| Name                  | Type      | Description        |
+| Name                  | Required | Description        |
 |-----------------------|-----------|--------------------|
 | Connection            | Required  | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`.|
 | File path             | Required  | The path to where the file should be uploaded, and the name of the file, for example `MyFolder/MyFile.xlsx`. Note that you can combine variables and predefined values to construct this value.  |

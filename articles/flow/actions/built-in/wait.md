@@ -12,7 +12,7 @@ This flow uses the Wait action to pause execution for a defined period of time b
 
 ## Properties
 
-| Property        | Data type | Description |
+| Property        | Required | Description |
 |-----------------|-----------|-------------|
 | Title       | Optional  | A descriptive name for the action. |
 | Wait duration | Required  | The amount of time the flow execution will pause before continuing. The value can be specified in milliseconds, seconds, or minutes. |

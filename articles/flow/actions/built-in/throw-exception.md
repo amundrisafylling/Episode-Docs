@@ -10,7 +10,7 @@ This flow retrieves filtered client data from a [GraphQL API](../graphql/graphql
 
 ## Properties 
 
-| Name        | Type      | Description |
+| Name        | Required | Description |
 |------------|----------|-------------|
 | Title      | Optional | The title of the action. |
 | Exception text | Required | A user defined error message. |

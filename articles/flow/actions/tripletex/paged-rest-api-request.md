@@ -10,7 +10,7 @@ The **REST API Request with paging** action allows you to use the [Tripletex RES
 
 ## Properties
 
-| Name            | Type     | Description                                                                                   |
+| Name            | Required | Description                                                                                   |
 |----------------- | -------- | --------------------------------------------------------------------------------------------- |
 | Title           | Optional | The title or name of the request.                                                             |
 | Connection      | Required | The [Tripletex Connection](./tripletex-connection.md) used to make an authenticated request to Tripletex REST API.         |

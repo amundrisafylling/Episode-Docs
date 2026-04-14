@@ -21,7 +21,7 @@ This flow can be triggered from multiple sources (HTTP, another flow, or a sched
 
 ## Properties
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | Title          |  Optional | A descriptive label for the trigger configuration.|
 | Trigger Configurations     | Required | Specifies the configurations included in the trigger. |
@@ -35,7 +35,7 @@ This flow can be triggered from multiple sources (HTTP, another flow, or a sched
 
 The return type is TriggerOutput, which has the following properties:
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | TriggerName    |  String  | Specifies the name of the trigger configuration that triggered the current run. |
 | TriggerData    |  Object  | Specifies the data related to the trigger configuration. |

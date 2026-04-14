@@ -13,7 +13,7 @@ This flow processes a user's chat question by first receiving it through a [Chat
 
 # Properties
 
-| Name                         | Type      | Description                                                                                      | 
+| Name                         | Required | Description                                                                                      | 
 |------------------------------|-----------|--------------------------------------------------------------------------------------------------|
 | Title                        | Optional  | The title or name of the action. |
 | Connection                   | Required  | The SQL Server database connection that will be used for the vector search. |

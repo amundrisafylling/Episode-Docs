@@ -14,7 +14,7 @@ This flow [loads all files from File Storage](get-files-info-from-file-storage.m
 
 ## Properties
 
-| Name          | Type     | Description                                      |
+| Name          | Required | Description                                      |
 |---------------|----------|--------------------------------------------------|
 | Connection    | Required | The [InVision connection](../invision-connection.md) used to access File Storage. |
 | File storage  | Required | The File Storage from which the file will be deleted. |

@@ -9,7 +9,7 @@ Iterates over rows in an Excel sheet. Each row is represented by a business obje
 ## Properties
 
 <!--prettier-ignore-->
-| Name              | Type      | Description                                                                                    |
+| Name              | Required | Description                                                                                    |
 | ----------------- | --------- | ---------------------------------------------------------------------------------------------- |
 | Title                | Optional |   The title of the action.                    |
 | File contents | Required       |  The contents of the file, provided as either a stream or a byte array. |

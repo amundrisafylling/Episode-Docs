@@ -9,7 +9,7 @@ This flow iterates through all files in a OneDrive folder, deletes each file, an
 
 ## Properties
 
-| Name              | Type      | Description                                                                                                   |
+| Name              | Required | Description                                                                                                   |
 |-------------------|-----------|---------------------------------------------------------------------------------------------------------------|
 | Connection        | Required  | The connection to the OneDrive account. Setting up a connection requires a Microsoft *Work or School account*. |
 | Folder            | Optional  | The OneDrive folder to iterate through. If not specified, the root folder is used.                            |

@@ -21,7 +21,7 @@ this.app.services.messageHub.sendMessage({
 
 ##### Message object
 
-| Property name       | Type       | Description                                      |
+| Property name       | Required | Description                                      |
 |---------------------|------------|------------------------------------------------- |
 | toWorkbookId        | string     | Optional. Specifies the id of the Workbook to send the message to. If you don't specify and id, the message will be broadcasted to all open Workbooks.  |
 | toUserName          | string     | Optional. Specifies the userName (user@corp.com) to broadcast the message to. If you don't specify this property, the message will be broadcasted to all users.                |

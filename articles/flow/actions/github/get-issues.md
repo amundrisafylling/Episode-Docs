@@ -12,7 +12,7 @@ This flow get a list of issues from in GitHub repository. For each issue, commen
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional | The title of the action.   |
 | Authentication |  Optional | Select an authentication token. |

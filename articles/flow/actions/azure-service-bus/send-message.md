@@ -12,7 +12,7 @@ This flow runs daily, reads rows of overdue customer payments from a table, send
 
 ## Properties
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | Title          | Optional | A descriptive label for the action.			   |
 | Send to        | Required | Specified where the message is sent.			   |

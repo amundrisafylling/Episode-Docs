@@ -11,7 +11,7 @@ This flow retrieves a single value (the current user’s display name) from Snow
 
 ## Properties
 
-| Name         | Type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
 | Title           |   Optional | The title or name of the command.    |
 | Connection         | Required   | The Snowflake [connection](./connecting-to-snowflake.md). |

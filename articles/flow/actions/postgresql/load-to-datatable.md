@@ -11,7 +11,7 @@ Loads data from a PostgreSQL database into memory as a [DataTable](https://learn
 
 ## Properties
 
-| Name                        | Type     | Description                                                                                      |
+| Name                        | Required | Description                                                                                      |
 | --------------------------- | -------- | ------------------------------------------------------------------------------------------------ |
 | Title                       | Optional | The title or name of the action.                                                                 |
 | Connection                  | Required | The PostgreSQL database [connection](postgresql-connection.md).   |

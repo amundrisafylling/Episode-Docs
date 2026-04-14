@@ -13,7 +13,7 @@ The example above shows how to read employees from Fortnox and insert the result
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional | The title or name of the request. |
 | Connection | Required | The [Fortnox Connection](./connection.md) used to make an authenticated request to the Fortnox REST API. |

@@ -11,7 +11,7 @@ This flow reads customer data, transforms it, iterates over it, and inserts it i
 
 ## Properties
 
-| Name              | Type       | Description												|
+| Name              | Required       | Description												|
 |-------------------|------------|----------------------------------------------------------|
 | Connection        | Required   | Name of the Databricks connection.						|
 | Warehouse Id      | Required   | Id of the Databricks SQL Warehouse.						|

@@ -17,7 +17,7 @@ It retrieves the forecast configuration, applies the reference date to the selec
 
 ## Properties 
 
-| Name         | Type          | Description                    |
+| Name         | Required | Description                    |
 |--------------|---------------|--------------------------------|
 | Connection   | Required      | A valid [InVision Connection](../invision-connection.md) used to execute the SQL script.  |
 | Data Store Group | Required  | The ID of the Data Store Group in InVision that will be rolled forward. | 

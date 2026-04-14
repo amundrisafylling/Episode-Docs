@@ -18,7 +18,7 @@ This flow processes a user's chat question by first receiving it through a [Chat
 
 ## Properties
 
-| Name                  | Type      | Description |
+| Name                  | Required | Description |
 |-----------------------|-----------|-------------|
 | Title             | Optional  | The title of the action. |
 | Connection        | Required  | Defines the [connection](azure-ai-connection.md) to **Microsoft Foundry** resource. |

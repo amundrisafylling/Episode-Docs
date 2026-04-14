@@ -15,7 +15,7 @@ This flow updates the context of a file only if it currently has no context. It 
 
 ## Properties
 
-| Name                | Type     | Description                                                                 |
+| Name                | Required | Description                                                                 |
 |---------------------|----------|-----------------------------------------------------------------------------|
 | Connection          | Required | The [InVision connection](../invision-connection.md) used to access File Storage.    |
 | File storage | Required | The [File Storage](../../../../invision/docs/filestorage.md) where the file is located.                                 |

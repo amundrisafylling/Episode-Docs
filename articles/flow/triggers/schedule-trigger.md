@@ -14,7 +14,7 @@ This flow runs on a scheduled basis and performs automated file cleanup on an FT
 
 ## Properties 
 
-| Name                 | Type     | Description                         |
+| Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
 | Title                |          |                                     |
 | Schedule           | Required | Configure the frequency of the trigger.       |

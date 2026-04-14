@@ -13,7 +13,7 @@ This flow scans a list of object names and checks if a specific file (UC036_Prod
 
 ## Properties
 
-| Name                      | Type     | Description                                                                                 |
+| Name                      | Required | Description                                                                                 |
 | ------------------------- | -------- | ------------------------------------------------------------------------------------------- |
 | Title       | Optional |  The title of the action.   |
 | Connection                | Required | Specify the [connection](connecting-to-amazon-s3.md) to the Amazon S3 bucket. |

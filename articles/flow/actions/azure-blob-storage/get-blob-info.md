@@ -12,7 +12,7 @@ This flow checks if a specified blob in Azure Blob Storage was modified today by
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title | Optional | The title or name of the action. |
 | Connection       | Required  | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |

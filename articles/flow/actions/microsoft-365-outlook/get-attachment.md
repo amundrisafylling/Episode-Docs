@@ -9,7 +9,7 @@ Use this action to fetch the contents of a _specific attachment_.
 
 ## Properties
 
-| Property      | Type     | Description                                                                                                             |
+| Property      | Required | Description                                                                                                             |
 | ------------- | -------- | ----------------------------------------------------------------------------------------------------------------------- |
 | Connection    | Required | A [Microsoft 365 Outlook connection](./outlook-connection.md) which grants Profitbase Flow access to the email account. |
 | Message Id    | Required | The id of the email message that contains the attachment. You can get the id of the message from the `output` of actions or triggers returning email messages, for example the [When a new email arrives](../../triggers/microsoft-365-outlook/when-new-email-arrives-trigger.md) trigger. |

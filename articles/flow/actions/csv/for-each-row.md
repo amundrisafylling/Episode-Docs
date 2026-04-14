@@ -11,7 +11,7 @@ Iterates over rows in a CSV file.
 ## Properties
 
 
-| Name                | Type      | Description                                      |
+| Name                | Required | Description                                      |
 | ------------------- | --------- | ------------------------------------------------ |
 | Title               |           |                                                  |
 | File contents       | Required  | The contents of the file, provided as either a stream or a byte array. |

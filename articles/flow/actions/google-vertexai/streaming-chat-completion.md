@@ -11,7 +11,7 @@ Unlike the standard [chat completion](chat-completion.md), this action returns t
  
 ## Properties 
 
-| Name                  | Type      | Description |
+| Name                  | Required | Description |
 |-----------------------|-----------|-------------|
 | Title                 | Optional  | The title of the action. |
 | Connection            | Required  | Defines the [connection](vertexai-connection.md) to **VertexAI**. |

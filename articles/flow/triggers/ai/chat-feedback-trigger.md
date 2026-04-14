@@ -8,7 +8,7 @@ Defines the entry point for a Flow that handles thumbs-up and thumbs-down feedba
 
 ## Properties
 
-| Name        | Type          | Description                     |
+| Name        | Required | Description                     |
 |-------------|---------------|---------------------------------|
 | Title       | Optional      | A descriptive label for the trigger.    |
 | Test data   | Optional      | A JSON string that can be in dev mode to test the Flow before it's called from the outside (for example InVision). The JSON must have format as described in [Test data](#test-data) below. |

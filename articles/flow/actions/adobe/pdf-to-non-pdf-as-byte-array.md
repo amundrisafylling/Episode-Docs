@@ -11,7 +11,7 @@ This flow takes documentation in a PDF file from [OneDrive](../onedrive/read-fil
 
 ## Properties
 
-| Name                   | Type     | Description                                                                                                                                                     |
+| Name                   | Required | Description                                                                                                                                                     |
 |------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Connection         | Required | The connection to the [Adobe PDF Services](https://developer.adobe.com/document-services/docs/overview/pdf-services-api/).                                          |
 | Target format      | Required | The format to which the PDF will be converted. Available formats are DOC, DOCX, PPTX, RTF and XLSX.                                                                              |

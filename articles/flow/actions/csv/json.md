@@ -6,7 +6,7 @@ This document specifies the JSON format for the `JsonDataImportOptions` object, 
 
 ## Properties
 
-| Property Name                | Type      | Required | Default Value | Description                                                                 |
+| Property Name                | Required | Required | Default Value | Description                                                                 |
 |------------------------------|-----------|----------|---------------|-----------------------------------------------------------------------------|
 | `Locale`                     | String    | No       | `"en-US"`     | Specifies the locale for formatting, e.g., `"en-US"`, `"fr-FR"`.             |
 | `DateTimeFormat`             | String    | No       | `"MM/dd/yyyy"` | Defines the date format, e.g., `"MM/dd/yyyy"`, `"dd-MM-yyyy"`.              |

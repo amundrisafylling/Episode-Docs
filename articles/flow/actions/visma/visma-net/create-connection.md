@@ -8,7 +8,7 @@ If you store the credentials for the Visma.Net outside Flow (for example in your
 ## Properties
 
 
-| Name            | Type      | Description                                                                 |
+| Name            | Required | Description                                                                 |
 |-----------------|-----------|-----------------------------------------------------------------------------|
 | Tenant ID       | Required  | The Tenant Id associated with the subscription.        |
 | Client ID       | Required  | A unique identifier for the client application.        |

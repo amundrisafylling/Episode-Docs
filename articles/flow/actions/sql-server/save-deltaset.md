@@ -7,7 +7,7 @@ A typical use case for this action is to save the changes made by users in the [
 ![img](/images/flow/sqlserver-save-deltaset.png)
 
 ## Properties
-| Name         | Type      | Description                                 |
+| Name         | Required | Description                                 |
 |--------------|-----------|---------------------------------------------|
 | Title        | Optional  | A descriptive title of the action.          |
 | Connection      | Required | The [SQL Server Connection](./connection.md).         |

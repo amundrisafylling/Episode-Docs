@@ -11,7 +11,7 @@ This flow iterates through all existing users in a Microsoft Entra ID tenant. Fo
 
 ## Properties
 
-| Name                     | Type     | Description                                                                 |
+| Name                     | Required | Description                                                                 |
 |--------------------------|----------|-----------------------------------------------------------------------------|
 | Title                    | Optional | The title of the action.                                                    |
 | Connection               | Required | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) **User.Read.All** to list users (Directory.Read.All or higher privileges also work but are not required). |

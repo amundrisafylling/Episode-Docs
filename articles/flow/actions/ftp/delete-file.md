@@ -11,7 +11,7 @@ This flow retrieves a CSV file from [Azure Blob Storage](../azure-blob-storage/r
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title  | Optional |   The title of the action.       |
 | Connection | Required  | Select a connection to the FTP or SFTP server where the file is located. |

@@ -13,7 +13,7 @@ The example above illustrates how to import data from Hypergene Portfolios into 
 <br/>
 
 ## Properties
-| Name              |  Type             | Description                      |
+| Name              |  Required         | Description                      |
 |-------------------|-------------------|----------------------------------|
 | Connection        | Required          | The [connection](./connection.md) to the Hypergene Portfolios API. |
 | Portfolio         | Optional          | When specified, overrides the Portfolio ID specified in the Connection. This can be a hard coded string, a variable or the Porfolio selected from the Portfolio picker in the property editor.  |

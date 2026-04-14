@@ -13,7 +13,7 @@ The items source is expected to be of type [IAsyncEnumerable<T>](https://learn.m
 
 ## Properties
 
-| Name           | Type      | Description                                                   |
+| Name           | Required | Description                                                   |
 |---------------|-----------|---------------------------------------------------------------|
 | Title         | Optional  | The title or name of the action.                              |
 | Items         | Required  | The asynchronous collection of items to iterate over.        |

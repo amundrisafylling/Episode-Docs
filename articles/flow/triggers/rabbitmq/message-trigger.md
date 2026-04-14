@@ -11,7 +11,7 @@ Configures the flow to automatically run by checking periodically for new messag
 
 ## Properties
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | Title          | Optional | A descriptive label for the trigger configuration. |
 | Connection     | Required | Select the RabbitMQ connection. |

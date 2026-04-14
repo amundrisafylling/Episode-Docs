@@ -14,7 +14,7 @@ If the message contains invoice data, it’s added to a database; otherwise the 
 
 ## Properties
 
-| Name           | Type     | Description                                      |
+| Name           | Required | Description                                      |
 |----------------|----------|--------------------------------------------------|
 | Title          |  Optional | A descriptive label for the trigger.|
 | Event Hub connection     | Required | Azure Event Hub connection used to authenticate and connect to the service. |

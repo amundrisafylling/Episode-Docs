@@ -27,7 +27,7 @@ Include all the Word documents as attachments to the email.
 
 ## Properties
 
-| Name             | Type      |Description                                             |
+| Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title            | Optional  | The title of the tool.                                 |
 | Connection       | Required  | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`    |

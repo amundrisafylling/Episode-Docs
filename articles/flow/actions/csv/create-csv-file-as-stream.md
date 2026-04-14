@@ -11,7 +11,7 @@ This Flow [loads](../sql-server/load-to-datatable.md) tabular data into a DataTa
 
 ## Properties
 
-| Name                     | Type     | Description                 |
+| Name                     | Required | Description                 |
 | ------------------------ | -------- | --------------------------- |
 | Title                    |    Optional |  The title for the create action.  |
 | Source                   | Required | Specifies the source of the data, which can either be a DataTable or DataReader. |

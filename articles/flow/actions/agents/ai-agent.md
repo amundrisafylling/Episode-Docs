@@ -11,7 +11,7 @@ Defines an AI agent designed to perform tasks on behalf of a Client (orchestrato
 
 ## Properties
 
-| Name           | Type          | Description                     |
+| Name           | Required | Description                     |
 |----------------|---------------|---------------------------------|
 | Name           | Required      | A human-readable name for the agent. The name helps users and other agents in understanding its purpose. |
 | Instructions   | Required      | Defines the behavior of the agent and rules it should follow. |

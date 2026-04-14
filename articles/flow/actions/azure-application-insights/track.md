@@ -9,7 +9,7 @@ This example shows the Track action used in a Catch path to log an exception and
 
 ## Properties
 
-| Name                    | Type      | Description                                                                 |
+| Name                    | Required | Description                                                                 |
 |-------------------------|-----------|-----------------------------------------------------------------------------|
 | Title                   | Optional  | A descriptive label for the action.                                         |
 | Connection              | Required  | Azure Application Insights [connection](connection.md) used to authenticate and connect.     |
