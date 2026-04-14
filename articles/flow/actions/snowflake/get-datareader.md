@@ -1,6 +1,6 @@
 # Get DataReader
 
-Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqldatareader) for reading a forward-only stream of rows from a [Snowflake](https://docs.snowflake.com/en/user-guide-getting-started) database.
+Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader?view=net-10.0) for reading a forward-only stream of rows from a [Snowflake](https://docs.snowflake.com/en/user-guide-getting-started) database.
 
 Use this action when working with large result sets where loading all rows into memory at once would be inefficient. The DataReader streams rows one at a time, making it well suited for pipelines that process or transform data on the way to another destination.
 
