@@ -1,56 +1,54 @@
 # Execute Command
 
-Executes a SQL command in a [Snowflake](https://docs.snowflake.com/en/user-guide-getting-started) database, and returns the number of rows affected by the query.
+Executes a SQL command in a [Snowflake](https://docs.snowflake.com/en/user-guide-getting-started) database and returns the number of rows affected.
 
-![img](../../../../images/flow/snowflake-execute-command.png)
+> [!NOTE]
+> This action does not return query results — only the number of rows affected.
 
+![The Execute command action configured in the flow editor](../../../../images/flow/snowflake-execute-command.png)
 
 **Example** ![img](../../../../images/strz.jpg)  
 This flow retrieves a list of active clients, updates their status to Premium in a Snowflake database, and then returns the number of users that were successfully upgraded.
-
-> [!NOTE]
-> This action does not return the result of the executed query. It simply returns the number of rows affected by the query.
 
 <br/>
 
 ## Properties
 
-| Name                      | Required | Description                                                                       |
-| ------------------------- | --------- | --------------------------------------------------------------------------------- |
-| Title                     | Optional  | The title or name of the command.                                                 |
-| Connection                | Required  | [The Snowflake connection](./connecting-to-snowflake.md).                         |
-| Expression and parameters | Required  | The command to execute along with any parameters.                                 |
-| Result variable name      | Optional  | The name of the variable that will contain the number of rows affected.                  |
-| Command timeout (sec)     | Optional  | The time limit for command execution before it times out. Default is 120 seconds. |
-| Description               | Optional  | Additional notes or comments about the action or configuration.                   |
+| Name                      | Required | Description                                                                              |
+|---------------------------|----------|------------------------------------------------------------------------------------------|
+| Title                     | Optional | A display label for this action in the flow editor.                                      |
+| Connection                | Required | The Snowflake [connection](./connecting-to-snowflake.md) to use.                         |
+| Expression and parameters | Required | The SQL command to execute, along with any parameters.                                   |
+| Result variable name      | Optional | Stores the number of affected rows for use later in the flow.                            |
+| Command timeout (sec)     | Optional | How long to wait before the command times out. Default is 120 seconds.                   |
+| Description               | Optional | Notes about this action's configuration.                                                 |
 
 <br/>
 
 ## Returns
 
-[Int32](https://learn.microsoft.com/en-us/dotnet/api/system.int32) The number of rows affected.
+**Integer** [Int32](https://learn.microsoft.com/en-us/dotnet/api/system.int32) — the number of rows affected by the command.
 
 <br/>
 
-## Example: How to use parameters
+## Using parameters
 
-To use parameters in the query, declare and assign variables in the `Parameters` property.  
-Then use the parameters in the query.
+Declare and assign variables in the **Parameters** property, then reference them in the query using a `:` prefix.
 
 ```sql
-
 SELECT Display_Name FROM Snowflake.Account_Usage.Users WHERE USER_ID = :UserId
-
 ```
 
 <br/>
 
-## Example: How to use Flow variables in the command expression
+## Using flow variables in the expression
 
-To use Flow variables in a query as part of the expression, you need to first [declare a variable](../built-in/declare-variable.md) as `Global` and [assign a value to the variable](../built-in/set-variable.md).  
-Then, enclose the variable in curly brackets like with the `TableName` variable shown in the example below.
+Flow variables can be interpolated directly into the SQL expression. First [declare the variable](../built-in/declare-variable.md) as `Global` and [assign it a value](../built-in/set-variable.md) in a previous action, then reference it in the expression using curly brackets.
 
 ```sql
--- We have declared a Flow variable named TableName and assigned a value to it in a previous action.
+-- TableName is a Global flow variable declared and assigned in a previous action.
 SELECT Display_Name FROM {TableName} WHERE USER_ID = :UserId
 ```
+
+> [!NOTE]
+> Flow variables and parameters can be combined in the same expression, as shown above.
