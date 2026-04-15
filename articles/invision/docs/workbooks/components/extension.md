@@ -2,7 +2,7 @@
 # Extension
 
 ## invision-extensions-iframe-sdk
-A small utility library for communicating between Profitbase InVision and an iframe extension app.
+A small utility library for communicating between Hypergene InVision and an iframe extension app.
 
 <br/>
 

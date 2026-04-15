@@ -15,7 +15,7 @@ This flow [prepares](../../built-in/function.md) a parameters object and a langu
 | Name                 | Required | Description |
 |----------------------|----------|-------------|
 | Title                | Optional | A descriptive label for the action displayed in the Flow editor. |
-| Connection           | Required | Defines the [InVision connection](../invision-connection.md) used to access the Profitbase InVision environment. The connection provides the credentials required to execute the SQL script. |
+| Connection           | Required | Defines the [InVision connection](../invision-connection.md) used to access the Hypergene InVision environment. The connection provides the credentials required to execute the SQL script. |
 | SQL Script           | Required | The InVision SQL Script to execute. This script is created and stored in InVision and can contain long-running database operations. |
 | Language             | Optional | Specifies the language used by the SQL script. This may be required depending on the script configuration. |
 | Parameters           | Optional | Defines parameters that are passed to the SQL script during execution. These allow dynamic values to be injected into the script. |

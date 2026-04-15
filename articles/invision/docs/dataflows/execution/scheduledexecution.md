@@ -42,7 +42,7 @@ Scheduled execution of a Data Flow using SQL Server Agent can be set up as a job
 
  Add the following instructions to the file. 
  
-     pushd <path to Profitbase InVision Worker>
+     pushd <path to Hypergene InVision Worker>
      call dfcmdutil.exe /run <dataflowid>
      popd
 
@@ -52,7 +52,7 @@ Scheduled execution of a Data Flow using SQL Server Agent can be set up as a job
 **Example** 
 
 
-* Profitbase InVision in installed in folder C:\Program Files (x86)\Profitbase\Profitbase Invision\Worker 1 on server «app01».
+* Hypergene InVision in installed in folder C:\Program Files (x86)\Profitbase\Hypergene InVision\Worker 1 on server «app01».
 
 * Schedule1.bat is created in folder C:\Profitbase\Jobs
 
@@ -60,7 +60,7 @@ Scheduled execution of a Data Flow using SQL Server Agent can be set up as a job
 
   1.	Edit Schedule1.bat to contain the following commands
 
-            pushd «\\app01\c$\Program Files (x86)\Profitbase\Profitbase Invision\Worker 1»
+            pushd «\\app01\c$\Program Files (x86)\Profitbase\Hypergene InVision\Worker 1»
             call dfcmdutil.exe /run dataflow1 
             popd
 

@@ -42,7 +42,7 @@ You can now dynamically change Filter headings using the Execute Expression acti
 #### Configurable RabbitMQ queue names
 
 The RabbitMQ queue names can now be configured individually pr InVision instance, either using the Installation Manager when installing or upgrading, or by manually editing the appsettings.json files.
-This enhancement enables multiple instances of Profitbase InVision to use the same RabbitMQ broker instance.
+This enhancement enables multiple instances of Hypergene InVision to use the same RabbitMQ broker instance.
 
 <br/>
 

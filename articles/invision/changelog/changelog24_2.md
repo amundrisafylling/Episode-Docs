@@ -1,6 +1,6 @@
 # Changelog 2024.2
 
-Here are the most important new features and improvements added to Profitbase InVision in the latest release. You should also check out the Profitbase Flow August 2024 update to see how InVision can be automated using Flow.
+Here are the most important new features and improvements added to Hypergene InVision in the latest release. You should also check out the Profitbase Flow August 2024 update to see how InVision can be automated using Flow.
 
 <br/>
 

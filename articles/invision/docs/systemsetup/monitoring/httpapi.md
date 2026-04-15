@@ -1,7 +1,7 @@
 
 # HTTP API
 
-The Log API lets you fetch log information from Profitbase InVision for Ops and Log Analysis using tools such Splunk, Datadog and Logstash.
+The Log API lets you fetch log information from Hypergene InVision for Ops and Log Analysis using tools such Splunk, Datadog and Logstash.
 
 <br/>
 

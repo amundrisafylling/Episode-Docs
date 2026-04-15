@@ -5,7 +5,7 @@
 
 ## About Configuration
 
-Here you will find a description of how to configure the Profitbase InVision Web App and backend to use IBM Security Verify for authentication.
+Here you will find a description of how to configure the Hypergene InVision Web App and backend to use IBM Security Verify for authentication.
 
 <br/>
 

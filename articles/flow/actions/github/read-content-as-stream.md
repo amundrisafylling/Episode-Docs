@@ -7,7 +7,7 @@ Reads a file from GitHub repository content as a [Stream](https://learn.microsof
 
 
 **Example** ![img](../../../../images/strz.jpg)  
-This flow iterates through content, streams the file, and uploads the file to an Profitbase Invision File Storage.
+This flow iterates through content, streams the file, and uploads the file to an Hypergene InVision File Storage.
 
 
 ## Properties

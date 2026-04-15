@@ -6,7 +6,7 @@ Supports upgrade to Planner 5.4.0 from Planner 5.1.2, 5.2.x, 5.3.0.
 
 When upgrading to the next version after 5.4.0, upgrading from versions older than 5.2.0 will no longer be supported. It is therefore strongly recommended to keep your Planner version as up to date as possible.
 
-Requirements: Profitbase InVision platform version 2023.3 (bug fix EPM Common 5.3.1 requires platform version 2022.4)
+Requirements: Hypergene InVision platform version 2023.3 (bug fix EPM Common 5.3.1 requires platform version 2022.4)
 
 Notes:
 - When upgrading to Planner 5.3.0, a new socalled extension package (EPM Finance Reports) is introduced. It will extend EPM Reporting and EPM PLanner with financial reporting capabilities in the for of the Finance Reports workbook. This extension package is automatically deployed when upgrading using the Package Management tool (recommended). If, however, upgrade is performed manually from individual files, the EPM Finance Reports extension package must manually be deployed to the solution containing EPM Reporting after EPM Reporting has been upgraded. It must also be deployed manually to the solution containing the EPM Planner blueprint after the EPM Planner package has been upgraded. In order for individual Planner versions to have its own Finance Reports workbook, process contents must be updated to include EPM Finance Reports. For processes that have EPM Finance Reports included as part of their content, the Finance Report workbook will be available within the versions created thereafter.

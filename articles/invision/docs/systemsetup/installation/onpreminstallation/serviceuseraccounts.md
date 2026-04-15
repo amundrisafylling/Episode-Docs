@@ -1,7 +1,7 @@
 
 # Service User Accounts
 
-The Profitbase InVision **AppPool**, **Dispatcher** and **Worker** processes requires the following permissions
+The Hypergene InVision **AppPool**, **Dispatcher** and **Worker** processes requires the following permissions
 
 1. Must be a member of the Administrators group on the server, OR
 

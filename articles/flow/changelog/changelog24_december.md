@@ -1,7 +1,7 @@
 # December 2024 Update
 
 
-New version of Flow with support for more systems and features to simplify and automate data integrations and business processes. In this release we added support for TripleTex, Visma.Net, Databricks, Azure Table Storage, and Azure Files. In addition, we’ve added new features for PowerOffice Go, Microsoft Fabric, PostgreSQL, and Profitbase InVision.
+New version of Flow with support for more systems and features to simplify and automate data integrations and business processes. In this release we added support for TripleTex, Visma.Net, Databricks, Azure Table Storage, and Azure Files. In addition, we’ve added new features for PowerOffice Go, Microsoft Fabric, PostgreSQL, and Hypergene InVision.
 
 ## TripleTex
 Profitbase Flow now has a built-in connector for the TripleTex REST API. The connector handles authentication, paging, faults, and throttling (API quotas), simplifying data integrations with TripleTex.  
@@ -79,7 +79,7 @@ We’ve extended the support for PostgreSQL with new actions to improve develope
 ![december Image](../../../images/flow/flow-dec6.png)
 
 
-## Profitbase InVision
+## Hypergene InVision
 The December 2024 update of Flow adds support for the following new InVision integrations:
 
 - [Execute InVision Dataflows from Flow](../actions/profitbase-invision/execute-dataflow.md) – This feature makes it easier to gradually migrate business logic from InVision Dataflows to Flow.

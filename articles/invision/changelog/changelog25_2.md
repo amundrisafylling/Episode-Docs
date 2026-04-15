@@ -1,7 +1,7 @@
 # Changelog 2025.2
 
 
-Profitbase InVision 2025.2 is a minor release that adds support for scheduling Flows from InVision, and adds overall improvements to performance and stability.
+Hypergene InVision 2025.2 is a minor release that adds support for scheduling Flows from InVision, and adds overall improvements to performance and stability.
 
 ## Scheduling Flows from InVision
 

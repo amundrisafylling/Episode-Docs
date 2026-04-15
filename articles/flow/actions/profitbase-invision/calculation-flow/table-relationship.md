@@ -15,7 +15,7 @@ The main table is typically the table that data is read from, written to and/or 
 | Reference table name   | Required   | The name of the reference table that participates in the the Data Context definition and contains the data that determintes the slice of the main table.        |
 | Reference column name  | Required   | The name of the column in the reference table that that the main table is joined on.                                                                            |
 | Target column name     | Required   | The name of the column in the main table that the reference column is joined on.                                                                                |    
-| Context Id             | Optional   | Context Id can be viewed as an alias for "Reference table name". It and can be used by clients that does not have access to the actual reference table, but still needs to pass in a valid Data Context that defines a slice of the main table. A typical use case is when a Calculation Flow is run by a client other than Profitbase InVision.     |
+| Context Id             | Optional   | Context Id can be viewed as an alias for "Reference table name". It and can be used by clients that does not have access to the actual reference table, but still needs to pass in a valid Data Context that defines a slice of the main table. A typical use case is when a Calculation Flow is run by a client other than Hypergene InVision.     |
 
 ##### Example
 

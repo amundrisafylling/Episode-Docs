@@ -8,6 +8,6 @@ The [AI chat component](../workbooks/components/ai-chat.md) lets you add AI chat
 To get started using the AI chat component, please watch the video below.
 
 #### Create an AI chat solution using InVision and Flow
-This video shows how to build an AI chat solution using Profitbase InVision and Flow. It includes how to populate a vector database, and use the vector database in a RAG-based chat completion flow to answer user questions from PDF product sheets.
+This video shows how to build an AI chat solution using Hypergene InVision and Flow. It includes how to populate a vector database, and use the vector database in a RAG-based chat completion flow to answer user questions from PDF product sheets.
 
 ![youtube.com](https://www.youtube.com/watch?v=QWfTXUtvF6w)

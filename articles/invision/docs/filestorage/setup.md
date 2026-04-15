@@ -2,7 +2,7 @@
 # File Storage Setup
 
 >[!NOTE]
-> If you run Profitbase InVision as a hosted SaaS service, the File Storage configuration is automatically configured.  
+> If you run Hypergene InVision as a hosted SaaS service, the File Storage configuration is automatically configured.  
 > The contents of this page only applies to on-premises deployments.
 
 ## Supported storage mediums
@@ -65,7 +65,7 @@ Using this option, files will be stored on a disk drive under the specified path
 
 
 >[!NOTE]
-> When using local disk as the physical file storage, it is important to set up backup of the specified path in case of disk failure or other critical errors. Profitbase InVision does not have a built-in backup solution, so this has be set up manually.
+> When using local disk as the physical file storage, it is important to set up backup of the specified path in case of disk failure or other critical errors. Hypergene InVision does not have a built-in backup solution, so this has be set up manually.
 
 
 <br/>

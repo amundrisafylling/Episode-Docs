@@ -39,7 +39,7 @@ Note that all levels must be filled in, but padding - that is repeating - levels
 
 In the example, Account 3790 is padded - repeated - to hierarchy levels 3. This means that Planner renders the hierarchy skipping hierarchy levels 3 so that when expanding level 2 at the 37 node, 3790 renders immediately below as shown in the left margin.
 
-The number of hierarchical levels can be changed but has to be done using the Profitbase InVision designer. Legal entity does not have to be a level in the hierarchy, but it has to be present in the table and filled in.
+The number of hierarchical levels can be changed but has to be done using the Hypergene InVision designer. Legal entity does not have to be a level in the hierarchy, but it has to be present in the table and filled in.
 
 The account dimension hierarchy is used for defining Finance settings and not for reporting.<br/>
 

@@ -6,7 +6,7 @@
 
 - Introduced an Execute operation button in many workbooks. Button visible if operations are mapped to the workbook and the user has access to executing operations, typically an administration role. #996 (closed)
 
-- Scripts for deleting input transactions that are not present in the dimensions. Consultant tool available from the Profitbase InVision designer #1047 (closed)
+- Scripts for deleting input transactions that are not present in the dimensions. Consultant tool available from the Hypergene InVision designer #1047 (closed)
 
 **Bug fixes**
 

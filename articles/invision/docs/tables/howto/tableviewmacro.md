@@ -10,7 +10,7 @@ Under [this link](https://profitbasedocs.blob.core.windows.net/videos/Table%20Vi
 ## Step by step
 
 
-1. Profitbase InVision provides you sample macros:
+1. Hypergene InVision provides you sample macros:
 
 ![pic](https://profitbasedocs.blob.core.windows.net/images/HTmacro%20(1).png)
 

@@ -37,7 +37,7 @@ Flow will also automatically handle [paginated](https://learn.microsoft.com/en-u
 <br/>
 
 
-## Profitbase InVision  
+## Hypergene InVision  
 - **Lookup Tables** now automatically resolve parameters/assumptions by date if the source table contains a column named `FromDate`. This feature is typically used for financial calculations in Profitbase Budget and Forecasting, where parameter values (financial settings) differ by date/period in the planning period in addition to dimensionality.
 - We added support for **Work Process Version automation**, which allows defining Flows to **create**, **deploy**, **open**, **close**, and **delete** Work Process Versions in InVision.
 - You can now easily **read (export) data from a Dimension** in InVision using the [Get Dimension DataReader](../actions/profitbase-invision/get-dimension-datareader.md) action. This makes it easy to export data from an InVision dimension to any target, such as Parquet files or any analytics platform like Microsoft Fabric and Power BI.

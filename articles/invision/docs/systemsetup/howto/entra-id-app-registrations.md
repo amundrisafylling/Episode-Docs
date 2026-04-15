@@ -10,11 +10,11 @@ In order to complete the setup on our side we need the following sent back to us
 - Expiry Date for the Client Secret
 - InVision Designer App ID
 
-## Profitbase InVision Client App Registration
+## Hypergene InVision Client App Registration
 
 - Login to the Azure Portal and Create a new App Registration
 ![Create-App-Registration](https://profitbasedocs.blob.core.windows.net/images/invision/docs/systemsetup/howto/EntraID-Create-AppRegistration.png)
-- Give the App Registration a name, we suggest Profitbase InVision Client.
+- Give the App Registration a name, we suggest Hypergene InVision Client.
   - Make sure you change the Redirect URI to Web and supply the redirect URI that Profitbase provided.
 ![Profitbase-InVision-Client](https://profitbasedocs.blob.core.windows.net/images/invision/docs/systemsetup/howto/ProfitbaseInVisionClient.png)
 - Save the App ID
@@ -44,13 +44,13 @@ In order to complete the setup on our side we need the following sent back to us
   - isFallbackPublicClient set to false
 ![Profitbase-InVision-Client-Manifest](https://profitbasedocs.blob.core.windows.net/images/invision/docs/systemsetup/howto/ProfitbaseInVisionClientManifest.png)
 
-## Profitbase InVision Designer App Registration
+## Hypergene InVision Designer App Registration
 
 - Create a new App Registration
   - Name: InVision Designer (This can be set to anything)
   - Make sure you change the type to public client and set the reply URL to exactly: https://invisiondesigner
 ![Profitbase-InVision-Designer](https://profitbasedocs.blob.core.windows.net/images/invision/docs/systemsetup/howto/ProfitbaseInVisionDesigner.png)
-- Go to API Permissions, select APIs that my Organization uses and find Profitbase InVision Client 
+- Go to API Permissions, select APIs that my Organization uses and find Hypergene InVision Client 
 ![Profitbase-InVision-Designer-API](https://profitbasedocs.blob.core.windows.net/images/invision/docs/systemsetup/howto/ProfitbaseInVisionDesignerAPIPermissions.png)
 - Click grant consent
 ![Profitbase-InVision-Designer-Consent](https://profitbasedocs.blob.core.windows.net/images/invision/docs/systemsetup/howto/ProfitbaseDesignerConsent.png)

@@ -1,6 +1,6 @@
 # Dimensions
 
-Dimensions allow you to define hierarchical data structures that can be used for filtering and reporting, both within Profitbase InVision and in third-party tools like Power BI. They can have multiple levels, each with an ID, name, and optional translations for different languages. Additionally, dimensions can include properties, which represent attributes of dimension members, such as weight, color, or length.
+Dimensions allow you to define hierarchical data structures that can be used for filtering and reporting, both within Hypergene InVision and in third-party tools like Power BI. They can have multiple levels, each with an ID, name, and optional translations for different languages. Additionally, dimensions can include properties, which represent attributes of dimension members, such as weight, color, or length.
 
 Dimensions are always stored as **wide** tables in the database, but you can **edit** them as parent-child hierarchies in the dimension editor. 
 

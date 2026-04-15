@@ -20,7 +20,7 @@ File access can be managed by associating files to dimensions, filters, or any c
 
 #### WCAG AAA compliance
 
-Profitbase InVision is now WCAG AAA compliant by supporting requirements such as high contrast mode for people with low vision, keyboard navigation, keyboard shortcuts, and support for screen readers.  
+Hypergene InVision is now WCAG AAA compliant by supporting requirements such as high contrast mode for people with low vision, keyboard navigation, keyboard shortcuts, and support for screen readers.  
 [Read more...](../docs/accessibility/accessibility.md)
 <br/>
 

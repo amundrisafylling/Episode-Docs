@@ -7,7 +7,7 @@ Iterates over a list of files and directories (commonly referred to as `content`
 
 
 **Example** ![img](../../../../images/strz.jpg)  
-This Flow copies files from a Github repository to an InVision File Storage. It iterates through files in a Github repository, reads each file, and uploads them to the Profitbase Invision File Storage.
+This Flow copies files from a Github repository to an InVision File Storage. It iterates through files in a Github repository, reads each file, and uploads them to the Hypergene InVision File Storage.
 
 
 ## Properties

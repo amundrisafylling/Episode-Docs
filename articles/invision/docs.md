@@ -1,7 +1,7 @@
 
 # Hello learner!
 
-Welcome to the Profitbase InVision docs!
+Welcome to the Hypergene InVision docs!
 You can explore the different topics from the left side bar, or use the search bar at the top of the page.
 
 We're working hard to provide video documentation for many of our features, so please check out our [videos section](videos.md) as well. Each text topic has links to relevant videos.

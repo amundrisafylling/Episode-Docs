@@ -12,7 +12,7 @@ Version 2.3
 
 This document aims to describe common customization patterns and best practices for making custom extensions to Profitbase Planner and is aimed at implementation partners.
 
-An in-depth knowledge of the Profitbase InVision designer is required.
+An in-depth knowledge of the Hypergene InVision designer is required.
 
 The following patterns are described:
 
@@ -95,7 +95,7 @@ Input module extensions are registered in @Object[ModuleExtensions,setting].dbOb
  | --- | --- |
  | ModuleExtensionID | The id of the module extension. Naming convention used by Profitbase for standard modules: **Profitbase.EPM.WorkbookName**. Propose to use **Partner.EPM.WorkbookName** |
  | WorkbookID | Version specific workbook id (i.e. @Object[WorkbookName].Id). Must be updated post version deployment to reflect the actual workbook id for the version in question. |
- | WorkbookName | The workbook object name as given in the Profitbase InVision designer. NOTE workbook names must be unique as there is no type-qualification available for workbooks when using @Object notation. |
+ | WorkbookName | The workbook object name as given in the Hypergene InVision designer. NOTE workbook names must be unique as there is no type-qualification available for workbooks when using @Object notation. |
  | InUse | Published | Not published (true/false) |
  | ModuleExtensionID_Name | Default description. |
  | ModuleExtensionID_Name_NO | Description - Norwegian translation |
@@ -196,10 +196,10 @@ Custom financial transactions are created in @Object[pbTransdataSourceCM,store].
 | Qty | Optional quantity |
 | AccTypeID | PL (Profit Loss) |
 | ModuleExtensionID | ID uniquely identifying the module’s data |
-| SYS_OriginID | Used by Profitbase InVision when using the transaction pipeline |
-| SYS_OriginColumnID | Used by Profitbase InVision when using the transaction pipeline |
-| SYS_TransGeneratorID | Used by Profitbase InVision when using the transaction pipeline |
-| SYS_OriginRowIdentity | Used by Profitbase InVision when using the transaction pipeline |
+| SYS_OriginID | Used by Hypergene InVision when using the transaction pipeline |
+| SYS_OriginColumnID | Used by Hypergene InVision when using the transaction pipeline |
+| SYS_TransGeneratorID | Used by Hypergene InVision when using the transaction pipeline |
+| SYS_OriginRowIdentity | Used by Hypergene InVision when using the transaction pipeline |
 | SYS_DataSetID | Obsolete |
 | WithholdTaxPctOvr | Optional financial setting value override |
 | VATPctOvr | Optional financial setting value override |
@@ -225,7 +225,7 @@ Custom financial transactions are created in @Object[pbTransdataSourceCM,store].
 | CashPctOvr | Optional financial setting value override |
 | BadDebtPctOvr | Optional financial setting value override |
 
-The built-in Profitbase InVision Transaction pipeline function (using Distributer, Producer and Mapper functions) can be used, or the data can be scripted. If scripting is used, the existing slice of data must be deleted explicitly before re-inserting the slice of data.
+The built-in Hypergene InVision Transaction pipeline function (using Distributer, Producer and Mapper functions) can be used, or the data can be scripted. If scripting is used, the existing slice of data must be deleted explicitly before re-inserting the slice of data.
 
 ![customizationPatterns6_1_8](../../../../images/enduserhelp/customizationPatterns6_1_8.png)
 
@@ -279,7 +279,7 @@ If Workbook(s) are to be “go to” workbook options when creating new tasks, t
 | WorkbookName | The default title of the workbook |
 | WorkbookName_EN | The English title of the workbook |
 | WorkbookName_NO | The Norwegian title of the workbook |
-| MasterWorkbookName | The workbook object name as found in the Profitbase InVision designer. This is used for Process tasks which are defined outside of a versioned context. |
+| MasterWorkbookName | The workbook object name as found in the Hypergene InVision designer. This is used for Process tasks which are defined outside of a versioned context. |
 | ProcessID | The current process id as found in [dbo].[SYS_WorkProcessVersions] for WorkProcessVersionID = '@CurrentWorkProcessVersionID' |
 | VersionID | '@CurrentWorkProcessVersionID' |
 | WorkbookURL | Same as WorkbookID |
@@ -308,9 +308,9 @@ The transaction pipeline for the Account, Personnel and Driver based modules can
 
 Note that from Planner 6.1.x, transaction pipelines are purely flow based, refer to Pattern 3b – Customize the transaction pipelines (flow based) for details.
 
-It is possible to register a custom script per pipeline PRE and/or POST. Scripts registered as object names as defined in the Profitbase InVisiondesigner which are evaluated to version specific object ids at run-time.
+It is possible to register a custom script per pipeline PRE and/or POST. Scripts registered as object names as defined in the Hypergene InVisiondesigner which are evaluated to version specific object ids at run-time.
 
-Table for registering custom scripts: @Object[CustomPipelineScripts,setting].dbObjectName. There is no user interface, so content will have to be scripted or input using the Profitbase InVision designer:
+Table for registering custom scripts: @Object[CustomPipelineScripts,setting].dbObjectName. There is no user interface, so content will have to be scripted or input using the Hypergene InVision designer:
 
 ![customizationPatterns6_1_13](../../../../images/enduserhelp/customizationPatterns6_1_13.png)
 
@@ -509,7 +509,7 @@ From Planner 5.4.0, it is possible to enable and configure a custom button and/o
 
 As an example, a custom workbook offering a drill-to-detail of ledger data may be configured as a custom row context menu receiving contextual information from the appropriate row such as department, account, project and so on that may be used to filter a custom report.
 
-This is set up using the Profitbase InVision designer in the setting table ModuleExtensions:
+This is set up using the Hypergene InVision designer in the setting table ModuleExtensions:
 
 ![customizationPatterns6_1_28](../../../../images/enduserhelp/customizationPatterns6_1_28.png)
 

@@ -8,7 +8,7 @@ If you need to read the file multiple times, for example processing its contents
 
 
 **Example** ![img](../../../../images/strz.jpg)  
-This flow iterates through content, reads the file as byte array, and uploads the file to an Profitbase Invision File Storage.
+This flow iterates through content, reads the file as byte array, and uploads the file to an Hypergene InVision File Storage.
 
 <br/>
 
