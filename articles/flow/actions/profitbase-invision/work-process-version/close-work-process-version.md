@@ -1,6 +1,6 @@
 # Close Work Process Version
 
-Closes a Work Process Version in InVision, preventing further input from contributors. Once closed, the version's state is set to **Closed** and users can no longer submit data to it.
+Closes a Work Process Version by changing its state to **Closed**, thereby preventing further input from contributors.
 
 Use this action at the end of a planning cycle, a deadline enforcement step, or as part of a rollover flow where a new version is opened after the previous one is locked.
 
