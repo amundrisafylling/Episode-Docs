@@ -55,7 +55,7 @@ Explore what you can do with Profitbase to power every level of the organization
             <img src="https://profitbasedocs.blob.core.windows.net/imagestitlesites/lowcodeheader2.png" alt="Invision">
         </a></br>
                 <a href="articles/invision/invision.md" class="custom-link">
-           Profitbase InVision
+           Hypergene InVision
         </a>   
     <p class="doc-tile-text">Build advanced business apps with low-code.</p>
            <a href="articles/invision/invision.md" class="link-button">

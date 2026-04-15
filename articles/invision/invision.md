@@ -1,11 +1,11 @@
 
 # Overview
 
-Profitbase InVision is a low-code platform that enables businesses to rapidly build, deploy and manage apps without using professional developers.
+Hypergene InVision is a low-code platform that enables businesses to rapidly build, deploy and manage apps without using professional developers.
 
 <figure style="display: flex;flex-direction: column;align-items: center;">
      <img src="/images/invision/invision_overview.png" style="width:100%">
-    <figcaption style="text-align:center"><b>Profitbase InVision - build robust and flexible business apps with low-code</b></figcaption>
+    <figcaption style="text-align:center"><b>Hypergene InVision - build robust and flexible business apps with low-code</b></figcaption>
 </figure>
 
 <br/>
@@ -16,7 +16,7 @@ Profitbase InVision is a low-code platform that enables businesses to rapidly bu
 
 ## Table of contents
 
-Read about the **key features** of **Profitbase InVision**. Check out the following topics to learn how to build, run, and deploy apps using InVision.
+Read about the **key features** of **Hypergene InVision**. Check out the following topics to learn how to build, run, and deploy apps using InVision.
 
 <div class="new-flex-container">
     <div class="new-flex-column">
@@ -25,7 +25,7 @@ Read about the **key features** of **Profitbase InVision**. Check out the follow
         </a>
         <ul>
             <li><a href="videos.md">Videos</a></li>
-            <li><a href="http://demo.profitbase.com/portal/#">Profitbase InVision Demos</a></li>
+            <li><a href="http://demo.profitbase.com/portal/#">Hypergene InVision Demos</a></li>
         </ul>
     </div>
     <div class="new-flex-column">

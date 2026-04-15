@@ -52,7 +52,7 @@ In the example, department Stavanger is padded - repeated - to Hierarchy levels 
 
 The same applies to Legal entity that is padded - repeated - to Hierarchy level 3 and 2 so that when expanding Hierarchy level 1 (Profitways holding), the legal entity level is displayed (Profitways).
 
-The number of hierarchical levels can be changed but has to be done using the Profitbase InVision designer. Legal entity does not have to be a level in the hierarchy, but it has to be present in the table and filled in.
+The number of hierarchical levels can be changed but has to be done using the Hypergene InVision designer. Legal entity does not have to be a level in the hierarchy, but it has to be present in the table and filled in.
 
 ### Column Descriptions:
 

@@ -1,6 +1,6 @@
 # Deploy Stored Procedure
 
-Recreates a Stored Procedure based on definition from Profitbase InVision.
+Recreates a Stored Procedure based on definition from Hypergene InVision.
 
 ![img](../../../../images/flow/deploy-stored-procedure.png)
 

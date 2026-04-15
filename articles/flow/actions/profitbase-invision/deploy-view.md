@@ -1,6 +1,6 @@
 # Deploy View
 
-Recreates a View based on definition from Profitbase InVision.
+Recreates a View based on definition from Hypergene InVision.
 
 ![img](../../../../images/flow/deploy-view.png)
 

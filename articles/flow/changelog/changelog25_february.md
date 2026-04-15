@@ -69,7 +69,7 @@ Providing a column mapping is no longer necessary when using Parquet actions tha
 
 Column mapping is now optional when using CSV actions that read files, such as the [Open CSV File as DataReader](../actions/csv/open-csv-file-as-datareader.md) action. If you don't specify a column mapping, ensure the first line in the CSV file is a header row containing the column names, and all fields will be read as text.
 
-## Profitbase InVision
+## Hypergene InVision
 
 The SQL and PowerShell script actions now support parameterization of which scripts to execute, in addition to selecting specific scripts. This enhancement enables the creation of generic Flows capable of executing any SQL or PowerShell script in InVision.
 

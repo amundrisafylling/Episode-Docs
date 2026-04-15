@@ -21,7 +21,7 @@ Default queries for reading data from InVision table resources such as Data Stor
 
 ## Writing custom event handlers for Chart events
 
-Profitbase InVision is using Highcharts for rendering charts. If you want to write custom event handlers for events such as when a user clicks a point in a series, or when the user hovers the mouse over a point, you should first read the documentation for Highcharts on how to handle the different types of events and what data is available to an event handler function when the event is raised.
+Hypergene InVision is using Highcharts for rendering charts. If you want to write custom event handlers for events such as when a user clicks a point in a series, or when the user hovers the mouse over a point, you should first read the documentation for Highcharts on how to handle the different types of events and what data is available to an event handler function when the event is raised.
 
 Currently, InVision has a built-in event handler that can be applied to the Point Clicked event of a series. When the user clicks a point, the [ChartInteractionEvent](workbooks/components/reports.md) will be raised when the Report is displayed in a Workbook, passing along the x-value, y-value and the data object (row) that point represents. Any other Workbook component can subscribe to this event and use the event payload to do with as he pleases.
 

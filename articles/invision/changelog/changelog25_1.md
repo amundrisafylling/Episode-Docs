@@ -1,7 +1,7 @@
 # Changelog 2025.1
 
 
-Release of Profitbase InVision 2025.1, a service update introducing several enhancements and new features. Additionally, be sure to check out the [February 2025 release of Flow](../../flow/changelog/changelog25_february.md).
+Release of Hypergene InVision 2025.1, a service update introducing several enhancements and new features. Additionally, be sure to check out the [February 2025 release of Flow](../../flow/changelog/changelog25_february.md).
 
 ## Access Control UI
 

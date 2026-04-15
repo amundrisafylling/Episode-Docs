@@ -131,6 +131,8 @@
       href: actions/html/toc.yml
     - name: HTTP
       href: actions/http/toc.yml
+    - name: Hypergene InVision
+      href: actions/profitbase-invision/toc.yml
     - name: Hypergene Portfolios
       href: actions/hypergene-portfolios/toc.yml
     - name: JSON
@@ -161,8 +163,6 @@
       href: actions/poweroffice-go/toc.yml
     - name: PowerPoint
       href: actions/powerpoint/toc.yml
-    - name: Profitbase InVision
-      href: actions/profitbase-invision/toc.yml
     - name: RabbitMQ
       href: actions/rabbitmq/toc.yml
     - name: Security

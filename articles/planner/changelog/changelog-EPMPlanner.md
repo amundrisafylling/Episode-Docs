@@ -451,7 +451,7 @@ Changed: Functional: Yes; User interface: No; Data model/schema: No
 
 - Input validation introduced in Input Settings and Administration as well as Finance Settings. Mandatory fields are highlighted when null when new rows are added. (#1560)
 
-- Logging is improved for dataflows such as version deployment and transaction pipelines (processing of Account, Personnel and Driver Based input). The version deployment log is visible in the Version Manager when deploying a new version and the the transaction pipeline logs are visible either in Operation manager (when run from an operation) or in the Profitbase InVision designer. (#1544)
+- Logging is improved for dataflows such as version deployment and transaction pipelines (processing of Account, Personnel and Driver Based input). The version deployment log is visible in the Version Manager when deploying a new version and the the transaction pipeline logs are visible either in Operation manager (when run from an operation) or in the Hypergene InVision designer. (#1544)
 
 - Historical reference data generated if configured regardless of the columns being visible. (#1503)
 

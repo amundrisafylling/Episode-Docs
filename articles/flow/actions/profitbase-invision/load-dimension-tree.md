@@ -7,7 +7,7 @@ Loads an entire dimension to memory as a parent-child [DimensionTree](./load-dim
 | Name                  | Required | Description |
 |-----------------------|----------|-------------|
 | Title                 | Optional | A descriptive label for the action displayed in the Flow editor. |
-| Connection            | Required | Defines the [InVision connection](invision-connection.md) used to access the Profitbase InVision environment. The connection contains the credentials required to load the dimension structure. |
+| Connection            | Required | Defines the [InVision connection](invision-connection.md) used to access the Hypergene InVision environment. The connection contains the credentials required to load the dimension structure. |
 | Object variable name  | Required | The variable name used to store the loaded dimension tree. The dimension data can be referenced later in the flow using this variable. |
 | Dimension             | Required | The dimension to load from the InVision model. The action retrieves the full hierarchical structure of the selected dimension. |
 | Dimension properties  | Optional | Specifies additional dimension properties to include in the result. This allows the flow to access extra metadata for each dimension member. |

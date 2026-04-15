@@ -798,7 +798,7 @@ below:
 
 In the example, Legal entity Profitways is padded - repeated - to Hierarchy levels 3 and 2. This means that Planner renders the hierarchy skipping Hiearchy levels 3 and 2 so that when expanding level 1, the legal entity level is displayed as shown in the left margin where Profitways holding (Hierarchy level 1) expands directly to Profitways (Legal entity).
 
-The number of hierarchical level can be changed, but has to be done using the Profitbase InVision designer and will require re-implementation after a Planner upgrade.
+The number of hierarchical level can be changed, but has to be done using the Hypergene InVision designer and will require re-implementation after a Planner upgrade.
 
 ## Department dimension (fixed wide)
 
@@ -855,7 +855,7 @@ In the example, department Stavanger is padded - repeated - to Hierarchy levels 
 
 The same applies to Legal entity that is padded - repeated - to Hierarchy level 3 and 2 so that when expanding Hierarchy level 1 (Profitways holding), the legal entity level is displayed (Profitways).
 
-The number of hierarchical level can be changed, but has to be done using the Profitbase InVision designer and will have to be re-implemented post a Planner upgrade. Legal entity does not have to be a level in the hierarchy, but it has to be present in the table and filled in.
+The number of hierarchical level can be changed, but has to be done using the Hypergene InVision designer and will have to be re-implemented post a Planner upgrade. Legal entity does not have to be a level in the hierarchy, but it has to be present in the table and filled in.
 
 ## Account dimension (fixed wide)
 

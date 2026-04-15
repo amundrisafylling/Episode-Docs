@@ -25,7 +25,7 @@ When upgrading to the next version after 6.2.1, upgrading from versions older th
 
 Furthermore, switching to flow-based transaction pipelines is currently mandatory and is done automatically as part of the upgrade process. However, the flow pipelines must be executed manually post upgrade in situations where the solution was not activated for flow pipelines prior to the upgrade.
 
-Requirements: Profitbase InVision platform version 2026.1 AND Profitbase Flow 1.12.
+Requirements: Hypergene InVision platform version 2026.1 AND Profitbase Flow 1.12.
 
 **NOTE:** 	
 
@@ -55,7 +55,7 @@ When upgrading to the next version after 6.2.0, upgrading from versions older th
 
 Furthermore, switching to flow-based transaction pipelines is currently mandatory and is done automatically as part of the upgrade process. However, the flow pipelines must be executed manually post upgrade in situations where the solution was not activated for flow pipelines prior to the upgrade.
 
-Requirements: Profitbase InVision platform version 2025.7 AND Profitbase Flow 1.11.
+Requirements: Hypergene InVision platform version 2025.7 AND Profitbase Flow 1.11.
 
 **NOTE:** 	
 
@@ -88,7 +88,7 @@ When upgrading to the next version after 6.1.1, upgrading from versions older th
 
 Furthermore, switching to flow-based transaction pipelines is currently mandatory and is done automatically as part of the upgrade process. However, the flow pipelines must be executed manually post upgrade in situations where the solution was not activated for flow pipelines prior to the upgrade.
 
-Requirements: Profitbase InVision platform version 2025.5 AND Profitbase Flow 1.9.
+Requirements: Hypergene InVision platform version 2025.5 AND Profitbase Flow 1.9.
 
 **NOTE:** 	The solution you want to upgrade MUST be connected to Flow BEFORE you upgrade, contact Profitbase to make sure that that is the case or how to connect.
 
@@ -106,7 +106,7 @@ When upgrading to the next version after 6.1.0, upgrading from versions older th
 
 Furthermore, switching to flow-based transaction pipelines is currently mandatory and is done automatically as part of the upgrade process. However, the flow pipelines must be executed manually post upgrade in situation where the solution was not activated for flow pipelines prior to the upgrade.
 
-Requirements: Profitbase InVision platform version 2025.3 AND Profitbase Flow 1.6. 
+Requirements: Hypergene InVision platform version 2025.3 AND Profitbase Flow 1.6. 
 
 **NOTE:** 	The solution you want to upgrade MUST be connected to Flow BEFORE you upgrade, contact Profitbase to make sure that that is the case or how to connect.
 
@@ -129,7 +129,7 @@ Supports upgrade to Planner 6.0.2 from Planner 5.3.0 or newer versions (see note
 When upgrading to the next version after 6.0.2, upgrading from versions older than 5.4.0 will no longer be supported. It is therefore strongly recommended to keep your Planner version as up to date as possible. 
 Furthermore, while switching to flow-based transaction pipelines is currently optional, it is strongly recommended to do so as soon as possible as dual pipeline support will be deprecated in the next upcoming Planner release 6.1.0.
 
-Requirements: Profitbase InVision platform version 2024.4 AND Profitbase Flow 1.3. NOTE that if your solution is already upgraded to Planner 6.0.0 or 6.0.1, upgrading to Flow 1.3 will cause the pipeline flows to fail so that upgradeing to Flow 1.3 and Planner 6.0.2 should be synchronized.
+Requirements: Hypergene InVision platform version 2024.4 AND Profitbase Flow 1.3. NOTE that if your solution is already upgraded to Planner 6.0.0 or 6.0.1, upgrading to Flow 1.3 will cause the pipeline flows to fail so that upgradeing to Flow 1.3 and Planner 6.0.2 should be synchronized.
 Alternatively, existing flow pipelines may be patched prior to upgrading to Flow 1.3. Contact Profitbase for details on the patch procedure.
 
 **NOTE:** 	The solution you want to upgrade MUST be connected to Flow BEFORE you upgrade, contact Profitbase to make sure that that is the case or how to connect.
@@ -161,7 +161,7 @@ Supports upgrade to Planner 6.0.1 from Planner 5.2.4 or newer versions (see note
 
 When upgrading to the next version after 6.0.1, upgrading from versions older than 5.3.0 will no longer be supported. It is therefore strongly recommended to keep your Planner version as up to date as possible.
 
-Requirements: Profitbase InVision platform version 2024.2 AND Profitbase Flow 1.2 and a Planner solution upgraded to 5.5.1 using the standard procedure
+Requirements: Hypergene InVision platform version 2024.2 AND Profitbase Flow 1.2 and a Planner solution upgraded to 5.5.1 using the standard procedure
 
 **NOTE:** The solution you want to upgrade MUST be connected to Flow BEFORE you upgrade, contact Profitbase to make sure that that is the case or how to connect.
 
@@ -194,7 +194,7 @@ Supports upgrade to Planner 6.0.0 from Planner 5.5.1 (see note below).
 
 When upgrading to the next version after 6.0.0, upgrading from versions older than 5.2.4 will no longer be supported. It is therefore strongly recommended to keep your Planner version as up to date as possible.
 
-Requirements: Profitbase InVision platform version 2024.2 AND Profitbase Flow 1.0 and a Planner solution upgraded to 5.5.1 using the standard procedure
+Requirements: Hypergene InVision platform version 2024.2 AND Profitbase Flow 1.0 and a Planner solution upgraded to 5.5.1 using the standard procedure
 
 **NOTE:** The solution you want to upgrade MUST be connected to Flow BEFORE you upgrade, contact Profitbase to make sure that that is the case or how to connect.
 
@@ -230,7 +230,7 @@ Supports upgrade to Planner 5.5.0 from Planner 5.2.1, 5.2.2, 5.2.3, 5.2.4, 5.3.0
 
 When upgrading to the next version after 5.5.0, upgrading from versions older than 5.2.2 will no longer be supported. It is therefore strongly recommended to keep your Planner version as up to date as possible.
 
-Requirements: Profitbase InVision platform version 2023.7.
+Requirements: Hypergene InVision platform version 2023.7.
 
 Notes:
 
@@ -259,7 +259,7 @@ Supports upgrade to Planner 5.4.1 from Planner 5.2.x, 5.3.0, 5.4.0.
 
 When upgrading to the next version after 5.4.1, upgrading from versions older than 5.2.1 will no longer be supported. It is therefore strongly recommended to keep your Planner version as up to date as possible.
 
-Requirements: Profitbase InVision platform version 2023.5.
+Requirements: Hypergene InVision platform version 2023.5.
 
 Notes:
 

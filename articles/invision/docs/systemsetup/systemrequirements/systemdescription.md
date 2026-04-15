@@ -36,7 +36,7 @@ The Data Flow Scheduler is responsible for running scheduled Data Flows.
 
 ## Solution System Database(s)
 
-Profitbase InVision stores its metadata and business data in SQL Server databases. By default, both the metadata and business data are stored in the Solution Database. If you want, you can choose to put the business data in one or more separate databases. 
+Hypergene InVision stores its metadata and business data in SQL Server databases. By default, both the metadata and business data are stored in the Solution Database. If you want, you can choose to put the business data in one or more separate databases. 
 <br/>
 
 ![System Schematics](https://profitbasedocs.blob.core.windows.net/images/systemschematics.jpg "System Schematics")

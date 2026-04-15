@@ -1,7 +1,7 @@
 
 
 
-# Profitbase Invision
+# Hypergene InVision
 
 * [Changelog](./changelog.md)
 * [Docs](./docs/index.md)
@@ -13,13 +13,13 @@
 
 <br/>
 
-Profitbase InVision is a low-code empowering users to swiftly and effectively create adaptable business apps on a modern and robust technology stack. Users can leverage the platform's comprehensive standard components to develop a wide range of solutions, including user interfaces and back-end services. This streamlined approach significantly reduces both cost and time when implementing projects.
+Hypergene InVision is a low-code empowering users to swiftly and effectively create adaptable business apps on a modern and robust technology stack. Users can leverage the platform's comprehensive standard components to develop a wide range of solutions, including user interfaces and back-end services. This streamlined approach significantly reduces both cost and time when implementing projects.
 
-Users utilize the Profitbase InVision Designer to construct applications, which are subsequently published as web applications within the organization. These web applications require minimal or no training to operate effectively.
+Users utilize the Hypergene InVision Designer to construct applications, which are subsequently published as web applications within the organization. These web applications require minimal or no training to operate effectively.
 
 Within a matter of minutes, users can install pre-built modules, and optionally customize them to precisely meet the specific requirements of the business.
 
-Profitbase InVision seamlessly integrates with other business systems through REST APIs or direct connection to the SQL data storage, facilitating effortless connectivity.
+Hypergene InVision seamlessly integrates with other business systems through REST APIs or direct connection to the SQL data storage, facilitating effortless connectivity.
 
 <br/>
 

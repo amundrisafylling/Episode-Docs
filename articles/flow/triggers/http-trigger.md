@@ -37,7 +37,7 @@ This trigger returns a single variable with the specified name and Output data t
 <br/>
 
 ## Default data
-While developing a Flow that will be executed from 3rd party clients like Profitbase InVision or custom apps, you most likely want to test the Flow by executing it from the Designer. This way, you don't have to switch to the 3rd party apps to do test runs.  
+While developing a Flow that will be executed from 3rd party clients like Hypergene InVision or custom apps, you most likely want to test the Flow by executing it from the Designer. This way, you don't have to switch to the 3rd party apps to do test runs.  
 If the Flow expects a parameter, you can use the `Default data` property to define a mock business object that is used when the Flow executes. Note that the Default data object is also used as parameter data if no data is passed from the caller (3rd party app), so remember to remove the Default data definition when you're done developing the Flow (unless you want to enable a fallback value if 3rd party clients do not provide a value to the parameter).
 
 
