@@ -1,6 +1,6 @@
 # Deploy Work Process Version
 
-Deploys a Work Process Version by generating a solution based on the blueprint selection defined in the Work Process. Once deployed, the version's state is marked as **Deployed** and it becomes available to be opened for contributor input.
+Deploys a Work Process Version, making it available to be opened for contributor input. Once deployed, the version's state is marked as **Deployed**.
 
 Use this action after [Create Work Process Version](./create-work-process-version.md) as part of an automated planning cycle setup, or as a standalone step when redeploying an existing version after configuration changes.
 
@@ -35,7 +35,7 @@ Use a [Condition](../../built-in/if.md) action after this step to branch your fl
 ## Notes
 
 - **Deployment rebuilds the solution**: Deploying recreates the solution based on the current blueprint selection. If the Work Process blueprint has changed since the last deployment, those changes will be reflected.
-- **Redeployment**: Deploying an already-deployed version is valid and will redeploy it. This is useful when stored procedures or views have been updated using [Deploy Stored Procedure](../../profitbase-invision/deploy-stored-procedure.md) or [Deploy View](../../profitbase-invision/deploy-view.md).
+- **Redeployment**: Deploying an already-deployed version is valid and will redeploy it. This is useful when the Work Process configuration has changed since the last deployment.
 - **Permissions**: The InVision account used by the connection must have sufficient rights to deploy Work Process Versions.
 
 ## Related Actions
