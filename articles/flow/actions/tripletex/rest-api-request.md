@@ -15,11 +15,11 @@ The **Tripletex REST API Request** action allows you to interact with Tripletex 
 
 | Name          | Required | Description                                   |
 | ------------- | -------- | ----------------------------------------------- |
-| Title  | Optional  |  The title or name of the request.      |
-| Connection      | Required | The [Tripletex Connection](./tripletex-connection.md) used to make an authenticated request to Tripletex REST API.         |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Configuration | Required | Specifies the HTTP request to the Tripletex API, including the HTTP method, URL, parameters and return type.                                                                                                             |
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No |  The title or name of the request.      |
+| Connection      | Yes | The [Tripletex Connection](./tripletex-connection.md) used to make an authenticated request to Tripletex REST API.         |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Configuration | Yes | Specifies the HTTP request to the Tripletex API, including the HTTP method, URL, parameters and return type.                                                                                                             |
+| Description | No | Additional notes or comments about the action or configuration. |
 
 
 <br/>

@@ -21,15 +21,15 @@ This flow creates a CSV stream from input data using [Create CSV file as stream]
 
 | Name                    | Required | Description                                                                                                                                  |
 |-------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Title                   | Optional | A display label for this action in the flow editor.                                                                                          |
-| Connection              | Required | The Snowflake [connection](./connecting-to-snowflake.md) to use.                                                                             |
-| Stage name              | Required | An existing [stage](https://docs.snowflake.com/en/sql-reference/sql/create-stage) name. The `@` prefix is added automatically. The stage must be set up before running this action. |
-| File name               | Required | The name of the file to import from within the stage.                                                                                        |
-| File format settings    | Required | The file type (CSV, JSON, or Parquet) and its parsing options. Settings vary by format — see [File format settings](#file-format-settings) below. |
-| Destination table       | Required | The Snowflake table to copy data into. You can select an existing table or enter a name.                                                     |
-| Transformation/mappings | Optional | Maps file fields to destination table columns. Required when using Parquet format.                                                           |
-| Result variable name    | Optional | Stores the number of inserted rows for use later in the flow.                                                                                |
-| Description             | Optional | Notes about this action's configuration.                                                                                                     |
+| Title                   | No | A display label for this action in the flow editor.                                                                                          |
+| Connection              | Yes | The Snowflake [connection](./connecting-to-snowflake.md) to use.                                                                             |
+| Stage name              | Yes | An existing [stage](https://docs.snowflake.com/en/sql-reference/sql/create-stage) name. The `@` prefix is added automatically. The stage must be set up before running this action. |
+| File name               | Yes | The name of the file to import from within the stage.                                                                                        |
+| File format settings    | Yes | The file type (CSV, JSON, or Parquet) and its parsing options. Settings vary by format — see [File format settings](#file-format-settings) below. |
+| Destination table       | Yes | The Snowflake table to copy data into. You can select an existing table or enter a name.                                                     |
+| Transformation/mappings | No | Maps file fields to destination table columns. Required when using Parquet format.                                                           |
+| Result variable name    | No | Stores the number of inserted rows for use later in the flow.                                                                                |
+| Description             | No | Notes about this action's configuration.                                                                                                     |
 
 <br/>
 

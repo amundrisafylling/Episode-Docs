@@ -5,12 +5,12 @@ Technically, a Lookup table object is made up of `Keys` and `Values`, where the 
 
 ## Properties  
 
-| Name         | Type             | Description                                                |
+| Name         | Required | Description                                                |
 |--------------|------------------|------------------------------------------------------------|
-| Key columns  | Optional         | All Lookup tables must have at least one logical key unless you only want to run manual lookups. If no primary key is defined on the table in InVision, or you want to use a different set of columns to make up the key, you can specify the key manually here. |
-| Data         | Optional         | Specifies the fields / columns from the Lookup table that you want to use for calculation parameters and other types of business logic. By default, all non-key columns are automatically available.                                                   |
-| Key mappings | Optional         | Use this option to define explicit mapping between the `Key columns` and the (corresponding) columns in the data source when names does not match. Flow determines which Auto Transactions to use by comparing the values in the `Key columns` to the corresponding columns in the input row from the data source. If not specified otherwise, it matches against columns with the same name. If you need a different behavior, you need to specify the mapping between the keys explicitly. |
-| Options       | Optional | **Disable caching**: Enable this option if you are _generating_ the data in the Lookup table using a custom SQL script. When generating data into a table using a custom SQL script, InVision will not be able to detect the change and notify Flow to invalidate its cache. You can also use the [Remove InVision object from cache](../../built-in/remove-invision-object-from-cache.md) action to programatically evict the table from cache.  |
+| Key columns  | No | All Lookup tables must have at least one logical key unless you only want to run manual lookups. If no primary key is defined on the table in InVision, or you want to use a different set of columns to make up the key, you can specify the key manually here. |
+| Data         | No | Specifies the fields / columns from the Lookup table that you want to use for calculation parameters and other types of business logic. By default, all non-key columns are automatically available.                                                   |
+| Key mappings | No | Use this option to define explicit mapping between the `Key columns` and the (corresponding) columns in the data source when names does not match. Flow determines which Auto Transactions to use by comparing the values in the `Key columns` to the corresponding columns in the input row from the data source. If not specified otherwise, it matches against columns with the same name. If you need a different behavior, you need to specify the mapping between the keys explicitly. |
+| Options       | No | **Disable caching**: Enable this option if you are _generating_ the data in the Lookup table using a custom SQL script. When generating data into a table using a custom SQL script, InVision will not be able to detect the change and notify Flow to invalidate its cache. You can also use the [Remove InVision object from cache](../../built-in/remove-invision-object-from-cache.md) action to programatically evict the table from cache.  |
 
 ---
 

@@ -29,11 +29,11 @@ If credentials are stored outside Flow, for example in Azure SQL, PostgreSQL, or
 
 | Name | Required | Description |
 |------|----------|-------------|
-| Title | Optional | A descriptive title for the action. |
-| API key | Required | The API key used to authenticate against the Azure AI resource. |
-| Endpoint | Required | The endpoint URL of the Azure AI resource. |
-| Connection variable name | Required | The variable name that will store the created connection object. This variable can be passed to Azure AI actions as a dynamic connection. |
-| Description | Optional | Additional notes about the action. |
+| Title | No | A descriptive title for the action. |
+| API key | Yes | The API key used to authenticate against the Azure AI resource. |
+| Endpoint | Yes | The endpoint URL of the Azure AI resource. |
+| Connection variable name | Yes | The variable name that will store the created connection object. This variable can be passed to Azure AI actions as a dynamic connection. |
+| Description | No | Additional notes about the action. |
 
 <br/>
 

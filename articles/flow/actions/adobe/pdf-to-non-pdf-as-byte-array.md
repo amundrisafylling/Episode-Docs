@@ -13,11 +13,11 @@ This flow takes documentation in a PDF file from [OneDrive](../onedrive/read-fil
 
 | Name                   | Required | Description                                                                                                                                                     |
 |------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Connection         | Required | The connection to the [Adobe PDF Services](https://developer.adobe.com/document-services/docs/overview/pdf-services-api/).                                          |
-| Target format      | Required | The format to which the PDF will be converted. Available formats are DOC, DOCX, PPTX, RTF and XLSX.                                                                              |
-| File contents      | Required | The input file data as a byte array.      |
-| Result variable name | Optional | The name of the variable in which the resulting file (converted document) will be stored. This variable can be used in subsequent steps of the flow.            |
-| Description        | Optional | A user-defined description for the action, helpful for documentation or identifying the step's purpose within a larger flow.     |
+| Connection         | Yes | The connection to the [Adobe PDF Services](https://developer.adobe.com/document-services/docs/overview/pdf-services-api/).                                          |
+| Target format      | Yes | The format to which the PDF will be converted. Available formats are DOC, DOCX, PPTX, RTF and XLSX.                                                                              |
+| File contents      | Yes | The input file data as a byte array.      |
+| Result variable name | No | The name of the variable in which the resulting file (converted document) will be stored. This variable can be used in subsequent steps of the flow.            |
+| Description        | No | A user-defined description for the action, helpful for documentation or identifying the step's purpose within a larger flow.     |
 
 <br/>
 

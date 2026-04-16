@@ -2,7 +2,7 @@
 
 <br/>
 
-- **September 2024 update** for Profitbase Flow includes:
+- **September 2024 update** for Hypergene Flow includes:
   - New **Package Manager**.
   - Integration support for:
     - **Dynamics 365 Business Central**
@@ -13,7 +13,7 @@
 
 
 ## Package Manager
-We are excited to share that Profitbase Flow now includes a **Package Manager**. This enables users to create and share units of business logic spanning one or more flows, such as complex data integrations or automations.
+We are excited to share that Hypergene Flow now includes a **Package Manager**. This enables users to create and share units of business logic spanning one or more flows, such as complex data integrations or automations.
 
 ![Package Manager Screenshot](https://profitbasedocs.blob.core.windows.net/flowimages/package-manager-sept.png)
 
@@ -63,7 +63,7 @@ We've added new capabilities for creating Excel files:
 
 
 ## HTTP Authentication Options
-Profitbase Flow can now automatically handle **authentication** for HTTP request actions. This simplifies making generic requests to HTTP endpoints requiring authentication, as users no longer need to manually implement the authentication mechanism or add auth headers.
+Hypergene Flow can now automatically handle **authentication** for HTTP request actions. This simplifies making generic requests to HTTP endpoints requiring authentication, as users no longer need to manually implement the authentication mechanism or add auth headers.
 
 [Read more about HTTP authentication here](../actions/http/http-authentication.md).
 

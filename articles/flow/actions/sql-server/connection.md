@@ -1,6 +1,6 @@
 # SQL Server Connection
 
-To use SQL Server actions in **Profitbase Flow**, you need to configure a connection by either selecting an **existing connection** or creating a new one.
+To use SQL Server actions in **Hypergene Flow**, you need to configure a connection by either selecting an **existing connection** or creating a new one.
 
 <br/>
 
@@ -19,11 +19,11 @@ Before entering server details, select the appropriate **connection type** (auth
 
 | Property                       | Required | Description |
 |--------------------------------|----------|-------------|
-| Server name                    | Required | The SQL Server hostname, IP address, or named instance. |
-| Database name                  | Required | The specific database to connect to. |
-| Username                       | Required | The user login or Entra ID (email address). |
-| Password                       | Required | The password for the user. |
-| Enable Multiple Active Result Sets | Required | Allows multiple concurrent queries on a single connection. [Learn more](https://learn.microsoft.com/en-us/sql/connect/ado-net/sql/enable-multiple-active-result-sets?view=sql-server-ver16). |
+| Server name                    | Yes | The SQL Server hostname, IP address, or named instance. |
+| Database name                  | Yes | The specific database to connect to. |
+| Username                       | Yes | The user login or Entra ID (email address). |
+| Password                       | Yes | The password for the user. |
+| Enable Multiple Active Result Sets | Yes | Allows multiple concurrent queries on a single connection. [Learn more](https://learn.microsoft.com/en-us/sql/connect/ado-net/sql/enable-multiple-active-result-sets?view=sql-server-ver16). |
 
 <br/>
 
@@ -31,11 +31,11 @@ Before entering server details, select the appropriate **connection type** (auth
 
 | Property                       | Required | Description |
 |--------------------------------|----------|-------------|
-| Server name                    | Required | The SQL Server hostname, IP address, or named instance. |
-| Database name                  | Required | The specific database to connect to. |
-| Client Id                      | Required | The App Registration (client) ID from Azure AD. |
-| Client secret                  | Required | The secret associated with the App Registration. |
-| Enable Multiple Active Result Sets | Required | Allows multiple concurrent queries on a single connection. [Learn more](https://learn.microsoft.com/en-us/sql/connect/ado-net/sql/enable-multiple-active-result-sets?view=sql-server-ver16). |
+| Server name                    | Yes | The SQL Server hostname, IP address, or named instance. |
+| Database name                  | Yes | The specific database to connect to. |
+| Client Id                      | Yes | The App Registration (client) ID from Azure AD. |
+| Client secret                  | Yes | The secret associated with the App Registration. |
+| Enable Multiple Active Result Sets | Yes | Allows multiple concurrent queries on a single connection. [Learn more](https://learn.microsoft.com/en-us/sql/connect/ado-net/sql/enable-multiple-active-result-sets?view=sql-server-ver16). |
 
 <br/>
 
@@ -43,7 +43,7 @@ Before entering server details, select the appropriate **connection type** (auth
 
 | Property         | Required | Description |
 |------------------|----------|-------------|
-| Connection String | Required | A full custom connection string that defines all necessary parameters for connecting to SQL Server. |
+| Connection String | Yes | A full custom connection string that defines all necessary parameters for connecting to SQL Server. |
 
 This method bypasses form-based input and should be used by advanced users who prefer complete control over connection parameters.
 

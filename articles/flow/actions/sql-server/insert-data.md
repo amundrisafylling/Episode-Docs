@@ -22,15 +22,15 @@ The example above takes a file from storage, reads its JSON content, saves the d
 
 | Name                  | Required | Description                                                                 |
 |-----------------------|-----------|-----------------------------------------------------------------------------|
-| Title                 | Optional  | A descriptive title for the action.                                         |
-| Connection            | Required  | The [SQL Server Connection](./connection.md).                               |
-| Dynamic connection    | Optional  | Use this option to select a connection created by the [Create Connection](./create-connection.md) action. |
-| Source                | Required  | The data to insert. This can be a DataReader or a DataTable.                |
-| Destination table     | Required  | Select or enter the name of the table to insert data into.                  |
-| Batch size            | Optional  | The number of rows inserted per batch. The default is 5000. The batch size can affect performance, and the optimal setting may vary. |
-| Result variable name  | Optional  | The name of the variable that will contain the number of rows inserted.     |
-| Command timeout (sec) | Optional  | The time limit for command execution before timing out. The default is 120 seconds. |
-| Description           | Optional  | Additional notes or comments about the action or configuration.              |
+| Title                 | No | A descriptive title for the action.                                         |
+| Connection            | Yes | The [SQL Server Connection](./connection.md).                               |
+| Dynamic connection    | No | Use this option to select a connection created by the [Create Connection](./create-connection.md) action. |
+| Source                | Yes | The data to insert. This can be a DataReader or a DataTable.                |
+| Destination table     | Yes | Select or enter the name of the table to insert data into.                  |
+| Batch size            | No | The number of rows inserted per batch. The default is 5000. The batch size can affect performance, and the optimal setting may vary. |
+| Result variable name  | No | The name of the variable that will contain the number of rows inserted.     |
+| Command timeout (sec) | No | The time limit for command execution before timing out. The default is 120 seconds. |
+| Description           | No | Additional notes or comments about the action or configuration.              |
 
 ## Target table schema
 

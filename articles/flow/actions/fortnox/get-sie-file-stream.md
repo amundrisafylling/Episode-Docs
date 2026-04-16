@@ -20,13 +20,13 @@ The example above shows how a SIE file is read from Fortnox and parsed with the 
 
 | Name            | Required | Description            |
 |---------------- | -------- | ---------------------- |
-| Title           | Optional | The title or name of the request.                              |
-| Connection      | Required | The [Fortnox Connection](./connection.md) used to make an authenticated request to the Fortnox REST API. |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| SIE type        | Required | Specifies the SIE type (1-4). |
-| Financial year index | Required | Index of the financial year. |
-| Result variable name | Required | Name of the variable returning the file stream. |
-| Description     | Optional | Additional notes or comments about the action or configuration. |
+| Title           | No | The title or name of the request.                              |
+| Connection      | Yes | The [Fortnox Connection](./connection.md) used to make an authenticated request to the Fortnox REST API. |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| SIE type        | Yes | Specifies the SIE type (1-4). |
+| Financial year index | Yes | Index of the financial year. |
+| Result variable name | Yes | Name of the variable returning the file stream. |
+| Description     | No | Additional notes or comments about the action or configuration. |
 
 <br>
 

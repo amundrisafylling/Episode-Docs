@@ -11,14 +11,14 @@ This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at
 
 | Name | Required | Description |
 |------|----------|-------------|
-| Title | Optional | A descriptive title for the action, shown in the Flow designer canvas. |
-| Connection | Required | The [InVision Connection](../invision-connection.md) to authenticate against. |
-| Work Process Version | Required | The version to delete. Select from the list, choose from a Flow Variable, or choose from a Workspace Variable. |
-| Include information messages in log | Optional | When enabled, informational messages from InVision are written to the Flow's execution log. Useful for debugging. |
-| Force delete | Optional | Forces deletion of versions that cannot be removed through a normal delete — for example, versions left in a partially deleted state. Use this as a fallback when a standard delete returns `false`. |
-| Changed by | Optional | The InVision user ID to record as the actor in the audit history. If omitted, the connection's service account is used. |
-| Result variable name | Optional | Name of a Flow variable that will receive `true` if the version was deleted successfully, or `false` if the operation failed. |
-| Description | Optional | Free-text notes about this action's purpose or configuration. Not used at runtime. |
+| Title | No | A descriptive title for the action, shown in the Flow designer canvas. |
+| Connection | Yes | The [InVision Connection](../invision-connection.md) to authenticate against. |
+| Work Process Version | Yes | The version to delete. Select from the list, choose from a Flow Variable, or choose from a Workspace Variable. |
+| Include information messages in log | No | When enabled, informational messages from InVision are written to the Flow's execution log. Useful for debugging. |
+| Force delete | No | Forces deletion of versions that cannot be removed through a normal delete — for example, versions left in a partially deleted state. Use this as a fallback when a standard delete returns `false`. |
+| Changed by | No | The InVision user ID to record as the actor in the audit history. If omitted, the connection's service account is used. |
+| Result variable name | No | Name of a Flow variable that will receive `true` if the version was deleted successfully, or `false` if the operation failed. |
+| Description | No | Free-text notes about this action's purpose or configuration. Not used at runtime. |
 
 ## Result Variable
 

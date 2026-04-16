@@ -21,12 +21,12 @@ The Flow is useful when building chat-based experiences that require both conver
 
 | Name                | Required | Description |
 |---------------------|------------|-------------|
-| Title           | Optional   | The title of the action. |
-| Connection      | Required   | The Tavily [connection](connection.md) used to authenticate and perform the search. |
-| Max results     | Optional   | Limits the maximum number of search results returned. |
-| Max content length | Optional | The maximum total content size that can be retrieved for each result. |
-| Include answer | Optional | When checked, the action attempts to retrieve a direct answer from the search. |
-| Extract full content | Optional | When checked, the tool attempts to retrieve full page content. |
-| Include domains | Optional | Semicolon-separated list of domains to include in the search. |
-| Request timeout (seconds) | Optional | Timeout for executing the search request. Default is 30 seconds. |
-| Description     | Optional   |  Additional notes or comments about the action or configuration. |
+| Title           | No | The title of the action. |
+| Connection      | Yes | The Tavily [connection](connection.md) used to authenticate and perform the search. |
+| Max results     | No | Limits the maximum number of search results returned. |
+| Max content length | No | The maximum total content size that can be retrieved for each result. |
+| Include answer | No | When checked, the action attempts to retrieve a direct answer from the search. |
+| Extract full content | No | When checked, the tool attempts to retrieve full page content. |
+| Include domains | No | Semicolon-separated list of domains to include in the search. |
+| Request timeout (seconds) | No | Timeout for executing the search request. Default is 30 seconds. |
+| Description     | No |  Additional notes or comments about the action or configuration. |

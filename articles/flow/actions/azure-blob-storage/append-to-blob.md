@@ -13,11 +13,11 @@ Actions used in the flow are: SQL Server [Get DataReader](../sql-server/get-data
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title             |       |                                             |
-| Connection       | Required  | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
-| Dynamic connection | Optional   | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action.    |
-| Blob name        | Required  | The name of the blob to append to. If the blob does not already exist, it will be created. |
-| Blob data        | Required  | A byte array or stream input. |
-| Description |Optional|  Additional notes or comments about the action or configuration. |
+| Connection       | Yes | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
+| Dynamic connection | No | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action.    |
+| Blob name        | Yes | The name of the blob to append to. If the blob does not already exist, it will be created. |
+| Blob data        | Yes | A byte array or stream input. |
+| Description | No |  Additional notes or comments about the action or configuration. |
 
 <br/>
 

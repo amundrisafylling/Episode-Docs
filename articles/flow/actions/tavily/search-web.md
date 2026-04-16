@@ -17,17 +17,17 @@ This Flow uses a [Truncate table](../../actions/sql-server/truncate-table.md) ac
 
 | Name                | Required | Description |
 |---------------------|------------|-------------|
-| Title           | Optional   | The title of the action. |
-| Connection      | Required   | Tavily [connection](connection.md) used for executing the query. |
-| Query           | Required   | The text-based search query used to retrieve results. |
-| Max results     | Optional   | Limits how many results to retrieve and iterate through. |
-| Max content length | Optional | Maximum amount of page content to fetch per result. |
-| Include answer | Optional | When checked, the action attempts to retrieve a direct answer from the search. |
-| Extract full content | Optional | When checked, the tool attempts to retrieve full page content. |
-| Include domains | Optional | Semicolon-separated list of domains to include in the search. |
-| Request timeout (seconds) | Optional | Timeout for the search request. Default is 30 seconds. |
-| Search result variable name | Optional | Name of the return variable (default: `searchResult`). |
-| Description     | Optional   | A description displayed in the designer. |
+| Title           | No | The title of the action. |
+| Connection      | Yes | Tavily [connection](connection.md) used for executing the query. |
+| Query           | Yes | The text-based search query used to retrieve results. |
+| Max results     | No | Limits how many results to retrieve and iterate through. |
+| Max content length | No | Maximum amount of page content to fetch per result. |
+| Include answer | No | When checked, the action attempts to retrieve a direct answer from the search. |
+| Extract full content | No | When checked, the tool attempts to retrieve full page content. |
+| Include domains | No | Semicolon-separated list of domains to include in the search. |
+| Request timeout (seconds) | No | Timeout for the search request. Default is 30 seconds. |
+| Search result variable name | No | Name of the return variable (default: `searchResult`). |
+| Description     | No | A description displayed in the designer. |
 
 <br/>
 

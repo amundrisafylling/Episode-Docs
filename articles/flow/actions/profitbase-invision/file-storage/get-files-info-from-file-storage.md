@@ -16,13 +16,13 @@ In short, the flow creates a file, retrieves file metadata from File Storage, an
 
 | Name | Type | Description |
 |------|------|-------------|
-| Title | Optional | A descriptive title for the action. |
-| Connection | Required | [The InVision connection](../invision-connection.md) used to access File Storage. |
-| File storage | Required | The File Storage instance to retrieve file metadata from. |
-| File context | Optional | The source of the file context used to filter or scope the files. |
-| Result variable name | Required | The variable that receives the list of file metadata. |
-| Disabled | Optional | Specifies whether the action is disabled (true/false). |
-| Description | Optional | Additional notes or details about the action. |
+| Title | No | A descriptive title for the action. |
+| Connection | Yes | [The InVision connection](../invision-connection.md) used to access File Storage. |
+| File storage | Yes | The File Storage instance to retrieve file metadata from. |
+| File context | No | The source of the file context used to filter or scope the files. |
+| Result variable name | Yes | The variable that receives the list of file metadata. |
+| Disabled | No | Specifies whether the action is disabled (true/false). |
+| Description | No | Additional notes or details about the action. |
 
 </br>
 

@@ -12,10 +12,10 @@ This flow retrieves a list of OneDrive items (files and optionally folders) from
 
 | Name                 | Required | Description                                                                                                    |
 | -------------------- | -------- | -------------------------------------------------------------------------------------------------------------- |
-| Connection           | Required | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`. |
-| Folder               | Optional | The OneDrive folder to read from.                                                                              |
-| Include folders      | Optional | True to include folders in the list of [OneDriveItems](./api-reference/onedrive-item.md) to return.            |
-| Result variable name | Required | The name of the variable that contains the list of [OneDriveItems](./api-reference/onedrive-item.md) returned. |
+| Connection           | Yes | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`. |
+| Folder               | No | The OneDrive folder to read from.                                                                              |
+| Include folders      | No | True to include folders in the list of [OneDriveItems](./api-reference/onedrive-item.md) to return.            |
+| Result variable name | Yes | The name of the variable that contains the list of [OneDriveItems](./api-reference/onedrive-item.md) returned. |
 
 <br/>
 

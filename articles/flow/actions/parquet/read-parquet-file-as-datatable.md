@@ -18,12 +18,12 @@ The flow starts with a [Function](../built-in/function.md) that returns a list o
 
 | Name                | Required | Description |
 |---------------------|----------|-------------|
-| Title               | Optional | A descriptive name for the action shown in the flow. |
-| File contents       | Required | The contents of the Parquet file provided as either a stream or a byte array. |
-| Column mappings     | Optional | Defines how columns in the Parquet file are mapped to the output table. You can rename columns, define their data types, or exclude columns you do not want to read. Column mappings can be defined statically or provided dynamically using a function. |
-| Table variable name | Required | The name of the DataTable variable that will store the data read from the Parquet file. |
-| Disabled            | Optional | If enabled, the action is skipped during execution. |
-| Description         | Optional | Additional notes or comments about the action configuration. |
+| Title               | No | A descriptive name for the action shown in the flow. |
+| File contents       | Yes | The contents of the Parquet file provided as either a stream or a byte array. |
+| Column mappings     | No | Defines how columns in the Parquet file are mapped to the output table. You can rename columns, define their data types, or exclude columns you do not want to read. Column mappings can be defined statically or provided dynamically using a function. |
+| Table variable name | Yes | The name of the DataTable variable that will store the data read from the Parquet file. |
+| Disabled            | No | If enabled, the action is skipped during execution. |
+| Description         | No | Additional notes or comments about the action configuration. |
 
 
 ### Column mapping

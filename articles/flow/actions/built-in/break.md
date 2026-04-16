@@ -12,5 +12,5 @@ This flow continuously checks if the system is in maintenance mode, and immediat
 
 | Name                      | Type | Description                                                                       |
 | ------------------------- | --------- | --------------------------------------------------------------------------------- |
-| Title                     | Optional  | The title or name of the action.                                                 |
-| Description               | Optional  | Additional notes or comments about the action or configuration.                   |
+| Title                     | No | The title or name of the action.                                                 |
+| Description               | No | Additional notes or comments about the action or configuration.                   |

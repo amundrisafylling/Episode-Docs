@@ -11,8 +11,8 @@ This flow ensures that data is either appended to an existing file or a new obje
 
 | Name        | Required | Description                                                                                 |
 | ----------- | -------- | ------------------------------------------------------------------------------------------- |
-| Title       | Optional |  The title of the action.   |
-| Connection  | Required | Specify the [connection](connecting-to-amazon-s3.md) to the Amazon S3 bucket. |
-| Object name | Required | The name of the object to append to. If the object doesn't exist yet, it will be created.        |
-| Object data        | Required  | The data to append. It must be a byte array or [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream) |
-| Description | Optional | Additional notes or comments about the action or configuration.  |
+| Title       | No |  The title of the action.   |
+| Connection  | Yes | Specify the [connection](connecting-to-amazon-s3.md) to the Amazon S3 bucket. |
+| Object name | Yes | The name of the object to append to. If the object doesn't exist yet, it will be created.        |
+| Object data        | Yes | The data to append. It must be a byte array or [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream) |
+| Description | No | Additional notes or comments about the action or configuration.  |

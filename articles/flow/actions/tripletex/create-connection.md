@@ -11,8 +11,8 @@ If you store the credentials for the Tripletex outside Flow (for example in your
 
 | Name                            | Type        | Description                                            |
 |---------------------------------|-------------|--------------------------------------------------------|
-| Connection Name                 | Required    | Name of the connection object.                         |
-| Consumer token                  | Required    | A token used to authenticate the consumer.             |
-| Employee token                  | Required    | A token used to authenticate the employee.             |
-| Default company Id              | Optional    | The ID of the default company for the connection.      |
-| Use Demo URLs                   | Optional    | Enables testing in a sandbox environment when checked. |
+| Connection Name                 | Yes | Name of the connection object.                         |
+| Consumer token                  | Yes | A token used to authenticate the consumer.             |
+| Employee token                  | Yes | A token used to authenticate the employee.             |
+| Default company Id              | No | The ID of the default company for the connection.      |
+| Use Demo URLs                   | No | Enables testing in a sandbox environment when checked. |

@@ -12,10 +12,10 @@ This flow uses the While action to repeatedly execute a set of actions as long a
 
 | Name                            | Data Type   | Description                                           |
 |---------------------------------|-------------|-------------------------------------------------------|
-| Title                 | Optional    | Name of the loop.                       |
-| Condition                  | Required    | Specifies the condition that must be satisfied in order to keep the loop running. The condition must evaluate to either a boolean `true` or `false`. When the condition no longer evaluates to true, the loop terminates.     |
-| Maximum number of iterations                  | Optional    | Sets a limit on the number of iterations the loop can perform before termination. The default value is 10 000. If set to 0 or blank, the loop will have no hard limit and runs until the `Condition` evaluates to `false`. You can use this property as a safeguard to prevent the loop from running forever. |
-| Description              | Optional    | Additional notes or comments about the action or configuration.    |
+| Title                 | No | Name of the loop.                       |
+| Condition                  | Yes | Specifies the condition that must be satisfied in order to keep the loop running. The condition must evaluate to either a boolean `true` or `false`. When the condition no longer evaluates to true, the loop terminates.     |
+| Maximum number of iterations                  | No | Sets a limit on the number of iterations the loop can perform before termination. The default value is 10 000. If set to 0 or blank, the loop will have no hard limit and runs until the `Condition` evaluates to `false`. You can use this property as a safeguard to prevent the loop from running forever. |
+| Description              | No | Additional notes or comments about the action or configuration.    |
 
 #### Maximum number of iterations
 

@@ -15,7 +15,7 @@ This Flow [retrieves](function.md) a list of employees, iterates over each emplo
 
 | Name            | Required | Description                                                   |
 |-----------------|-----------|---------------------------------------------------------------|
-| Title           | Optional  | The title or name of the action.                              |
-| Items           | Required  | The collection of items to iterate over.                      |
-| Loop Variable   | Optional  | The variable that holds the current item in each iteration.   |
-| Description     | Optional  | Additional notes or comments about the action or configuration. |
+| Title           | No | The title or name of the action.                              |
+| Items           | Yes | The collection of items to iterate over.                      |
+| Loop Variable   | No | The variable that holds the current item in each iteration.   |
+| Description     | No | Additional notes or comments about the action or configuration. |

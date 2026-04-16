@@ -16,8 +16,8 @@ The **Set variable** action is used to assign runtime values, such as the blob f
 
 | Name           | Required | Description                                                                  |
 |----------------|-----------|------------------------------------------------------------------------------|
-| Title          | Optional  | The title or name of the action.                                             |
-| Variable       | Required  | The variable that will receive the assigned value.                           |
-| Variable value | Required  | The value to assign to the selected variable. This can be static or dynamic. |
-| Disabled       | Optional  | If enabled, the action is skipped during flow execution.                     |
-| Description    | Optional  | Additional notes.          |
+| Title          | No | The title or name of the action.                                             |
+| Variable       | Yes | The variable that will receive the assigned value.                           |
+| Variable value | Yes | The value to assign to the selected variable. This can be static or dynamic. |
+| Disabled       | No | If enabled, the action is skipped during flow execution.                     |
+| Description    | No | Additional notes.          |

@@ -14,8 +14,8 @@ This flow retrieves all files from a OneDrive folder, processes only Excel files
 <!--prettier-ignore-->
 | Name                  | Required | Description        |
 |-----------------------|-----------|--------------------|
-| Connection            | Required  | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`.|
-| File                  | Required  | The path to the file in OneDrive. When using a [OneDriveItem](./api-reference/onedrive-item.md), use the `Path` property like shown in the example image below.  |
+| Connection            | Yes | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`.|
+| File                  | Yes | The path to the file in OneDrive. When using a [OneDriveItem](./api-reference/onedrive-item.md), use the `Path` property like shown in the example image below.  |
 
 > [!NOTE]
 > When you want to delete a file in OneDrive, you need to provide the `path` to the file, not the name. When using a [OneDriveItem](./api-reference/onedrive-item.md) as input, select the `Path` property like shown below.  

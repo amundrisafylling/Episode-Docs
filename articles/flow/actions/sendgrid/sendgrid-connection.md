@@ -1,6 +1,6 @@
 # SendGrid Connection
 
-To send emails using **SendGrid** in Profitbase Flow, you must create a connection using a valid **API key** and define one or more **approved sender addresses**.
+To send emails using **SendGrid** in Hypergene Flow, you must create a connection using a valid **API key** and define one or more **approved sender addresses**.
 
 This connection enables you to securely send transactional or notification emails directly from a flow.
 

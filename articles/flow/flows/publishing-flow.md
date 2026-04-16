@@ -5,7 +5,7 @@ To publish a Flow, open the Flow in the Designer and press Publish from the appl
 
 ![img](../../../images/publish-flow.png)
 
-Profitbase Flow defines three environments: 
+Hypergene Flow defines three environments: 
 
 -	Development 
 -	Test

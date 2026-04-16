@@ -2,7 +2,7 @@
 
 When adding a [Google BigQuery](https://cloud.google.com/bigquery/docs/introduction) action, select an [existing connection](../../workspaces/workspace-objects.md) or create a new one.
 
-Profitbase Flow supports two authentication methods:
+Hypergene Flow supports two authentication methods:
 - **User Authentication** (recommended for most cases)
 - **Custom Connection String (JSON)**
 

@@ -14,12 +14,12 @@ This flow checks if a specified blob in Azure Blob Storage was modified today by
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title | Optional | The title or name of the action. |
-| Connection       | Required  | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
-| Dynamic connection | Optional   | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action. |
-| Blob name | Required | The name of the blob from the list. |
-| Result variable name | Required | The name of the Flow variable that contains the list of the blob properties. |
-| Description | Optional | Additional notes or comments about the action or configuration.  |
+| Title | No | The title or name of the action. |
+| Connection       | Yes | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
+| Dynamic connection | No | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action. |
+| Blob name | Yes | The name of the blob from the list. |
+| Result variable name | Yes | The name of the Flow variable that contains the list of the blob properties. |
+| Description | No | Additional notes or comments about the action or configuration.  |
 
 <br/>
 

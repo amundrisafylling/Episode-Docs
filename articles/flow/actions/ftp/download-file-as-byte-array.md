@@ -15,12 +15,12 @@ This flow **downloads** an invoice as a PDF file from an FTP server, [converts](
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional |   The title of the action.       |
-| Connection | Required  | Select a connection to the FTP or SFTP server where the file is located. |
-| File name | Required | Select or enter the name of the file to download. |
-| Directory path | Optional | Select or enter the directory to download from. |
-| Return variable name | Required | Name of the variable containing the downloaded file. |
-| Description   | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No |   The title of the action.       |
+| Connection | Yes | Select a connection to the FTP or SFTP server where the file is located. |
+| File name | Yes | Select or enter the name of the file to download. |
+| Directory path | No | Select or enter the directory to download from. |
+| Return variable name | Yes | Name of the variable containing the downloaded file. |
+| Description   | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

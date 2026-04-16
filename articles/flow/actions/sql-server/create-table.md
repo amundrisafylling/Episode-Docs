@@ -11,13 +11,13 @@ If the table already exists, this action does nothing (no error is raised).
 
 | Name            | Type            | Description                                       |
 |-----------------|-----------------|---------------------------------------------------|
-| Title              | Optional        | A descriptive title for the action.               |
-| Connection      | Required | The [SQL Server Connection](./connection.md).         |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Table name   | Required      |  Name of the table to be created.  |
-| Column definition | Required  | A list of columns with data types. |
-| Command timeout (sec) | Optional | The time limit for command execution before it times out. Default is 120 seconds.|
-| Description   | Optional | Additional notes or comments about the action or configuration. |
+| Title              | No | A descriptive title for the action.               |
+| Connection      | Yes | The [SQL Server Connection](./connection.md).         |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Table name   | Yes |  Name of the table to be created.  |
+| Column definition | Yes | A list of columns with data types. |
+| Command timeout (sec) | No | The time limit for command execution before it times out. Default is 120 seconds.|
+| Description   | No | Additional notes or comments about the action or configuration. |
 
 
 

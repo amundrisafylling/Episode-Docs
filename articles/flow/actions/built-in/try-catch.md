@@ -20,7 +20,7 @@ This flow demonstrates how Try / Catch is used to handle runtime errors in a con
 
 | Property                   | Required | Description |
 |----------------------------|-----------|-------------|
-| Title                  | Optional  | A descriptive name for the **Try / Catch** block. |
+| Title                  | No | A descriptive name for the **Try / Catch** block. |
 | Exception variable name Optional  | Name of the variable that will store information about the exception when an error occurs in the **Try** block. |
-| Disabled               | Optional  | If enabled, the **Try / Catch** block will be skipped during flow execution. |
-| Description            | Optional  | Optional free-text description explaining the purpose of this **Try / Catch** block. |
+| Disabled               | No | If enabled, the **Try / Catch** block will be skipped during flow execution. |
+| Description            | No | Optional free-text description explaining the purpose of this **Try / Catch** block. |

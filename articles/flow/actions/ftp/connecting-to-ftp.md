@@ -1,6 +1,6 @@
 # FTP & SFTP Connection
 
-To use FTP or SFTP actions in [Profitbase Flow](https://docs.profitbase.com/articles/flow/actions/ftp/delete-file.html), you need to create a connection to the FTP/SFTP server.
+To use FTP or SFTP actions in [Hypergene Flow](https://docs.profitbase.com/articles/flow/actions/ftp/delete-file.html), you need to create a connection to the FTP/SFTP server.
 
 This guide outlines how to configure and test a new FTP or SFTP connection.
 

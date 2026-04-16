@@ -16,9 +16,9 @@ This flow [iterates](foreach-table-entity.md) through each employee in an Azure 
 
 | Name                   | Required | Description                |
 |------------------------|------------|---------------------------------|
-| Title              | Optional   | A user-defined title for the action.                 |
-| Connection         | Required   | Specify the [connection](connecting-to-azure-table-storage.md) to the Azure Table Storage account.        |
-| Table name         | Required   | The name of the table to insert into.                  |
-| PartitionKey  | Required   | Select or enter the value of `PartitionKey`.  |
-| RowKey    | Required   | Value of the `RowKey`.                                     |
+| Title              | No | A user-defined title for the action.                 |
+| Connection         | Yes | Specify the [connection](connecting-to-azure-table-storage.md) to the Azure Table Storage account.        |
+| Table name         | Yes | The name of the table to insert into.                  |
+| PartitionKey  | Yes | Select or enter the value of `PartitionKey`.  |
+| RowKey    | Yes | Value of the `RowKey`.                                     |
 

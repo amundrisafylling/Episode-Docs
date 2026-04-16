@@ -1,6 +1,6 @@
 # PostgreSQL Connection
 
-To interact with a PostgreSQL database using actions in **Profitbase Flow**, you need to either select an existing connection or create a new one.
+To interact with a PostgreSQL database using actions in **Hypergene Flow**, you need to either select an existing connection or create a new one.
 
 This guide explains how to configure a PostgreSQL connection and what each field means.
 

@@ -12,5 +12,5 @@ The example above shows a Flow that runs on a schedule, using an AI agent to che
 
 | Name       | Required           | Description                                |
 |------------|----------------|--------------------------------------------|
-| Connection | Required       | The [connection](./mcp-client-connection.md) to the MCP server.          |
-| Tools      | Optional       | The tools to expose to the [Tools AI Agent](../agents/tools-ai-agent.md). If _no_ tools are selected, _all_ available tools from the MCP server is exposed to the agent.<br/> **NOTE!**<br/>LLMs (which act as the AI agent's brain) can get confused if too many tools are available. Try to keep the number of tools they can choose from as small as possible.  |
+| Connection | Yes | The [connection](./mcp-client-connection.md) to the MCP server.          |
+| Tools      | No | The tools to expose to the [Tools AI Agent](../agents/tools-ai-agent.md). If _no_ tools are selected, _all_ available tools from the MCP server is exposed to the agent.<br/> **NOTE!**<br/>LLMs (which act as the AI agent's brain) can get confused if too many tools are available. Try to keep the number of tools they can choose from as small as possible.  |

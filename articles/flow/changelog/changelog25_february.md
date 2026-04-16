@@ -1,7 +1,7 @@
 # February 2025 Update  
 
 
-February 2025 update of Profitbase Flow, introducing new features and enhancements across various integrations and functionalities.
+February 2025 update of Hypergene Flow, introducing new features and enhancements across various integrations and functionalities.
 
 ## Microsoft Fabric
 

@@ -75,7 +75,7 @@ You can now specify whether a property in a Dimension should be visible to the u
 
 ### Flow integration
 
-InVision 2024.1 is the first version that ships with full support for [Profitbase Flow](../../flow/flow.md). Flow will be our  data integration, business logic, and business process automation platform going forward. 
+InVision 2024.1 is the first version that ships with full support for [Hypergene Flow](../../flow/flow.md). Flow will be our  data integration, business logic, and business process automation platform going forward. 
 
 <br/>
 <br/>

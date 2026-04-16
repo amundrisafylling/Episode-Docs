@@ -17,9 +17,9 @@ This flow retrieves filtered client data from a [GraphQL API](../graphql/graphql
 
 | Name          | Required | Description                                                                 |
 |---------------|----------|-----------------------------------------------------------------------------|
-| Title         | Optional | The title or name of the action.                                            |
-| Configuration | Required | Opens the configuration editor for the GraphQL request.                    |
-| Description   | Optional | A field to describe the action or its purpose.                             |
+| Title         | No | The title or name of the action.                                            |
+| Configuration | Yes | Opens the configuration editor for the GraphQL request.                    |
+| Description   | No | A field to describe the action or its purpose.                             |
 
 
 ## Returns
@@ -31,12 +31,12 @@ Returns the requested data converted to the object type defined in the Response 
 
 | Name          | Required | Description                                                                 |
 |---------------|----------|--------------------------------------------------|
-| URI           | Required | The endpoint URL of the GraphQL API to which the request will be sent.     |
-| Method        | Required | The HTTP method for the request         |
-| Query         | Required | The GraphQL query (or mutation) to execute.                                   |
-| Variables     | Optional | The list of variables used in the GraphQL query.                   |
-| Headers       | Optional | The list of custom HTTP headers used in the GraphQL query.              |
-| Response      | Optional | The object type of the query (or mutation) response data. |
+| URI           | Yes | The endpoint URL of the GraphQL API to which the request will be sent.     |
+| Method        | Yes | The HTTP method for the request         |
+| Query         | Yes | The GraphQL query (or mutation) to execute.                                   |
+| Variables     | No | The list of variables used in the GraphQL query.                   |
+| Headers       | No | The list of custom HTTP headers used in the GraphQL query.              |
+| Response      | No | The object type of the query (or mutation) response data. |
 
 
 ![img](../../../../images/flow/graphQLrequest.png)

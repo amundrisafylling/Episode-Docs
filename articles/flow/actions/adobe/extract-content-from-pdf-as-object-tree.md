@@ -15,9 +15,9 @@ The example above shows a Flow that automatically processes incoming emails with
 
 | Name                 | Type        | Description             |
 |----------------------|-------------|-------------------------|
-| Connection           | Required    | The [connection](./adobe-connection.md) for your Adobe PDF Services account.  |
-| File contents        | Required    | A stream or byte array containing the PDF file contents. |
-| Result variable name | Required    | The name of the variable containing the [PdfTree](./apis/pdf-tree.md) that you can use in a Function to extract the information you want from the PDF document.  |
+| Connection           | Yes | The [connection](./adobe-connection.md) for your Adobe PDF Services account.  |
+| File contents        | Yes | A stream or byte array containing the PDF file contents. |
+| Result variable name | Yes | The name of the variable containing the [PdfTree](./apis/pdf-tree.md) that you can use in a Function to extract the information you want from the PDF document.  |
 
 <br/>
 

@@ -12,11 +12,11 @@ This action returns a list of dimension information items. The list is then iter
 
 | Name | Type | Description |
 |------|------|-------------|
-| Title | Optional | The name of the action as shown in the flow. |
-| Connection | Required | A valid [InVision Connection](invision-connection.md) used to retrieve dimension metadata. |
-| Result variable name | Required | Name of the variable that stores the list of Primary Dimension information for use in subsequent actions. |
-| Disabled | Optional | Specifies whether the action is skipped during flow execution. |
-| Description | Optional | Additional notes about the action or its configuration. |
+| Title | No | The name of the action as shown in the flow. |
+| Connection | Yes | A valid [InVision Connection](invision-connection.md) used to retrieve dimension metadata. |
+| Result variable name | Yes | Name of the variable that stores the list of Primary Dimension information for use in subsequent actions. |
+| Disabled | No | Specifies whether the action is skipped during flow execution. |
+| Description | No | Additional notes about the action or its configuration. |
 
 <br/>
 

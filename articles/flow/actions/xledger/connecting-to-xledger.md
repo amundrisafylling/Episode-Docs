@@ -1,6 +1,6 @@
 # Connecting to Xledger
 
-To work with **Xledger** actions in Profitbase Flow, you must first configure a connection. This can be done by selecting an existing connection or creating a new one directly in the action configuration panel.
+To work with **Xledger** actions in Hypergene Flow, you must first configure a connection. This can be done by selecting an existing connection or creating a new one directly in the action configuration panel.
 
 Xledger connections use API keys to authenticate against either the production or test environment.
 
@@ -39,4 +39,4 @@ Xledger connections use API keys to authenticate against either the production o
 ## Related Documentation
 
 - [Xledger Developer Portal](https://xledger.com/)
-- [Profitbase Flow Workspace Objects](../../workspaces/workspace-objects.md)
+- [Hypergene Flow Workspace Objects](../../workspaces/workspace-objects.md)

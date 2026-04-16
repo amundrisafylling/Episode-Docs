@@ -20,9 +20,9 @@ This flow demonstrates how an AI agent uses the **Flow AI tool** to invoke anoth
 
 | Name                         | Required | Description                                                                 |
 |------------------------------|----------|-----------------------------------------------------------------------------|
-| Title                        | Optional | The name of the Flow AI tool as exposed to the AI agent. When a flow is selected from the list, the title is automatically set to the name of the flow.     |
-| Flow                         | Required | The flow that will be invoked by the AI agent when this tool is called.    |
-| Run a Flow in another Workspace | Optional | Allows invoking a flow from a different workspace.                         |
-| Tools group                  | Optional | Logical group name used to organize tools available to the AI agent.       |
-| Disabled                     | Optional | Disables the tool so it cannot be invoked by the AI agent.                 |
-| Description                  | Optional | Description of what the tool does, used by the AI agent to understand its purpose. |
+| Title                        | No | The name of the Flow AI tool as exposed to the AI agent. When a flow is selected from the list, the title is automatically set to the name of the flow.     |
+| Flow                         | Yes | The flow that will be invoked by the AI agent when this tool is called.    |
+| Run a Flow in another Workspace | No | Allows invoking a flow from a different workspace.                         |
+| Tools group                  | No | Logical group name used to organize tools available to the AI agent.       |
+| Disabled                     | No | Disables the tool so it cannot be invoked by the AI agent.                 |
+| Description                  | No | Description of what the tool does, used by the AI agent to understand its purpose. |

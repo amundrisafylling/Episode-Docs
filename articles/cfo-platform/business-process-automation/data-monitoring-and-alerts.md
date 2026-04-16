@@ -2,9 +2,9 @@
 
 The goal is to enable workers to focus on value-adding tasks, rather than needlessly checking reports when everything is running smoothly. The system will notify them only if attention is required.
 
-You can use [Profitbase Flow](../../flow/flow.md) and [Hypergene InVision](../../invision/invision.md) to monitor, analyze and make data-driven decisions through live integrations with APIs, services, and databases. 
+You can use [Hypergene Flow](../../flow/flow.md) and [Hypergene InVision](../../invision/invision.md) to monitor, analyze and make data-driven decisions through live integrations with APIs, services, and databases. 
 
-[Profitbase Flow](../../flow/flow.md) is used for building data integrations and business rules engines for data analysis, while [Hypergene InVision](../../invision/invision.md) enables building data models and user interfaces. The tools are fully integrated, and offers a seamless low-code experience for building business process automation solutions.
+[Hypergene Flow](../../flow/flow.md) is used for building data integrations and business rules engines for data analysis, while [Hypergene InVision](../../invision/invision.md) enables building data models and user interfaces. The tools are fully integrated, and offers a seamless low-code experience for building business process automation solutions.
 
 ### Example - Monitoring production line data
 In this example, we'll build a Flow that continually monitors production line data and sends email notifications when orders are at risk of missing delivery dates.

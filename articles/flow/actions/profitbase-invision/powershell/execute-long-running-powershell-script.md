@@ -18,13 +18,13 @@ This flow inserts data into a database via a parameterized PowerShell script and
 
 | Name                  | Required | Description                                                                 |
 |-----------------------|----------|-----------------------------------------------------------------------------|
-| Title                 | Optional | A descriptive label for the action displayed in the Flow editor.           |
-| Connection            | Required | Defines the [InVision connection](../invision-connection.md) used to execute the PowerShell script.     |
-| PowerShell Script     | Required | Selects the InVision PowerShell script to execute.                          |
-| Parameters            | Optional | Defines input parameters passed to the PowerShell script at runtime.        |
-| Result variable name  | Optional | The name of the variable that stores the execution result or status.        |
-| Disabled              | Optional | If enabled, the action will be skipped during execution.                    |
-| Description           | Optional | Additional notes or comments about the action or configuration.             |
+| Title                 | No | A descriptive label for the action displayed in the Flow editor.           |
+| Connection            | Yes | Defines the [InVision connection](../invision-connection.md) used to execute the PowerShell script.     |
+| PowerShell Script     | Yes | Selects the InVision PowerShell script to execute.                          |
+| Parameters            | No | Defines input parameters passed to the PowerShell script at runtime.        |
+| Result variable name  | No | The name of the variable that stores the execution result or status.        |
+| Disabled              | No | If enabled, the action will be skipped during execution.                    |
+| Description           | No | Additional notes or comments about the action or configuration.             |
 
 ## Returns 
 

@@ -14,17 +14,17 @@ This Flow copies files from a Github repository to an InVision File Storage. It 
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional | The title of the action.   |
-| Authentication |  Optional | Select an authentication token. |
-| Repository owner | Required | Select or enter the repository owner. This is typically the name of the organization (for example `microsoft`) or person that owns the repository.  |
-| Repository name | Required | Select or enter the repository name. |
-| Branch | Optional | Select or enter a branch name. |
-| Path | Optional | The root path from which to list contents. |
-| Content name filter | Optional | A regex expression applied to the content `Name` to filter the items returned. [See example below](#filter). |
+| Title  | No | The title of the action.   |
+| Authentication | No | Select an authentication token. |
+| Repository owner | Yes | Select or enter the repository owner. This is typically the name of the organization (for example `microsoft`) or person that owns the repository.  |
+| Repository name | Yes | Select or enter the repository name. |
+| Branch | No | Select or enter a branch name. |
+| Path | No | The root path from which to list contents. |
+| Content name filter | No | A regex expression applied to the content `Name` to filter the items returned. [See example below](#filter). |
 | Include content in subdirectories | - | Specifies whether or not to recursively include files and directories in subdirectories. |
 | Include directories | - | Specifies whether or not directories (and not only files) should be included int he result. |
-| Return variable name | Optional | Name of the variable containing the current Content Information object. |
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Return variable name | No | Name of the variable containing the current Content Information object. |
+| Description | No | Additional notes or comments about the action or configuration. |
 
 
 ### Limitations

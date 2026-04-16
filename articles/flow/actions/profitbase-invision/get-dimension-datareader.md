@@ -15,12 +15,12 @@ It retrieves the selected dimension in either wide or parent-child format, expos
 
 | Name | Type | Description |
 |------|------|-------------|
-| Title | Optional | The name of the action as shown in the flow. |
-| Connection | Required | A valid [InVision Connection](invision-connection.md) used to read dimension data. |
-| Dimension | Required | The dimension to read data from. |
-| Table type | Optional | Specifies whether to read from the wide or parent-child dimension table. |
-| Reader variable name | Optional | Name of the variable that stores the returned DataReader for use by subsequent actions. |
-| Description | Optional | Additional notes about the action or its configuration. |
+| Title | No | The name of the action as shown in the flow. |
+| Connection | Yes | A valid [InVision Connection](invision-connection.md) used to read dimension data. |
+| Dimension | Yes | The dimension to read data from. |
+| Table type | No | Specifies whether to read from the wide or parent-child dimension table. |
+| Reader variable name | No | Name of the variable that stores the returned DataReader for use by subsequent actions. |
+| Description | No | Additional notes about the action or its configuration. |
 
 
 

@@ -13,7 +13,7 @@ Actions used in the flow are: [Function](../built-in/function.md), [Foreach](../
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title			   |  Optional | A descriptive label for the action.					|
-| Connection       | Required  | Azure Event Hub connection used to authenticate and connect to the service. |
-| Content		   | Required  | Specifies the variable containing the data to be sent. |
-| Partition		   | Optional  | Specifies the ID of the partition from which the event are read. |
+| Title			   | No | A descriptive label for the action.					|
+| Connection       | Yes | Azure Event Hub connection used to authenticate and connect to the service. |
+| Content		   | Yes | Specifies the variable containing the data to be sent. |
+| Partition		   | No | Specifies the ID of the partition from which the event are read. |

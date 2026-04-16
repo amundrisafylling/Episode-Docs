@@ -7,14 +7,14 @@ Gets file from an HTTP endpoint.
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-| Title                | Optional |   The title of the action.                    |
-| URI         | Required   | Select or enter the URI |
-| Query parameters   | Optional      | Define Query parameters.    |
-| Headers | Optional  | Define Headers.  |
-| Return variable name | Optional | Name of the variable.|
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Title                | No |   The title of the action.                    |
+| URI         | Yes | Select or enter the URI |
+| Query parameters   | No | Define Query parameters.    |
+| Headers | No | Define Headers.  |
+| Return variable name | No | Name of the variable.|
+| Description | No | Additional notes or comments about the action or configuration. |
 
 
 

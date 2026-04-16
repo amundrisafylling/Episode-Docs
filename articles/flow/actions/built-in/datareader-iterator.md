@@ -15,10 +15,10 @@ This flow can be used to read and process customer orders from a [CSV file](../c
 
 | Name                      | Type | Description                                                                       |
 | ------------------------- | --------- | --------------------------------------------------------------------------------- |
-| Title                     | Optional  | The title or name of the action.                                                 |
-| Data reader               | Required  | Select the source DataReader.                   |
-| DataReader variable name  | Optional  |   The name of the DataReader variable that contains the list of the objects names.    |
-| Description               | Optional  | Additional notes or comments about the action or configuration.                   |
+| Title                     | No | The title or name of the action.                                                 |
+| Data reader               | Yes | Select the source DataReader.                   |
+| DataReader variable name  | No |   The name of the DataReader variable that contains the list of the objects names.    |
+| Description               | No | Additional notes or comments about the action or configuration.                   |
 
 <br/>
 

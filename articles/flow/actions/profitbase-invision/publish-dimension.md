@@ -15,10 +15,10 @@ This flow loads data into a Dimension and then publishes it. It begins with load
 | Name                 | Required | Description                                      |
 |----------------------|----------|--------------------------------------------------|
 | Title                |          |   A descriptive title for the action.      |
-| Connection           | Required | [InVision Connection](invision-connection.md).                             |
-| Dimension            | Required | Select or enter the ID of the Dimension you want to publish.         |
-| Result variable name | Optional | Name of the result variable containing the result (e.g., `isSuccess`). |
-| Description          | Optional | Additional notes or comments about the action or configuration. |
+| Connection           | Yes | [InVision Connection](invision-connection.md).                             |
+| Dimension            | Yes | Select or enter the ID of the Dimension you want to publish.         |
+| Result variable name | No | Name of the result variable containing the result (e.g., `isSuccess`). |
+| Description          | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

@@ -16,7 +16,7 @@ Environments and Workspace Variables are closely related. Each Workspace variabl
 
 ## Workspace variables containing sensitive information
 
-If a Workspace variable contains sensitive information, such as usernames or passwords, it is strongly advised to toggle the "Contains sensitive information" button "on" for the variable. This will ensure that Workspace variables with this flag enabled will never have their values exposed outside Profitbase Flow. 
+If a Workspace variable contains sensitive information, such as usernames or passwords, it is strongly advised to toggle the "Contains sensitive information" button "on" for the variable. This will ensure that Workspace variables with this flag enabled will never have their values exposed outside Hypergene Flow. 
 
 ## Include sensitive information in exports (if applicable)
 

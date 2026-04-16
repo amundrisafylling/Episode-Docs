@@ -12,9 +12,9 @@ This flow processes a user's chat question by first receiving it through a [Chat
 
 | Name            | Type                   | Description                             |
 |-----------------|------------------------|-----------------------------------------|
-| Title           | Optional               | The title of the action.                |
-| Connection      | Required               | Defines the [connection](openai-connection.md) to **OpenAI**. |
-| Embedding model | Required               | Name (id) of the chosen [Embedding Model](https://platform.openai.com/docs/models).|
-| Description     | Optional  | Additional information or notes about the text embedder.     |
+| Title           | No | The title of the action.                |
+| Connection      | Yes | Defines the [connection](openai-connection.md) to **OpenAI**. |
+| Embedding model | Yes | Name (id) of the chosen [Embedding Model](https://platform.openai.com/docs/models).|
+| Description     | No | Additional information or notes about the text embedder.     |
 
 

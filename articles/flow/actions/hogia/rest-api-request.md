@@ -15,11 +15,11 @@ The example above shows how to read employees from Hogia and insert the result i
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional | The title or name of the request. |
-| Connection | Required | The [Hogia Connection](./connection.md) used to make an authenticated request to the Hogia REST API. |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Configuration | Required | Define configuration as described below. |
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No | The title or name of the request. |
+| Connection | Yes | The [Hogia Connection](./connection.md) used to make an authenticated request to the Hogia REST API. |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Configuration | Yes | Define configuration as described below. |
+| Description | No | Additional notes or comments about the action or configuration. |
 
 <br>
 

@@ -311,7 +311,7 @@ We now support parameterization of the CSV export and import options (such as ro
 # Core
 
 ### Streaming
-Profitbase Flow now supports streaming the result back to a client while executing. This enables clients to start processing data as soon as it becomes available, instead of having to wait until the Flow has completed the entire task. A typical use case of this feature is to build AI chat clients, where the response from the LLM is streamed back in chunks as it becomes available.  
+Hypergene Flow now supports streaming the result back to a client while executing. This enables clients to start processing data as soon as it becomes available, instead of having to wait until the Flow has completed the entire task. A typical use case of this feature is to build AI chat clients, where the response from the LLM is streamed back in chunks as it becomes available.  
 [Read more here.](../api-reference/execute-flow/stream.md)
 
 ### Yield break

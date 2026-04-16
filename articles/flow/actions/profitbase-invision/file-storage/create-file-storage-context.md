@@ -15,12 +15,12 @@ This flow **creates a File Storage context**, [reads a blob](../../azure-blob-st
 
 | Name                | Required | Description                                                                 |
 |---------------------|----------|-----------------------------------------------------------------------------|
-| Connection          | Required | The [InVision connection](../invision-connection.md) used to access File Storage.    |
-| File storage        | Required | The [File Storage](../../../../invision/docs/filestorage.md) where the context should be created.                      |
-| File context        | Required | The context definition to create.                                           |
-| Result variable name| Required | The name of the variable that will store the created context reference.    |
-| Disabled            | Optional | If selected, the action will not execute.                                   |
-| Description         | Optional | A custom description of the action configuration.                           |
+| Connection          | Yes | The [InVision connection](../invision-connection.md) used to access File Storage.    |
+| File storage        | Yes | The [File Storage](../../../../invision/docs/filestorage.md) where the context should be created.                      |
+| File context        | Yes | The context definition to create.                                           |
+| Result variable name| Yes | The name of the variable that will store the created context reference.    |
+| Disabled            | No | If selected, the action will not execute.                                   |
+| Description         | No | A custom description of the action configuration.                           |
 
 
 ## Returns

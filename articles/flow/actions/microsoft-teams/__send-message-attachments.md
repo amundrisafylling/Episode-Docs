@@ -6,10 +6,10 @@ To send a Teams message with attachment(s), the document(s) [must already exist 
 
 | Name         | Required | Description             |
 |--------------|---------------------|-------------------------|
-| Id           | Required            | The Id of the attachment. This must be a valid GUID. |
-| Name         | Required            | The name of the attachment, for example the file name. |
-| Content type | Required            | The content type specifying the attachment type. This defaults to `reference`. |
-| Content URL  | Required            | The location of the document in OneDrive / SharePoint. Use one of the OneDrive actions to retrieve the document from OneDrive and use the `WebUrl` or `WebDavUrl` property of the OneDriveItem as the Content URL. |
+| Id           | Yes | The Id of the attachment. This must be a valid GUID. |
+| Name         | Yes | The name of the attachment, for example the file name. |
+| Content type | Yes | The content type specifying the attachment type. This defaults to `reference`. |
+| Content URL  | Yes | The location of the document in OneDrive / SharePoint. Use one of the OneDrive actions to retrieve the document from OneDrive and use the `WebUrl` or `WebDavUrl` property of the OneDriveItem as the Content URL. |
 
 ![img](/images/flow/teams-message-attachments.png)
 <p><em>Figure: Attachments must be referenced by id in the message using the &lt;attachment&gt; element .</em></p>

@@ -16,12 +16,12 @@ This flow retrieves a list of active clients, updates their status to Premium in
 
 | Name                      | Required | Description                                                                              |
 |---------------------------|----------|------------------------------------------------------------------------------------------|
-| Title                     | Optional | A display label for this action in the flow editor.                                      |
-| Connection                | Required | The Snowflake [connection](./connecting-to-snowflake.md) to use.                         |
-| Expression and parameters | Required | The SQL command to execute, along with any parameters.                                   |
-| Result variable name      | Optional | Stores the number of affected rows for use later in the flow.                            |
-| Command timeout (sec)     | Optional | How long to wait before the command times out. Default is 120 seconds.                   |
-| Description               | Optional | Notes about this action's configuration.                                                 |
+| Title                     | No | A display label for this action in the flow editor.                                      |
+| Connection                | Yes | The Snowflake [connection](./connecting-to-snowflake.md) to use.                         |
+| Expression and parameters | Yes | The SQL command to execute, along with any parameters.                                   |
+| Result variable name      | No | Stores the number of affected rows for use later in the flow.                            |
+| Command timeout (sec)     | No | How long to wait before the command times out. Default is 120 seconds.                   |
+| Description               | No | Notes about this action's configuration.                                                 |
 
 <br/>
 

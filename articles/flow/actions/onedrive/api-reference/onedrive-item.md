@@ -4,7 +4,7 @@ Represents an item in Microsoft OneDrive.
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
 | Id           | String          | The id of the drive item                          |
 | Name         | String          | The name of the file or folder. If this is a file, it includes the file extension. |

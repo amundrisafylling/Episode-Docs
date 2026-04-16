@@ -21,13 +21,13 @@ It first uses **Get dimension table name** to resolve the physical table name fo
 
 | Name | Type | Description |
 |------|------|-------------|
-| Title | Optional | A descriptive title for the action. |
-| Connection | Required | InVision connection used to access the solution metadata. |
-| Dimension | Required | The Dimension for which the database table name should be retrieved. |
-| Table type | Required | Specifies which physical table type to return. Typically `Wide` or `Parent/Child`, depending on the Dimension structure. |
-| Result variable name | Required | The name of the variable that will store the resolved table name. |
-| Disabled | Optional | When enabled, the action is skipped during flow execution. |
-| Description | Optional | Additional notes or internal documentation for the action. |
+| Title | No | A descriptive title for the action. |
+| Connection | Yes | InVision connection used to access the solution metadata. |
+| Dimension | Yes | The Dimension for which the database table name should be retrieved. |
+| Table type | Yes | Specifies which physical table type to return. Typically `Wide` or `Parent/Child`, depending on the Dimension structure. |
+| Result variable name | Yes | The name of the variable that will store the resolved table name. |
+| Disabled | No | When enabled, the action is skipped during flow execution. |
+| Description | No | Additional notes or internal documentation for the action. |
 
 <br/>
 

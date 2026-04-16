@@ -15,11 +15,11 @@ This flow first updates the Price List using [custom SQL](../sql-server/update-e
 
 | Property                        | Required | Description |
 |---------------------------------|-----------|-------------|
-| Title                       | Optional  | A descriptive name for the action. |
-| Connection                  | Optional  | InVision connection used to access the target environment where the object cache should be cleared. |
-| Object to remove from cache | Required  | The InVision object to evict from cache. Can be a **Table**, **View**, or **Data Store**. |
-| Disabled                    | Optional  | If enabled, the action will be skipped during flow execution. |
-| Description                 | Optional  | Optional free-text description explaining why or when the cache invalidation is needed. |
+| Title                       | No | A descriptive name for the action. |
+| Connection                  | No | InVision connection used to access the target environment where the object cache should be cleared. |
+| Object to remove from cache | Yes | The InVision object to evict from cache. Can be a **Table**, **View**, or **Data Store**. |
+| Disabled                    | No | If enabled, the action will be skipped during flow execution. |
+| Description                 | No | Optional free-text description explaining why or when the cache invalidation is needed. |
 
 
 

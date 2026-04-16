@@ -17,9 +17,9 @@ This flow updates the context of a file only if it currently has no context. It 
 
 | Name                | Required | Description                                                                 |
 |---------------------|----------|-----------------------------------------------------------------------------|
-| Connection          | Required | The [InVision connection](../invision-connection.md) used to access File Storage.    |
-| File storage | Required | The [File Storage](../../../../invision/docs/filestorage.md) where the file is located.                                 |
-| File reference | Required | The reference ID of the file whose context should be updated.              |
-| File context | Required | The new context value to assign to the file.                                |
-| Disabled     | Optional | If selected, the action will not execute.                                   |
-| Description  | Optional | A custom description of the action configuration.                           |
+| Connection          | Yes | The [InVision connection](../invision-connection.md) used to access File Storage.    |
+| File storage | Yes | The [File Storage](../../../../invision/docs/filestorage.md) where the file is located.                                 |
+| File reference | Yes | The reference ID of the file whose context should be updated.              |
+| File context | Yes | The new context value to assign to the file.                                |
+| Disabled     | No | If selected, the action will not execute.                                   |
+| Description  | No | A custom description of the action configuration.                           |

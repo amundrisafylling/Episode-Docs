@@ -14,10 +14,10 @@ This Flow downloads the [HTML](http-request.md) of a specified page, converts th
 
 | Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
-| Title                | Optional |   The title of the action.                    |
-| File Data            | Required | Specifies the source of the HTML text, which can either be a string, a Stream or a Byte Array.                |
-| Result variable name | Required | The name of the variable in which the result will be stored.  |
-| Description          | Optional | Additional notes or comments about the action or configuration. |
+| Title                | No |   The title of the action.                    |
+| File Data            | Yes | Specifies the source of the HTML text, which can either be a string, a Stream or a Byte Array.                |
+| Result variable name | Yes | The name of the variable in which the result will be stored.  |
+| Description          | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

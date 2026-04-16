@@ -9,11 +9,11 @@ This flow loads customer data and then inserts it into a PostgreSQL table.
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-|  Title | Optional | The name of the action. |
-| Connection | Required   | The PostgreSQL database [connection](postgresql-connection.md). |
-| Source  | Required   |Select the source for data. |
-| Destination table   | Required   | Select or enter the name of the table to insert info. |
-| Command timeout (seconds) | Optional       | The time limit for command execution before it times out. Default is 120 seconds.  |
-| Description | Optional        | Additional notes or comments about the action or configuration.      |
+|  Title | No | The name of the action. |
+| Connection | Yes | The PostgreSQL database [connection](postgresql-connection.md). |
+| Source  | Yes |Select the source for data. |
+| Destination table   | Yes | Select or enter the name of the table to insert info. |
+| Command timeout (seconds) | No | The time limit for command execution before it times out. Default is 120 seconds.  |
+| Description | No | Additional notes or comments about the action or configuration.      |

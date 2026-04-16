@@ -16,8 +16,8 @@ This flow [loads all files from File Storage](get-files-info-from-file-storage.m
 
 | Name          | Required | Description                                      |
 |---------------|----------|--------------------------------------------------|
-| Connection    | Required | The [InVision connection](../invision-connection.md) used to access File Storage. |
-| File storage  | Required | The File Storage from which the file will be deleted. |
-| File reference| Required | The reference ID of the file to delete.         |
-| Disabled      | Optional | If enabled, the action will not execute.        |
-| Description   | Optional | Additional information about the action.        |
+| Connection    | Yes | The [InVision connection](../invision-connection.md) used to access File Storage. |
+| File storage  | Yes | The File Storage from which the file will be deleted. |
+| File reference| Yes | The reference ID of the file to delete.         |
+| Disabled      | No | If enabled, the action will not execute.        |
+| Description   | No | Additional information about the action.        |

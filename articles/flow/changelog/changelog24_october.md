@@ -14,7 +14,7 @@ Significant updates and new integrations:
 
 
 ### PowerOffice Go
-Profitbase Flow now has a built-in connector for the PowerOffice Go REST API. The connector handles authentication, paging, faults and throttling (API quotas), simplifying data integrations with PowerOffice Go.
+Hypergene Flow now has a built-in connector for the PowerOffice Go REST API. The connector handles authentication, paging, faults and throttling (API quotas), simplifying data integrations with PowerOffice Go.
 
 
 

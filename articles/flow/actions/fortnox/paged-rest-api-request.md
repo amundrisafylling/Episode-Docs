@@ -16,14 +16,14 @@ In the example above, a **paginated REST API Request** is used to retrieve accou
 
 | Name            | Required | Description          |
 |---------------- | -------- | ---------------------|
-| Title           | Optional | The title or name of the request.  |
-| Connection      | Required | The [Fortnox Connection](./connection.md) used to make an authenticated request to the Fortnox REST API. |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Configuration   | Required | Specifies the HTTP request to the Fortnox API, including the HTTP method, URL, parameters, and return type. |
-| Offset   | Optional | Offset to the starting record for data retrieval. Defaults to 0 if not specified. |
-| Items per page  | Optional | The number of items to retrieve per page. Defaults to 5000 if not specified.  |
-| Max page count  | Optional | The maximum number of pages to fetch. Defaults to 9999 if not specified.      |
-| Description     | Optional | Additional notes or comments about the action or configuration.               |
+| Title           | No | The title or name of the request.  |
+| Connection      | Yes | The [Fortnox Connection](./connection.md) used to make an authenticated request to the Fortnox REST API. |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Configuration   | Yes | Specifies the HTTP request to the Fortnox API, including the HTTP method, URL, parameters, and return type. |
+| Offset   | No | Offset to the starting record for data retrieval. Defaults to 0 if not specified. |
+| Items per page  | No | The number of items to retrieve per page. Defaults to 5000 if not specified.  |
+| Max page count  | No | The maximum number of pages to fetch. Defaults to 9999 if not specified.      |
+| Description     | No | Additional notes or comments about the action or configuration.               |
 
 <br>
 

@@ -19,6 +19,6 @@ It retrieves the forecast configuration, applies the reference date to the selec
 
 | Name         | Required | Description                    |
 |--------------|---------------|--------------------------------|
-| Connection   | Required      | A valid [InVision Connection](../invision-connection.md) used to execute the SQL script.  |
-| Data Store Group | Required  | The ID of the Data Store Group in InVision that will be rolled forward. | 
-| Reference date | Required      | Specifies the start date for which the planning cycle applies. The value must be of type [DateOnly](https://learn.microsoft.com/en-us/dotnet/api/system.dateonly), [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime) or [DateTimeOffset](https://learn.microsoft.com/en-us/dotnet/api/system.datetimeoffset). |
+| Connection   | Yes | A valid [InVision Connection](../invision-connection.md) used to execute the SQL script.  |
+| Data Store Group | Yes | The ID of the Data Store Group in InVision that will be rolled forward. | 
+| Reference date | Yes | Specifies the start date for which the planning cycle applies. The value must be of type [DateOnly](https://learn.microsoft.com/en-us/dotnet/api/system.dateonly), [DateTime](https://learn.microsoft.com/en-us/dotnet/api/system.datetime) or [DateTimeOffset](https://learn.microsoft.com/en-us/dotnet/api/system.datetimeoffset). |

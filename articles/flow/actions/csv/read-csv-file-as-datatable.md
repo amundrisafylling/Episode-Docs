@@ -13,14 +13,14 @@ This action is typically used when you need to import small to mid-sized CSV fil
  
 | Name                     | Type           | Description                                                                                          |
 |--------------------------|----------------|------------------------------------------------------------------------------------------------------|
-| Title                    | Optional       | A descriptive title for the action.     |
-| File contents            | Required       | The contents of the file, provided as either a stream, byte array or string with valid CSV data.                              |
-| Data start row           | Optional | Specifies the index of the row where the data starts. If the file has a header row, the data start row is typically 2. If the files does not have a header row, the start row is usually 1. |
-| [Column mapping](configuration-properties/column-mapping.md) | Optional       | The mapping between the field indices and field data types in the file, and the columns in the final data set. If you don't specify a column mapping, it is required that the first line in the file is a header record. Also, if you don't specify a column mapping, all fields will be read as `string`. |
-| [Data import options](configuration-properties/data-import-options.md)      | Optional       | Specifies options for error handling and how the contents of the file is parsed, such as dates and numbers. |
-| [Field parser](configuration-properties/field-parser.md)             | Optional       | Provides advanced options to  handle parsing of field values during the import.                             |
-| DataReader variable name | Required       | The name of the variable you can use to reference the DataTable in other actions.                   | 
-| Description | Optional       | Additional notes or comments that describe what the action does. |
+| Title                    | No | A descriptive title for the action.     |
+| File contents            | Yes | The contents of the file, provided as either a stream, byte array or string with valid CSV data.                              |
+| Data start row           | No | Specifies the index of the row where the data starts. If the file has a header row, the data start row is typically 2. If the files does not have a header row, the start row is usually 1. |
+| [Column mapping](configuration-properties/column-mapping.md) | No | The mapping between the field indices and field data types in the file, and the columns in the final data set. If you don't specify a column mapping, it is required that the first line in the file is a header record. Also, if you don't specify a column mapping, all fields will be read as `string`. |
+| [Data import options](configuration-properties/data-import-options.md)      | No | Specifies options for error handling and how the contents of the file is parsed, such as dates and numbers. |
+| [Field parser](configuration-properties/field-parser.md)             | No | Provides advanced options to  handle parsing of field values during the import.                             |
+| DataReader variable name | Yes | The name of the variable you can use to reference the DataTable in other actions.                   | 
+| Description | No | Additional notes or comments that describe what the action does. |
 
 <br/>
 

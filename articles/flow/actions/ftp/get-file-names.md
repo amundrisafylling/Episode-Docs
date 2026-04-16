@@ -13,11 +13,11 @@ This flow uses **Get files info** to retrieve a list of information per file in 
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional |   The title of the action.       |
-| Connection | Required  | Select a connection to the FTP or SFTP server where files are located.|
-| Directory path | Optional | Select or enter the directory to download from. |
-| Return variable name | Optional | Name of the variable. |
-| Description   | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No |   The title of the action.       |
+| Connection | Yes | Select a connection to the FTP or SFTP server where files are located.|
+| Directory path | No | Select or enter the directory to download from. |
+| Return variable name | No | Name of the variable. |
+| Description   | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

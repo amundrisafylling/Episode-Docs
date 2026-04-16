@@ -12,11 +12,11 @@ Loads data from a Google BigQuery database into memory as a [DataTable](https://
 
 | Name                        | Required | Description                                                                                      |
 | --------------------------- | -------- | ------------------------------------------------------------------------------------------------ |
-| Title                       | Optional | The title or name of the action.                                                                 |
-| Connection                  | Required | The Google BigQuery database connection.                                                                    |
-| SQL expression and parameters | Required | The command to execute along with any parameters.                               |
-| Table variable name         | Optional | Name of the DataTable variable that stores the result of the query.                              |
-| Description                 | Optional | Any additional notes or information relevant to the DataTable action.                            |
+| Title                       | No | The title or name of the action.                                                                 |
+| Connection                  | Yes | The Google BigQuery database connection.                                                                    |
+| SQL expression and parameters | Yes | The command to execute along with any parameters.                               |
+| Table variable name         | No | Name of the DataTable variable that stores the result of the query.                              |
+| Description                 | No | Any additional notes or information relevant to the DataTable action.                            |
 
 <br/>
 

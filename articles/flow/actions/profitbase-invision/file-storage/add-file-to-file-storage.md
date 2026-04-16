@@ -19,16 +19,16 @@ This allows structured database data to be exported and stored as a downloadable
 
 | Name | Type | Description |
 |------|----------|-------------|
-| Title | Optional | Descriptive name of the action. |
-| Connection | Required | [InVision connection](../invision-connection.md) used to access File Storage. |
-| File storage | Required | The target File Storage where the file will be uploaded. |
-| File name | Required | Name of the file to create. Can be static or dynamic. |
-| File contents | Required | The file content to upload. |
-| File context | Optional | Optional metadata object stored together with the file. |
-| File MIME type | Optional | MIME type of the file (for example `text/csv`, `application/pdf`). |
-| Result variable name | Required | Variable that receives information about the uploaded file. |
-| Disabled | Optional | Whether the action is disabled (true/false). |
-| Description | Optional | Additional notes about the action. |
+| Title | No | Descriptive name of the action. |
+| Connection | Yes | [InVision connection](../invision-connection.md) used to access File Storage. |
+| File storage | Yes | The target File Storage where the file will be uploaded. |
+| File name | Yes | Name of the file to create. Can be static or dynamic. |
+| File contents | Yes | The file content to upload. |
+| File context | No | Optional metadata object stored together with the file. |
+| File MIME type | No | MIME type of the file (for example `text/csv`, `application/pdf`). |
+| Result variable name | Yes | Variable that receives information about the uploaded file. |
+| Disabled | No | Whether the action is disabled (true/false). |
+| Description | No | Additional notes about the action. |
 
 ## Returns
 

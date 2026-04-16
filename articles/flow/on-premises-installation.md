@@ -1,7 +1,7 @@
 # On-premises installation
 
-If you cannot use the SaaS offering of Profitbase Flow, you can run it on a Virtual Machine in your own data center, or even on your own laptop.
-To install Profitbase Flow on a local machine / VM, you need to do the following:
+If you cannot use the SaaS offering of Hypergene Flow, you can run it on a Virtual Machine in your own data center, or even on your own laptop.
+To install Hypergene Flow on a local machine / VM, you need to do the following:
 
 ## Before you begin
 
@@ -19,5 +19,5 @@ To install Profitbase Flow on a local machine / VM, you need to do the following
 
 ## Installation guide
 
-Please follow the steps outlined in link below to install Profitbase Flow on a VM / local server.  
+Please follow the steps outlined in link below to install Hypergene Flow on a VM / local server.  
 [On-premise step-by-step installation guide](on-premises-installation/step-by-step-installation.md)

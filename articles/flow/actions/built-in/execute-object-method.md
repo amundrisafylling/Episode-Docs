@@ -28,10 +28,10 @@ This pattern is useful when building reusable extensions that return standardize
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-| Title           | Optional | The title or name of the action.     |
-| Object         | Required   | Select the object brom the dropdown list. |
-| Method   | Required      | Select the method to execute.   |
-| Method arguments  | Optional      | Add arguments.   |
-| Description   | Optional | Additional notes or comments about the action or configuration. |
+| Title           | No | The title or name of the action.     |
+| Object         | Yes | Select the object brom the dropdown list. |
+| Method   | Yes | Select the method to execute.   |
+| Method arguments  | No | Add arguments.   |
+| Description   | No | Additional notes or comments about the action or configuration. |

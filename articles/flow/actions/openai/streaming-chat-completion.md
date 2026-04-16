@@ -18,20 +18,20 @@ The example above shows a Flow that provides chat completions to a chat client. 
 
 | Name                  | Required | Description |
 |-----------------------|-----------|-------------|
-| Title                 | Optional  | The title of the action. |
-| Connection            | Required  | Defines the [connection](openai-connection.md) to **OpenAI**. |
-| Model id              | Required  | ID of the chosen [model](https://platform.openai.com/docs/models). |
-| System prompt         | Optional  | A system-level instruction that guides the model’s behavior and response style. |
-| User prompt           | Required  | The input message from the user, which the model processes to generate a response. |
-| History               | Optional  | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
-| Context               | Optional  | Additional context information to influence the response (if supported). |
-| Prompt template   | Optional  | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
-| Temperature           | Optional  | Controls randomness/creativity of responses. Lower = more focused; higher = more creative. Default: 0.7. |
-| Max completion tokens | Optional  | Sets a limit on the number of tokens in the model’s response. |
-| Result variable name  | Optional  | Stores the generated AI response. Default: `response`. |
-| Enable Grounding        | Optional  | Enables  web search to improve factual reliability by using external or structured context sources. |
-| Disabled                | Optional  | If enabled, the action will be skipped during flow execution. |
-| Description           | Optional  | Additional details or notes regarding the chat completion setup. |
+| Title                 | No | The title of the action. |
+| Connection            | Yes | Defines the [connection](openai-connection.md) to **OpenAI**. |
+| Model id              | Yes | ID of the chosen [model](https://platform.openai.com/docs/models). |
+| System prompt         | No | A system-level instruction that guides the model’s behavior and response style. |
+| User prompt           | Yes | The input message from the user, which the model processes to generate a response. |
+| History               | No | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
+| Context               | No | Additional context information to influence the response (if supported). |
+| Prompt template   | No | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
+| Temperature           | No | Controls randomness/creativity of responses. Lower = more focused; higher = more creative. Default: 0.7. |
+| Max completion tokens | No | Sets a limit on the number of tokens in the model’s response. |
+| Result variable name  | No | Stores the generated AI response. Default: `response`. |
+| Enable Grounding        | No | Enables  web search to improve factual reliability by using external or structured context sources. |
+| Disabled                | No | If enabled, the action will be skipped during flow execution. |
+| Description           | No | Additional details or notes regarding the chat completion setup. |
 
 <br/>
 

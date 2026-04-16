@@ -27,9 +27,9 @@ Hooks and Hook handlers are simply control flow routing mechanisms, and does not
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-| Title           | Optional | The title or name of the action.     |
-| Name         | Required   | The unique identifier of the Hook. |
-| Parameters   |    Optional   | A list of inputs required for the Hook. |
+| Title           | No | The title or name of the action.     |
+| Name         | Yes | The unique identifier of the Hook. |
+| Parameters   | No | A list of inputs required for the Hook. |
 

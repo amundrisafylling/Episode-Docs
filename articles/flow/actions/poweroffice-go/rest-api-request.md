@@ -15,11 +15,11 @@ The **REST API Request** action allows you to interact with [PowerOffice Go REST
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional | The title or name of the request. |
-| Connection      | Required | The [PowerOffice Go Connection](./poweroffice-go-connection.md) used to make an authenticated request to PowerOffice REST API. |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Configuration | Required | Define configuration as described below. |
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No | The title or name of the request. |
+| Connection      | Yes | The [PowerOffice Go Connection](./poweroffice-go-connection.md) used to make an authenticated request to PowerOffice REST API. |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Configuration | Yes | Define configuration as described below. |
+| Description | No | Additional notes or comments about the action or configuration. |
 
 <br>
 

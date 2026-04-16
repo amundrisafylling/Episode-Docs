@@ -8,11 +8,11 @@ Loads Lakehouse [Table](https://learn.microsoft.com/en-us/fabric/data-engineerin
 
 | Name                 | Required | Description                                                       |
 |----------------------|------------|-------------------------------------------------------------------|
-| Title                | Optional   | The title for the upload action to the Lakehouse.                 |
-| Connection           | Required   | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Note! Make sure to choose an authentication method and user with the required priviliges.      |
-| Workspace Id         | Required   | Identifies the workspace where the Lakehouse is located.          |
-| Lakehouse Id         | Required   | Identifies the specific Lakehouse to load the table into.         |
-| Target table name    | Required   | The name of the target table where data will be loaded.           |
+| Title                | No | The title for the upload action to the Lakehouse.                 |
+| Connection           | Yes | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Note! Make sure to choose an authentication method and user with the required priviliges.      |
+| Workspace Id         | Yes | Identifies the workspace where the Lakehouse is located.          |
+| Lakehouse Id         | Yes | Identifies the specific Lakehouse to load the table into.         |
+| Target table name    | Yes | The name of the target table where data will be loaded.           |
 | Load mode            | Required   | Defines how data should be loaded (overwrite or append to existing data). 
 Source path type: Specifies the source path type. Either "File" or "Folder".|
 | Source path type     | Required   | Specifies the source path type, such as "File".                   |

@@ -1,6 +1,6 @@
 # Connecting to Snowflake
 
-To use Snowflake actions in **Profitbase Flow**, you must either select an existing connection or create a new one.
+To use Snowflake actions in **Hypergene Flow**, you must either select an existing connection or create a new one.
 
 <br/>
 
@@ -68,7 +68,7 @@ Note: The (pasted) Private Key should start with ----BEGIN [ENCRYPTED] PRIVATE K
 
 | Property          | Description   |
 | ------------------| ------------------------------------------------------------------------------------------------ |
-| Connection String | Required | A full custom connection string that defines all necessary parameters for connecting. |
+| Connection String | Yes | A full custom connection string that defines all necessary parameters for connecting. |
 | User              | The username for the connection. |
 | Password          | The password for the user. |
 

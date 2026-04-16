@@ -16,14 +16,14 @@ In the example above, a **paginated REST API Request** is used to retrieve accou
 
 | Name            | Required | Description          |
 |---------------- | -------- | ---------------------|
-| Title           | Optional | The title or name of the request.  |
-| Connection      | Required | The [Hogia Connection](./connection.md) used to make an authenticated request to the Hogia REST API. |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Configuration   | Required | Specifies the HTTP request to the Hogia API, including the HTTP method, URL, parameters, and return type. |
-| Page            | Optional | The start page number for data retrieval. Defaults to `1` if not specified. |
-| Page size       | Optional | The number of items to retrieve per page. Defaults to `500` (maximum `500`) if not specified. |
-| Max page count  | Optional | The maximum number of pages to fetch. Defaults to 9999 if not specified.      |
-| Description     | Optional | Additional notes or comments about the action or configuration.               |
+| Title           | No | The title or name of the request.  |
+| Connection      | Yes | The [Hogia Connection](./connection.md) used to make an authenticated request to the Hogia REST API. |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Configuration   | Yes | Specifies the HTTP request to the Hogia API, including the HTTP method, URL, parameters, and return type. |
+| Page            | No | The start page number for data retrieval. Defaults to `1` if not specified. |
+| Page size       | No | The number of items to retrieve per page. Defaults to `500` (maximum `500`) if not specified. |
+| Max page count  | No | The maximum number of pages to fetch. Defaults to 9999 if not specified.      |
+| Description     | No | Additional notes or comments about the action or configuration.               |
 
 <br>
 

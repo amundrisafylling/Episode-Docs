@@ -1,6 +1,6 @@
 # Connecting to Tripletex
 
-To perform actions with [Tripletex](https://tripletex.no/viktig-informasjon/api/) in Profitbase Flow, you need to configure a connection. You can either select an **existing connection** or create a new one at the action level.
+To perform actions with [Tripletex](https://tripletex.no/viktig-informasjon/api/) in Hypergene Flow, you need to configure a connection. You can either select an **existing connection** or create a new one at the action level.
 
 This connection allows Flow to authenticate and interact with the Tripletex API on your behalf using consumer and employee tokens.
 

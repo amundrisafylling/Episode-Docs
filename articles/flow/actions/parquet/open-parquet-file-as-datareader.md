@@ -19,11 +19,11 @@ The flow starts with a [Function](../built-in/function.md) that returns a list o
 
 | Name                 | Required | Description                                      |
 | -------------------- | -------- | ------------------------------------------------ |
-| Title                | Optional |     A descriptive name for the action shown in the flow.      |
-| File contents | Required        | The contents of the file, provided as either a stream or a byte array. |
-| Column mapping       | Optional | Defines how columns in the Parquet file are mapped to the output table. You can rename columns, define their data types, or exclude columns you do not want to read. Column mappings can be defined statically or provided dynamically using a function.| 
-| Reader variable name | Optional | The name of the DataReader variable.             |
-| Description          | Optional | Additional notes or comments about the action or configuration. |
+| Title                | No |     A descriptive name for the action shown in the flow.      |
+| File contents | Yes | The contents of the file, provided as either a stream or a byte array. |
+| Column mapping       | No | Defines how columns in the Parquet file are mapped to the output table. You can rename columns, define their data types, or exclude columns you do not want to read. Column mappings can be defined statically or provided dynamically using a function.| 
+| Reader variable name | No | The name of the DataReader variable.             |
+| Description          | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

@@ -11,11 +11,11 @@ The example above illustrates a Flow that stores a document in SQL Server. It us
 
 | Name                    | Required | Description                                           |
 |-------------------------|-----------|-------------------------------------------------------|
-| Title                      | Optional  | The name of the action or operation.                                       |
-| Input text                 | Required  | The text to split into chunks.                                             |
-| Splitter type           | Required  |  Read documentation below.  ![img](../../../../images/strz2.jpg)               |
-| Text chunk variable name   | Optional  | The variable name used to store the output chunks.                         |
-| Description                | Optional  | A field to describe the action or its purpose.                             |
+| Title                      | No | The name of the action or operation.                                       |
+| Input text                 | Yes | The text to split into chunks.                                             |
+| Splitter type           | Yes |  Read documentation below.  ![img](../../../../images/strz2.jpg)               |
+| Text chunk variable name   | No | The variable name used to store the output chunks.                         |
+| Description                | No | A field to describe the action or its purpose.                             |
 
 </br>
 
@@ -34,8 +34,8 @@ Splits text by characters into chunks of a specified size, optionally allowing o
 
 | Name                    | Required | Description                                           |
 |-------------------------|-----------|-------------------------------------------------------|
-| Chunk size              | Required  | Maximum number of characters in each chunk.          |
-| Chunk overlap           | Optional  | Number of overlapping characters between chunks.     |
+| Chunk size              | Yes | Maximum number of characters in each chunk.          |
+| Chunk overlap           | No | Number of overlapping characters between chunks.     |
 
 </br>
 
@@ -48,9 +48,9 @@ Divides text based on token count using a chosen encoding, useful for models wit
 
 | Name                     | Required | Description                                                       |
 |--------------------------|-----------|-------------------------------------------------------------------|
-| EncodingName            | Required  | The name of the token encoding to be used.                       |
-| Max tokens               | Required  | The maximum number of tokens per chunk.                          |
-| Chunk overlap            | Optional  | Number of overlapping tokens between chunks.                     |
+| EncodingName            | Yes | The name of the token encoding to be used.                       |
+| Max tokens               | Yes | The maximum number of tokens per chunk.                          |
+| Chunk overlap            | No | Number of overlapping tokens between chunks.                     |
 
 </br>
 
@@ -63,8 +63,8 @@ Breaks down documents at specific Markdown headers, ideal for structured texts l
 
 | Name                       | Required | Description                                                                 |
 |----------------------------|-----------|-----------------------------------------------------------------------------|
-| Headers to split on        | Optional  | Comma-separated list of Markdown headers to use as split points.           |
-| Include headers in output  | Optional  | If enabled, includes the header text in each chunk.                        |
+| Headers to split on        | No | Comma-separated list of Markdown headers to use as split points.           |
+| Include headers in output  | No | If enabled, includes the header text in each chunk.                        |
 
 </br>
 

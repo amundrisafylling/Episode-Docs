@@ -2,12 +2,12 @@
 
 In order to make any API calls, you need to create a `Dynamics 365 Business Central APIv2 Connection` using Microsoft Entra ID authentication.
 
-Profitbase Flow will use the connection to access the common API endpoint:  
+Hypergene Flow will use the connection to access the common API endpoint:  
 `https://api.businesscentral.dynamics.com/v2.0/<environment name>/api/v2.0/`
 
 ## Enable Microsoft Entra ID authentication
 
-Before you can create a Dynamics 365 Business Central APIv2 Connection, you need to create a Microsoft Entra ID App (also known as a Service Principal), and grant it access to the Business Central API. Profitbase Flow will call the Business Central API on behalf of the Service Principal, using its credentials.
+Before you can create a Dynamics 365 Business Central APIv2 Connection, you need to create a Microsoft Entra ID App (also known as a Service Principal), and grant it access to the Business Central API. Hypergene Flow will call the Business Central API on behalf of the Service Principal, using its credentials.
 
 #### 1. Create a Microsoft Entra ID App (Service Principal)
 
@@ -46,10 +46,10 @@ To create a Dynamics 365 Business Central APIv2 Connection, add a Dynamics 365 a
 
 | Name                                      | Required | Description                                                                                  |
 | ----------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| Tenant ID                                 | Required | The Entra Tenant Id associated with the Dynamics 365 Business Central subscription.          |
-| Client ID                                 | Required | The id of the Entra ID App which has been granted access to the Business Central API.        |
-| Client secret                             | Required | The client secret of the Entra ID App which has been granted access to Business Central API. |
-| Dynamics 365 Business Central Environment | Required | The Business Central environment to target (Production, Sandbox, Test, etc)                  |
+| Tenant ID                                 | Yes | The Entra Tenant Id associated with the Dynamics 365 Business Central subscription.          |
+| Client ID                                 | Yes | The id of the Entra ID App which has been granted access to the Business Central API.        |
+| Client secret                             | Yes | The client secret of the Entra ID App which has been granted access to Business Central API. |
+| Dynamics 365 Business Central Environment | Yes | The Business Central environment to target (Production, Sandbox, Test, etc)                  |
 
 ## Edit a Dynamics 365 Business Central APIv2 Connection
 

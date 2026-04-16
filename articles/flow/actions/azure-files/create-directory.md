@@ -15,8 +15,8 @@ The example above illustrates how to first create a folder, and then transfer fi
 
 | Name                        | Required | Description |
 |-----------------------------|-----------|--------------------------------------------------------|
-| Title                       | Required  | The title of the action. |
-| Connection                  | Required  | The [Azure Files connection](./connecting-to-azure-files.md) to a Share. |
-| Directory                   | Required  | The path of the directory to be created (e.g., `/MyFolder`) The starting `/` is optional. |
-| Raise exception on failure  | Optional  | Specifies whether or not to raise an error if the directory could not be created. Note that if the directory already exists, the action does nothing (an error is not raised if the directory exists). |
-| Description                 | Optional  | Additional details or notes about the action. |
+| Title                       | Yes | The title of the action. |
+| Connection                  | Yes | The [Azure Files connection](./connecting-to-azure-files.md) to a Share. |
+| Directory                   | Yes | The path of the directory to be created (e.g., `/MyFolder`) The starting `/` is optional. |
+| Raise exception on failure  | No | Specifies whether or not to raise an error if the directory could not be created. Note that if the directory already exists, the action does nothing (an error is not raised if the directory exists). |
+| Description                 | No | Additional details or notes about the action. |

@@ -1,6 +1,6 @@
 # API Keys
 
-API keys are used to authenticate and authorize API calls to Profitbase Flow. It is required in order to [execute Flows from 3rd party applications](../flows/running-flows/from-third-party-app.md) or make metadata API calls. 
+API keys are used to authenticate and authorize API calls to Hypergene Flow. It is required in order to [execute Flows from 3rd party applications](../flows/running-flows/from-third-party-app.md) or make metadata API calls. 
 You can define API keys at both the [Tenant](../tenants/api-keys.md) and Workspace level.  
 
 The following apply:

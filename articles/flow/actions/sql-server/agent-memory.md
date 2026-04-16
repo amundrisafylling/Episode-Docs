@@ -16,10 +16,10 @@ This example shows an agent using 3 [Flow AI tools](../ai/flow-ai-tool.md) for w
 ## Properties
 | Name               | Required | Description                  |
 |--------------------|---------------|------------------------------|
-| Connection         | Required      | The [SQL Server Connection](./connection.md). |
-| Dynamic connection | Optional      | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Table              | Required      | The name of the table where the memory is stored. If the table does not exist in the database, it will be created automatically by Flow. If you want to use an existing table, see the [description below](#agent-memory-table-schema). |
-| Command timeout (sec) | Optional   | The time limit for command execution before it times out. Default is 120 seconds. |
+| Connection         | Yes | The [SQL Server Connection](./connection.md). |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Table              | Yes | The name of the table where the memory is stored. If the table does not exist in the database, it will be created automatically by Flow. If you want to use an existing table, see the [description below](#agent-memory-table-schema). |
+| Command timeout (sec) | No | The time limit for command execution before it times out. Default is 120 seconds. |
 
 <br/>
 

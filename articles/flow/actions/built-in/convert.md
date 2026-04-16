@@ -15,11 +15,11 @@ This flow illustrates using the [Tools AI Agent](../agents/tools-ai-agent.md) to
 
 | Name                 | Required | Description                                                                                          |
 |----------------------|----------|------------------------------------------------------------------------------------------------------|
-| Title                | Optional | The title or name of the action.                                                                     |
-| Object to convert    | Required | The object (e.g. variable or expression) that should be converted.                                   |
-| Type to convert to   | Required | The target data type the object should be converted into.                                            | 
-| Result variable name | Optional | The name of the variable to store the converted value.                                               |
-| Description          | Optional | Additional notes or comments about the action or configuration.                                      |
+| Title                | No | The title or name of the action.                                                                     |
+| Object to convert    | Yes | The object (e.g. variable or expression) that should be converted.                                   |
+| Type to convert to   | Yes | The target data type the object should be converted into.                                            | 
+| Result variable name | No | The name of the variable to store the converted value.                                               |
+| Description          | No | Additional notes or comments about the action or configuration.                                      |
 
 </br>
 

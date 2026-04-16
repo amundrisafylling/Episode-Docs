@@ -14,12 +14,12 @@ This flow updates the context of a file only if it currently has no context. It 
 
 | Name                | Required | Description                                                                 |
 |---------------------|----------|-----------------------------------------------------------------------------|
-| Connection          | Required | The [InVision connection](../invision-connection.md) used to access File Storage.    |
-| File storage        | Required | The [File Storage](../../../../invision/docs/filestorage.md) where the file is located.                                 |
-| File reference      | Required | The reference ID of the file to retrieve information for.                  |
-| Result variable name| Required | The name of the variable that will store the returned file information.    |
-| Disabled            | Optional | If selected, the action will not execute.                                   |
-| Description         | Optional | A custom description of the action configuration.                           |
+| Connection          | Yes | The [InVision connection](../invision-connection.md) used to access File Storage.    |
+| File storage        | Yes | The [File Storage](../../../../invision/docs/filestorage.md) where the file is located.                                 |
+| File reference      | Yes | The reference ID of the file to retrieve information for.                  |
+| Result variable name| Yes | The name of the variable that will store the returned file information.    |
+| Disabled            | No | If selected, the action will not execute.                                   |
+| Description         | No | A custom description of the action configuration.                           |
 
 ## Returns
 

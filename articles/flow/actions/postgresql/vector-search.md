@@ -15,20 +15,20 @@ This flow processes a user's chat question by first receiving it through a [Chat
 
 | Name                         | Required | Description                                                                                      |
 |------------------------------|-----------|--------------------------------------------------------------------------------------------------|
-| Title                    | Optional  | The title or name of the action. |
-| Connection               | Required  | The PostgreSQL database connection that will be used for the search.          |
-| Table                    | Required  | The name of the table where the vector search will be performed. |
-| Search text              | Required  | The input text string used to perform the vector search, can be provided by a trigger (see below). |
-| Record definition       | Required  | The definition of columns used in vector search. Note! The vector column is not part of the returned data. |
-| Filter                   | Optional  | A filter expression to narrow down the records (e.g., category = blue). |
-| Top                      | Optional  | The maximum number of top results to return. |
-| Skip                     | Optional  | The number of top results to skip (default: *0*). |
-| [Distance function](https://learn.microsoft.com/en-us/azure/cosmos-db/gen-ai/distance-functions)  | Optional  | The method for calculating vector similarity, e.g., *Cosine Distance* (default). |
-| Score limit    | Optional  | A threshold value that limits results to those with a distance score at or below this score (for e.g. CosineDistance). |
-| Prompt template            | Optional  | The prompt template controls the output format for your search results. The system replaces placeholders, such as @[fieldName], with the corresponding data from your vector search fields. See example below. |
-| Search result variable name | Optional | The name of the variable to store results. |
-| Command timeout (seconds) | Optional       | The time limit for command execution before it times out. Default is 120 seconds.  |
-| Description | Optional        | Additional notes or comments about the action or configuration.      |
+| Title                    | No | The title or name of the action. |
+| Connection               | Yes | The PostgreSQL database connection that will be used for the search.          |
+| Table                    | Yes | The name of the table where the vector search will be performed. |
+| Search text              | Yes | The input text string used to perform the vector search, can be provided by a trigger (see below). |
+| Record definition       | Yes | The definition of columns used in vector search. Note! The vector column is not part of the returned data. |
+| Filter                   | No | A filter expression to narrow down the records (e.g., category = blue). |
+| Top                      | No | The maximum number of top results to return. |
+| Skip                     | No | The number of top results to skip (default: *0*). |
+| [Distance function](https://learn.microsoft.com/en-us/azure/cosmos-db/gen-ai/distance-functions)  | No | The method for calculating vector similarity, e.g., *Cosine Distance* (default). |
+| Score limit    | No | A threshold value that limits results to those with a distance score at or below this score (for e.g. CosineDistance). |
+| Prompt template            | No | The prompt template controls the output format for your search results. The system replaces placeholders, such as @[fieldName], with the corresponding data from your vector search fields. See example below. |
+| Search result variable name | No | The name of the variable to store results. |
+| Command timeout (seconds) | No | The time limit for command execution before it times out. Default is 120 seconds.  |
+| Description | No | Additional notes or comments about the action or configuration.      |
 
 </br>
 

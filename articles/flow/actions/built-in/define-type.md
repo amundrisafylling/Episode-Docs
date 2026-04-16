@@ -26,11 +26,11 @@ This Flow is typically used to expose a simple API endpoint for creating or upda
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-| Title           | Optional | The title or name of the action.     |
-| Type definition         | Required   | Definition of one or more custom data types using JSON schema or C#. |
-| Description   | Optional      | Additional notes or comments about the action or configuration.   |
+| Title           | No | The title or name of the action.     |
+| Type definition         | Yes | Definition of one or more custom data types using JSON schema or C#. |
+| Description   | No | Additional notes or comments about the action or configuration.   |
 
 ## Type definition
 
