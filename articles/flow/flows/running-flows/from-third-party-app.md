@@ -4,7 +4,7 @@
 A Flow can be executed as an HTTP API, which makes it easy to integrate into custom apps or scripts.  
 To run a Flow from a 3rd party application, you must use one of the API endpoints of the Flow. You can find the API endpoints of a Flow in the `Resources -> Flow Properties` window, or you can add an [HTTP trigger](../../triggers/http-trigger.md) to the Flow.
 
-![img](../../../../images/running1.png)
+![Running1](../../../../images/running1.png)
 
 <br/>
 
@@ -20,7 +20,7 @@ To execute a **short-running** Flow, use the [Short-running HTTP API](../../api-
  
 <br/>
 
-![img](../../../../images/running2.png)
+![Running2](../../../../images/running2.png)
 
 <br/>
 <br/>
@@ -31,7 +31,7 @@ To execute a **long-running** Flow, use the [Long-running HTTP API](../../api-re
 
 <br/>
 
-![img](../../../../images/running3.png)
+![Running3](../../../../images/running3.png)
 
 <br/>
 <br/>
@@ -41,4 +41,4 @@ To execute a **streaming** Flow, use the [Streaming HTTP API](../../api-referenc
 
 <br/>
 
-![img](/images/flow/streaming-api-endpoint.png)
+![Streaming API Endpoint](/images/flow/streaming-api-endpoint.png)

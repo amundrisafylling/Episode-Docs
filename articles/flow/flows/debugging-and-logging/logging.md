@@ -23,14 +23,14 @@ When you run a Flow from the Designer, any log and debug information will appear
 
 <br/>
 
-![img](../../../../images/debug2.png)
+![Debug2](../../../../images/debug2.png)
 
 
 To view logs from previous runs, open the [Execution logs](../execution-logs.md) window from the `Resources` menu in the application bar.
 
 <br/>
 
-![img](../../../../images/open-flow-execution-logs.png)
+![Open Flow Execution Logs](../../../../images/open-flow-execution-logs.png)
 
 <br/>
 

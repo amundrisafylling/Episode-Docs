@@ -4,7 +4,7 @@ Loads data from a PostgreSQL database into memory as a [DataTable](https://learn
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/postgre-load-dataTB.png)
+![Postgre Load Data Tb](https://profitbasedocs.blob.core.windows.net/flowimages/postgre-load-dataTB.png)
 
 <br/>
 

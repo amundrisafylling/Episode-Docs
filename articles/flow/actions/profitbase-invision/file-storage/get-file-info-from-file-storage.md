@@ -3,10 +3,10 @@
 Gets metadata information about a (single) file from an InVision [File Storage](/articles/invision/docs/filestorage.md).
 
 
-![img](../../../../../images/flow/get-file-info.png)
+![Get File Info](../../../../../images/flow/get-file-info.png)
 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow updates the context of a file only if it currently has no context. It starts with **Get file info from File Storage**, which retrieves metadata for the specified file and stores it in fileInfo. Next, [If action](../../built-in/if.md) checks whether the file’s context is empty or not defined. If the condition is True meaning no context exists the flow calls [Update context of a file in File Storage](update-file-context-in-file-storage.md), passing the fileReferenceId and the provided fileContext. This assigns a context to the file. If the condition is False, nothing happens and the flow continues without changes.
 
 

@@ -3,9 +3,9 @@
 The **REST API Request** action allows you to interact with the [Fortnox REST API](https://apps.fortnox.se/apidocs) to read or write data. You can retrieve information such as customers, accounts, or employees, or update records in Fortnox using HTTP methods (`GET`, `POST`, `PUT`, `DELETE`, etc.).  
 
 
-![img](../../../../images/flow/fortnox-rest-api.png)  
+![Fortnox REST API](../../../../images/flow/fortnox-rest-api.png)  
 
-**Example** ![img](/images/strz.jpg)
+**Example** ![Example](/images/strz.jpg)
 
 The example above shows how to read employees from Fortnox and insert the result into an SQL Server table. The result from the **REST API Request** is converted using the [JSON to DataReader](../json/get-json-datareader.md) action, and then inserted using the [SQL Server Insert](../sql-server/insert-data.md) action.
 
@@ -42,7 +42,7 @@ If you press the `New Request` button in the Configuration dialog, you can choos
 
 The Fortnox REST API is large, so the template collection contains only a subset of the available APIs. If you cannot find a template for the request you want to make, you can refer to the [Fortnox API documentation](https://apps.fortnox.se/apidocs) and define the request manually.
 
-![img](/images/flow/dynamics365-bc-new-request.png)
+![Dynamics365 Bc New Request](/images/flow/dynamics365-bc-new-request.png)
 
 
 1. **Method**: Choose the appropriate HTTP method for your request:  

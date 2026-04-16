@@ -2,9 +2,9 @@
 
 Defines an [Anthropic](https://docs.claude.com/en/api/overview) chat model that an AI Agent can use to generate responses, reason about inputs, and support intelligent automation within Flow.
 
-![img](../../../../images/flow/anthropic-chat-model.png)
+![Anthropic Chat Model](../../../../images/flow/anthropic-chat-model.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses an AI Agent powered by an Anthropic chat model to retrieve a list of blobs from Azure Blob Storage and store the results in a table.
 
 ## Properties

@@ -8,7 +8,7 @@ We’ve added support for the Finago Office REST API (formerly known as 24SevenO
 To start building an integration to Finago Office using Flow, you need a Finago Office subscription with a ClientId, Client secret and Organization ID to set up the connection from Flow. Flow will then automatically handle ceremony such as authentication and resiliency (like API throttling and retries) so you can focus on extracting and transforming the correct data.   
 [Read more here](../actions/finago-office/rest-api-request.md)
 
-![img](/images/flow/release_notes_dec25_finago.png)
+![Release Notes Dec25 Finago](/images/flow/release_notes_dec25_finago.png)
 
 <br/>
 
@@ -17,14 +17,14 @@ To start building an integration to Finago Office using Flow, you need a Finago 
 In addition to using the popular Claude models from Anthropic via Microsoft AI Foundry, we now support using Anthropic models directly with an Anthropic subscription. This provides immediate access to the latest models and allows you to use Flow for AI powered workloads (such as building AI agents) with your exiting Anthropic subscription.  
 [Read more here](../actions/anthropic/streaming-chat-completion.md)
 
-![img](/images/flow/release_notes_dec25_anthropic.png)
+![Release Notes Dec25 Anthropic](/images/flow/release_notes_dec25_anthropic.png)
 
 <br/>
 
 ## Google Vertex AI
 To provide access to the popular Gemini AI models, Flow now includes built-in support for Google Vertex AI. With the addition of Anthropic and Google Vertex AI, you can now use models from all major providers - including OpenAI, Mistral, Microsoft, Google, Anthropic, Meta, and DeepSeek - when building AI-powered workflows and automations in Flow.
 
-![img](/images/flow/release_notes_dec25_google-vertexai.png)
+![Release Notes Dec25 Google Vertexai](/images/flow/release_notes_dec25_google-vertexai.png)
 
 <br/>
 
@@ -36,7 +36,7 @@ Tavily adds web search capabilities to automations and AI agent built with Flow.
 ## Microsoft Teams
 We’ve added basic support for Microsoft Teams, enabling messages to be sent to channels or specific users. This makes it easy to notify people from automations built with Flow. We use this ourselves to alert users in Teams when new messages are posted in Budgeting and Forecasting commenting threads they’re involved in.
 
-![img](/images/flow/release_notes_dec25_msteams.png)
+![Release Notes Dec25 Msteams](/images/flow/release_notes_dec25_msteams.png)
 
 <br/>
 
@@ -44,7 +44,7 @@ We’ve added basic support for Microsoft Teams, enabling messages to be sent to
 A connector to Microsoft Entra ID was added in the October 2025 version of Flow with support for inviting guest users, reading information about users, and reading information about App registrations.
 In the December update, you can now also create users in Entra ID via Flow. A common use case is automating the onboarding of new employees. 
 
-![img](/images/flow/release_notes_dec25_entraid.png)
+![Release Notes Dec25 Entraid](/images/flow/release_notes_dec25_entraid.png)
 
 <br/>
 
@@ -52,14 +52,14 @@ In the December update, you can now also create users in Entra ID via Flow. A co
 Flow now supports the [A2A protocol](https://a2a-protocol.org/latest/), which allows you to build AI agents in Flow that can participate in an agent mesh – a group of agents working together to complete a task.
 The A2A AI agent in Flow an AI agent designed to perform tasks on behalf of a Client (orchestrator) agent. It supports the [A2A protocol](https://a2a-protocol.org/latest/) and is intended exclusively for Agent-to-Agent interoperability where requests are issued by a Client agent and the (A2A) AI agent is responsible for completing the task.
 
-![img](/images/flow/release_notes_dec25_a2a.png)
+![Release Notes Dec25 A2A](/images/flow/release_notes_dec25_a2a.png)
 
 <br/>
 
 ## Agent memory provider for SQL Server
 You can now add memory to AI agents using SQL Server (or Azure SQL). The AI Agent Memory action in Flow automatically stores and retrieves conversation history, enabling ongoing conversations between users and an AI.
 
-![img](/images/flow/release_notes_dec25_agent_memory_sqlserver.png)
+![Release Notes Dec25 Agent Memory Sqlserver](/images/flow/release_notes_dec25_agent_memory_sqlserver.png)
 
 <br/>
 
@@ -81,7 +81,7 @@ To start a new cycle of a continuous process, for example a rolling forecast, yo
 [Read more here](../actions/profitbase-invision/data-store-group/run-rollover.md)  
 
 
-![img](/images/flow/release_notes_dec25_runrollover.png)
+![Release Notes Dec25 Runrollover](/images/flow/release_notes_dec25_runrollover.png)
 
 <br/>
 
@@ -94,7 +94,7 @@ This action is typically used during the setup of a budgeting and forecasting so
 ## Saving and loading Flows via files
 You can now save and load Flows from files. This makes it easy to share Flows with other people or copy Flows between Workspaces or customers. This feature is not a replacement for Packages, but rather a useful tool for ad-hoc sharing of Flows. Note that secrets such as connections or passwords are not included when saving or loading Flows to file, so after a Flow has been loaded into a new Workspace, you must re-configure actions using connections to external systems. The new options are available from the File menu in the Designer.  
 
-![img](/images/flow/release_notes_dec25_flow-from-file.png)
+![Release Notes Dec25 Flow From File](/images/flow/release_notes_dec25_flow-from-file.png)
 
 <br/>
 

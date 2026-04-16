@@ -19,15 +19,15 @@ When the Entra ID App (also known as a "Service Principal") has been created, th
 
 1. In your Entra ID App, go to **Manage** -> **API Permissions**.
 2. Press **Add Permissions** and select **Dynamics 365 Business Central**.
-   ![img](/images/flow/dynamics365-bc-api-connection-service-principal-add-permissions.png)  
+   ![Dynamics365 Bc API Connection Service Principal Add Permissions](/images/flow/dynamics365-bc-api-connection-service-principal-add-permissions.png)  
    <br/>
 
 3. At the top, choose **Application permissions** and select **API.ReadWrite.All** and **Automation.ReadWrite.All**.
-   ![img](/images/flow/dynamics365-bc-api-connection-service-principal-select-permissions.png)  
+   ![Dynamics365 Bc API Connection Service Principal Select Permissions](/images/flow/dynamics365-bc-api-connection-service-principal-select-permissions.png)  
    <br/>
 
 4. Next, you need to grant Admin consent for your organization.  
-   ![img](/images/flow/dynamics365-bc-api-connection-service-principal-grant-admin-consent.png)  
+   ![Dynamics365 Bc API Connection Service Principal Grant Admin Consent](/images/flow/dynamics365-bc-api-connection-service-principal-grant-admin-consent.png)  
    <br/>
 
 5. Go the the Dynamics 365 Business Central Admin portal and grant the service principal access.
@@ -40,7 +40,7 @@ When you have configured a Microsoft Entra ID App with permissions to call the B
 
 To create a Dynamics 365 Business Central APIv2 Connection, add a Dynamics 365 action, for example the [REST API Request with paging](./rest-api-request-with-paging.md) action, to a Flowchart and select it. Then click the `Connection` property in the `Property panel`.
 
-![img](/images/flow/dynamics365-bc-api-connection.png)
+![Dynamics365 Bc API Connection](/images/flow/dynamics365-bc-api-connection.png)
 
 ### Properties
 

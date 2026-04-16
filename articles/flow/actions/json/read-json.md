@@ -4,7 +4,7 @@ Reads a JSON file [byte](https://learn.microsoft.com/en-us/dotnet/api/system.byt
 
 <br/>
 
-![img](../../../../images/flow/json-read.png)
+![JSON Read](../../../../images/flow/json-read.png)
 
 <br/>
 

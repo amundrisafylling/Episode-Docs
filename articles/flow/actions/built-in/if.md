@@ -7,9 +7,9 @@ Use **If** when you need to evaluate a **single condition** and execute an actio
 In contrast, [If-Else](if-else.md) is designed for scenarios with multiple mutually exclusive outcomes and forces the flow to choose one execution path, which can be unnecessary for straightforward checks.
 
 
-![img](../../../../images/flow/If_builtIn.png)
+![If Built In](../../../../images/flow/If_builtIn.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves a [sitemap](../../actions/http/get-sitemap.md) from a specified URL, [validates](function.md) its structure and content, and [throws an exception](throw-exception.md) if the validation fails. You will find a detailed description of this flow [here.](flow-getSitemap.md)
 
 <br/>

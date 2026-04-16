@@ -8,10 +8,10 @@ Use this action if you want to run a Flow within another Flow. The main Flow wil
 If you need to start a Flow inside another Flow that ontinues without waiting for its completion, use [Start Flow](start-flow.md) action instead.
 
 
-![img](../../../../images/flow/run-flow.png)
+![Run Flow](../../../../images/flow/run-flow.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses Run Flow to trigger another Flow as a sub-process. The parent flow passes input parameters to the called flow, waits for it to complete, and then continues execution using the returned output. This allows complex logic to be split into smaller, reusable flows and helps keep the main flow easier to read, maintain, and reuse across multiple scenarios.
 </br>
 

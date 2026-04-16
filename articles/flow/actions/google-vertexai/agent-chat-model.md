@@ -3,9 +3,9 @@
 This defines a [Google VertexAI](https://cloud.google.com/vertex-ai) chat model that an AI Agent — such as the Tools AI Agent — can use to understand context, interpret user input, and decide which actions to take. By providing this model, the agent gains the ability to reason, plan, and respond intelligently based on the conversation and available tools.
 
 
-![img](../../../../images/flow/vertexai-chat-model.png)
+![Vertexai Chat Model](../../../../images/flow/vertexai-chat-model.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses an AI Agent powered by a Google Vertex AI chat model to retrieve a list of blobs from Azure Blob Storage and store the results in a table.
 
 ## Properties

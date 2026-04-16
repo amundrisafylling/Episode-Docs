@@ -2,9 +2,9 @@
 
 Performs an insert or update (upsert) operation on a table row using defined column-value mappings.
 
-![img](../../../../images/flow/postgresql-upsert.png)
+![Postgresql Upsert](../../../../images/flow/postgresql-upsert.png)
 
-**Example** ![img](../../../../images/strz.jpg)
+**Example** ![Example](../../../../images/strz.jpg)
 
 The Flow above illustrates how to use the `Insert or Update row` action to save customer information to a PostgreSQL database fetched from a web API. Actions used in this Flow are: [HTTP Request](../http/http-request.md), `Insert or update row`, and [Send email](../microsoft-365-outlook/send-email.md).
 

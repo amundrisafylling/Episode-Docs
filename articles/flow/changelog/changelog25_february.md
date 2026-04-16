@@ -11,7 +11,7 @@ You can now refresh of a semantic model in Microsoft Fabric directly from Flow i
 
 *Read more here: [Refresh Semantic Model](../actions/microsoft-fabric/refresh-semantic-model.md)*
 
-![img](../../../images/changelogs/Flow25_1_1.png)
+![Flow25 1 1](../../../images/changelogs/Flow25_1_1.png)
 
 ## Power BI Triggers
 
@@ -23,7 +23,7 @@ The Writeback Table visual for Power BI enables editing data within Power BI. Us
 
 The Writeback Comments visual for Power BI allows users to add comments to reports, report lines, KPIs, or data points, and save them to a database or service. This trigger starts a Flow that saves these comments to your chosen destination. Use this trigger to define the starting point of a Flow that saves the comments to the preferred database or service, for example Azure SQL database or Snowflake.
 
-![img](../../../images/changelogs/Flow25_1_2.png)
+![Flow25 1 2](../../../images/changelogs/Flow25_1_2.png)
 
 ## SQL Server
 
@@ -33,7 +33,7 @@ Previously, inserting or updating a row in a SQL Server database required writin
 
 *Read more here: [Insert or update row](../actions/sql-server/insert-or-update-row.md)*
 
-![img](../../../images/changelogs/Flow25_1_3.png)
+![Flow25 1 3](../../../images/changelogs/Flow25_1_3.png)
 
 **Save DeltaSet**
 
@@ -41,7 +41,7 @@ When users edit data in the [Writeback Table](../../PowerBI/writeback-table/over
 
 *Read more here: [Save DeltaSet](../actions/sql-server/save-deltaset.md)*
 
-![img](../../../images/changelogs/Flow25_1_4.png)
+![Flow25 1 4](../../../images/changelogs/Flow25_1_4.png)
 
 ## Snowflake
 
@@ -51,7 +51,7 @@ Similar to SQL Server, when users edit data in the [Writeback Table](../../Power
 
 *Read more here: [Save DeltaSet](../actions/snowflake/save-deltaset.md)*
 
-![img](../../../images/changelogs/Flow25_1_4b.png)
+![Flow25 1 4b](../../../images/changelogs/Flow25_1_4b.png)
 
 ## Parquet
 
@@ -91,7 +91,7 @@ This action enables reading a file as a byte array instead of as a stream. Since
 
 *Read more here: [Read file from share as byte array](../actions/azure-files/read-file-as-byte-array.md)*
 
-![img](../../../images/changelogs/Flow25_1_5.png)
+![Flow25 1 5](../../../images/changelogs/Flow25_1_5.png)
 
 ## OneDrive
 
@@ -109,7 +109,7 @@ We’ve added support for converting a JSON string to a .NET DataTable, which ma
 
 *Read more here: [DataTableTranformer](../api-reference/data-analysis/datatable-transformer/datatable-transformer.md)*
 
-![img](../../../images/changelogs/Flow25_1_6.png)
+![Flow25 1 6](../../../images/changelogs/Flow25_1_6.png)
 
 ## Dynamic connections
 
@@ -132,14 +132,14 @@ The systems currently supporting dynamic connections are:
 If a Flow has a trigger, you now get an option to disable the trigger in one of the environments when publishing the Flow. This only applies to triggers that reacts to events in external systems, or triggers that run on a schedule. Endpoint triggers, such as the HTTP trigger, is not affected by this behavior.
 
 
-![img](../../../images/changelogs/Flow25_1_7.png)
+![Flow25 1 7](../../../images/changelogs/Flow25_1_7.png)
 
 ## Cancellation of jobs from the dashboard
 
 You can now cancel running jobs from the dashboard. When cancelling a job, a cancellation request is sent and the job will stop at first chance. Depending on what task the job is currently performing, the job may stop immediately, or it might take several seconds or minutes to stop.
 
 
-![img](../../../images/changelogs/Flow25_1_8.png)
+![Flow25 1 8](../../../images/changelogs/Flow25_1_8.png)
 
 ### See Also
 

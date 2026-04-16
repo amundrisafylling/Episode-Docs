@@ -6,10 +6,10 @@ Creates a Parquet file from a [DataReader](https://learn.microsoft.com/en-us/dot
 
 Using data table as Source:
 
-![img](../../../../images/flow/parquet-as-stream1.png)
+![Parquet As Stream1](../../../../images/flow/parquet-as-stream1.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow performs an incremental load of a dimension into a Parquet file stored in S3. It first retrieves the list of S3 objects and uses a custom function to check whether UC038_Dimension.parquet already exists. The dimension data is then read as a DataReader and processed in chunks, with each chunk converted to Parquet format as a stream. For each chunk, the Flow evaluates the file existence flag: if the Parquet file is already present, the stream is appended to the existing object; otherwise, a new Parquet object is created and uploaded. This pattern is useful for implementing incremental data loads without recreating the entire Parquet file.
 <br/>
 
@@ -30,4 +30,4 @@ This Flow performs an incremental load of a dimension into a Parquet file stored
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/parquet-as-stream2.png)
+![Parquet As Stream2](https://profitbasedocs.blob.core.windows.net/flowimages/parquet-as-stream2.png)

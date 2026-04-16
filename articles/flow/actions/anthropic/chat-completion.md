@@ -5,9 +5,9 @@ This defines an [Anthropic](https://docs.claude.com/en/api/overview) chat comple
 This action is typically used in flows where you need the model’s complete output in a single, finalized response instead of receiving partial tokens over time.
 Unlike the [streaming](streaming-chat-completion.md) version, this action delivers the **complete output in one response**.
 
-![img](../../../../images/flow/anthropic-chat-completion.png)
+![Anthropic Chat Completion](../../../../images/flow/anthropic-chat-completion.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow processes a user's chat question by first receiving it through a [Chat completion trigger](../../triggers/ai/chat-completion-trigger.md), then converting it into a vector using a [Text embedder](../openai/text-embedder.md), performing a [Vector search](../postgresql/vector-search.md) in a PostgreSQL database for relevant context, and finally passing the user input and retrieved context to OpenAI **Chat completion**, which generates a response that is returned to the client via the [Return](../built-in/return.md) node.
 
 <br/>

@@ -2,10 +2,10 @@
 
 Iterates over a list of blob information in an Azure blob container. 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/foreach-blob-info.png)
+![Foreach Blob Info](https://profitbasedocs.blob.core.windows.net/flowimages/foreach-blob-info.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow iterates through all blobs in an Azure blob container, checks if each blob was modified today, and if so, reads its content as a byte array.. Used actions: [For each Blob info](), [If](../built-in/if.md) and [Read Blob as byte array](read-blob-as-byte-array.md).
 
 

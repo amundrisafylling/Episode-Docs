@@ -2,9 +2,9 @@
 
 Publishes a Dimension in an InVision Solution.
 
-![img](../../../../images/flow/publish-dim.png)
+![Publish Dim](../../../../images/flow/publish-dim.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow loads data into a Dimension and then publishes it. It begins with loading data from a table in Snowflake - [Get DataReader](../snowflake/get-datareader.md). That reader is passed to [Import data to Dimension](import-data-to-dimension.md), where the records are written into the specified Dimension. After a successful import, the flow calls **Publish Dimension** to apply the changes so the updated Dimension becomes available in the solution.
 
 

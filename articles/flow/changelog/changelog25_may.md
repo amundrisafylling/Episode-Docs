@@ -21,7 +21,7 @@ Flow now integrates **Adobe PDF Services** to easily convert PDF files into:
 
 PDF files need to be converted into machine-readable formats (e.g., Markdown) to be usable by LLMs and other information retrieval systems. You can combine the Adobe PDF Services converter action with a Markdown converter action for optimal compatibility.
 
-![img](../../../images/changelogs/Flow25_3_1.png)
+![Flow25 3 1](../../../images/changelogs/Flow25_3_1.png)
 
 <br/>
 
@@ -38,7 +38,7 @@ The **Tools AI Agent** allows for autonomous AI-powered automations. Example:
 
 [Read more here](../actions/agents/tools-ai-agent.md)
 
-![img](../../../images/changelogs/Flow25_3_2.png)
+![Flow25 3 2](../../../images/changelogs/Flow25_3_2.png)
 
 <br/> 
 
@@ -92,7 +92,7 @@ Tools enables building AI-powered automations using [AI Agents](../actions/agent
 - Returns a response from an Azure OpenAI chat model (LLM)
 - Use case: Chat clients like ChatGPT, reasoning over documents
 
-![img](../../../images/changelogs/Flow25_3_3.png)
+![Flow25 3 3](../../../images/changelogs/Flow25_3_3.png)
 
 <br/>
 
@@ -100,7 +100,7 @@ Tools enables building AI-powered automations using [AI Agents](../actions/agent
 
 - Streams response as it's generated (ideal for chat backends)
 
-![img](../../../images/changelogs/Flow25_3_4.png)
+![Flow25 3 4](../../../images/changelogs/Flow25_3_4.png)
 
 <br/>
 
@@ -151,7 +151,7 @@ Same features as Azure OpenAI:
 
 The Chat history truncation reducer is used to limit the amount of data processed by an LLM by removing items from the chat history before it is sent as part of the prompt. Reducing the input to an LLM may positively affect the accuracy of the response, and reduce cost because fewer tokens are used.
 
-![img](../../../images/changelogs/Flow25_3_5.png)
+![Flow25 3 5](../../../images/changelogs/Flow25_3_5.png)
 
 ## PostgreSQL
 
@@ -169,7 +169,7 @@ This action performs a **vector search** against a PostgreSQL table and returns 
 
 A concrete example for using the vector search action is when building RAG-based pipelines, where you are using an LLM to answer questions or reason about text. For this, you will do a semantic search for the question asked by the user, and then feed the result of the search + the user question to the LLM.
 
-![img](../../../images/changelogs/Flow25_3_6.png)
+![Flow25 3 6](../../../images/changelogs/Flow25_3_6.png)
 
 # Markdown
 
@@ -202,7 +202,7 @@ Converts a PowerPoint file to Markdown using the MarkItDown library from Microso
 [Read more here.](../actions/powerpoint/convert-to-markdown.md)
 
 
-![img](../../../images/changelogs/Flow25_3_7.png)
+![Flow25 3 7](../../../images/changelogs/Flow25_3_7.png)
 
 <br/>
 
@@ -224,7 +224,7 @@ The difference between reading a file as stream or byte array is that a stream c
 [Read more here.](../actions/github/read-content-as-stream.md)
 
 
-![img](../../../images/changelogs/Flow25_3_8.png)
+![Flow25 3 8](../../../images/changelogs/Flow25_3_8.png)
 
 <br/>
 
@@ -233,7 +233,7 @@ The difference between reading a file as stream or byte array is that a stream c
 
 We’ve added basic support for web scraping, which enables automating retrieval of information from web sites for analysis or storing to files or databases.
 
-![img](../../../images/changelogs/Flow25_3_9.png)
+![Flow25 3 9](../../../images/changelogs/Flow25_3_9.png)
 
 <br/>
 
@@ -265,7 +265,7 @@ The Split text action breaks large blocks of text into smaller, manageable chunk
 When using Flow to populate a vector database with text from sources like documents or websites, use the Text Splitter to break large blocks of text into smaller chunks before generating embeddings and storing them in the database.
 
 
-![img](../../../images/changelogs/Flow25_3_10.png)
+![Flow25 3 10](../../../images/changelogs/Flow25_3_10.png)
 
 <br/>
 
@@ -277,7 +277,7 @@ You’ll typically use this trigger when you want to implement a Flow that serve
 [Read more here.](../triggers/ai/chat-completion-trigger.md)
 
 
-![img](../../../images/changelogs/Flow25_3_11.png)
+![Flow25 3 11](../../../images/changelogs/Flow25_3_11.png)
 
 <br/>
 
@@ -324,7 +324,7 @@ The `yield break` action signals the end of an iteration in an iterator. When a 
 
 
 
-![img](../../../images/changelogs/Flow25_3_12.png)
+![Flow25 3 12](../../../images/changelogs/Flow25_3_12.png)
 
 <br/>
 

@@ -2,7 +2,7 @@
 
 As described above, in Teams an attachment is a _reference_ to a document, not the document content itself. To send a Teams message with an attachment, the document must [already exist in OneDrive or SharePoint](https://learn.microsoft.com/en-us/graph/api/chatmessage-post?view=graph-rest-1.0&tabs=csharp#example-4-send-a-message-with-file-attachment-in-it). This example shows the required steps to send a Teams message with an attachment, as illustrated in the image below.
 
-![img](/images/flow/teams-example-send-channel-message-with-attachment.png)
+![Teams Example Send Channel Message With Attachment](/images/flow/teams-example-send-channel-message-with-attachment.png)
 
 Our goal is to generate an Excel file with a list of TODOs, and post it to a channel together with a message.
 To post the file as an attachment with the message, the file must exist in OneDrive or SharePoint (this is simply how MS Teams attachments work). The first thing we do is therefore to generate and upload the file. We use the [Upload file to OneDrive](../onedrive/upload-file-to-onedrive.md) action to upload it, which returns the information about the [OneDrive item](../onedrive/api-reference/onedrive-item.md) needed to create the Teams attachment.
@@ -26,4 +26,4 @@ Your message...
 <attachment id="the-guid"></attachment>
 ```
 
-![img](/images/flow/teams-send-message-with-attachment.png)
+![Teams Send Message With Attachment](/images/flow/teams-send-message-with-attachment.png)

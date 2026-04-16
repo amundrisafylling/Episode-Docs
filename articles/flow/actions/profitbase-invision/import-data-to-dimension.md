@@ -2,9 +2,9 @@
 
 Imports data into an InVision Dimension from an [IDataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) or [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable). The source of the DataReader or DataTable is typically a database table or file (Excel, Parquet, CSV).
 
-![img](../../../../images/flow/import-data-to-dim.png)
+![Import Data To Dim](../../../../images/flow/import-data-to-dim.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow imports external data into an InVision Dimension.
 It reads data from a file stored in [Blob Storage](../azure-blob-storage/read-blob-as-byte-array.md), converts the file content into a [DataReader](../csv/open-csv-file-as-datareader.md), and imports the data into the selected dimension. The flow supports updating existing dimension members and optionally controlling how user edits and empty values are handled during the import.
 <br/>

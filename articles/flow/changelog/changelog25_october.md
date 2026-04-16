@@ -11,7 +11,7 @@ You can now use Flow to build tools for AI agents — or put differently, a Flow
 
 Because Flow includes built-in support for a wide range of systems, including MCP (Model Context Protocol), the possibilities for AI-powered workflows are extensive.
 
-![img](../../../images/changelogs/Flow25_10_1.png)
+![Flow25 10 1](../../../images/changelogs/Flow25_10_1.png)
 
 <br/>
 
@@ -35,7 +35,7 @@ The [Flow AI tool trigger](../triggers/ai/flow-ai-tool-trigger.md) enables the F
 Use the [Flow AI tool](../actions/ai/flow-ai-tool.md) to select a tool for a [Tools AI agent](../actions/agents/tools-ai-agent.md). From the property editor, you can select Flows with a [Flow AI tool trigger](../triggers/ai/flow-ai-tool-trigger.md).
 
 
-![img](../../../images/changelogs/Flow25_10_2.png)
+![Flow25 10 2](../../../images/changelogs/Flow25_10_2.png)
 
 <br/>
 
@@ -48,7 +48,7 @@ We now support the [Get report data](../actions/hypergene-portfolios/get-report-
 Use this action to get raw data for a Hypergene Portfolios report in a supported format (JSON, CSV, XML or HTML).  
 [Read more here](../actions/hypergene-portfolios/get-report-data.md).
 
-![img](../../../images/changelogs/Flow25_10_3.png)
+![Flow25 10 3](../../../images/changelogs/Flow25_10_3.png)
 
 <br/>
 
@@ -58,7 +58,7 @@ Use this action to upload data to Hypergene Portfolios for custom processing.
 [Read more here](../actions/hypergene-portfolios/upload-data.md).
 
 
-![img](../../../images/changelogs/Flow25_10_4.png)
+![Flow25 10 4](../../../images/changelogs/Flow25_10_4.png)
 
 <br/>
 
@@ -82,7 +82,7 @@ The For each app registration combined with the For each client secret info acti
 [Read more here](../actions/microsoft-entra-id/for-each-app-registration.md).
 
 
-![img](../../../images/changelogs/Flow25_10_5.png)
+![Flow25 10 5](../../../images/changelogs/Flow25_10_5.png)
 
 <br/>
 
@@ -94,13 +94,13 @@ This is a great help during development, as it allows you to examine data and fo
 
 You can launch the debugger by hovering over a node or right-clicking it. With the debugger window open, you can inspect all data going in and out of the node during execution. Note that debugging data is only available as long as the Designer remains open. If you close or reload the Designer, you’ll need to re-run the Flow to inspect the data trace again.
 
-![img](../../../images/changelogs/Flow25_10_6.png)
+![Flow25 10 6](../../../images/changelogs/Flow25_10_6.png)
 
 <br/>
 
 The debugger window lets you view data in JSON or tabular format, and supports exporting it to the clipboard or downloading it as a JSON file.
 
-![img](../../../images/changelogs/Flow25_10_7.png)
+![Flow25 10 7](../../../images/changelogs/Flow25_10_7.png)
 
 <br/>
 
@@ -108,7 +108,7 @@ The debugger window lets you view data in JSON or tabular format, and supports e
 > Binary data, such as PDFs, images, or Excel files, cannot be viewed in the debugger window. Instead, you can click a button to open the file in a new browser tab or download it to open manually.
 <br/>
 
-![img](../../../images/changelogs/Flow25_10_8.png)
+![Flow25 10 8](../../../images/changelogs/Flow25_10_8.png)
 
 <br/>
 
@@ -118,7 +118,7 @@ You can now disable any action in a Flow by setting the **Disabled** flag in the
 
 When you disable an action that returns a value, the Flow will still run, but the node’s output is replaced with an empty value of the same data type. For instance, if an action normally returns a string, it will return an empty string when disabled. If it returns a DataTable, a disabled version will return an empty DataTable with one column and zero rows.
 
-![img](../../../images/changelogs/Flow25_10_9.png)
+![Flow25 10 9](../../../images/changelogs/Flow25_10_9.png)
 
 <br/>
 
@@ -146,7 +146,7 @@ Users can also test-run queries directly from the editor, and define test parame
 
 This feature makes Flow a much better IDE for developing data flows involving SQL Server, as users can now explore and experiment with data directly from the Flow designer instead of having to switch to a different tool.
 
-![img](../../../images/changelogs/Flow25_10_10.png)
+![Flow25 10 10](../../../images/changelogs/Flow25_10_10.png)
 
 <br/>
 
@@ -173,7 +173,7 @@ All Snowflake actions where users can write queries now has an object explorer t
 The Snowflake connection now supports authentication using Programmatic Access Tokens. The legacy username / password authentication method is being deprecated by Snowflake, and we recommend all customers to switch to a different authentication method.
 
 
-![img](../../../images/changelogs/Flow25_10_11.png)
+![Flow25 10 11](../../../images/changelogs/Flow25_10_11.png)
 
 <br/>
 
@@ -184,7 +184,7 @@ The Snowflake connection now supports authentication using Programmatic Access T
 We added support for selecting which escape character to use when reading CSV files. The default value is ” (double quote), but you can now also specify backslash ( \ ) as the escape character.
 
 
-![img](../../../images/changelogs/Flow25_10_12.png)
+![Flow25 10 12](../../../images/changelogs/Flow25_10_12.png)
 
 <br/>
 

@@ -2,7 +2,7 @@
 
 Creates a Lakehouse in a Microsoft Fabric Workspace.
 
-![img](../../../../images/flow/create-lakehouse.png)
+![Create Lakehouse](../../../../images/flow/create-lakehouse.png)
 
 <br/>
 

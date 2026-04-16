@@ -4,8 +4,8 @@ Use this action to handle [Send Data](../../../invision/docs/workbooks/component
 The typical use case is to use Flow for _directly_ processing the tabular data displayed in the aforementioned InVision Workbook components without going through the InVision database or API. 
 The trigger automatically converts the request payload to an object format that you can use in Flow to process the request.
 
-![img](/images/flow/send-tabular-data-trigger.png)  
-![img](/images/strz.jpg) The example above demonstrates the use of the Send Tabular Data trigger with the [Convert](../../actions/built-in/convert.md) action and a [Function](../../actions/built-in/function.md). In this case, the Convert action converts the FlowParams (see below) so it can be used by the business logic in the Function to apply calculations to the dataset passed in to the trigger.  
+![Send Tabular Data Trigger](/images/flow/send-tabular-data-trigger.png)  
+![Example](/images/strz.jpg) The example above demonstrates the use of the Send Tabular Data trigger with the [Convert](../../actions/built-in/convert.md) action and a [Function](../../actions/built-in/function.md). In this case, the Convert action converts the FlowParams (see below) so it can be used by the business logic in the Function to apply calculations to the dataset passed in to the trigger.  
 
 <br/>
 

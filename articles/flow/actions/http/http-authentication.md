@@ -27,7 +27,7 @@ In the Client Credentials flow, the client (an application) authenticates itself
 | Client secret  | The client secret of the application. |
 | Scope          | (Optional) Many, but not all, APIs requires a valid scope as part of the authentication request. The scope defines the resources the application needs to access.  You must refer to the API documentation to find the valid scope (if any). |
 
-![img](/images/flow/http-authentication-oauth2-client-credentials.png)
+![HTTP Authentication Oauth2 Client Credentials](/images/flow/http-authentication-oauth2-client-credentials.png)
 
 #### Example - Dynamics 365 Business Central
 

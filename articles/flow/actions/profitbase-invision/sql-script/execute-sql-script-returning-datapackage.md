@@ -3,9 +3,9 @@
 Executes an [SQL Script](../../../../invision/docs/sqlscripts.md) in an InVision Solution that returns a [DataPackage](../../../../invision/docs/package.md).
 
 
-![img](../../../../../images/flow/execute-sql-script-returning-datapackage.png) 
+![Execute SQL Script Returning Datapackage](../../../../../images/flow/execute-sql-script-returning-datapackage.png) 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow executes a SQL script to retrieve DataPackage, [converts](../convert-datapackage-to-datatable.md) the result into a table, [generates a CSV file](../../csv/create-csv-file-as-stream.md) from the data, and [uploads](../../azure-blob-storage/upload-blob.md) the file to blob storage.
 
 

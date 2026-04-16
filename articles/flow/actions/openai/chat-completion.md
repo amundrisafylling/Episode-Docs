@@ -6,9 +6,9 @@ This action is typically used in flows where you need the model’s complete out
 Unlike the [streaming](streaming-chat-completion.md) version, this action delivers the **complete output in one response**.
 
 
-![img](/images/flow/openAI-chat-completion.png)  
+![Open AI Chat Completion](/images/flow/openAI-chat-completion.png)  
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow processes a user's chat question by first receiving it through a [Chat completion trigger](../../triggers/ai/chat-completion-trigger.md), then converting it into a vector using a [Text embedder](text-embedder.md), performing a [Vector search](../postgresql/vector-search.md) in a PostgreSQL database for relevant context, and finally passing the user input and retrieved context to OpenAI **Chat completion**, which generates a response that is returned to the client via the [Return](../built-in/return.md) node.
 
 
@@ -43,6 +43,6 @@ Within the template, you can use the following placeholders:
 
 The system will substitute these placeholders with the corresponding values before sending the prompt to the model.
 
-**Example** ![img](../../../../images/strz2.jpg) 
+**Example** ![Example](../../../../images/strz2.jpg) 
 
-![img](../../../../images/flow/openai-chat-completion-prompt-template.png)  
+![Openai Chat Completion Prompt Template](../../../../images/flow/openai-chat-completion-prompt-template.png)  

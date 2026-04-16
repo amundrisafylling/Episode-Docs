@@ -3,9 +3,9 @@
 Converts a non-PDF file (Word, image, PowerPoint, etc) to PDF and returns it as a byte array.
 
 
-![img](../../../../images/flow/convertOthertoPDF.png)
+![Convert Otherto PDF](../../../../images/flow/convertOthertoPDF.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow takes a  documentation file (in DOCX format) from [OneDrive](../onedrive/read-file-from-onedrive-as-byte-array.md), sends it to the [Adobe PDF Services](https://developer.adobe.com/document-services/docs/overview/pdf-services-api/) as a byte array, where it is converted into a PDF format, and then [uploads](../onedrive/upload-file-to-onedrive.md) it to the selected folder in OneDrive.
 
 

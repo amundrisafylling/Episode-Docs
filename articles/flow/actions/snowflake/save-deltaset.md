@@ -6,7 +6,7 @@ A DeltaSet represents a set of row-level changes captured from a source such as 
 
 ![The Save DeltaSet action configured in the flow editor](../../../../images/flow/snowflake-save-deltaset.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow [receives](../../triggers/power-bi/writeback-table-trigger.md) a DeltaSet of changes from a Power BI writeback table and saves those changes to a Snowflake table by applying inserts, updates, and deletes.
 
 ## Properties

@@ -43,4 +43,4 @@ To create a new connection:
    - **Client secret**: Enter your Adobe API client secret.
 3. Test/Click **OK** to save the connection.
 
-![img](../../../../images/flow/connection-adobe.png)
+![Connection Adobe](../../../../images/flow/connection-adobe.png)

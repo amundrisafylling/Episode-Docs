@@ -7,7 +7,7 @@ Configures the Flow to be triggered on a schedule.
 ![sch tr](/images/flow/scheduled-trigger.png) 
 
 
-**Example**![img](/images/strz.jpg)  
+**Example**![Example](/images/strz.jpg)  
 This flow runs on a scheduled basis and performs automated file cleanup on an FTP server. At each scheduled interval, it [retrieves](../actions/ftp/get-file-names.md) a list of files from a specified directory, checks [whether](../actions/built-in/if.md) each file is older than 7 days, and [deletes](../actions/ftp/delete-file.md) those that meet the condition. This helps keep the FTP directory tidy by automatically removing outdated files.
 
 <br/>
@@ -30,7 +30,7 @@ This flow runs on a scheduled basis and performs automated file cleanup on an FT
 
 This trigger returns a single variable with the specified name and Output data type. 
 
-![img](../../../images/flow/schedule-trigger-output-type.png)
+![Schedule Trigger Output Type](../../../images/flow/schedule-trigger-output-type.png)
 <br/>
 
 ## Step by step

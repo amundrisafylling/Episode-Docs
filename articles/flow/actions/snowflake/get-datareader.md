@@ -6,7 +6,7 @@ Use this action when working with large result sets where loading all rows into 
 
 ![The Get DataReader action configured in the flow editor](../../../../images/flow/snowflake-get-datareader.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow reads a large dataset (20,000 orders) from Snowflake using a DataReader, [converts the stream into a Parquet](../parquet/create-parquet-file-as-stream.md) file, and [uploads it to blob storage](../azure-blob-storage/upload-blob.md).
 
 ## Properties

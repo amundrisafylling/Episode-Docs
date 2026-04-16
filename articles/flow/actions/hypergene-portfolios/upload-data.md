@@ -2,9 +2,9 @@
 
 Uploads data to Hypergene Portfolios for custom processing.
 
-![img](/images/flow/portfolios-upload-data.png)  
+![Portfolios Upload Data](/images/flow/portfolios-upload-data.png)  
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above illustrates how to upload project expenses from an Azure SQL database to Hypergene Portfolios. It uses the SQL Server [Load to DataTable](../sql-server/load-to-datatable.md) action to fetch data from the Azure SQL database, then creates a CSV file using [Create CSV as stream](../csv/create-csv-file-as-stream.md) and finally uploads the CSV file to Hypergene Portfolios using the [Upload data](#upload-data) action.
 
 <br/>

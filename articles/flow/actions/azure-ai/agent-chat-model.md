@@ -26,7 +26,7 @@ Do NOT wrap the response in Markdown annotation.
 ```
 
 
-![img](/images/flow/agent-chat-model.png)
+![Agent Chat Model](/images/flow/agent-chat-model.png)
 
 <br/>
 
@@ -47,7 +47,7 @@ Do NOT wrap the response in Markdown annotation.
 #### Models
 To find the Model deployment name, look in `Models` screen in [Microsoft Foundry](https://ai.azure.com).  
 
-![img](/images/flow/azure-ai-foundry-deploymentname.png)
+![Azure AI Foundry Deploymentname](/images/flow/azure-ai-foundry-deploymentname.png)
 
 <br/>
 

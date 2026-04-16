@@ -5,7 +5,7 @@ The business logic of a Flow is defined by combining triggers and actions into a
 
 <br/>
 
-![img](../../../images/actionstriggers.png)
+![Actionstriggers](../../../images/actionstriggers.png)
 
 There are a few simple rules that apply to how actions and triggers can be used in a Flow:
 
@@ -28,7 +28,7 @@ When you select a parameter and open the selector, a list of all variables with 
 
 <br/>
 
-![img](../../../images/inputoutput.png)
+![Inputoutput](../../../images/inputoutput.png)
 
 **No compatible data found**
 

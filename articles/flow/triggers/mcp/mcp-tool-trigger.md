@@ -3,9 +3,9 @@
 The `MCP tool trigger` exposes a Flow as a tool compatible with [MCP (Model Context Protocol)](https://modelcontextprotocol.io), making it accessible to LLMs.  
 This means that, by adding the `MCP tool trigger` to a Flow, you enable AI agents to autonomously run Flows to complete tasks. 
 
-![img](/images/flow/mcp-tool-trigger.png)  
+![MCP Tool Trigger](/images/flow/mcp-tool-trigger.png)  
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above illustrates a Flow that can be called by an AI agent because it has an `MCP tool trigger`. The AI agent runs the Flow as a tool through an MCP client and passes in information about the order to be placed.
 
 <br/>

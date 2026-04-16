@@ -2,9 +2,9 @@
 
 Reads the contents of an Amazon S3 object into memory as a byte array. You can compare this to downloading a file. Prefer using [streaming](read-s3object-as-stream.md) over reading as byte array if possible. Streaming is generally faster and uses less memory, because streaming doesn't require loading the entire object into memory before you can start working with the data.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/read-as-byte.png)
+![Read As Byte](https://profitbasedocs.blob.core.windows.net/flowimages/read-as-byte.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow ensures that the object is moved from a staging area to the main storage and then the corresponding table is cleared.
 </br>
 </br>

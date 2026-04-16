@@ -3,9 +3,9 @@
 Provides a DataReader for reading a forward-only stream of rows from an InVision Dimension tble.
 
 
-![img](../../../../images/flow/get-dim-datareader.png)
+![Get Dim Datareader](../../../../images/flow/get-dim-datareader.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow reads data from an InVision Dimension table using a forward-only data reader and streams the result to downstream actions.  
 It retrieves the selected dimension in either wide or parent-child format, exposes the data as a **DataReader**, and passes it to subsequent actions for processing, such as exporting the data to a file or uploading it to storage.
 

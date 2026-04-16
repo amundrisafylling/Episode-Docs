@@ -2,9 +2,9 @@
 
 Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqldatareader) for reading a forward-only stream of rows from a Google BigQuery database.
 
-![img](../../../../images/flow/bigquery-get-datareader.png)
+![Bigquery Get Datareader](../../../../images/flow/bigquery-get-datareader.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow reads data from a Google BigQuery database using a forward-only data reader and processes the result as a stream.  
 It executes a SQL query, exposes the result as a **DataReader**, and passes that reader to downstream actions that consume the data sequentially, such as formatting the result and uploading it as a file.
 

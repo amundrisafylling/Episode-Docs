@@ -4,10 +4,10 @@ When a new message arrives in the Azure Event hub, the trigger detects it and st
 
 <br/>
 
-![img](/images/flow/aeh-trigger.png)
+![AEH Trigger](/images/flow/aeh-trigger.png)
 
 
-**Example**![img](../../../../images/strz.jpg)   
+**Example**![Example](../../../../images/strz.jpg)   
 This Flow listens for invoice messages arriving in an Event Hub.  
 If the message contains invoice data, it’s added to a database; otherwise the Flow throws a controlled exception.
 <br/>
@@ -34,6 +34,6 @@ If the message contains invoice data, it’s added to a database; otherwise the 
 
 This trigger returns a single variable with the specified name and Output data type. 
 
-![img](../../../../images/flow/schedule-trigger-output-type.png)
+![Schedule Trigger Output Type](../../../../images/flow/schedule-trigger-output-type.png)
 <br/>
 

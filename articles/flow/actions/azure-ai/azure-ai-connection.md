@@ -35,11 +35,11 @@ To find the API Key and Endpoint, go the the Microsoft Foundry portal and do the
 5) In the `Details` tab, copy the `Key` (which is the API key)
 
 
-![img](/images/flow/ai-foundry-model-connection.png)
+![AI Foundry Model Connection](/images/flow/ai-foundry-model-connection.png)
 
 <br/>
 
-![img](/images/flow/ai-foundry-model-apikey.png)
+![AI Foundry Model Apikey](/images/flow/ai-foundry-model-apikey.png)
 
 <br/>
 
@@ -75,7 +75,7 @@ To find the API Key and Endpoint, go the the Microsoft Foundry portal and do the
 4) Copy the Endpoint URL
 5) Copy the (API) Key
 
-![img](/images/flow/azure-ai-foundry-connection-standard.png)
+![Azure AI Foundry Connection Standard](/images/flow/azure-ai-foundry-connection-standard.png)
 
 <br/>
 
@@ -98,7 +98,7 @@ To find the API Key and Endpoint, go the the Microsoft Foundry portal and do the
 4) Copy the Endpoint URL. Note that the deployment name is in the URL.
 5) Copy the (API) Key
 
-![img](/images/flow/azure-ai-foundry-connection-openai-model.png)
+![Azure AI Foundry Connection Openai Model](/images/flow/azure-ai-foundry-connection-openai-model.png)
 
 <br/>
 

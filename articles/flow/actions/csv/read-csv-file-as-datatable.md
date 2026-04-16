@@ -5,7 +5,7 @@ Loads the contents of a CSV file into memory as a [DataTable](https://learn.micr
 This action is typically used when you need to import small to mid-sized CSV files to a database (< 250 000 rows). The [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable) can be used as input to actions such as the [SQL Server Insert Data](../sql-server/insert-data.md) action.
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/loadDT.png)
+![Load Dt](https://profitbasedocs.blob.core.windows.net/flowimages/loadDT.png)
 
 <br/>
 

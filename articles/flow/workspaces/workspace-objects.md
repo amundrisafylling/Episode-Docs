@@ -31,8 +31,8 @@ To edit or delete a Workspace Object, open the Workspace Objects editor from the
 > [!NOTE]
 > If you edit a Workspace Object which contains secrets such as usernames, passwords or API keys, you must re-enter all secrets before saving. Secrets will not be displayed when opening a Workspace Object for edit.
 
-![img](../../../images/open-workspace-objects-editor.png)
+![Open Workspace Objects Editor](../../../images/open-workspace-objects-editor.png)
 
 <br/>
 
-![img](../../../images/flow/open-workspace-objects-editor2.png)
+![Open Workspace Objects Editor2](../../../images/flow/open-workspace-objects-editor2.png)

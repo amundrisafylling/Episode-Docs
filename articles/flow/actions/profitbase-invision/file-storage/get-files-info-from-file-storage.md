@@ -3,9 +3,9 @@
 Gets a list of metadata information about files in an InVision [File Storage](/articles/invision/docs/filestorage.md).
 
 
-![img](../../../../../images/flow/get-multiple-info-fileStorage.png)
+![Get Multiple Info File Storage](../../../../../images/flow/get-multiple-info-fileStorage.png)
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow demonstrates how to use **Get multiple file info from File Storage** to verify that a file has been created successfully. The flow starts by running [Run flow](../../built-in/run-flow.md) action, which creates and stores a CSV file in File Storage. **Get multiple file info from File Storage** retrieves metadata for the files available in the configured storage location. The result is returned as a collection (`filesInfo`). The flow then evaluates the result using [If](../../built-in/if.md) action. If exactly one file is found, the flow continues. If no file or more than one file is found, [Throw exception](../../built-in/throw-exception.md) is executed to explicitly fail the flow.
 
 In short, the flow creates a file, retrieves file metadata from File Storage, and validates that the expected number of files exists before continuing.

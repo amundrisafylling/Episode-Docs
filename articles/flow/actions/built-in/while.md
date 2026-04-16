@@ -7,7 +7,7 @@ When the condition no longer evaluates to `true`, execution continues from the `
 ![image](../../../../images/flow/while.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses the While action to repeatedly execute a set of actions as long as a specified condition evaluates to true. The condition is evaluated before each iteration, and the loop stops automatically once the condition is no longer met. This is typically used for polling, retry logic, or iterative processing where the number of repetitions is not known in advance.
 
 | Name                            | Data Type   | Description                                           |
@@ -21,4 +21,4 @@ This flow uses the While action to repeatedly execute a set of actions as long a
 
 This property prevents the loop from running indefinitely.  Setting a reasonable maximum is recommended to avoid potential infinite loops.
 
-![img](../../../../images/flow/max-While-Iteration.png)
+![Max While Iteration](../../../../images/flow/max-While-Iteration.png)

@@ -2,9 +2,9 @@
 
 Iterates over a list of all [items](./api-reference/onedrive-item.md) in a OneDrive folder.
 
-![img](../../../../images/flow/onedrive-foreach-file.png)
+![Onedrive Foreach File](../../../../images/flow/onedrive-foreach-file.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow iterates through all files in a OneDrive folder, deletes each file, and then sends an email notification once all deletions are completed.
 
 ## Properties

@@ -2,9 +2,9 @@
 
 Recreates a Stored Procedure based on definition from Hypergene InVision.
 
-![img](../../../../images/flow/deploy-stored-procedure.png)
+![Deploy Stored Procedure](../../../../images/flow/deploy-stored-procedure.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow redeploys stored procedures defined in an InVision solution.  
 It is triggered via [HTTP](../../triggers/http-trigger.md), [retrieves](../sql-server/get-datareader.md) all stored procedures for the specified solution, [iterates](../built-in/foreach.md) through them, and recreates each stored procedure in the target environment based on its current InVision definition. The flow [logs](../built-in/log.md) the result of each deployment as it progresses.
 

@@ -12,13 +12,13 @@ Download and install .NET 8 Hosing Bundle from [here](https://dotnet.microsoft.c
 
 In the Azure portal, go to **Microsoft Entra ID** -> **App registrations** and choose **New registration**
 
-![img](../../../images/new_app_registration.png)
+![New App Registration](../../../images/new_app_registration.png)
 
 1) Enter the name of the app registration. This is the name of the application registration in the Azure portal. It can be whatever you like, but you should choose a meaningful name.  
 2) Under Supported account types, choose **Accounts in this organizational directory only ([Your company - Single tenant])**  
 3) Under Redirect URI, choose **Single-page application (SPA)**.  
 
-![img](../../../images/new_app_registration_step2.png)
+![New App Registration Step2](../../../images/new_app_registration_step2.png)
 
 ##### 2) Configure authentication  
 
@@ -29,7 +29,7 @@ Under **Authentication**, add the following Redirect URIs:
 *	https://site.com[/instance]**/portal**
 *	https://site.com[/instance]**/portal/**
 
-![img](../../../images/new_app_registration_redirect_uris.png)
+![New App Registration Redirect Uris](../../../images/new_app_registration_redirect_uris.png)
 
  
 <br/>
@@ -42,7 +42,7 @@ Under **Authentication**, enable:
  
 <br/>
 
-![img](../../../images/new_app_registration_tokens.png)
+![New App Registration Tokens](../../../images/new_app_registration_tokens.png)
 
 ##### 3) Configure API permissions  
 
@@ -58,7 +58,7 @@ Under **API Permissions**, enable the following **Delegated permissions** for **
  
 <br/>
 
-![img](../../../images/new_app_registration_api_permissions.png)
+![New App Registration API Permissions](../../../images/new_app_registration_api_permissions.png)
 
 #### Step 3: Create Azure Service Bus queues and topics
 
@@ -75,7 +75,7 @@ Max delivery count: **750**
 Message time to live: **2 hours**  
 Message lock duration: **10 seconds**  
 
-![img](../../../images/new_app_registration_servicebus.png)
+![New App Registration Servicebus](../../../images/new_app_registration_servicebus.png)
 
 #### Step 4: Create an Azure Blob container
 

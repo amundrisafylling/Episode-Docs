@@ -5,7 +5,7 @@ This node enables the dynamic generation of an Xledger connection, allowing seam
 ![Flow: Create Xledger connection → Get data](../../../../images/flow/Xledger-dynamic-connection.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses [Declare Variables](../built-in/declare-variables.md) to initialize the connection parameters, then Create Xledger connection to dynamically create an authenticated Xledger connection. The connection is passed to [Get Xledger Data](./get-xledger-data.md) node, which retrieves account data via GraphQL. On success, the accounts are inserted into the database, while any failures are surfaced — both handled by [Functions](../built-in/function.md).
 
 

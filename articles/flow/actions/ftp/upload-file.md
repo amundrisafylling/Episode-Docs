@@ -2,9 +2,9 @@
 
 Uploads a file to an FTP / SFTP directory.
 
-![img](../../../../images/flow/ftp-download-file-as-byte-array.png)
+![FTP Download File As Byte Array](../../../../images/flow/ftp-download-file-as-byte-array.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow [downloads](download-file-as-byte-array.md) an invoice as a PDF file from an FTP server, [converts](../adobe/pdf-to-non-pdf-as-byte-array.md) it to a editable Word document (.docx), and **uploads** the converted file back to the server in a different folder for further editing or approval.
 
 <br/>

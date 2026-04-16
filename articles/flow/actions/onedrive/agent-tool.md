@@ -21,7 +21,7 @@ Use the subject: 'Summary'.
 Include all the Word documents as attachments to the email.
 ```
 
-![img](/images/flow/onedrive-agent-tool.png)
+![Onedrive Agent Tool](/images/flow/onedrive-agent-tool.png)
 
 <br/>
 

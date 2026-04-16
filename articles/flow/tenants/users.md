@@ -13,4 +13,4 @@ An Admin user has access to all features and Workspaces in a Tenant and can assi
 Member users can only access the Workspace(s) they have been granted access to by administrators.  
 To grant a Member user permissions to a Workspace, go to the Workspace and [grant permissions to the user from access control screen](../workspaces/workspace-access-control.md).  
  
-![img](../../../images/flow/tenant-users.png)
+![Tenant Users](../../../images/flow/tenant-users.png)

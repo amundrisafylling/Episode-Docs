@@ -44,4 +44,4 @@ To create a new connection:
 3. Click **Test connection** to verify your credentials.
 4. If successful, click **OK** to save the connection.
 
-![img](../../../../images/flow/connection-amaz.png)
+![Connection Amaz](../../../../images/flow/connection-amaz.png)

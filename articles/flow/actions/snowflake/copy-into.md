@@ -11,9 +11,9 @@ A [stage](https://docs.snowflake.com/en/sql-reference/sql/create-stage) is a loc
 > - The destination table must already exist in Snowflake.
 
 
-![img](../../../../images/flow/snowflake-copy-data.png)
+![Snowflake Copy Data](../../../../images/flow/snowflake-copy-data.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow creates a CSV stream from input data using [Create CSV file as stream](../csv/create-csv-file-as-stream.md), uploads it to a stage with [Upload Blob](../azure-blob-storage/upload-blob.md), and then loads the data into a Snowflake table.
 <br/>
 

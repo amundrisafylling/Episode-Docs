@@ -9,10 +9,10 @@ For example, you might want to send an email if a critical error occurs, and the
 
 A Try-Catch action creates a scope. You put the business logic that you want to perform in the Try block, and the error handling in the Catch block.
 
-![img](../../../../images/flow/try-catch.png)
+![Try Catch](../../../../images/flow/try-catch.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow demonstrates how Try / Catch is used to handle runtime errors in a controlled way. The logic inside the Try block is executed first, and if any action fails, execution is redirected to the Catch block instead of stopping the entire flow. This allows the flow to handle errors gracefully—for example by logging the error, setting fallback values, or executing alternative logic—while keeping the main process robust and predictable.
 </br>
 

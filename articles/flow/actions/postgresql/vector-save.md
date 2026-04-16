@@ -3,9 +3,9 @@
 Generates and saves vector records to a PostgreSQL database from text input.
 
 
-![img](../../../../images/flow/vector-save.png)
+![Vector Save](../../../../images/flow/vector-save.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow [reads](../onedrive/read-file-from-onedrive-as-byte-array.md) files from OneDrive, [converts](../built-in/convert.md) their content to text, [splits](../ai/text-splitter.md) it into chunks, generates [embedding](../azure-ai/text-embedder.md) vectors, and stores them in a PostgreSQL database for semantic search.
 
 

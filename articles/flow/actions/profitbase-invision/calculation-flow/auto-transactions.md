@@ -24,7 +24,7 @@ To use Auto Transactions to produce calculated rows, create a Flow and add the f
 4) Add a [Function](../../built-in/function.md) action and call `AutoTransactions.UseContext(...)` (see example below).
 5) Add a [Function](../../built-in/function.md) action and implement the calculations (see example below).
 
-![img](/images/flow/using-auto-transactions.png)
+![Using Auto Transactions](/images/flow/using-auto-transactions.png)
 
 **Set processing context**  
 From step 4) above, we need to set the context on the Auto Transactions search index so that when we call [FilterByContext()](auto-transactions/auto-transaction-filter-by-context.md) or [FilterByContextDistinctByTypeField()](auto-transactions/auto-transaction-filter-by-context-distinct-by-type-field.md), we get back the Auto Transaction _definitions_ that should be used to generate the Auto Transactions for the current context (for example department, employee or account).

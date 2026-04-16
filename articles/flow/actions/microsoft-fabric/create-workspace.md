@@ -4,7 +4,7 @@ Creates a [Workspace](https://learn.microsoft.com/en-us/fabric/get-started/creat
 [Read more](https://learn.microsoft.com/en-us/fabric/get-started/create-workspaces).
 
 
-![img](../../../../images/flow/create-workspace-fabric.png)
+![Create Workspace Fabric](../../../../images/flow/create-workspace-fabric.png)
 
 <br/>
 

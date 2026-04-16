@@ -2,7 +2,7 @@
 
 Gets a single entity based on a query against a SQL Server database.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/get-entity.png)
+![Get Entity](https://profitbasedocs.blob.core.windows.net/flowimages/get-entity.png)
 
 <br/>
 

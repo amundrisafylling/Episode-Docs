@@ -4,7 +4,7 @@ Replaces relative URLs in an HTML document or element with absolute URLs.
 
 A typical use case for this action is storing information from a website (such as an internal knowledge base) in a vector database used for Retrieval-Augmented Generation (RAG) in an AI chat. Links to topics are often stored as URLs relative to the original site. However, when an LLM replies with information from the RAG lookup, the response is no longer in the context of the original website, so relative links are broken.
 
-![img](/images/flow/html-replace-relative-urls.png)
+![HTML Replace Relative Urls](/images/flow/html-replace-relative-urls.png)
 
 <br/>
 

@@ -31,7 +31,7 @@ The PdfTree implements [IEnumerable](https://learn.microsoft.com/en-us/dotnet/ap
 This example shows how to extract the `Total Amount` from the sample invoice below.
 We use the PdfTree API to get a reference to the document element with value `Total Amount` (this is the amount label), and then navigate from there to the element containing the actual value. In this case, the Total Amount `value` is in the table row just below the label itself. Keep in mind that all data is text, so if you need to perform math or other types numeric (or date) operations, you need to convert the values to correct data types first.
 
-![img](/images/flow/snowflake-sample-invoice.png)
+![Snowflake Sample Invoice](/images/flow/snowflake-sample-invoice.png)
 
 ```csharp
 // PdfTree pdfTree = ...from an "Extract content from PDF as document tree" action
@@ -55,7 +55,7 @@ This example shows how to extract the `Compute SUBTOTAL` from the sample invoice
 It first finds the table containing the invoice lines, then finds the table row containing the "Compute" row header, and then  
 finds the 4th cell (.Children[3]) and picks the Value from cell object.
 
-![img](/images/flow/snowflake-sample-invoice-2.png)
+![Snowflake Sample Invoice 2](/images/flow/snowflake-sample-invoice-2.png)
 
 ```csharp
 

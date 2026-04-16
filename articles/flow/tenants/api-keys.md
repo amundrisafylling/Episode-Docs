@@ -10,7 +10,7 @@ The following apply:
 
 <br/>
 
-![img](../../../images/flow/api-keys.png)
+![API Keys](../../../images/flow/api-keys.png)
 
 <br/>
 

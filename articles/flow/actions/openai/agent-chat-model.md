@@ -2,9 +2,9 @@
 
 Defines an [OpenAI](https://platform.openai.com/docs) chat model that an AI Agent, such as the Tools AI Agent, can use to reason about what actions to take.
 
-![img](../../../../images/flow/OpenAIagent-chat-model.png)
+![Open Aiagent Chat Model](../../../../images/flow/OpenAIagent-chat-model.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses an AI Agent powered by an OpenAi chat model to retrieve a list of blobs from Azure Blob Storage and store the results in a table.
 
 

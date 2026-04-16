@@ -5,7 +5,7 @@ Configures the flow to automatically run by checking periodically for new messag
 ![topic](/images/flow/queue-trigger.png)
 
 
-**Example**![img](/images/strz.jpg)   
+**Example**![Example](/images/strz.jpg)   
 This Flow listens for new customer messages on an Azure Service Bus **queue**.  
 For each message, it validates that required customer fields are present and, if valid, inserts the record into the database.
 <br/>
@@ -28,5 +28,5 @@ For each message, it validates that required customer fields are present and, if
 
 This trigger returns a single variable with the specified name and Output data type. 
 
-![img](../../../../images/flow/schedule-trigger-output-type.png)
+![Schedule Trigger Output Type](../../../../images/flow/schedule-trigger-output-type.png)
 <br/>

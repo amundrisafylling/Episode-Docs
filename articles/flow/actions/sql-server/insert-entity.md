@@ -12,7 +12,7 @@ INSERT INTO tableName (Property1, Property2) VALUES(entity.Property1, enity.Prop
 > Each property name in the entity must exist in the target table. If the database collation is case sensitive, the properties and columns must match by case in addition to name.
 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/insert-entity.png)
+![Insert Entity](https://profitbasedocs.blob.core.windows.net/flowimages/insert-entity.png)
 
 ## Properties
 

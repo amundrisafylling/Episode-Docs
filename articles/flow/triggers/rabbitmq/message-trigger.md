@@ -4,10 +4,10 @@ Configures the flow to automatically run when a new message is received from a *
 
 <br/>
 
-![img](/images/flow/rabbitmq-trigger.png)
+![Rabbitmq Trigger](/images/flow/rabbitmq-trigger.png)
 
  
-**Example**![img](/images/strz.jpg)    
+**Example**![Example](/images/strz.jpg)    
 
 This flow receives a message containing a JSON text with log data from RabbitMQ using this **trigger**. It then [converts the JSON to a datatable](../../actions/json/get-json-datatable.md), and [inserts it into an SQL Server table](../../actions/sql-server/insert-data.md).
 

@@ -4,10 +4,10 @@ Creates a CSV file from a [DataReader](https://learn.microsoft.com/en-us/dotnet/
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/csv-as-byteArray.png)
+![CSV As Byte Array](https://profitbasedocs.blob.core.windows.net/flowimages/csv-as-byteArray.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow example shows a process that reads data from a database, splits records into multiple chunks, converts each chunk into CSV format, and appends it to a blob storage.  
 Actions used in the flow are: SQL Server [Get DataReader](../sql-server/get-datareader.md), [DataReader chunker](../built-in/datareader-chunker.md), [Create CSV file as byte array]() and [Append to Blob](../azure-blob-storage/append-to-blob.md). 
 

@@ -9,9 +9,9 @@ You can also get the HTTP endpoint of the Flow from the HTTP trigger. The HTTP e
 
 <br/>
 
-![img](/images/flow/http-trigger.png)
+![HTTP Trigger](/images/flow/http-trigger.png)
 
-**Example**![img](/images/strz.jpg)  
+**Example**![Example](/images/strz.jpg)  
 This flow is triggered by an incoming HTTP request. It first retrieves the total hours used for that project and then looks up the corresponding project name. Using this information, the flow generates an HTML representation of the report and converts it into a PDF file. Finally, it returns the PDF document as part of the HTTP response to the requester.
 
 <br/>
@@ -33,7 +33,7 @@ This flow is triggered by an incoming HTTP request. It first retrieves the total
 
 This trigger returns a single variable with the specified name and Output data type. 
 
-![img](../../../images/flow/schedule-trigger-output-type.png)
+![Schedule Trigger Output Type](../../../images/flow/schedule-trigger-output-type.png)
 <br/>
 
 ## Default data
@@ -41,7 +41,7 @@ While developing a Flow that will be executed from 3rd party clients like Hyperg
 If the Flow expects a parameter, you can use the `Default data` property to define a mock business object that is used when the Flow executes. Note that the Default data object is also used as parameter data if no data is passed from the caller (3rd party app), so remember to remove the Default data definition when you're done developing the Flow (unless you want to enable a fallback value if 3rd party clients do not provide a value to the parameter).
 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/http-trigger.png)
+![HTTP Trigger](https://profitbasedocs.blob.core.windows.net/flowimages/http-trigger.png)
 
 <br/>
 
@@ -96,7 +96,7 @@ public record Address(int Zip, string City, string Street, string Country);
 **1)** Add a SQL Server [Execute command](../actions/sql-server/execute-command.md) action and connect the output and input ports of the HTTP trigger and Execute command action.  
 
 **2)** Select the Execute command action and define the following `SQL parameters` in the `Properties panel`.
-![img](../../../images/http-trigger-example-sql-parameters.png)
+![HTTP Trigger Example SQL Parameters](../../../images/http-trigger-example-sql-parameters.png)
 
 **3)** Define the following `SQL expression ` in the `Properties panel`.
 ```sql
@@ -115,7 +115,7 @@ INSERT INTO Customers (CustomerName, Zip, City, Street, Country) VALUES(@Custome
        3. Copy the Customer JSON object above and paste it into the JSON Content field  
        4. Press `Send` to execute the Flow. If everything is defined correctly, you should now have a new customer row in the database. If you do not see the expected result, you can inspect the [Execution logs](../flows/execution-logs.md) to investigate any issues.
        
-![img](../../../images/http-trigger-example-thunder-client.PNG)
+![HTTP Trigger Example Thunder Client](../../../images/http-trigger-example-thunder-client.PNG)
 
 <br/>
 

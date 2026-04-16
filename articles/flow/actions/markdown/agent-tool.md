@@ -25,4 +25,4 @@ Use the subject: 'Summary'.
 Include all the Word documents as attachments to the email.
 ```
 
-![img](/images/flow/markdown-agent-tool.png)
+![Markdown Agent Tool](/images/flow/markdown-agent-tool.png)

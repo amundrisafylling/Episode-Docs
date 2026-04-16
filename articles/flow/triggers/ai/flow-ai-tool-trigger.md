@@ -5,10 +5,10 @@ Enables a Flow to act as an **AI tool**, allowing AI agents (for example, OpenAI
 
 This trigger serves as the entry point for Flows that should behave like callable functions inside an AI system — receiving arguments from the AI agent, executing business logic or integrations, and returning structured output back to the agent.
 
-![img](../../../../images/flow/flow-ai-tool-trigger.png)  
+![Flow AI Tool Trigger](../../../../images/flow/flow-ai-tool-trigger.png)  
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow is exposed as an AI tool using the Flow AI tool trigger.
 It allows an AI agent to call the Flow in order to generate an answer based on vector search results. 
 The Flow receives input arguments from the AI agent, retrieves relevant context from a vector store, and returns a single generated response. 

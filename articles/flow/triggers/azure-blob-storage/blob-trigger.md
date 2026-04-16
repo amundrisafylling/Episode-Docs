@@ -21,14 +21,14 @@ This trigger is useful for automating processes that depend on new or updated fi
   
 <br/>
 
-![img](/images/flow/blob-trigger.png)
+![Blob Trigger](/images/flow/blob-trigger.png)
 
-**Example**![img](../../../../images/strz.jpg)  
+**Example**![Example](../../../../images/strz.jpg)  
 This Flow monitors for updated files in Azure Blob Storage. [If](../../actions/built-in/if.md) the blob name matches UC003_Products, the file is [read](../../actions/azure-blob-storage/read-blob-as-byte-array.md) and its content is loaded into a [DataTable](../../actions/sql-server/load-to-datatable.md).
 
 <br/>
 
-![img](/images/flow/blob-trigger2.png)
+![Blob Trigger2](/images/flow/blob-trigger2.png)
 
 <br/>
 

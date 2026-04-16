@@ -5,9 +5,9 @@ Iterates over a list of items.
 
 <br/>
 
-![img](../../../../images/flow/foreachExample.png)
+![Foreach Example](../../../../images/flow/foreachExample.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow [retrieves](function.md) a list of employees, iterates over each employee using the **For Each** action, and [inserts or updates](../sql-server/insert-or-update-row.md) their data in a database table.
 </br>
 

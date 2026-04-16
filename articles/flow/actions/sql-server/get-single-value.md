@@ -2,10 +2,10 @@
 
 Executes a SQL command in a SQL Server database which returns a single value.
 
-![img](../../../../images/flow/get-single-value.png)
+![Get Single Value](../../../../images/flow/get-single-value.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above shows a Flow that provides chat completions to a chat client. We're using [PostgreSQL vector search](../postgresql/vector-search.md) to enable RAG, and SQL Server (Get single value) to store and retrieve the chat history so that users can ask follow-up questions.
 
 <br/>

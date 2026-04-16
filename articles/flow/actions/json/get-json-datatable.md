@@ -9,10 +9,10 @@ Typical use cases include inserting a JSON document into a relational database t
 
 <br/>
 
-![img](/images/flow/json-get-json-datatable.png)
+![JSON Get JSON Datatable](/images/flow/json-get-json-datatable.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow automates the process of retrieving employee data from PowerOfficeGo, transforming it to a DataTable, and inserting it into a database.
 
 <br/>
@@ -171,7 +171,7 @@ If this happens, you must define the Schema mapping and specify the data type fo
 You can also use the `Schema mapping` to override how a JSON property is mapped to a `column name`.  
 For example, if you want to map the JSON property `lastName` to column name `Surname`, you can configure this in the Schema mapping.
 
-![img](/images/flow/json-get-json-datatable-schema-mapping.png)
+![JSON Get JSON Datatable Schema Mapping](/images/flow/json-get-json-datatable-schema-mapping.png)
 
 <br/>
 

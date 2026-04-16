@@ -29,7 +29,7 @@ This example shows how to extract the `Compute SUBTOTAL` from the sample invoice
 It first finds the table containing the invoice lines, then finds the table row containing the "Compute" row header, and then  
 finds the 4th cell (.Children[3]) and picks the Value from cell object.
 
-![img](/images/flow/snowflake-sample-invoice-2.png)
+![Snowflake Sample Invoice 2](/images/flow/snowflake-sample-invoice-2.png)
 
 ```csharp
 

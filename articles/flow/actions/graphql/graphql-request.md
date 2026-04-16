@@ -7,7 +7,7 @@ Executes a GraphQL query or mutation against a [GraphQL](https://graphql.org/lea
 
 ![gql](../../../../images/flow/graphQLrequest1.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves filtered client data from a [GraphQL API](../graphql/graphql-request.md), converts it into a table format([Convert JSON to DataTable](../json/get-json-datareader.md)), and validates the results to ensure accurate client information was received. When the GraphQL request fails, [Throw Exception](../built-in/throw-exception.md) node handles the error by displaying or logging an exception message.
 
 
@@ -39,7 +39,7 @@ Returns the requested data converted to the object type defined in the Response 
 | Response      | No | The object type of the query (or mutation) response data. |
 
 
-![img](../../../../images/flow/graphQLrequest.png)
+![Graph Qlrequest](../../../../images/flow/graphQLrequest.png)
 
 
 

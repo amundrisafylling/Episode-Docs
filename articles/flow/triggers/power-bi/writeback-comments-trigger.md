@@ -6,9 +6,9 @@ To create a Flow that saves comments from the Writeback Comments visual, add thi
 
 <br/>
 
-![img](/images/flow/powerbi-writeback-comments-trigger.png)
+![Powerbi Writeback Comments Trigger](/images/flow/powerbi-writeback-comments-trigger.png)
 
-**Example**![img](/images/strz.jpg)  
+**Example**![Example](/images/strz.jpg)  
 This flow is triggered when users add or update comments in a Power BI Writeback Comments visual. The trigger captures the delta set of new or changed comments, and the Flow then saves this data into the designated database table by automatically applying updates or inserts based on what data is already stored in the target table. This ensures that user feedback or annotations from Power BI reports are stored centrally for later retrieval, reporting, or analysis.
 
 <br/>

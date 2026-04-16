@@ -7,10 +7,10 @@ A typical use case is when you want a reusable Flows, but each customer needs se
 
 <br/> 
 
-![img](/images/flow/azureAI-create-connection.png) 
+![Azure AI Create Connection](/images/flow/azureAI-create-connection.png) 
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow prepares an Azure AI connection at runtime and then uses it to generate a chat completion.
 
 It starts by [declaring variables](../built-in/declare-variable.md) that likely contain the API key and endpoint. Those values are passed into **Create Azure AI connection**, which builds a connection object during execution. That connection is then used by the [Chat completion](chat-completion.md) action.

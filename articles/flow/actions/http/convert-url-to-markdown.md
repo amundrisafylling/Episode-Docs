@@ -4,9 +4,9 @@
 Returns [Markdown](https://en.wikipedia.org/wiki/Markdown) text from a URL (HTML page address).
 
 
-![img](../../../../images/flow/convert-URL-to-markdown.png)
+![Convert URL To Markdown](../../../../images/flow/convert-URL-to-markdown.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow reads all URLs from a [website sitemap](get-sitemap.md), converts the HTML of [each](../built-in/foreach.md) page to Markdown, [splits the content](../ai/split-text.md) into manageable chunks, [generates embeddings](../azure-ai/generate-embedding.md) for each chunk, converts the generated vector into a SQL Server-compatible format and stores the text, vector, and document reference in a SQL Server table. This table can then be used for [vector search](../postgresql/vector-search.md) or to feed chat models with the extracted information.
 
 <br/>

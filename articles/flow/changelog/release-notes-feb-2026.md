@@ -9,7 +9,7 @@ The February 2026 update introduces support for the Fortnox REST API, enabling e
 We support both simple APIs and APIs retuning paged responses (such as large data sets). In addition, we also support the SIE file API.   
 [Read more here](../actions/fortnox/paged-rest-api-request.md)
 
-![img](/images/flow/fortnox-toolbox-items.png)
+![Fortnox Toolbox Items](/images/flow/fortnox-toolbox-items.png)
 
 <br/>
 
@@ -18,7 +18,7 @@ The SIE file format is the de facto standard for transferring accounting data in
 The SIE file action in Flow makes it easy to read the contents of SIE files as tabular data and then apply any business logic, such as saving the data to a database, convert it to Parquet files, perform calculations, and so on.  
 [Read more here](../actions/sie/load-file.md)
 
-![img](/images/flow/sie-file-parser.png)
+![SIE File Parser](/images/flow/sie-file-parser.png)
 
 <br/>
 
@@ -27,7 +27,7 @@ The SIE file action in Flow makes it easy to read the contents of SIE files as t
 In the Flow portal, you can now organize Flows and Folders using `drag and drop`, making it easier to manage large Workspaces with many Flows related to different business domains or processes.  
 You can drag and drop folders into or out of folders, or Flows between folders. Note that files and folders can be drag/dropped both in the main panel, and between the main panel and the folders displayed in the Workspace explorer on the left.  
 
-![img](/images/flow/organize-flows-and-folders.png)
+![Organize Flows And Folders](/images/flow/organize-flows-and-folders.png)
 
 <br/>
 
@@ -36,21 +36,21 @@ Because monitoring and diagnostics is a vital part of IT operations, we're enabl
 This gives Flow developers full control over what type of data they want to collect and send, and for which automations they want to enable central monitoring through Application Insights and Azure Monitor.  
 [Read more here](../actions/azure-application-insights/track.md)
 
-![img](/images/flow/azure-application-insights-track.png)
+![Azure Application Insights Track](/images/flow/azure-application-insights-track.png)
 
 <br/>
 
 ## Dynamic connections for Microsoft Foundry actions
 With support for [dynamically creating connections to Microsoft Foundry models](../actions/azure-ai/create-connection.md), you can create AI-powered automations that use subscriptions managed outside of Flow. For example, you want to create a generic AI chat solution in Flow, but each customer needs separate AI model subscriptions in Microsoft Foundry so quotas (token usage), billing and other options can be managed individually. 
 
-![img](/images/flow/azureAI-create-connection.png) 
+![Azure AI Create Connection](/images/flow/azureAI-create-connection.png) 
 
 <br/>
 
 ## Integrated AI powered help
 You can now ask for help building Flows directly within the Flow designer instead of having to to go the [docs site. (docs.profitbase.com)](https://docs.profitbase.com).
 Simply open the docs chat window from the left sidebar and start chatting with the AI docs assistant.  
-![img](/images/flow/docs-ai-assistant.png)
+![Docs AI Assistant](/images/flow/docs-ai-assistant.png)
 
 <br/>
 
@@ -62,7 +62,7 @@ In `Code mode`, instead of calling each tool individually, the agent generates a
 `Code mode` should be considered for complex, multi-step tasks that require passing large amounts of data data between tools (like files or datasets). In these scenarios, code mode generally performs better and consumes considerably fewer tokens than standard tools calling.  
 Also, because data is not passed between tools via the LLM, this means that sensitive business data is far less exposed (often not at all) than when regular tool calling is used.  
 
-![img](/images/flow/release-notes-feb26-agent-code-mode.png)
+![Release Notes Feb26 Agent Code Mode](/images/flow/release-notes-feb26-agent-code-mode.png)
 
 
 <br/>
@@ -71,7 +71,7 @@ Also, because data is not passed between tools via the LLM, this means that sens
 We now support defining API keys for individual Workspaces and not just on the Tenant level. This enables more granular access control to the Flow REST, MCP and A2A APIs, as developers can now organize Flows into Workspaces based on which external clients should be allowed to call those APIs.  
 [Read more here](../workspaces/api-keys.md)
 
-![img](/images/flow/workspace-api-keys.png)
+![Workspace API Keys](/images/flow/workspace-api-keys.png)
 
 <br/>
 
@@ -80,7 +80,7 @@ The Send Tabular Data trigger makes it easy to use Flow as a backend service for
 
 [Read more here](../triggers/invision/send-tabular-data-trigger.md) 
 
-![img](/images/flow/send-tabular-data-trigger.png)
+![Send Tabular Data Trigger](/images/flow/send-tabular-data-trigger.png)
 
 <br/>
 

@@ -6,7 +6,7 @@ Use this action when you need to work with a query result set as a whole — for
 
 ![The Load to DataTable action configured in the flow editor](../../../../images/flow/snowflake-load-datatable.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow loads sales data from Snowflake into memory as a DataTable, exports the top-selling products, and uploads the result to blob storage.
 
 ## Properties

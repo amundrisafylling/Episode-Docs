@@ -2,7 +2,7 @@
 
 Gets file from an HTTP endpoint. 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/HTTP-get-file.png)
+![HTTP Get File](https://profitbasedocs.blob.core.windows.net/flowimages/HTTP-get-file.png)
 
 
 ## Properties

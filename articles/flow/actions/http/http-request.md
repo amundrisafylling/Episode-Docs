@@ -2,7 +2,7 @@
 
 Executes an HTTP request. Use this action to call an HTTP API to run an operation and/or get data.
 
-![img](/images/flow/http-request.png)
+![HTTP Request](/images/flow/http-request.png)
 
 ### Authentication
 
@@ -12,7 +12,7 @@ This request supports [Basic and OAuth2 Credential authentication](./http-authen
 
 You can use Flow variables or [Workspace Variables](../../workspaces/workspace-variables.md) to create dynamic URLs.
 
-![img](/images/flow/http-request-dynamic-url.png)
+![HTTP Request Dynamic URL](/images/flow/http-request-dynamic-url.png)
 
 ### Defining the request Body
 
@@ -25,7 +25,7 @@ To get the request body from a variable, it needs to be created first. In most c
 
 To use a variable as the body payload, simply switch to the `Body` tab and select the object from the variable selector. This will serialize the object and send it to the API when the Flow runs.
 
-![img](/images/flow/http-request-body-variable.png)
+![HTTP Request Body Variable](/images/flow/http-request-body-variable.png)
 
 ##### Defining the request body by building a JSON object
 
@@ -41,7 +41,7 @@ When building the JSON object, you can combine hard-code values and variables as
 > [!NOTE]
 > You must remember to add quotes around `string` and `date` values, like shown with the `customerId`,`orderId`, and `productId` propperties below. Flow does not know which data type a property expects, so you will have to add quotes manually.
 
-![img](/images/flow/http-request-body-json.png)
+![HTTP Request Body JSON](/images/flow/http-request-body-json.png)
 
 <br/>
 
@@ -102,19 +102,19 @@ To convert the response from a string (text) to a business object, you must do t
 
 1. Create a [custom data type](../../flows/defining-custom-types.md) for the Customer object. It must have the same structure, property names and data types as the JSON string above.
 
-![img](/images/flow/http-request-example-define-custom-type.png)
+![HTTP Request Example Define Custom Type](/images/flow/http-request-example-define-custom-type.png)
 
 2. In the Response tab of the HTTP Request action, choose `String` as the response type.
 
-![img](/images/flow/http-request-example-response.png)
+![HTTP Request Example Response](/images/flow/http-request-example-response.png)
 
 3. Add a [Convert](../built-in/convert.md) action after the HTTP Request action and use it to convert the `HttpResponse.Content` property to the customer object you defined in step 1.
 
-![img](/images/flow/http-request-example-flow.png)
+![HTTP Request Example Flow](/images/flow/http-request-example-flow.png)
 
 <br/>
 
-![img](/images/flow/http-request-example-convert-content.png)
+![HTTP Request Example Convert Content](/images/flow/http-request-example-convert-content.png)
 
 
 <br/>

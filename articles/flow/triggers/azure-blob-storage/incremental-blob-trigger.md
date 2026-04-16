@@ -21,7 +21,7 @@ This trigger is useful for automating processes that should only act on **freshl
 
 ![Example Flow](/images/flow/incremental-blob-invoice-example.png)  
 
-**Example**![img](../../../../images/strz.jpg)  
+**Example**![Example](../../../../images/strz.jpg)  
 This Flow listens for new or updated invoice files in Azure Blob Storage, [reads](../../actions/azure-blob-storage/read-blob-as-byte-array.md) the file contents, loads the data into a [DataTable](../../actions/sql-server/load-to-datatable.md), and finally sends a summary notification to the accounting team.  
 
 <br/>

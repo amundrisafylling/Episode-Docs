@@ -2,7 +2,7 @@
 
 Gets an attachment from an email in Microsoft 365 Outlook.
 
-![img](/images/flow/microsoft-365-outlook-get-attachment.png)
+![Microsoft 365 Outlook Get Attachment](/images/flow/microsoft-365-outlook-get-attachment.png)
 
 When email messages are retrieved by Hypergene Flow, you may specify whether or not to include the contents of all attachments by default.
 Use this action to fetch the contents of a _specific attachment_.
@@ -19,7 +19,7 @@ Use this action to fetch the contents of a _specific attachment_.
 ### Example
 
 This example shows how to use the output of a [When a new email arrives](../../triggers/microsoft-365-outlook/when-new-email-arrives-trigger.md) trigger to get the (email) message id and attachment id and use it for fetching the attachments.  
-![img](/images/flow/microsoft-365-outlook-get-attachment-example.png)
+![Microsoft 365 Outlook Get Attachment Example](/images/flow/microsoft-365-outlook-get-attachment-example.png)
 
 
 <br/>

@@ -6,7 +6,7 @@ Use this action after [Deploy Work Process Version](./deploy-work-process-versio
 
 ![Open Work Process Version flow example](../../../../../images/flow/open-work-process-version.png) 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at the start of a new planning period to [create](./create-work-process-version.md) and [deploy a new budget version](./deploy-work-process-version.md), opens it for contributor input, and finally [notifies contributors by email](../../microsoft-365-outlook/send-email-from-shared-mailbox.md) that the version is ready for input.
 
 ## Properties

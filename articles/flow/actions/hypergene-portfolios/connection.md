@@ -3,7 +3,7 @@
 To connect to Hypergene Portfolios you need to specify your `login credentials` (username + password) and `Portfolio ID`.  
 Optionally, you can also specify the `Domain` if you are not hosted in the standard Portfolios cloud environment.
 
-![img](/images/flow/portfolios-connection.png)
+![Portfolios Connection](/images/flow/portfolios-connection.png)
 
 <br/>
 

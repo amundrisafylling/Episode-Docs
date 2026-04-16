@@ -3,9 +3,9 @@
 Reads the contents of a file in OneDrive as a byte array.
 
 
-![img](../../../../images/flow/OneDriveReadASbyteArray.png)
+![One Drive Read Asbyte Array](../../../../images/flow/OneDriveReadASbyteArray.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow takes a PDF file from OneDrive, sends it to the [Adobe PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html) as a [byte array](../adobe/pdf-to-non-pdf-as-byte-array.md), where it is converted into a DOCX format, and then [uploads](upload-file-to-onedrive.md) it to the selected folder in OneDrive.
 
 <br/>

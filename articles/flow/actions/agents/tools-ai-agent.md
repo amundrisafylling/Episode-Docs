@@ -2,10 +2,10 @@
 
 Defines an AI Agent that can use tools to perform actions, for example fetching data or calling APIs.
 
-![img](/images/flow/tools-agent-example1.png)
+![Tools Agent Example1](/images/flow/tools-agent-example1.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above shows an agent that reads all Word documents in a OneDrive folder, summarizes them, and emails the summaries along with the original documents as attachments. The following prompts are used:  
 
 **Instructions**  

@@ -7,7 +7,7 @@ This action calls the PowerBI [Refresh](https://learn.microsoft.com/en-us/power-
 > [!NOTE]
 > You can only refresh semantic models using the `Import` storage mode. Read more about [data refresh in Power BI here](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-data).
 
-![img](/images/flow/microsoft-fabric-refresh-semantic-model.png)
+![Microsoft Fabric Refresh Semantic Model](/images/flow/microsoft-fabric-refresh-semantic-model.png)
 
 <br/>
 

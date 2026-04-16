@@ -6,9 +6,9 @@ To support ongoing conversations instead of starting from scratch on each reques
 
 As a result, the agent can maintain context over time and respond in a more coherent and predictable way.
 
-![img](/images/flow/sql-server-agent-memory.png)
+![SQL Server Agent Memory](/images/flow/sql-server-agent-memory.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This example shows an agent using 3 [Flow AI tools](../ai/flow-ai-tool.md) for working with salary information and calculating a forecast. The Agent memory tracks the conversation history, allowing users to have an ongoing conversation with the agent.
 
 <br/>

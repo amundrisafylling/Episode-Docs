@@ -2,9 +2,9 @@
 
 Gets a list of information per file in an FTP/SFTP directory.
 
-![img](../../../../images/flow/ftp-gets-file-info.png)
+![FTP Gets File Info](../../../../images/flow/ftp-gets-file-info.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses **Get files info** to retrieve a list of information per file in an FTP/SFTP directory. It then loops through each file entry to check [if](../built-in/if.md) it is older than 7 days, and [deletes](delete-file.md) it from the server if the condition is met. This helps maintain available storage and ensures outdated files are regularly removed.
 
 <br/>

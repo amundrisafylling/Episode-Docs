@@ -11,7 +11,7 @@ The September 2025 update of Flow is mainly a service release, focused on intern
 You can now install Packages into folders, making it easier to manage and organize Packages from other sources. To do this, select a folder in the Workspace Explorer, open the **Installed Packages** tab, and click **Install**.
 
 
-![img](../../../images/changelogs/Flow25_9_1.png)
+![Flow25 9 1](../../../images/changelogs/Flow25_9_1.png)
 
 <br/>
 
@@ -20,7 +20,7 @@ You can now install Packages into folders, making it easier to manage and organi
 We updated the Workspace Objects UI to make it quicker to find and edit connections when there are many. The UI now looks more like the toolbox, making the interface more uniform and familiar.
 
 
-![img](../../../images/changelogs/Flow25_9_2.png)
+![Flow25 9 2](../../../images/changelogs/Flow25_9_2.png)
 
 <br/>
 
@@ -32,7 +32,7 @@ By default, Microsoft Entra ID is used as the authorization server, but you can 
 
 Read more about [MCP Server Settings here](../tenants/mcp-server-settings.md).
 
-![img](../../../images/changelogs/Flow25_9_3.png)
+![Flow25 9 3](../../../images/changelogs/Flow25_9_3.png)
 
 <br/>
 

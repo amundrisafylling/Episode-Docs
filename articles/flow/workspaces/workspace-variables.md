@@ -9,7 +9,7 @@ Environments and Workspace Variables are closely related. Each Workspace variabl
 
 <br/>
 
-![img](../../../images/workspace.png)  
+![Workspace](../../../images/workspace.png)  
   
 
 <br/>

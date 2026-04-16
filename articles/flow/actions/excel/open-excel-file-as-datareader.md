@@ -2,7 +2,7 @@
 
 Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) for reading a forward-only stream of rows from an Excel sheet.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderEx.png)
+![Get Data Reader Ex](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderEx.png)
 
 <br/>
 
@@ -23,7 +23,7 @@ Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data
 
 Columns can be mapped automatically by using the "Map from sample file" option.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderEx2.png)
+![Get Data Reader Ex2](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderEx2.png)
 
 
 <br/>

@@ -2,10 +2,10 @@
 
 Waits for a specified time interval before execution continues.
 
-![img](../../../../images/flow/wait.png)
+![Wait](../../../../images/flow/wait.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses the Wait action to pause execution for a defined period of time before continuing to the next step. It is typically used to handle timing dependencies, allow external systems to complete processing, or introduce controlled delays between actions to avoid race conditions or throttling issues.
 
 </br>

@@ -2,10 +2,10 @@
 
 When a new message arrives in the [Azure Service Bus topic](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-queues-topics-subscriptions#topics-and-subscriptions) subscription, the trigger detects it and starts the flow to process or handle the message as needed. This is useful for automating workflows that depend on incoming messages from Azure Service Bus topic.
 
-![img](/images/flow/topic-trigger.png)
+![Topic Trigger](/images/flow/topic-trigger.png)
 
 
-**Example**![img](/images/strz.jpg)   
+**Example**![Example](/images/strz.jpg)   
 This Flow listens for new customer-related messages published to an Azure Service Bus **topic**.  
 When a message arrives, the Flow checks whether the payload contains the expected customer information.  
 - If the required data exists, the customer record is inserted into the database.  
@@ -32,12 +32,12 @@ When a message arrives, the Flow checks whether the payload contains the expecte
 
 This trigger returns a single variable with the specified name and Output data type. 
 
-![img](../../../../images/flow/schedule-trigger-output-type.png)
+![Schedule Trigger Output Type](../../../../images/flow/schedule-trigger-output-type.png)
 <br/>
 
 
 
-**Example**![img](../../../../images/strz2.jpg)   
+**Example**![Example](../../../../images/strz2.jpg)   
 This flow listens for messages from an Azure Service Bus topic, deserializes them into a ``MessageObject``, and stores the data in a SQL Server table. If the table or necessary columns don't exist, they are created or modified accordingly. If no message is received, the flow logs a debug message indicating that no message was found.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/topic-trigger2.png)
+![Topic Trigger2](https://profitbasedocs.blob.core.windows.net/flowimages/topic-trigger2.png)

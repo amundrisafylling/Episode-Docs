@@ -26,7 +26,7 @@ Do NOT wrap the response in Markdown annotation.
 ```
 
 
-![img](/images/flow/azure-blob-agent-tool.png)
+![Azure Blob Agent Tool](/images/flow/azure-blob-agent-tool.png)
 
 <br/>
 

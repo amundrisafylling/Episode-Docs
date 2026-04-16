@@ -38,7 +38,7 @@ To use Distribution Keys to distribute totals to periods, create a Flow and add 
 4) Add a [Function](../../built-in/function.md) action and call `DistributionKeys.UseContext(...)` (see example below).
 5) Add a [Function](../../built-in/function.md) action and implement the calculations (see example below).
 
-![img](/images/flow/using-distribution-keys.png)
+![Using Distribution Keys](/images/flow/using-distribution-keys.png)
 
 **Set processing context**  
 From step 4) above, we need to set the context on the Distribution Key search index so that when we call [FilterByContext()](distribution-keys/distribution-key-filter-by-context.md) or [FilterByContextDistinctByTypeField()](distribution-keys/distribution-key-filter-by-context-distinct-by-type-field.md), we get back the Distribution Key _rules_ that should be used distribute a (total) value to periods for the current context (for example department, employee or account).

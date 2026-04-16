@@ -3,10 +3,10 @@
 Iterates over a list of files and directories (commonly referred to as `content`) in a GitHub repository. Each content item contains a Name, Type, and URL to a file or directory.
 
 
-![img](../../../../images/flow/github-foreach.png)
+![Github Foreach](../../../../images/flow/github-foreach.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow copies files from a Github repository to an InVision File Storage. It iterates through files in a Github repository, reads each file, and uploads them to the Hypergene InVision File Storage.
 
 

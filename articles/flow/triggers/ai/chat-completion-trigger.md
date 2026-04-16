@@ -4,9 +4,9 @@ Defines the entry point for a Flow that executes an AI chat completion request.
 
 You'll typically use this trigger when you want to implement a Flow that serves as the backend for an interactive chat, allowing users to have a conversation with an AI by asking questions and follow-up questions. The trigger also provides a context property, allowing arbitrary data to be passed to the Flow to use for filtering or other types of business logic, supporting workloads such as RAG to help the LLM generate more relevant responses.
 
-![img](/images/flow/chat-completion-trigger.png)
+![Chat Completion Trigger](/images/flow/chat-completion-trigger.png)
 
-**Example**![img](../../../../images/strz.jpg)  
+**Example**![Example](../../../../images/strz.jpg)  
 The example above shows a Flow that performs a chat completion. It supports follow-up questions by loading the chat history for the session, feeding it into the chat model, and then saving the updated chat history (including the response) back to the database before returning the response to the client.
 <br/>
 

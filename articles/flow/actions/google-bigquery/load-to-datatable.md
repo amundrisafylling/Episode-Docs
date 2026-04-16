@@ -4,7 +4,7 @@ Loads data from a Google BigQuery database into memory as a [DataTable](https://
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/bigquery-load-to-datatable.png)
+![Bigquery Load To Datatable](https://profitbasedocs.blob.core.windows.net/flowimages/bigquery-load-to-datatable.png)
 
 <br/>
 

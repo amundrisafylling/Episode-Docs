@@ -10,7 +10,7 @@ Flow supports multiple connection methods:
 - **Connection string + Table name**
 
 
-![img](../../../../images/flow/connection-type-azure-tab.png)
+![Connection Type Azure Tab](../../../../images/flow/connection-type-azure-tab.png)
 
 <br/>
 

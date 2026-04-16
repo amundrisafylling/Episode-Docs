@@ -2,7 +2,7 @@
 
 Add an entity to an Azure Table.
 
-![img](../../../../images/flow/add-table-entity.png)
+![Add Table Entity](../../../../images/flow/add-table-entity.png)
 
 
 ## Properties
@@ -22,12 +22,12 @@ Add an entity to an Azure Table.
 
 ### PartitionKey type 
 
-![img](../../../../images/flow/update-table-entity2.png)
+![Update Table Entity2](../../../../images/flow/update-table-entity2.png)
 
 1. **Use an entity property** – This option allows the PartitionKey to be based on a property from the entity. “PartitionKey property” will be applicable if the “PartitionKey type” is set to “Use a custom entity property”.
 
-![img](../../../../images/flow/partitionKeyType2.png)
+![Partition Key Type2](../../../../images/flow/partitionKeyType2.png)
 
 2. **Set a custom value** – This option lets you define a custom value for the PartitionKey. “PartitionKey value” will be applicable if the “PartitionKey type” is set to “Use a custom value”. 
 
-![img](../../../../images/flow/partitionKeyType1.png)
+![Partition Key Type1](../../../../images/flow/partitionKeyType1.png)

@@ -2,9 +2,9 @@
 
 Inserts rows into a PostgreSQL database from a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) or a [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable) using bulk insert.
 
-![img](../../../../images/flow/postgresql-insert-data.png)
+![Postgresql Insert Data](../../../../images/flow/postgresql-insert-data.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow loads customer data and then inserts it into a PostgreSQL table.
 
 ## Properties

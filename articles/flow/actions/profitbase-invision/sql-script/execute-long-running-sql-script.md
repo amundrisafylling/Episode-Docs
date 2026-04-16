@@ -2,9 +2,9 @@
 
 Execute a long running [SQL Script](../../../../invision/docs/sqlscripts.md) defined in an InVision Solution.
 
-![img](../../../../../images/flow/execute-long-running-sql-script.png) 
+![Execute Long Running SQL Script](../../../../../images/flow/execute-long-running-sql-script.png) 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow [prepares](../../built-in/function.md) a parameters object and a language setting, then executes a long-running SQL script using those inputs. The action is designed for operations that may take more time to complete, such as large data processing or complex database tasks.
 
 >[!NOTE]

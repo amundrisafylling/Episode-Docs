@@ -8,7 +8,7 @@ If you need to run a Flow inside another Flow and wait for its completion, or ge
 
 ![stfl](../../../../images/flow/start-flow.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow receives order data, checks if it contains the necessary details, and then updates or inserts the order into the database. Once the order is saved, it sends a confirmation email to the user.
 
 ## Properties 

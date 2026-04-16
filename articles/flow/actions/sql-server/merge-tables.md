@@ -5,7 +5,7 @@ This action provides a lightweight wrapper for the [Merge](https://learn.microso
 
 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/merge-tables.png)
+![Merge Tables](https://profitbasedocs.blob.core.windows.net/flowimages/merge-tables.png)
 
 ## Properties
 

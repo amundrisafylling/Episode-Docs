@@ -3,9 +3,9 @@
 Gets metadata information about an InVision Data Store.
 
 
-![img](../../../../images/flow/get-datastore-metadata.png)
+![Get Datastore Metadata](../../../../images/flow/get-datastore-metadata.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow reads forecast data from a Data Store for a defined period and converts it into a Parquet payload. It begins with **Get Data Store metadata** to retrieve execution context information. Next, [loads](../sql-server/load-to-datatable.md) the relevant forecast data into a `DataTable` using the provided date parameters. The result is then passed to **Create forecast**, which [generates the Parquet](../parquet/create-parquet-file-as-byte-array.md) file.
 
 <br/>

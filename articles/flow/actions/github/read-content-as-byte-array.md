@@ -4,10 +4,10 @@ Reads a file from GitHub repository content into memory as a byte array.
 If you need to read the file multiple times, for example processing its contents and then sending the file somewhere else (such as to an archive), you should use the byte array option instead of streaming because the stream can only read once.
 
 
-![img](../../../../images/flow/github-read-as-byte-array.png)
+![Github Read As Byte Array](../../../../images/flow/github-read-as-byte-array.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow iterates through content, reads the file as byte array, and uploads the file to an Hypergene InVision File Storage.
 
 <br/>

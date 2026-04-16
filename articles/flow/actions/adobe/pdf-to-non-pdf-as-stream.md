@@ -2,9 +2,9 @@
 
 Converts a PDF file to a target format and returns it as a stream object.
 
-![img](../../../../images/flow/convertPDFtoOther2.png)
+![Convert Pdfto Other2](../../../../images/flow/convertPDFtoOther2.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow takes documentation in a PDF file from [OneDrive](../onedrive/read-file-from-onedrive-as-stream.md), sends it to the [Adobe PDF Services](https://developer.adobe.com/document-services/docs/overview/pdf-services-api/) as stream, where it is converted into a DOCX format, and then [uploads](../onedrive/upload-file-to-onedrive.md) it to the selected folder in OneDrive.
 
 

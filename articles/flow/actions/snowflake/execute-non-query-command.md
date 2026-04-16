@@ -7,7 +7,7 @@ Executes a SQL command in a [Snowflake](https://docs.snowflake.com/en/user-guide
 
 ![The Execute command action configured in the flow editor](../../../../images/flow/snowflake-execute-command.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves a list of active clients, updates their status to Premium in a Snowflake database, and then returns the number of users that were successfully upgraded.
 
 <br/>

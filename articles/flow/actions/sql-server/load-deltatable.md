@@ -6,9 +6,9 @@ If **Incremental Historic mode** is selected, the **DeltaTable** will contain mu
 
 <br/>
 
-![img](/images/flow/sql-server-load-deltatable.png)
+![SQL Server Load Deltatable](/images/flow/sql-server-load-deltatable.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 
 This flow example shows a process that loads a DeltaTable by comparing a source and target table. The source table, for example, is updated by loading transactions using the [Load SIE file](../sie/load-file.md) originating from an ERP system, and then [inserting results](./insert-data.md). After the **DeltaTable** is loaded, a message is sent using the [RabbitMQ publish message action](../rabbitmq/publish-message.md).
 
@@ -68,7 +68,7 @@ When the **Update target table** is checked, it will be merged with the DeltaTab
 
 ### Column Settings
 
-![img](/images/flow/sql-server-load-deltatable-columns.png)
+![SQL Server Load Deltatable Columns](/images/flow/sql-server-load-deltatable-columns.png)
 
 To use the columns from the Source Table, click on **Create from source table**. You can also define columns manually by using **Add**.
 The columns defined in the list will be added to the **DeltaTable**.

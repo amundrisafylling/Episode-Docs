@@ -4,9 +4,9 @@ Allows creating a trigger that is called from different sources. The sources are
 
 <br/>
 
-![img](/images/flow/multi-trigger.png)
+![Multi Trigger](/images/flow/multi-trigger.png)
 
-**Example**![img](/images/strz.jpg)  
+**Example**![Example](/images/strz.jpg)  
 This flow can be triggered from multiple sources (HTTP, another flow, or a scheduled event) and processes customer data depending on the trigger type. When triggered, it evaluates the source:
 
 - [If](../actions/built-in/if-else.md) the trigger is an HTTP request, the flow inserts new customers into the database.

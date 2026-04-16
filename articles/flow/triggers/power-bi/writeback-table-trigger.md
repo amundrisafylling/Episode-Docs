@@ -8,9 +8,9 @@ To create a Flow that saves the data from the Writeback Table, add this trigger.
 
 <br/>
 
-![img](/images/flow/powerbi-writeback-table-trigger.png)
+![Powerbi Writeback Table Trigger](/images/flow/powerbi-writeback-table-trigger.png)
 
-**Example**![img](/images/strz.jpg)  
+**Example**![Example](/images/strz.jpg)  
 This flow is triggered when data is written back from a Power BI Writeback Table. The trigger receives a delta set containing the updated values, which are then saved into the target database table. In this example, the flow captures sales forecast data from Power BI and persists it in the database for further analysis and reporting.
 
 <br/>

@@ -4,7 +4,7 @@ Runs a Data Pipeline in a Microsoft Fabric Workspace.
 
 This action will run a Data Pipeline and wait for it to complete before executing the rest of the Flow. The Fabric REST API does not currently support returning output from a Data Pipeline directly back to the caller, but you can instead use the information in the [DataPipelineRunCompleted](#returns) object to look up any output through additional actions. 
 
-![img](/images/flow/microsoft-fabric-run-data-pipeline.png)
+![Microsoft Fabric Run Data Pipeline](/images/flow/microsoft-fabric-run-data-pipeline.png)
 
 > [!NOTE]
 > Hypergene Flow runs the Data Pipeline using the [Run On Demand Item Job](https://learn.microsoft.com/en-us/rest/api/fabric/core/job-scheduler/run-on-demand-item-job) Fabric REST API. Make sure to use a Connection with sufficient permissions. The API currently requires `User delegated` permissions to run. Service Principal is NOT supported.

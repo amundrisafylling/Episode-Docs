@@ -2,10 +2,10 @@
 
 This action starts a new [Workflow](../../../../invision/docs/workflow/index.md) iteration in InVision. It’s typically used for beginning a new budget or forecast cycle—for example monthly, quarterly, or yearly.
 
-![img](/images/flow/invision-start-workflow-iteration.png)
+![Invision Start Workflow Iteration](/images/flow/invision-start-workflow-iteration.png)
 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow automatically starts a new workflow iteration on a schedule and then notifies managers about it.
 <br/>
 

@@ -4,7 +4,7 @@ Gets a single entity based on a query against a PostgreSQL database.
 
 <br/>
 
-![img](../../../../images/flow/get-entity-postgres.png)
+![Get Entity Postgres](../../../../images/flow/get-entity-postgres.png)
 
 <br/>
 

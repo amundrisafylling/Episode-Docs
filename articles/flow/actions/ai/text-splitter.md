@@ -3,9 +3,9 @@
 Defines a Text splitter object that can be used in various AI-related nodes with a "Text splitter" port. 
 
 
-![img](../../../../images/flow/text-splitter-ai.png)
+![Text Splitter AI](../../../../images/flow/text-splitter-ai.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow [reads](../onedrive/read-file-from-onedrive-as-byte-array.md) files from OneDrive, [converts](../built-in/convert.md) their content to text, splits it into chunks, generates [embedding](../azure-ai/text-embedder.md) vectors, and [stores](../postgresql/vector-save.md) them in a PostgreSQL database for semantic search.
 
 <br/>
@@ -15,7 +15,7 @@ This flow [reads](../onedrive/read-file-from-onedrive-as-byte-array.md) files fr
 | Name                  | Required | Description                                                                 |
 |-----------------------|----------|-----------------------------------------------------------------------------|
 | Name                 | No | The name of the action or operation.                                       |
-| Splitter type         | Yes | Read documentation below.  ![img](../../../../images/strz2.jpg)                         |
+| Splitter type         | Yes | Read documentation below.  ![Example](../../../../images/strz2.jpg)                         |
 | Result variable name  | No | Contains the `TextSplitter` object created by this node.                   |
 | Description           | No | User-defined explanation or context for the node’s purpose.                |
 
