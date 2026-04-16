@@ -7,7 +7,7 @@ Flow exposes an MCP server pr [Workspace](../workspaces.md) and [Environment](..
 
 All endpoints requires some type of authorization to access. Flow currently supports the following 3 options:
 
-![img](/images/flow/mcp-server-endpoints.png)
+![MCP Server Endpoints](/images/flow/mcp-server-endpoints.png)
 
 <br/>
 

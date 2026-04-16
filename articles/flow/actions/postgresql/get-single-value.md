@@ -4,7 +4,7 @@ Executes a query command in a PostgreSQL database which returns a single value.
 
 <br/>
 
-![img](../../../../images/flow/getSingleValuePostgreS.png)
+![Get Single Value Postgre S](../../../../images/flow/getSingleValuePostgreS.png)
 
 <br/>
 

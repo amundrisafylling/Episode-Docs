@@ -14,6 +14,6 @@ The column mapping specifies the column names and data types in the resulting da
 
 The following example shows the mapping between the fields in a CSV file and the columns in the resulting data set.
 
-![img](../../../../../images/csv_column_mapping_example1.png)
+![CSV Column Mapping Example1](../../../../../images/csv_column_mapping_example1.png)
 
-![img](../../../../../images/csv_column_mapping_example1_csvfile.png)
+![CSV Column Mapping Example1 Csvfile](../../../../../images/csv_column_mapping_example1_csvfile.png)

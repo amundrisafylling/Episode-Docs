@@ -2,9 +2,9 @@
 
 Iterates over a list of information per file in an FTP / SFTP directory and sub directories (optional).
 
-![img](../../../../images/flow/ftp-foreach-file-info.png)
+![FTP Foreach File Info](../../../../images/flow/ftp-foreach-file-info.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow uses **For each file info** to iterate through all files in a specific FTP folder. It evaluates [if](../built-in/if.md) each file is older than 7 days and [deletes](delete-file.md) it from the server if the condition is met, helping to maintain available storage.
 
 <br/>

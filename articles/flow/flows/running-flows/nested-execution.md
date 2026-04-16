@@ -5,7 +5,7 @@ To run a Flow within another Flow, use the [Run Flow](../../actions/built-in/run
  
 <br/>
 
-![img](../../../../images/running4.png)
+![Running4](../../../../images/running4.png)
 
 ## Input
 
@@ -43,12 +43,12 @@ This example demonstrates how to run a Flow within another Flow. We will call th
 2) In `Create order`, create a [Flow trigger](../../triggers/flow-trigger.md) to define the entry point of the Flow, and the format of the data that `Create order` accepts as input from `Order processor`.
 
 3) Select the Flow trigger, toggle `Output data type` to `Use custom type(s)`, and open the data type editor in the `Properties` panel. Define the following data format:  
-![img](../../../../images/nested_execution_example_create_order_datatype.png)
+![Nested Execution Example Create Order Datatype](../../../../images/nested_execution_example_create_order_datatype.png)
 
 4) Define the business logic to process the shopping cart items. As this is beyond the scope of this example, we will not go into details on these steps. A quick-and-dirty implementation would be to simply insert data to a database. The image below shows a series of steps to create an order id, create order lines and save them to a SQL Server database.
 <br/>
 
-![img](/images/nested_execution_example_insert_to_db.png)
+![Nested Execution Example Insert To Db](/images/nested_execution_example_insert_to_db.png)
 
 <br/>
 
@@ -57,13 +57,13 @@ To do this, you can either add a [Define Type](../../actions/built-in/define-typ
 
 <br/>
 
-![img](/images/nested_execution_example_order_custom_code.png)
+![Nested Execution Example Order Custom Code](/images/nested_execution_example_order_custom_code.png)
 
 <br/>
 
 Next, use a [Function](../../actions/built-in/function.md) action to create an instance of Order and use the [Return](../../actions/built-in/return.md) action to return Order from `Create order`.
 
-![img](/images/nested_execution_example_return_order.png)
+![Nested Execution Example Return Order](/images/nested_execution_example_return_order.png)
 
 <br/>
 
@@ -76,12 +76,12 @@ Select the HTTP Trigger and define the input from the `Data definition` property
 
 <br/>
 
-![img](/images/nested_execution_example_create_order_request_datatype.png)
+![Nested Execution Example Create Order Request Datatype](/images/nested_execution_example_create_order_request_datatype.png)
 
 2) Add a [Run Flow action](../../actions/built-in/run-flow.md). In the `Properties panel`, select `Create order` as the Flow to run, and select the data variable from the HTTP Trigger as input. It should look similar to this:
 <br/>
 
-![img](/images/nested_execution_example_run_create_order.png)
+![Nested Execution Example Run Create Order](/images/nested_execution_example_run_create_order.png)
 
 3) With the Run Flow action still selected, use the `Output data type` property in the `Properties panel` to define the format of the Order object returned from `Create order`. By defining the format of the object, you tell Flow how to handle the data returned from the other Flow and convert it into something that can be used on the receivng end.  
 

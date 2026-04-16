@@ -14,7 +14,7 @@ This actions returns a list of entities with properties as specified by the `Ent
 List<Customer> customers;
 ```
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/get-entities.png)
+![Get Entities](https://profitbasedocs.blob.core.windows.net/flowimages/get-entities.png)
 
 <br/>
 

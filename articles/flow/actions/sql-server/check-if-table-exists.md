@@ -2,7 +2,7 @@
 
 Checks if a table exists in a SQL Server database.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/check-if-table-exist.png)
+![Check If Table Exist](https://profitbasedocs.blob.core.windows.net/flowimages/check-if-table-exist.png)
 
 <br/>
 

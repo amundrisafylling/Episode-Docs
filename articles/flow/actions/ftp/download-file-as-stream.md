@@ -2,9 +2,9 @@
 
 Downloads a file from an FTP / SFTP directory into a [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream).
 
-![img](../../../../images/flow/ftp-download-file-as-stream.png)
+![FTP Download File As Stream](../../../../images/flow/ftp-download-file-as-stream.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow **downloads** an invoice as a DOCX file from an FTP server. For archiving purposes, the file is [converted](../adobe/non-pdf-to-pdf-as-stream.md) to a read-only PDF format, [uploaded](upload-file.md) and stored in a separate folder.
 
 <br/>

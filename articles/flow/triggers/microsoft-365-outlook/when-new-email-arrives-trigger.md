@@ -6,10 +6,10 @@ Use this action to run a Flow when a new mail arrives in a Microsoft 365 Outlook
 
 <br/>
 
-![img](/images/flow/microsoft-365-outlook-when-email-arrives.png)
+![Microsoft 365 Outlook When Email Arrives](/images/flow/microsoft-365-outlook-when-email-arrives.png)
 
 
-**Example**![img](/images/strz.jpg)  
+**Example**![Example](/images/strz.jpg)  
 This flow is triggered whenever a new email arrives in the connected Outlook mailbox. For each email attachment, it checks the file type and processes it accordingly:
 
 - Excel attachments are opened and their contents saved into a database.

@@ -2,7 +2,7 @@
 
 Iterates over rows in an Excel sheet. Each row is represented by a business object as defined by the `Column mapping` property.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/redrum.png)
+![Redrum](https://profitbasedocs.blob.core.windows.net/flowimages/redrum.png)
 
 <br/>
 
@@ -26,7 +26,7 @@ Iterates over rows in an Excel sheet. Each row is represented by a business obje
 
 Columns can be mapped automatically by using the "Map from sample file" option.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderEx2.png)
+![Get Data Reader Ex2](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderEx2.png)
 
 
 <br/>

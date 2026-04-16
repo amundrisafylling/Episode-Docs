@@ -6,9 +6,9 @@ You can use this action to convert the data returned from an [InVision SQL Scrip
 The DataTable can then be used by other actions, such as [Function](../built-in/function.md) for custom business logic, exporting to Excel, PDF, CSV, or Parquet, writing to databases like PostgreSQL or SQL Server, and more.
 
 
-![img](../../../../images/flow/execute-sql-script-returning-datapackage2.png) 
+![Execute SQL Script Returning Datapackage2](../../../../images/flow/execute-sql-script-returning-datapackage2.png) 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow executes a SQL script[SQL Script returning data](./sql-script/execute-sql-script-returning-datapackage.md), converts the result into a table, [generates a CSV file](../csv/create-csv-file-as-stream.md) from the data, and [uploads](../azure-blob-storage/upload-blob.md) the file to blob storage.
 
 

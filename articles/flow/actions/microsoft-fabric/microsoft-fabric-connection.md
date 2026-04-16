@@ -12,20 +12,20 @@ When the Entra ID App (also known as a "Service Principal") has been created, th
 
 1. In your Entra ID App, go to **Manage** -> **API Permissions**.  
 2. Press **Add Permissions** and select **Power BI Service**. (This is currently the only valid option, but Microsoft might change this in the future.)
-![img](/images/flow/microsoft-fabric-connection-sp-api-permissions.png)  
+![Microsoft Fabric Connection Sp API Permissions](/images/flow/microsoft-fabric-connection-sp-api-permissions.png)  
 <br/>  
   
 3. At the top, choose **Application permissions** and select **Tenant.Read.All** and **Tenant.ReadWrite.All**. 
-![img](/images/flow/microsoft-fabric-connection-sp-app-permissions.png)  
+![Microsoft Fabric Connection Sp App Permissions](/images/flow/microsoft-fabric-connection-sp-app-permissions.png)  
 <br/>  
   
 4. Next, you need to grant Admin consent for your organization.  
-![img](/images/flow/microsoft-fabric-connection-sp-admin-consent.png)  
+![Microsoft Fabric Connection Sp Admin Consent](/images/flow/microsoft-fabric-connection-sp-admin-consent.png)  
 <br/>  
   
 5. Go the the Power BI Admin portal and ensure that **Service principals can use Fabric APIs** is enabled.  
-![img](/images/flow/microsoft-fabric-connection-sp-powerbi-api.png)  
+![Microsoft Fabric Connection Sp Powerbi API](/images/flow/microsoft-fabric-connection-sp-powerbi-api.png)  
 <br/>  
 
 6. (Optional) If you want to grant access to a Power BI Workspace, select the Workspace, press **Manage access** and add the Service Principal to the list of users/groups.  
-![img](/images/flow/microsoft-fabric-connection-sp-powerbi-workspace-access.png)  
+![Microsoft Fabric Connection Sp Powerbi Workspace Access](/images/flow/microsoft-fabric-connection-sp-powerbi-workspace-access.png)  

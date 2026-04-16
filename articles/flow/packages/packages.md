@@ -1,14 +1,14 @@
 # What is a Flow Package ?
 A Flow Package serves as a container for a collection of Flows, allowing users to bundle Flows with their dependent resources ([Workspace Objects](../workspaces/workspace-objects.md) and [Workspace Variables](../workspaces/workspace-variables.md)). The package can be exported to a file and imported into another Workspace. 
 
-![img](../../../images/packages-overview.png)
+![Packages Overview](../../../images/packages-overview.png)
 
 <br/>
 
 ## Create 
 To create a Flow Package press the Create button under the Package tab in a Workspace and fill out the properties in the appearing dialog. 
 
-![img](../../../images/packages-create.png)
+![Packages Create](../../../images/packages-create.png)
 
 <br/>
 
@@ -30,7 +30,7 @@ To create a Flow Package press the Create button under the Package tab in a Work
 
 To modify the properties of an existing Package, use the Edit button for the selected Package. To update the collection of Flows within the package, use the Edit button in the 'Flows in Package' section. Remember to update the version number if you change the content of the package before exporting it.
 
-![img](../../../images/packages-edit.png)
+![Packages Edit](../../../images/packages-edit.png)
 
 <br/>
 
@@ -38,7 +38,7 @@ To modify the properties of an existing Package, use the Edit button for the sel
 Installing a Package is done under the "Installed Packages" tab in a Workspace. Press the Install button and select a file containing the Package export.
 A package cannot be installed in the same Workspace where it was created.
 
-![img](../../../images/packages-install.png)
+![Packages Install](../../../images/packages-install.png)
 
 If the selected Package was created with a older Flow version, it will automatically be upgraded to the current Flow instance version.
 

@@ -7,9 +7,9 @@ This action defines a [Microsoft Foundry](https://ai.azure.com/) streaming chat 
 It's typically used when building backends for interactive chat clients, assistant-like experiences, or any UI that needs incremental model output.  
 Unlike the standard [chat completion](chat-completion.md), this action returns the response **incrementally as it is generated**.
 
-![img](/images/flow/azure-openai-streaming-chat-completion.png)
+![Azure Openai Streaming Chat Completion](/images/flow/azure-openai-streaming-chat-completion.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above shows a Flow that provides chat completions to a chat client. We're using [PostgreSQL vector search](../postgresql/vector-search.md) to enable RAG, and SQL Server to store and retrieve the chat history so that users can ask follow-up questions.
 
 <br/>
@@ -45,7 +45,7 @@ This action emits a stream of **AIChatCompletionResponse** objects, where each e
 #### Models
 To find the Model deployment name, look in `Models` screen in [Microsoft Foundry](https://ai.azure.com).    
 
-![img](/images/flow/azure-ai-foundry-deploymentname.png)
+![Azure AI Foundry Deploymentname](/images/flow/azure-ai-foundry-deploymentname.png)
 
 <br/>
 
@@ -59,9 +59,9 @@ Within the template, you can use the following placeholders:
 
 The system will substitute these placeholders with the corresponding values before sending the prompt to the model.
 
-**Example** ![img](../../../../images/strz2.jpg) 
+**Example** ![Example](../../../../images/strz2.jpg) 
 
-![img](../../../../images/flow/azure-ai-streaming-chat-completion-prompt-template.png)  
+![Azure AI Streaming Chat Completion Prompt Template](../../../../images/flow/azure-ai-streaming-chat-completion-prompt-template.png)  
 
 <br/>
 

@@ -4,4 +4,4 @@ Defining Custom code is an advanced feature which enables you to write custom C#
 
 To define custom code, select a Flowchart (click the canvas of the current Flowchart) and click `Custom code` in the `Properties panel`.
 
-![img](/images/flow/flowchart-custom-code.png)
+![Flowchart Custom Code](/images/flow/flowchart-custom-code.png)

@@ -7,7 +7,7 @@ Hypergene Flow is built on top of [.NET](https://dotnet.microsoft.com/en-us/), w
 To define custom data types in Profibase Flow, click on the Flowchart drawing canvas (the "background") to bring up the Property panel and then click the `Custom data types` button.  
 This will open a popup where you can define one or more data types that you can use in the Flow. Note that the data types are not available to other Flows.
 
-![img](/images/flow/custom-data-types.png)
+![Custom Data Types](/images/flow/custom-data-types.png)
 
 ## Type builder
 

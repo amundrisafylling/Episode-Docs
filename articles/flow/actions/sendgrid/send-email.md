@@ -9,7 +9,7 @@ Use this action to send emails through your configured **SendGrid** connection i
 ![Send Email with SendGrid](../../../../images/flow/send-grid-email.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 **This flow retrieves files or content from a source system and sends an automated email using SendGrid.**  
 For example, you could trigger a flow when a form is submitted, build a PDF, and email it to the recipient with custom messaging and attachments.
 

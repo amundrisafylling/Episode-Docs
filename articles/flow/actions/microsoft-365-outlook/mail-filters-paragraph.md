@@ -26,4 +26,4 @@ sentDateTime ge 2026-02-01T12:00:00Z
 
 <br/>
 
-![img](/images/flow/outlook-email-datefilter-example.png)
+![Outlook Email Datefilter Example](/images/flow/outlook-email-datefilter-example.png)

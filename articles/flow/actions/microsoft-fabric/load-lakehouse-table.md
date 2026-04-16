@@ -43,15 +43,15 @@ Returns the [LakehouseTableInfo](#lakehousetableinfo).
 
 ### Csv settings dialog:
 
-![img](../../../../images/flow/csv_dial.png)
+![CSV Dial](../../../../images/flow/csv_dial.png)
 
 Folder selector:
 
-![img](../../../../images/flow/folder_dial.png)
+![Folder Dial](../../../../images/flow/folder_dial.png)
 
 File selector:
 
-![img](../../../../images/flow/file_dial.png)
+![File Dial](../../../../images/flow/file_dial.png)
 
 <br/>
 

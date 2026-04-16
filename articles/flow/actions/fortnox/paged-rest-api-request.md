@@ -4,9 +4,9 @@ Use the [Fortnox REST API](https://apps.fortnox.se/apidocs) to retrieve paginate
 
 The **REST API request with paging** action enables you to interact with the [Fortnox REST API](https://apps.fortnox.se/apidocs) to retrieve large, paginated datasets. This action simplifies working with endpoints that return multiple pages of data, such as customer lists, invoices, or accounts. Pagination is managed automatically, allowing you to focus on processing the data.
 
-![img](/images/flow/fortnox-rest-api-paging.png)  
+![Fortnox REST API Paging](/images/flow/fortnox-rest-api-paging.png)  
 
-**Example** ![img](/images/strz.jpg)
+**Example** ![Example](/images/strz.jpg)
 
 In the example above, a **paginated REST API Request** is used to retrieve accounts and insert them into an SQL Server table. Each result from the **REST API Request** is converted using the [JSON to DataReader](../json/get-json-datareader.md) action, and then inserted using the [SQL Server Insert](../sql-server/insert-data.md) action.
 
@@ -43,7 +43,7 @@ If you press the `New Request` button in the Configuration dialog, you can choos
 
 The Fortnox REST API is large, so the template collection contains only a subset of the available APIs. If you cannot find a template for the request you want to make, you can refer to the [Fortnox API documentation](https://apps.fortnox.se/apidocs) and define the request manually.
 
-![img](/images/flow/dynamics365-bc-new-request.png)
+![Dynamics365 Bc New Request](/images/flow/dynamics365-bc-new-request.png)
 
 To define a request to the Fortnox REST API, you can start from a template, or define it manually:
 1. **Method**: Choose the appropriate HTTP method for your request:  

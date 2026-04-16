@@ -2,7 +2,7 @@
 
 The REST API Request action enables you to call [Microsoft Fabric REST APIs](https://learn.microsoft.com/en-us/rest/api/fabric/articles/using-fabric-apis) to automate Fabric processes, such as deploying, updating, deleting objects, or running dataflows and pipelines.
 
-![img](/images/flow/microsoft-fabric-rest-api-request-action.png)  
+![Microsoft Fabric REST API Request Action](/images/flow/microsoft-fabric-rest-api-request-action.png)  
 <br/>
 
 ## Properties
@@ -30,7 +30,7 @@ The [Microsoft Fabric REST API documentation](https://learn.microsoft.com/en-us/
 
 The image below shows how to [get a list of all available items in a Workspace](https://learn.microsoft.com/en-us/rest/api/fabric/core/items/list-items?tabs=HTTP). You can see that the Workspace Id in the URL gets its value from a variable.
 
-![img](/images/flow/microsoft-fabric-rest-api-request-example1.png)
+![Microsoft Fabric REST API Request Example1](/images/flow/microsoft-fabric-rest-api-request-example1.png)
 
 <br/>
 
@@ -38,7 +38,7 @@ The image below shows how to [get a list of all available items in a Workspace](
 
 The `REST API Request action` in Flow include templates for commonly used APIs. To use a template, click the `New Request` button in the configuration editor and choose a template for the request you want to make. It will automatically fill in the HTTP Method, URL and return type (Response). If the API requires a body, a template for the request body is also added. Note that it's just a template, so you need to provide the actual request body yourself by referring to the [Fabric API documentation.](https://learn.microsoft.com/en-us/rest/api/fabric/articles/using-fabric-apis)
 
-![img](/images/flow/microsoft-fabric-rest-api-request-template.png)
+![Microsoft Fabric REST API Request Template](/images/flow/microsoft-fabric-rest-api-request-template.png)
 
 <br/>
 
@@ -53,7 +53,7 @@ To get the request body from a variable, it needs to somehow be created first. I
 
 To use a variable as the body payload, simply switch to the `Body` tab and select the object from the variable selector. This will serialize the object and send it to the API when the Flow runs.
 
-![img](/images/flow/microsoft-fabric-rest-api-object-body.png)
+![Microsoft Fabric REST API Object Body](/images/flow/microsoft-fabric-rest-api-object-body.png)
 
 ##### Defining the request body by building a JSON object
 
@@ -69,7 +69,7 @@ When building the JSON object, you can combine hard-code values and variables as
 > [!NOTE]
 > You must remember to add quotes around `string` and `date` values, like shown with the `format` property below. Flow does not know which data type a property expects, so you will have to add quotes manually.
 
-![img](/images/flow/microsoft-fabric-rest-api-json-body.png)
+![Microsoft Fabric REST API JSON Body](/images/flow/microsoft-fabric-rest-api-json-body.png)
 
 <br/>
 
@@ -77,7 +77,7 @@ When building the JSON object, you can combine hard-code values and variables as
 
 When a Fabric API returns a value, and you want to use the value later in the Flow, you need to specify the data type of the returned value in the Response tab. If you created the request from a template (described above), the response data type is set automatically for you. If you're making a custom request (not using a template, or modified a template request), you need to first [define a custom data type](../../flows/defining-custom-types.md), and then select the data type in the Response tab. When you define the data type, it is important that it matches the data structure as described by the Fabric API documentation for the request. To define a custom data type, please [read more here.](../../flows/defining-custom-types.md)
 
-![img](/images/flow/microsoft-fabric-rest-api-request-response.png)
+![Microsoft Fabric REST API Request Response](/images/flow/microsoft-fabric-rest-api-request-response.png)
 
 <br/>
 
@@ -96,7 +96,7 @@ When a Fabric API performs an operation that takes some time to complete, it may
 
 If you want to initiate a long-running operation and don't wait for its completion before execution of the Flow continues, uncheck the `Wait for long running operation to complete` property.
 
-![img](/images/flow/microsoft-fabric-rest-api-request-wait.png)
+![Microsoft Fabric REST API Request Wait](/images/flow/microsoft-fabric-rest-api-request-wait.png)
 
 <br/>
 

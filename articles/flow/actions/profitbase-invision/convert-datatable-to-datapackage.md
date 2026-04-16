@@ -4,7 +4,7 @@ Converts a [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.
 
 Use this action when you need to create a Flow that returns data to a [SQL Report](../../../invision/docs/sqlreports.md), [Worksheet](../../../invision/docs/worksheets.md), [Table](../../../invision/docs/tables.md) or [Table View](../../../invision/docs/tableview.md) in an InVision [Workbook](../../../invision/docs/workbooks.md). It enables passing data directly from Flow to the InVision frontend without going through the InVision backend or database. This enables you to use Flow to create your own backend with custom business logic for displaying or editing tabular data in InVision. 
 
-![img](/images/flow/convert-datatable-to-datapackage.png)  
+![Convert Datatable To Datapackage](/images/flow/convert-datatable-to-datapackage.png)  
 
 ## Properties
 

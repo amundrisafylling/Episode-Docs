@@ -2,7 +2,7 @@
 
 Uploads a file to a Lakehouse in Microsoft Fabric to make it ready for analytics. 
 
-![img](../../../../images/flow/upload-to-lakehouse.png)
+![Upload To Lakehouse](../../../../images/flow/upload-to-lakehouse.png)
 
 <br/>
 

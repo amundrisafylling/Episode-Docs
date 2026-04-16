@@ -6,7 +6,7 @@ This getting started guide outlines the main steps required to creating and runn
 Start by [creating a Workspace](./workspaces/create-workspace.md).
 Before you can create any Flows, you need to have at least one [Workspace](./workspaces.md). A Workspace is a logical container of Flows and artifacts that belong together. Within a Workspace, you can organize Flows into Folders if the number of Flows becomes large. To edit an existing Flow, open the Workspace it belongs to, then select the Flow you want to edit.
 
-![img](/images/flow/create-workspace.png)
+![Create Workspace](/images/flow/create-workspace.png)
 
 ### 2. [Optional] Grant other users permissions to the Workspace
 When you create a Workspace, you (the creator) will automatically be granted access to it. By default, tenant administrators have access to all Workspaces. If you want other (non-admin) users to have access to the Workspace, you must explicitly grant them access.  
@@ -16,7 +16,7 @@ When you create a Workspace, you (the creator) will automatically be granted acc
 
 With your Workspace created, you can now [create a Flow](./flows/create-flow.md). 
 
-![img](/images/flow/create-flow-from-portal.png)
+![Create Flow From Portal](/images/flow/create-flow-from-portal.png)
 
 <br/>
 

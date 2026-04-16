@@ -2,9 +2,9 @@
 
 Gets the sitemap from a URL.
 
-![img](../../../../images/flow/get-sitemap.png)
+![Get Sitemap](../../../../images/flow/get-sitemap.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves a **sitemap** from a specified URL, [validates](../built-in/if.md) its structure and content, and [throws an exception](../built-in/throw-exception.md) if the validation fails. You will find a detailed description of this flow [here.](../built-in/flow-getSitemap.md)
 
 <br/>

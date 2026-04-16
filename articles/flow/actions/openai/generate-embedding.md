@@ -4,9 +4,9 @@ Generates an embedding vector using an [OpenAI](https://platform.openai.com/docs
 
 Use this action when you want to generate an embedding vector to do manual vector operations (write your own queries) against databases like PostgreSQL or Azure SQL, for example vector search or inserting / updating vector records. 
 
-![img](/images/flow/openai-generate-embedding.png)  
+![Openai Generate Embedding](/images/flow/openai-generate-embedding.png)  
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above illustrates part of a Flow that stores a document into SQL Server (used as a vector database). It uses the [Split text](../ai/split-text.md) action to split a large document into chunks. Then, for each chunk, we generate an embedding, and stores the text chunk along with the embedding into SQL Server as a vector record.
 
 <br/>

@@ -10,7 +10,7 @@ Welcome to the August 2024 update of Hypergene Flow. Here are the most important
 ## Amazon S3  
 With support for Amazon S3, you can now easily **read** (download), **upload**, **append**, **delete**, and **list** objects in Amazon S3 buckets.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_1.png)
+![August Changelog24 1](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_1.png)
 
 <br/>
 
@@ -20,7 +20,7 @@ We added support for **reading and writing Parquet files**, which means you can 
 
 > *Apache Parquet is an open-source, column-oriented data file format designed for efficient data storage and retrieval. It provides high-performance compression and encoding schemes to handle complex data in bulk and is supported in many programming languages and analytics tools. [Source](https://parquet.apache.org/)*
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_2.png)
+![August Changelog24 2](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_2.png)
 
 <br/>
 
@@ -32,7 +32,7 @@ When you have successfully created a Microsoft Fabric Connection, Flow will auto
 
 Flow will also automatically handle [paginated](https://learn.microsoft.com/en-us/rest/api/fabric/articles/pagination) responses for you by fetching all records, so you don’t have to worry about handling the pagination logic yourself.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_3.png)
+![August Changelog24 3](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_3.png)
 
 <br/>
 
@@ -45,7 +45,7 @@ Flow will also automatically handle [paginated](https://learn.microsoft.com/en-u
 - **Stored Procedures** in InVision can now be redeployed from a Flow using the [Deploy Stored Procedure](../actions/profitbase-invision/deploy-stored-procedure.md) action. This is useful when the Stored Procedure definition is dynamically generated based on customer configuration using a macro.
 - **Views** in InVision can now be redeployed from a Flow using the [Deploy View](../actions/profitbase-invision/deploy-view.md) action. This is useful when the View definition is dynamically generated based on customer configuration using a macro.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_4.png)
+![August Changelog24 4](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_4.png)
 
 <br/>
 
@@ -53,7 +53,7 @@ Flow will also automatically handle [paginated](https://learn.microsoft.com/en-u
 ## Encryption  
 We now support encryption and decryption of data using the AES algorithm through the [AES Encrypt](../actions/security/aes-encrypt.md) and [AES Decrypt](../actions/security/aes-decrypt.md) actions.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_5.png)
+![August Changelog24 5](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_5.png)
 
 <br/>
 
@@ -108,7 +108,7 @@ Fixed an issue that prevented sending emails to multiple recipients.
   - **Custom connection string**
 - You can now rearrange the order of columns in SQL Server actions, such as the [Create Table](../actions/sql-server/create-table.md) action.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_6.png)
+![August Changelog24 6](https://profitbasedocs.blob.core.windows.net/flowimages/augustChangelog24_6.png)
 
 <br/>
 

@@ -4,7 +4,7 @@ Sends a message in a Microsoft Teams channel.
 
 Use this action to send a message to a Microsoft Teams channel. The action supports both Text and HTML message formats, and you can also include attachments.
 
-![img](/images/flow/teams-send-channel-message.png)
+![Teams Send Channel Message](/images/flow/teams-send-channel-message.png)
 
 <br/>
 

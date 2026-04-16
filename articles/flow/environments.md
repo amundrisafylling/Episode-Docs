@@ -17,4 +17,4 @@ Environments and [Workspace Variables](workspaces/workspace-variables.md) are cl
 
 <br/>
 
-![img](../../images/env1.png)
+![Env1](../../images/env1.png)

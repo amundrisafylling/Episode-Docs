@@ -2,9 +2,9 @@
 
 Creates a CSV file from a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) or [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable) and returns the result as a [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream).
 
-![img](../../../../images/flow/create-csv-as-stream2.png)
+![Create CSV As Stream2](../../../../images/flow/create-csv-as-stream2.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow [loads](../sql-server/load-to-datatable.md) tabular data into a DataTable, converts it into a CSV stream, [assigns a file name](../built-in/function.md), and [uploads](../amazon-s3/upload-s3object.md) the generated CSV to object storage. The pattern is useful for exporting datasets, generating downloadable files, or automating data delivery pipelines. 
 
 <br/>

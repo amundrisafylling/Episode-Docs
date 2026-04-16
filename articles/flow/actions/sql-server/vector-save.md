@@ -3,9 +3,9 @@
 Generates and saves vector records to a SQL Server / Azure SQL database from text input.
 
 
-![img](../../../../images/flow/vector-save-SQL.png)
+![Vector Save SQL](../../../../images/flow/vector-save-SQL.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow [reads](../onedrive/read-file-from-onedrive-as-byte-array.md) files from OneDrive, [converts](../built-in/convert.md) their content to text, [splits](../ai/text-splitter.md) it into chunks, generates [embedding](../azure-ai/text-embedder.md) vectors, and stores them in a SQL server database for semantic search.
 
 

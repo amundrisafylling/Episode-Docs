@@ -2,7 +2,7 @@
 
 Loads the contents of an Excel sheet into memory as a [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable).
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/read-excel-file-as-datatable.png)
+![Read Excel File As Datatable](https://profitbasedocs.blob.core.windows.net/flowimages/read-excel-file-as-datatable.png)
 
 <br/>
 
@@ -30,7 +30,7 @@ Loads the contents of an Excel sheet into memory as a [DataTable](https://learn.
 
 Columns can be mapped automatically by using the "Map from sample file" option.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderEx2.png)
+![Get Data Reader Ex2](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderEx2.png)
 
 <br/>
 

@@ -7,7 +7,7 @@ The **REST API Request** action allows you to interact with [PowerOffice Go REST
 
 <br/>
 
-![img](../../../../images/flow/powerOffice-rest-api.png)  
+![Power Office REST API](../../../../images/flow/powerOffice-rest-api.png)  
 
 <br/>
 
@@ -60,7 +60,7 @@ To define a request to the PowerOffice Go REST API, you can start from a templat
 
 5. **Response Type**: Use the default `HttpResponse<string>` to work with raw JSON data. For large datasets, this approach is recommended to reduce memory usage and improve performance.
 
-![img](/images/flow/dynamics365-bc-new-request.png)
+![Dynamics365 Bc New Request](/images/flow/dynamics365-bc-new-request.png)
 
 <br/>
 

@@ -5,7 +5,7 @@ Executes a Dataflow in an InVision Solution.
 > [!IMPORTANT]
 > InVision Dataflows will be deprecated in a future version of InVision. Use this action to gradually migrate business logic from InVision Dataflows to Flow. Avoid creating new Dataflows in InVision, and prefer using Flow instead.
 
-![img](/images/flow/profitbase-invision-execute-dataflow.png)
+![Profitbase Invision Execute Dataflow](/images/flow/profitbase-invision-execute-dataflow.png)
 
 <br/>
 
@@ -43,7 +43,7 @@ Specifies the format of the JSON string that can be used to specify arguments to
 To create the JSON string, use the [Function](../built-in/function.md) action like shown below. It creates a JSON string providing arguments for the global variables `department` and `refreshTables`, and specifies the companyId required by the Dataflow activity named `Run Update Script`.
 
 ### Example
-![img](/images/flow/profitbase-invision-execute-dataflow-exec-args-example.png)
+![Profitbase Invision Execute Dataflow Exec Args Example](/images/flow/profitbase-invision-execute-dataflow-exec-args-example.png)
 
 <br/>
 

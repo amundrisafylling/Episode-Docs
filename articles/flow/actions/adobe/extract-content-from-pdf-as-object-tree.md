@@ -4,9 +4,9 @@ Extracts content from a PDF file and returns it as a tree of elements.
 Use this action if you need to query the contents of a PDF document in a structured way to extract information, such as invoice details or product information.   
 The action returns a [PdfTree](./apis/pdf-tree.md) that you can use in a [Function](../built-in/function.md) action to programatically read the contents of the PDF document.
 
-![img](/images/flow/adobe-extract-pdf-content-as-document-tree.png)  
+![Adobe Extract PDF Content As Document Tree](/images/flow/adobe-extract-pdf-content-as-document-tree.png)  
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above shows a Flow that automatically processes incoming emails with invoice attachments, extracts the invoice details, and registers them in Dynamics 365 Business Central.
 
 <br/>
@@ -32,7 +32,7 @@ This example shows how to extract the `Total Amount` from the sample invoice bel
 The invoice PDF file is passed in to the `Extract content from PDF as document tree` action, which returns a [PdfTree](./apis/pdf-tree.md) which is passed to a [Function](../built-in/function.md) as the  `pdfTree` parameter.  
 We use the PdfTree API to get a reference to the document element with value `Total Amount`, and then navigate from there to the element containing the value. In this case, the Total Amount `value` is in the table row just below the label itself.
 
-![img](/images/flow/snowflake-sample-invoice.png)
+![Snowflake Sample Invoice](/images/flow/snowflake-sample-invoice.png)
 
 ```csharp
 // PdfTree pdfTree = ...from an "Extract content from PDF as document tree" action
@@ -56,7 +56,7 @@ This example shows how to extract the `Compute SUBTOTAL` from the sample invoice
 It first finds the table containing the invoice lines, then finds the table row containing the "Compute" row header, and then  
 finds the 4th cell (.Children[3]) and picks the Value from cell object.
 
-![img](/images/flow/snowflake-sample-invoice-2.png)
+![Snowflake Sample Invoice 2](/images/flow/snowflake-sample-invoice-2.png)
 
 ```csharp
 

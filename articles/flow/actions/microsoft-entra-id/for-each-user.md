@@ -4,7 +4,7 @@ Lists all users in a Microsoft Entra ID tenant.
 
 ![Example Flow](../../../../images/flow/entra-id-for-each-user-example.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow iterates through all existing users in a Microsoft Entra ID tenant. For each user, it checks if their email address exists within a predefined list of emails to be invited. If a match is found, the address is removed from the invitation list. Finally, the flow loops through the remaining email addresses on the list and sends each a guest invitation to join the tenant.
 
 <br/>

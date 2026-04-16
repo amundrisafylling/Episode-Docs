@@ -5,9 +5,9 @@ Gets the raw data for a Hypergene Porfolios report in the specified supported fo
 > [!NOTE]
 > If you request a format not supported by the report, the data will be returned in the report’s default format. For example, if you request CSV but the report only supports JSON, the data will be returned as JSON.
 
-![img](/images/flow/portfolio-get-report-data.png)  
+![Portfolio Get Report Data](/images/flow/portfolio-get-report-data.png)  
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above illustrates how to import data from Hypergene Portfolios into your own Azure SQL database. It first fetches data in **CSV format** using the `Get report data` action, then converts it to a DataTable using the [Read CSV file as DataTable](../csv/read-csv-file-as-datatable.md) action and finally stores the data to an Azure SQL Database table using the [Insert rows](../sql-server/insert-data.md) action. The Portfolio API returns data as a string, so we must do the DataTable conversion manually to get the data to a tabular format that SQL Server understands.
 
 <br/>

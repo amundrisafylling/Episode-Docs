@@ -5,7 +5,7 @@ Use this action to fetch emails from a personal mailbox in Outlook and process t
 
 <br/>
 
-![img](/images/flow/outlook-for-each-email.png)
+![Outlook For Each Email](/images/flow/outlook-for-each-email.png)
 <p><em>Figure: Fetching received and sent emails and saving them to a database and then compiling mail threads based on conversation ids.</em></p>
 
 <br/>

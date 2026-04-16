@@ -4,7 +4,7 @@ Iterates over the rows returned by a SQL Server database query.
 
 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/read-rows.png)
+![Read Rows](https://profitbasedocs.blob.core.windows.net/flowimages/read-rows.png)
 
 ## Properties
 

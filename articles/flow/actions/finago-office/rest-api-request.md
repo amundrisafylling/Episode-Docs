@@ -2,9 +2,9 @@
 
 The `REST API Request` action enables you to call [Finago Office (24SevenOffice) API](https://rest-api.developer.24sevenoffice.com/doc/v1/) and retrieve data. A typical use case is to create data integrations for pulling data from Finago Office/24SevenOffice into a data platform solution.
 
-![img](/images/flow/24SevenOffice-rest-api.png)
+![24seven Office REST API](/images/flow/24SevenOffice-rest-api.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above shows a Flow that use a [dynamic connection](./create-connection.md) to 'request accounts' . The json data in the response content is [converted to a table](../json/get-json-datatable.md) and the data is [inserted into](../sql-server/insert-data.md) an SQL server table.
 
 <br/>

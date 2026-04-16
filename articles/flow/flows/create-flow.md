@@ -6,7 +6,7 @@ You can create a Flow from the Workspace screen in the Flow Portal or from the F
 
 To create a Flow from the Portal, click the Workspaces icon in the left navigation bar and then click `New Flow` in the menu.
 
-![img](/images/flow/create-flow-from-portal.png)
+![Create Flow From Portal](/images/flow/create-flow-from-portal.png)
 
 <br/>
 <br/>
@@ -15,7 +15,7 @@ To create a Flow from the Portal, click the Workspaces icon in the left navigati
 
 To create a Flow from the Designer, open the File menu and click `New`.  
 
-![img](/images/flow/create-flow-from-designer.png)
+![Create Flow From Designer](/images/flow/create-flow-from-designer.png)
 
 
 ## Run Flows

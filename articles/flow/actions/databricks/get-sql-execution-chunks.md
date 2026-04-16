@@ -2,9 +2,9 @@
 
 [Executes a SQL statement](https://docs.databricks.com/api/azure/workspace/statementexecution/executestatement) in [Databricks](https://www.databricks.com/databricks-documentation) and iterates over each chunk of data returned.
 
-![img](../../../../images/flow/databricks.png)
+![Databricks](../../../../images/flow/databricks.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow reads customer data, transforms it, iterates over it, and inserts it into a database. 
 
 <br/>

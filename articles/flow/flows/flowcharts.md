@@ -12,7 +12,7 @@ In addition to Main, you can add multiple sub-flows called `Extension flowcharts
 
 <br/>
 
-![img](../../../images/schemas.png)
+![Schemas](../../../images/schemas.png)
 
 
 ## Properties

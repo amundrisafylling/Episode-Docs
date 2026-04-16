@@ -2,9 +2,9 @@
 
 Split text into chunks.
 
-![img](/images/flow/split-text.png)  
+![Split Text](/images/flow/split-text.png)  
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above illustrates a Flow that stores a document in SQL Server. It uses the **Split text** action to divide a large document into smaller chunks. Then, for each chunk, an [embedding is generated](../azure-ai/generate-embedding.md), and the text chunk along with its corresponding embedding is stored in SQL Server as a vector record.
 
 ## Properties 
@@ -13,7 +13,7 @@ The example above illustrates a Flow that stores a document in SQL Server. It us
 |-------------------------|-----------|-------------------------------------------------------|
 | Title                      | No | The name of the action or operation.                                       |
 | Input text                 | Yes | The text to split into chunks.                                             |
-| Splitter type           | Yes |  Read documentation below.  ![img](../../../../images/strz2.jpg)               |
+| Splitter type           | Yes |  Read documentation below.  ![Example](../../../../images/strz2.jpg)               |
 | Text chunk variable name   | No | The variable name used to store the output chunks.                         |
 | Description                | No | A field to describe the action or its purpose.                             |
 

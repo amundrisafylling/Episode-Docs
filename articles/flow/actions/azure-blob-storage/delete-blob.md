@@ -2,9 +2,9 @@
 
 Deletes a blob from an Azure Blob container.
 
-![img](../../../../images/flow/delete-blob.png)
+![Delete Blob](../../../../images/flow/delete-blob.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow iterates over blob names and checks for `.txt` files; if the condition is met, the `.txt` blobs are deleted. 
 Actions used in the flow are: [For each Blob name](foreach-blob-name.md), [If](../built-in/if.md) and [Delete Blob](). 
 

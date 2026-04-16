@@ -21,7 +21,7 @@ Use the subject: 'Summary'.
 Include all the Word documents as attachments to the email.
 ```
 
-![img](/images/flow/outlook-agent-tool.png)
+![Outlook Agent Tool](/images/flow/outlook-agent-tool.png)
 
 <br/>
 

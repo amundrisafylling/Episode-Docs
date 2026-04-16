@@ -7,10 +7,10 @@ A typical use case for this action is extracting relevant content (or elements) 
 Menus, scripts, headers, and footers can be removed so that the result is the 'real' content. The extracted content elements can then be inserted into a vector database, and used for Retrieval-Augmented Generation (RAG) in an AI chat.
 
 
-![img](/images/flow/html-for-each-element.png)
+![HTML For Each Element](/images/flow/html-for-each-element.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow retrieves an HTML page, extracts relevant elements using CSS selectors, fixes links in each element, and finally converts it to Markdown text.
 
 

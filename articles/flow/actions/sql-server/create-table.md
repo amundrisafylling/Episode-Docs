@@ -5,7 +5,7 @@ Creates a table in a SQL Server database.
 If the table already exists, this action does nothing (no error is raised). 
 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/create-table2.png)
+![Create Table2](https://profitbasedocs.blob.core.windows.net/flowimages/create-table2.png)
 
 ## Properties
 
@@ -21,12 +21,12 @@ If the table already exists, this action does nothing (no error is raised).
 
 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/create-table.png)
+![Create Table](https://profitbasedocs.blob.core.windows.net/flowimages/create-table.png)
 
 
 ### Column definition
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/col-def.png)
+![Col Def](https://profitbasedocs.blob.core.windows.net/flowimages/col-def.png)
 
 
 <br/>

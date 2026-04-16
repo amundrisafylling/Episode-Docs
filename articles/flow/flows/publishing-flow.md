@@ -3,7 +3,7 @@
 
 To publish a Flow, open the Flow in the Designer and press Publish from the application bar.  
 
-![img](../../../images/publish-flow.png)
+![Publish Flow](../../../images/publish-flow.png)
 
 Hypergene Flow defines three environments: 
 

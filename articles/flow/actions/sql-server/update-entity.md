@@ -21,7 +21,7 @@ All properties _NOT_ in the `Update keys` configuration will be used in the SET 
 
 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/update-entity.png)
+![Update Entity](https://profitbasedocs.blob.core.windows.net/flowimages/update-entity.png)
 
 ## Properties
 

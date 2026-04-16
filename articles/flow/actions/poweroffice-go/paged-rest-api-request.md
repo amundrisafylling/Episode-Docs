@@ -5,7 +5,7 @@ Use [PowerOffice Go REST APIs (v2)](https://developer.poweroffice.net) to retrie
 
 The REST **API Request with paging** action enables you to interact with the [PowerOffice Go REST APIs (v2)](https://prdm0go0stor0apiv20eurw.z6.web.core.windows.net) to retrieve large, paginated datasets. This action simplifies working with endpoints that return multiple pages of data, such as customer lists, invoices, or accounting records. Pagination is managed automatically, allowing you to focus on processing the data.
 
-![img](/images/flow/rest-api-paging-powerOff.png)  
+![REST API Paging Power Off](/images/flow/rest-api-paging-powerOff.png)  
 
 <br/>
 
@@ -40,7 +40,7 @@ If you press the `New Request` button in the Configuration dialog, you can choos
 
 The PowerOffice Go REST API is large, so the template collection contains only a subset of the available APIs. If you cannot find a template for the request you want to make, you can refer to the [PowerOffice Go API documentation](https://prdm0go0stor0apiv20eurw.z6.web.core.windows.net) and define the request manually.
 
-![img](/images/flow/dynamics365-bc-new-request.png)
+![Dynamics365 Bc New Request](/images/flow/dynamics365-bc-new-request.png)
 
 <br/>
 

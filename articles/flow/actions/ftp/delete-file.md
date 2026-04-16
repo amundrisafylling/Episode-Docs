@@ -2,9 +2,9 @@
 
 Deletes a selected file in an FTP / SFTP directory.
 
-![img](../../../../images/flow/ftp-delete.png)
+![FTP Delete](../../../../images/flow/ftp-delete.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves a CSV file from [Azure Blob Storage](../azure-blob-storage/read-blob-as-byte-array.md), uploads it to a new location for further processing or archiving, and deletes the original file from the FTP server to maintain a clean file system and prevent duplicate ingestion.
 
 <br/>

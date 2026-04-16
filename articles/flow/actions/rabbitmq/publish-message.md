@@ -4,9 +4,9 @@ This action publishes a string message to an [RabbitMq](https://www.rabbitmq.com
 
 <br/>
 
-![img](../../../../images/flow/rabbitmq-publish-message.png)
+![Rabbitmq Publish Message](../../../../images/flow/rabbitmq-publish-message.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 
 This flow runs daily using a [schedule](../../triggers/schedule-trigger.md), [reads rows](../sql-server/for-each-row-from-query.md) of overdue customer payments from a table, sends each as a message to an RabbitMQ queue.
 

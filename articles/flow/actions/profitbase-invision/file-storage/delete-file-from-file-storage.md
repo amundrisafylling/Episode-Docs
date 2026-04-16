@@ -2,10 +2,10 @@
 
 Deletes a file from an InVision [File Storage](/articles/invision/docs/filestorage.md).
 
-![img](../../../../../images/flow/delete-file-fileStorage.png)
+![Delete File File Storage](../../../../../images/flow/delete-file-fileStorage.png)
 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow [loads all files from File Storage](get-files-info-from-file-storage.md), [filters](../../built-in/foreach.md) them based on defined criteria, and deletes the matching files one by one.
 
 

@@ -4,7 +4,7 @@ Iterates over the attachments in an email in Microsoft 365 Outlook.
 
 Use this action to get all file attachments from an email in Microsoft 365 Outlook and process them one by one.
 
-![img](../../../../images/flow/microsoft-365-outlook-foreach-attachment.png)
+![Microsoft 365 Outlook Foreach Attachment](../../../../images/flow/microsoft-365-outlook-foreach-attachment.png)
 
 ## Properties
 

@@ -4,10 +4,10 @@ This is a utility action for writing messages to the log.
 
 
 
-![img](../../../../images/flow/log.png)
+![Log](../../../../images/flow/log.png)
 
 **Example**  
-![img](../../../../images/strz.jpg)  
+![Example](../../../../images/strz.jpg)  
 This flow automates the process of converting a DOCX document to a PDF, uploading the result, and logging the outcome.
 
 </br>
@@ -25,4 +25,4 @@ This flow automates the process of converting a DOCX document to a PDF, uploadin
 > [!NOTE]
 > `Information`, `Warning`, and `Error` messages are displayed in the **Execution log**, while the `Debug` messages are displayed in the **Debug log**.  
 
-![img](/images/flow/log-action.png)
+![Log Action](/images/flow/log-action.png)

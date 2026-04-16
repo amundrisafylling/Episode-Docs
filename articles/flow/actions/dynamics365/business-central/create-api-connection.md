@@ -12,7 +12,7 @@ This enables dynamically connecting to different Dynamics 365 Business Central s
 > [Read about how to create a Service Princial here](./dynamics365-business-central-api-v2-connection.md).
 
 
-![img](/images/flow/dynamics365-bc-create-dynamic-connection.png)
+![Dynamics365 Bc Create Dynamic Connection](/images/flow/dynamics365-bc-create-dynamic-connection.png)
 
 ## Properties
 

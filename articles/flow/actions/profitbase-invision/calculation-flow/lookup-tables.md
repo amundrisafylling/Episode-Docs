@@ -89,7 +89,7 @@ Below is a code example with a custom PaymentCalculator class that generates a p
 
 #### Example
 
-![img](/images/flow/lookup-table-example-with-callback.png)  
+![Lookup Table Example With Callback](/images/flow/lookup-table-example-with-callback.png)  
 
 ##### 1. Your code  
 The code below is typically defined in the [Custom Code](../../../flows/defining-custom-code.md) editor in a [Flowchart](../../../flows/flowcharts.md) (box 1. in the image above), or in your own .NET library.  

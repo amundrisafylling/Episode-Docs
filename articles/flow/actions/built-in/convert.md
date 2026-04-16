@@ -4,9 +4,9 @@ Converts between objects of different data types, for example string to number o
 You should also use this action if you need to convert JSON, streams, byte arrays, collections or business objects / custom types.  
 For example, you can use this action to convert a JSON string to an object, such as a [custom type](../../flows/defining-custom-types.md).
 
-![img](../../../../images/flow/convert.png)
+![Convert](../../../../images/flow/convert.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow illustrates using the [Tools AI Agent](../agents/tools-ai-agent.md) to retrieve a list of all blobs in an Azure Storage container and return the result as a JSON string. We then convert the returned JSON string to a business object containing the list of files so we can add it to the table.
 </br>
 

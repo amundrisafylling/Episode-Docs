@@ -25,7 +25,7 @@ You will need to run Hypergene Flow on a Windows Server with IIS web server and 
 
 ### On-premises hosting architecture
 
-![img](/images/flow/Flow%20on-premises%20architecture.svg)
+![Flow On Premises Architecture](/images/flow/Flow%20on-premises%20architecture.svg)
 
 **Resources**
 

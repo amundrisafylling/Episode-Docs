@@ -4,7 +4,7 @@ Deletes a Work Process Version. Use this action to clean up versions that are no
 
 ![Delete Work Process Version flow example](../../../../../images/flow/delete-work-process-version.png)
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at the start of a new planning period to [create](./create-work-process-version.md) and [deploy a new budget version](./deploy-work-process-version.md), then immediately deletes the previous budget version to keep the Work Process clean and free of outdated versions.
 
 ## Properties

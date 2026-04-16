@@ -5,9 +5,9 @@ The input can be either a byte array or a [Stream](https://learn.microsoft.com/e
 
 This action is typically used when you need to import large CSV files to a database. The [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) can be used as input to actions such as the [SQL Server Insert Data](../sql-server/insert-data.md) action.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderCSV.png)
+![Get Data Reader CSV](https://profitbasedocs.blob.core.windows.net/flowimages/getDataReaderCSV.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above shows flow that can be used to read and process customer orders from a CSV file, applying two actions to each record (e.g., validating the order and updating inventory). Read more about [Function](../built-in/function.md) and [DataReader iterator](../built-in/datareader-iterator.md).
 
 <br/>

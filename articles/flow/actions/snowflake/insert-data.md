@@ -6,7 +6,7 @@ Use this action when you have data already loaded into memory or streaming from 
 
 ![The Insert rows action configured in the flow editor](../../../../images/flow/snowflake-insert-data.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves customer data from SQL Server, applies a transformation step, and then inserts the transformed data into a Snowflake table. It returns the number of rows successfully inserted.
 
 ## Properties

@@ -4,7 +4,7 @@ Creates a Data Pipeline in a Microsoft Fabric Workspace.
 
 Use this action to automate deployments of Data Pipelines to Fabric Workspaces, for example, if you want to deploy pre-configured Data Pipelines as part of data platform workloads to customers, projects or departments in the organization.
 
-![img](/images/flow/microsoft-fabric-create-data-pipeline.png)  
+![Microsoft Fabric Create Data Pipeline](/images/flow/microsoft-fabric-create-data-pipeline.png)  
 
 <br/>
 

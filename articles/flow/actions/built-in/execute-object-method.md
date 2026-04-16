@@ -6,9 +6,9 @@ This is equivalent to invoking an instance method of an object. If the method ha
 
 [Related reading: Introduction to classes in .NET](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/classes)
 
-![img](../../../../images/flow/call-extension-entry.png)
+![Call Extension Entry](../../../../images/flow/call-extension-entry.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow demonstrates how to expose reusable logic through an Extension Entry and how to execute it from a main Flow while enforcing a strict result contract.
 
 The Main flow starts by declaring a result variable and is triggered via a [Flow Hook](flow-hook.md). It then invokes the extension by using the **Execute object method**, calling the [ExtensionEntry](extension-entry.md) method on the current Flow object (This). The return value from the extension is stored in the result variable.
@@ -20,10 +20,10 @@ The Extension flow defines its public API using the Extension Entry action. Insi
 This pattern is useful when building reusable extensions that return standardized status codes, allowing calling Flows to centrally enforce success and error handling logic.
 <br/>
 
-![img](../../../../images/flow/hook-handlerNU.png)
+![Hook Handler Nu](../../../../images/flow/hook-handlerNU.png)
 <br/>
 
-![img](../../../../images/flow/extension-entry.png)
+![Extension Entry](../../../../images/flow/extension-entry.png)
 <br/>
 
 ## Properties

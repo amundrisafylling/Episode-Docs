@@ -4,10 +4,10 @@ Loads the contents of a Parquet file into memory as a [DataTable](https://learn.
 
 <br/>
 
-![img](../../../../images/flow/readParquetAsDataTable.png)
+![Read Parquet As Data Table](../../../../images/flow/readParquetAsDataTable.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow reads a Parquet file from [Blob Storage](../azure-blob-storage/read-blob-as-stream.md), applies dynamic column mappings to interpret the file structure, converts the data into an [Excel file](../excel/create-excel-file-as-byte-array.md), and [uploads](../azure-blob-storage/upload-blob.md) the generated Excel file back to Blob Storage.
 
 The flow starts with a [Function](../built-in/function.md) that returns a list of *ParquetColumnMapping* definitions. These mappings dynamically define how columns in the Parquet file should be interpreted, including the target column names and data types. 
@@ -40,11 +40,11 @@ Each mapping defines:
 
 Column mappings can also be used to **exclude columns** from the output. Only the columns defined in the mapping will be included in the resulting table.
 
-![img](../../../../images/flow/ColMap.png)
+![Col Map](../../../../images/flow/ColMap.png)
 
 ### Dynamic column mapping
 
-![img](../../../../images/flow/dynColMap2.png)
+![Dyn Col Map2](../../../../images/flow/dynColMap2.png)
 
 The Column mapping property allows you to control how columns from the Parquet file are interpreted when the file is read. Normally, column mappings are defined directly in the node configuration. However, you can also provide a function that returns the mappings dynamically.
 

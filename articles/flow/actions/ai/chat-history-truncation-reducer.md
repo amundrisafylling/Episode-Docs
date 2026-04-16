@@ -5,9 +5,9 @@ If no threshold is set, the history is trimmed whenever it exceeds the target co
 
 
 
-![img](../../../../images/flow/chat-history-reducer.png)
+![Chat History Reducer](../../../../images/flow/chat-history-reducer.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow ensures chat history is dynamically managed and trimmed, keeping interactions relevant while staying within context window limits of the model. The **Chat History Truncation Reducer** is  automatically discarding the oldest entries when the chat becomes too long.
 
 

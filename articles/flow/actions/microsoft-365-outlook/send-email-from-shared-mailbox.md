@@ -4,7 +4,7 @@ Sends an email from a shared mailbox using Microsoft 365 Outlook.
 
 Use this action to send emails from a `shared` Microsoft 365 Outlook mailbox. If you don't already have one, you need to first create a [Microsoft 365 Outlook connection](./outlook-connection.md) by logging on with an account having access to the shared mailbox.
 
-![img](/images/flow/microsoft-365-outlook-send-mail.png)
+![Microsoft 365 Outlook Send Mail](/images/flow/microsoft-365-outlook-send-mail.png)
 
 ## Properties
 

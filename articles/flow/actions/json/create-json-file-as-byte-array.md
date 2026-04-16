@@ -4,7 +4,7 @@ Creates a JSON file from a [string](https://learn.microsoft.com/en-us/dotnet/api
 
 <br/>
 
-![img](../../../../images/flow/json-create.png)
+![JSON Create](../../../../images/flow/json-create.png)
 
 <br/>
 

@@ -11,7 +11,7 @@ If you store the credentials outside Flow (for example, in your own Azure SQL or
 
 <br/>
 
-![img](/images/flow/24SeventOffice-create-connection.png)
+![24sevent Office Create Connection](/images/flow/24SeventOffice-create-connection.png)
 
 <br/>
 

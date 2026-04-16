@@ -8,7 +8,7 @@ The **REST API Request** action allows you to interact with [Visma.Net](https://
 
 <br/>
 
-![img](/images/flow/visma-net-rest-api-request.png)
+![Visma Net REST API Request](/images/flow/visma-net-rest-api-request.png)
 
 <br/>
 

@@ -3,7 +3,7 @@
 In a [Data Context](data-context.md), the Parameter relationship defines how standalone arguments from the Data Context passed in during execution maps to columns in the Main table.
 By defining the Parameter relationship, you essentially define a WHERE clause on the Main table.
 
-![img](../../../../../images/parameter-relationship-editor.png)
+![Parameter Relationship Editor](../../../../../images/parameter-relationship-editor.png)
 
 ## Parameters
 

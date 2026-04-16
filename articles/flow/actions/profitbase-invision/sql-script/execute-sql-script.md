@@ -3,9 +3,9 @@
 Executes an [SQL Script](../../../../invision/docs/sqlscripts.md) defined in an InVision Solution.
 
 
-![img](../../../../../images/flow/executeSQLscript.png) 
+![Execute Sqlscript](../../../../../images/flow/executeSQLscript.png) 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow [prepares](../../built-in/function.md) a language setting and a parameters object, then executes a SQL script that inserts data into a database using those inputs.
 
 >[!NOTE]

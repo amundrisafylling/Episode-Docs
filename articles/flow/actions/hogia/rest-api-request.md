@@ -3,9 +3,9 @@
 The **REST API Request** action allows you to interact with the [Hogia REST API](https://starapi.hogia.se) to read or write data. You can retrieve information such as vouchers, accounts, or customer invoices, or update records in Hogia using HTTP methods (`GET`, `POST`, `PUT`, `DELETE`, etc.).  
 
 
-![img](../../../../images/flow/hogia-rest-api.png)  
+![Hogia REST API](../../../../images/flow/hogia-rest-api.png)  
 
-**Example** ![img](/images/strz.jpg)
+**Example** ![Example](/images/strz.jpg)
 
 The example above shows how to read employees from Hogia and insert the result into an SQL Server table. The result from the **REST API Request** is converted using the [JSON to DataReader](../json/get-json-datareader.md) action, and then inserted using the [SQL Server Insert](../sql-server/insert-data.md) action.
 
@@ -42,7 +42,7 @@ If you press the `New Request` button in the Configuration dialog, you can choos
 
 The Hogia REST API is large, so the template collection contains only a subset of the available APIs. If you cannot find a template for the request you want to make, you can refer to the [Hogia API documentation](https://starapi.hogia.se) and define the request manually.
 
-![img](/images/flow/hogia-new-request.png)
+![Hogia New Request](/images/flow/hogia-new-request.png)
 
 
 1. **Method**: Choose the appropriate HTTP method for your request:  

@@ -4,7 +4,7 @@ Executes a command in a PostgreSQL database. This action is useful when you want
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/postgre-execute-command.png)
+![Postgre Execute Command](https://profitbasedocs.blob.core.windows.net/flowimages/postgre-execute-command.png)
 
 <br/>
 

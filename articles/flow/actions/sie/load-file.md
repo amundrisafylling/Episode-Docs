@@ -6,11 +6,11 @@ Use this action to extract opening/closing balances, transactions, vouchers etc.
 The Swedish SIE (Standard Import and Export) file format is an open, text-based standard for transferring accounting data between different software systems in Sweden, acting as a de facto standard for companies, accountants, and auditors to exchange financial information like balances, transactions, and account details, with different types (SIE 1, 2, 3, 4) for varying data levels.
 
 
-![img](/images/flow/sie-file-parser.png)
+![SIE File Parser](/images/flow/sie-file-parser.png)
 
 <br/>
 
-**Example** ![img](/images/strz.jpg)
+**Example** ![Example](/images/strz.jpg)
 
 The example above shows how a SIE file is read from the [Fortnox REST API](../fortnox/get-sie-file-stream.md), and parsed with the **Load SIE file**. One of the DataReaders in the SIE result object is then used to [insert data into an SQL Server table](../sql-server/insert-data.md).
 

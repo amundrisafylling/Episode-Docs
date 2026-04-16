@@ -31,4 +31,4 @@ CREATE TABLE [dbo].[BadData](
 2) Add an [Insert data](../sql-server/insert-data.md) action to the Flow after the CSV reader action and connect them.
 3) Select the `Insert data` action, and in the `property panel`, choose the BadData collection from the CSV action as the `Source` property.
 4) In the `Destination table` property, specify the name of the table you created in step 1) above ("BadData").
-![img](/images/bad_data_to_sql_server_example.png)
+![Bad Data To SQL Server Example](/images/bad_data_to_sql_server_example.png)

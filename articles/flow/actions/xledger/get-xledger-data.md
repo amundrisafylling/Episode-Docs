@@ -3,7 +3,7 @@
 Gets data from Xledger using GraphQL.
 
 
-![img](../../../../images/flow/get-xledger-data.png)
+![Get Xledger Data](../../../../images/flow/get-xledger-data.png)
 
 ## Properties
 
@@ -17,4 +17,4 @@ Gets data from Xledger using GraphQL.
 
 ## Configuration
 
-![img](../../../../images/flow/xleger-config.png)
+![Xleger Config](../../../../images/flow/xleger-config.png)

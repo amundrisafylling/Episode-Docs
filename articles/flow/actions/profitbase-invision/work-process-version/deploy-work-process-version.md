@@ -6,7 +6,7 @@ Use this action after [Create Work Process Version](./create-work-process-versio
 
 ![Deploy Work Process Version flow example](../../../../../images/flow/deploy-work-process-version.png)
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at the start of a new planning period to [create a new Work Process Version](./create-work-process-version.md) in draft state, using the specified work process ID, version name, and permissions. A [condition](../../built-in/if.md) then checks whether the version was successfully created, and if so, passes the version ID to Deploy Work Process Version to make it available for contributor input.
 
 ## Properties

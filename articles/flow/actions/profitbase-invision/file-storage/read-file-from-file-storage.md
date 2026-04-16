@@ -3,9 +3,9 @@
 Reads the contents of a file in an InVision [File Storage](/articles/invision/docs/filestorage.md) into memory as a byte array.
 
 
-![img](../../../../../images/flow/FileStorageReadASbyteArray.png)
+![File Storage Read Asbyte Array](../../../../../images/flow/FileStorageReadASbyteArray.png)
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow takes a PDF file from File Storage, sends it to the [Adobe PDF Services](https://opensource.adobe.com/pdftools-sdk-docs/release/latest/index.html) as a [byte array](../../adobe/pdf-to-non-pdf-as-byte-array.md), where it is converted into a DOCX format, and then [uploads](../../onedrive/upload-file-to-onedrive.md) it to the selected folder in OneDrive.
 
 <br/>

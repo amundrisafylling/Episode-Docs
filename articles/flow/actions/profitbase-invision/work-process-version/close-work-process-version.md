@@ -6,7 +6,7 @@ Use this action at the end of a planning cycle, a deadline enforcement step, or 
 
 ![Close Work Process Version flow example](../../../../../images/flow/close-work-process-version.png) 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at the end of each period to [notify contributors](../../microsoft-365-outlook/send-email-from-shared-mailbox.md) via email that their input window is closing, then closes the Work Process Version to lock it against further input. Finally, a [condition](../../built-in/if.md) evaluates whether the close operation succeeded, branching into true, false, or continue paths accordingly.
 
 ## Properties

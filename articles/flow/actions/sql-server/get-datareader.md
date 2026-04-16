@@ -2,9 +2,9 @@
 
 Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqldatareader) for reading a forward-only stream of rows from a SQL Server database.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/get-datareader-sql.png)
+![Get Datareader SQL](https://profitbasedocs.blob.core.windows.net/flowimages/get-datareader-sql.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow example shows a process that reads data from a database, splits records into multiple chunks, converts each chunk into CSV format, and appends it to a blob storage.  
 Actions used in the flow are: SQL Server [Get DataReader](), [DataReader chunker](../built-in/datareader-chunker.md), [Create CSV file as byte array](../csv/create-csv-file-as-byte-array.md) and [Append to Blob](../azure-blob-storage/append-to-blob.md). 
 

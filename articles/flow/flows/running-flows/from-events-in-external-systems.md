@@ -5,10 +5,10 @@ To run a Flow as response to events in external systems, you need to add an appr
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/external-systems-runs%201.png)
+![External Systems Runs 1](https://profitbasedocs.blob.core.windows.net/flowimages/external-systems-runs%201.png)
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/external-systems-runs%202.png)
+![External Systems Runs 2](https://profitbasedocs.blob.core.windows.net/flowimages/external-systems-runs%202.png)
 
 <br/>

@@ -2,7 +2,7 @@
 
 Provides a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqldatareader) for reading a forward-only stream of rows from a PostgreSQL database.
 
-![img](../../../../images/flow/postgresql-get-datareader.png)
+![Postgresql Get Datareader](../../../../images/flow/postgresql-get-datareader.png)
 
 <br/>
 

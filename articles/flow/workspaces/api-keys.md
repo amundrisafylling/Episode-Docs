@@ -10,7 +10,7 @@ The following apply:
 
 <br/>
 
-![img](../../../images/flow/workspace-api-keys.png)
+![Workspace API Keys](../../../images/flow/workspace-api-keys.png)
 
 <br/>
 

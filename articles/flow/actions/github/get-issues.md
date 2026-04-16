@@ -3,10 +3,10 @@
 Gets a list of issues from a GitHub repository.
 
 
-![img](../../../../images/flow/github-get-issues.png)
+![Github Get Issues](../../../../images/flow/github-get-issues.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow get a list of issues from in GitHub repository. For each issue, comments are read and stored in an SQL server table.
 
 

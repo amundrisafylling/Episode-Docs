@@ -23,7 +23,7 @@ With Flow, MCP enables:
 
 The image below shows an AI agent that runs periodically, uses tools from two MCP servers to check the production line status, and notify users if actions need to be taken. With the MCP client tool, you can now use Flow to build AI agents that uses both 3rd party AI tools, and the tools developed by you.
 
-![img](../../../images/changelogs/Flow25_4_1.png)
+![Flow25 4 1](../../../images/changelogs/Flow25_4_1.png)
 
 [Read more here](../actions/mcp/mcp-client-tool.md)
 
@@ -36,7 +36,7 @@ The image below shows an AI agent that runs periodically, uses tools from two MC
 
 [Read more here](../triggers/mcp/mcp-tool-trigger.md)
 
-![img](../../../images/changelogs/Flow25_4_2.png)
+![Flow25 4 2](../../../images/changelogs/Flow25_4_2.png)
 
 <br/>
 
@@ -54,7 +54,7 @@ Flow now includes extended support for **Adobe PDF Services**, including new act
 - Use case: Processing invoice or order PDFs received via email and routing data into ERP systems
 
 
-![img](../../../images/changelogs/Flow25_4_3.png)
+![Flow25 4 3](../../../images/changelogs/Flow25_4_3.png)
 
 [Read more about extraction to document tree here.](../actions/adobe/extract-content-from-pdf-as-object-tree.md)
 [Read more about extraction to byte array here.](../actions/adobe/extract-content-from-pdf-as-byte-array.md)
@@ -80,7 +80,7 @@ We support converting non-PDF to PDF files using [Adobe PDF Services](https://de
 - Automatically splits documents, generates embeddings, and stores them in PostgreSQL
 - Updates existing entries on rerun for up-to-date vector stores
 
-![img](../../../images/changelogs/Flow25_4_4.png)
+![Flow25 4 4](../../../images/changelogs/Flow25_4_4.png)
 
 [Read more here](../actions/sql-server/vector-save.md)
 
@@ -115,7 +115,7 @@ Although vector support is still in preview, we’re staying ahead by enabling t
 The Flow below illustrates how to create a knowledge database from files stored in SharePoint (OneDrive), and make the information available to AI agents or users via semantic search or AI chats. For example, let users use natural language chats to get information about product specs, marketing plans, HR handbooks and tender responses.
 
 
-![img](../../../images/changelogs/Flow25_4_5.png)
+![Flow25 4 5](../../../images/changelogs/Flow25_4_5.png)
 
 
 
@@ -128,7 +128,7 @@ The Flow below illustrates how to create a knowledge database from files stored 
 - Enables semantic search with SQL input
 - Used for **RAG** *(retrieval augmented generation)* scenarios with internal documents
 
-![img](../../../images/changelogs/Flow25_4_6.png)
+![Flow25 4 6](../../../images/changelogs/Flow25_4_6.png)
 
 [Read more here](../actions/sql-server/search-vectors.md)
 
@@ -156,7 +156,7 @@ The table selector now includes the schema so you don’t have to specify it man
 - Improved UI for selecting date formats during CSV import
 - Supports common formats and custom strings
 
-![img](../../../images/changelogs/Flow25_4_7.png)
+![Flow25 4 7](../../../images/changelogs/Flow25_4_7.png)
 
 <br/>
 
@@ -182,7 +182,7 @@ The Flow trigger now has support for defining a default data payload. Defining d
 The Default data definition must be a valid JSON value, meaning it can be a primitive type such as a string or number, or a complex JSON object.
 
 
-![img](../../../images/changelogs/Flow25_4_8.png)
+![Flow25 4 8](../../../images/changelogs/Flow25_4_8.png)
 
 <br/>
 
@@ -195,7 +195,7 @@ Nested execution now supports streaming data from the callee to the caller Flow.
 You can now run Flows in other Workspaces when using the Run Flow action. You can either specify the Workspace (and Flow) to run explicitly, or use parameterize both properties.
 
 
-![img](../../../images/changelogs/Flow25_4_9.png)
+![Flow25 4 9](../../../images/changelogs/Flow25_4_9.png)
 
 <br/>
 
@@ -207,7 +207,7 @@ You can now run Flows in other Workspaces when using the Run Flow action. You ca
 When developing extension libraries to Flow (such as the Financials library), being able to write messages to the Flow log from within the library is often useful. These types of messages can range from debug messages used during development, to user-intended messages that describes what the library actually does. Providing insights into what mathematical or financial models does, and which parameters are used, makes the outcomes understandable and easier to interpret, evaluate, and trust.
 
 
-![img](../../../images/changelogs/Flow25_4_10.png)
+![Flow25 4 10](../../../images/changelogs/Flow25_4_10.png)
 
 <br/>
 

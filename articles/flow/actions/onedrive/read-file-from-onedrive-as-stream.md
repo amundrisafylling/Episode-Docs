@@ -2,9 +2,9 @@
 
 Reads the contents of a file in OneDrive as a stream.
 
-![img](../../../../images/flow/onedrive-read-file-as-stream.png)
+![Onedrive Read File As Stream](../../../../images/flow/onedrive-read-file-as-stream.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves a list of OneDrive items (files and optionally folders) from a specified folder, identifies which of those items are Excel files, and for each Excel file reads its contents and processes the data row by row.
 
 ## Properties
@@ -27,4 +27,4 @@ A [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream) that p
 > When you want to read a file in OneDrive, you need to provide the `path` to the file, not the name. When using a [OneDriveItem](./api-reference/onedrive-item.md) as input, select the `Path` property like shown below.  
 > [OneDriveItems](./api-reference/onedrive-item.md) are returned from the [For each file in OneDrive](foreach-file-in-onedrive.md) and [Get files in OneDrive](get-files-in-onedrive.md) actions.
 
-![img](../../../../images/flow/onedrive-read-file-as-stream-select-file.png)
+![Onedrive Read File As Stream Select File](../../../../images/flow/onedrive-read-file-as-stream-select-file.png)

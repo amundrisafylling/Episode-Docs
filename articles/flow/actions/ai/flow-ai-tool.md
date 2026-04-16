@@ -4,9 +4,9 @@ Specifies a Flow that enables the [Tools AI Agent](../agents/tools-ai-agent.md) 
 
 
 
-![img](../../../../images/flow/flow-AI-tool.png)
+![Flow AI Tool](../../../../images/flow/flow-AI-tool.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow demonstrates how an AI agent uses the **Flow AI tool** to invoke another flow as part of handling a chat request. The agent processes the user message using a chat model and maintains conversation context in memory ([AI agent memory](../sql-server/agent-memory.md)). The connected flow is invoked through the **Flow AI tool**, and the called flow is exposed using the [Flow AI tool trigger](../../triggers/ai/flow-ai-tool-trigger.md). The result is then used by the agent to generate and [return](../built-in/return.md) the final response to the caller.
 
 <br/>
@@ -14,7 +14,7 @@ This flow demonstrates how an AI agent uses the **Flow AI tool** to invoke anoth
 > [!NOTE]
 >  You can only select Flows with a [Flow AI tool trigger](../../triggers/ai/flow-ai-tool-trigger.md).
 
-![img](../../../../images/flow/flow-AI-tool2.png)
+![Flow AI Tool2](../../../../images/flow/flow-AI-tool2.png)
 
 ## Properties
 

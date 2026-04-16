@@ -2,10 +2,10 @@
 
 Creates a new directory in a [Azure Files](https://learn.microsoft.com/en-us/azure/storage/files/storage-files-introduction) share if it does not already exist.
 
-![img](../../../../images/flow/create-directory-flow.png)
+![Create Directory Flow](../../../../images/flow/create-directory-flow.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above illustrates how to first create a folder, and then transfer files from Azure Blob Storage to an Azure Files Share. Used actions: 1. `Create directory` 2. [Read Blob as byte array](../azure-blob-storage/read-blob-as-byte-array.md) 3. [Upload file to a share](upload-file.md).
 
 </br>

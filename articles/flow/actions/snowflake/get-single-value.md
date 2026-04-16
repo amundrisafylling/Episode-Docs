@@ -6,7 +6,7 @@ Use this action when your query is expected to return exactly one row and one co
 
 ![The Get single value action configured in the flow editor](../../../../images/flow/snowflake-get-single-value.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves a single value (the current user's display name) from Snowflake and passes it to a function for logging.
 
 ## Properties

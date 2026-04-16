@@ -6,7 +6,7 @@ The main table is typically the table that data is read from, written to and/or 
 > [!NOTE]
 > It is not required that there is an actual FK relationship between a Reference table and the Main table in the database.
 
-![img](../../../../../images/table-relationship-editor.png)
+![Table Relationship Editor](../../../../../images/table-relationship-editor.png)
 
 ## Parameters
 

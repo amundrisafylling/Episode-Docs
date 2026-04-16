@@ -5,7 +5,7 @@ Defines an AI agent designed to perform tasks on behalf of a Client (orchestrato
 > [!NOTE]
 > The AI agent node has no `Execution in` or `Execution out` ports, which means that when it’s used in a Flow, no other executable nodes can be included in that Flow.  
 
-![img](/images/flow/a2a-ai-agent.png)
+![A2A AI Agent](/images/flow/a2a-ai-agent.png)
 
 <br/>
 
@@ -80,4 +80,4 @@ To find the API key for an A2A AI agent, click the `Agent Card discovery address
 > [!NOTE]
 > If the API key field is empty, go to the Portal and generate an [API key](../../tenants/api-keys.md) for `A2A`.
 
-![img](/images/flow/a2a-ai-agent-api-key.png)
+![A2A AI Agent API Key](/images/flow/a2a-ai-agent-api-key.png)

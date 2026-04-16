@@ -3,10 +3,10 @@
 Reads a file from GitHub repository content as a [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream). Prefer using streaming over [Read Content as byte array](read-content-as-byte-array.md) if possible. Streaming is generally faster and uses less memory, because streaming doesn't require loading the entire blob into memory before you can start working with the data.
 
 
-![img](../../../../images/flow/github-read-as-stream.png)
+![Github Read As Stream](../../../../images/flow/github-read-as-stream.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow iterates through content, streams the file, and uploads the file to an Hypergene InVision File Storage.
 
 

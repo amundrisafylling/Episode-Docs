@@ -5,9 +5,9 @@ This action defines an [Anthropic](https://docs.claude.com/en/api/overview) stre
 It's typically used when building backends for interactive chat clients, assistant-like experiences, or any UI that needs incremental model output.  
 Unlike the standard [chat completion](chat-completion.md), this action returns the response **incrementally as it is generated**.
 
-![img](../../../../images/flow/anthropic-streaming-chat-completion.png)
+![Anthropic Streaming Chat Completion](../../../../images/flow/anthropic-streaming-chat-completion.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The Flow above shows how to provide real-time completions to a chat client. External data sources may be added — for example vector search for RAG or a chat history store — to give the model additional context and support follow-up questions.
 
 <br/>

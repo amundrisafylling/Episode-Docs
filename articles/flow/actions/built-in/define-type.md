@@ -11,9 +11,9 @@ Use the type builder when the data type of all properties in the custom type is 
 If you need to define complex, nested types, use the C# or JSON schema editor in the `Advanced` tab.
 
 
-![img](../../../../images/flow/define-type.png)
+![Define Type](../../../../images/flow/define-type.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow receives customer data through an HTTP endpoint and writes it to a database table.
 
 The Flow starts with an [HTTP Trigger](../../triggers/http-trigger.md), which accepts an incoming request containing customer data. The incoming payload is then mapped to a strongly typed Customer record using the **Define type** Customer action. This step defines the expected structure of the data and ensures it is passed forward in a consistent format.
@@ -34,7 +34,7 @@ This Flow is typically used to expose a simple API endpoint for creating or upda
 
 ## Type definition
 
-![img](../../../../images/flow/define-type1.png)
+![Define Type1](../../../../images/flow/define-type1.png)
 
 ## Advanced type definition
 

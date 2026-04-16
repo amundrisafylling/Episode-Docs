@@ -6,9 +6,9 @@ Use this operation for batch operations when you need to update the context of m
 
 A `context` defines what a file is associated with, for example a project, employee or product. The context can be a composite definition, meaning it can be associated with a combination of multiple entities such as a project, employee and product.
 
-![img](../../../../../images/flow/update-context-of-multiple-files.png)
+![Update Context Of Multiple Files](../../../../../images/flow/update-context-of-multiple-files.png)
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow updates the context of multiple files only when the existing context is different or does not exist. It starts with [Get multiple file info from File Storage](get-files-info-from-file-storage.md), which retrieves metadata for the specified files and stores the result in `filesInfo`. Next, an [If action](../../built-in/if.md) checks whether the current context of the files is different from the provided context or not defined. If the condition is **True**, the flow calls **Update context of multiple files in File Storage**, passing the `fileReferenceIds` and the new `fileContext`. This updates the context for all specified files. If the condition is **False**, the flow continues without making any changes.
 
 ## Properties

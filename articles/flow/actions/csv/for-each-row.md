@@ -4,7 +4,7 @@ Iterates over rows in a CSV file.
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/readRows.png)
+![Read Rows](https://profitbasedocs.blob.core.windows.net/flowimages/readRows.png)
 
 <br/>
 

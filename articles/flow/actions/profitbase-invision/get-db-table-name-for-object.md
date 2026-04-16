@@ -2,9 +2,9 @@
 
 Gets the database table or view name for an InVision DataStore, Table, or View.
 
-![img](../../../../images/flow/getDatabaseObjectName.png)
+![Get Database Object Name](../../../../images/flow/getDatabaseObjectName.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow retrieves the name of a database table, converts the result to a [CSV file](../csv/create-csv-file-as-stream.md), and [uploads](../azure-blob-storage/upload-blob.md) that CSV to Azure Blob Storage. The flow is designed for automated data exports and supports large datasets through streaming.
 
 

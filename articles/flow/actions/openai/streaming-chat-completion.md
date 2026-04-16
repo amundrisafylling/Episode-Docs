@@ -6,9 +6,9 @@ This action defines an [OpenAI](https://platform.openai.com/docs) streaming chat
 It's typically used when building backends for interactive chat clients, assistant-like experiences, or any UI that needs incremental model output.  
 Unlike the standard [chat completion](chat-completion.md), this action returns the response **incrementally as it is generated**.
 
-![img](/images/flow/openai-streaming-chat-completion.png)
+![Openai Streaming Chat Completion](/images/flow/openai-streaming-chat-completion.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above shows a Flow that provides chat completions to a chat client. We're using [PostgreSQL vector search](../postgresql/vector-search.md) to enable RAG, and SQL Server to store and retrieve the chat history so that users can ask follow-up questions.
 
 <br/>
@@ -45,6 +45,6 @@ Within the template, you can use the following placeholders:
 
 The system will substitute these placeholders with the corresponding values before sending the prompt to the model.
 
-**Example** ![img](../../../../images/strz2.jpg) 
+**Example** ![Example](../../../../images/strz2.jpg) 
 
-![img](../../../../images/flow/openai-streaming-chat-completion-prompt-template.png)  
+![Openai Streaming Chat Completion Prompt Template](../../../../images/flow/openai-streaming-chat-completion-prompt-template.png)  

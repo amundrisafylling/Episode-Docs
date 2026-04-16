@@ -4,9 +4,9 @@ Gets information about a user from a Microsoft Entra ID tenant by one or more qu
 
 Use this if You want to get more information (like OID or UPN) about a user from e.g. mail or name. 
 
-![img](../../../../images/flow/entra-id-get-user.png)
+![Entra ID Get User](../../../../images/flow/entra-id-get-user.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 
 This flow receives an payload from an [HTTP Trigger](../../triggers/http-trigger.md). The payload contains a users given name and surname. The Entra ID `Get User` action described here tries to query the user. [If](../built-in/if.md) the user exists (OID or UPN set), a message from the payload is sendt to a [chat in Teams](../microsoft-teams/send-chat-message.md).
 

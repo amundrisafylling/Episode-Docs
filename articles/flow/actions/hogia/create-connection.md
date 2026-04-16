@@ -9,7 +9,7 @@ If you store the credentials for the Hogia outside Flow (for example in your own
 
 <br/>
 
-![img](/images/flow/hogia-create-connection.png)
+![Hogia Create Connection](/images/flow/hogia-create-connection.png)
 
 <br/>
 

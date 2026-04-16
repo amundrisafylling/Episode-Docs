@@ -5,10 +5,10 @@ This action performs a Tavily search and exposes a `searchResult` variable conta
 
 Use this action when you need to process the result of a web search.
 
-![img](../../../../images/flow/tavily-search-web.png)
+![Tavily Search Web](../../../../images/flow/tavily-search-web.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow uses a [Truncate table](../../actions/sql-server/truncate-table.md) action to clear old data, perform a web search using the **Web search** action, and then uses the [Insert or update row](../../actions/sql-server/insert-or-update-row.md) action to store the search result in a database table.
 
 <br/>

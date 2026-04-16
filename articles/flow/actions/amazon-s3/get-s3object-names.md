@@ -4,9 +4,9 @@ Gets a list of all object names in the Bucket container where, the S3 object is 
 
 Use this action if you need a list of all the object names in a Bucket. If you only need to iterate over the objects in a bucket _one by one_, consider using the [For each S3 object name](foreach-s3object-name.md) action instead.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/getS3objNames.png)
+![Get S3obj Names](https://profitbasedocs.blob.core.windows.net/flowimages/getS3objNames.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow scans a list of object names and checks if a specific file (UC036_Products.xlsx) exists. If found, it could trigger further processing. If not, it may continue checking or exit.
 
 <br/>

@@ -8,11 +8,11 @@ Use this action when you need to insert a large number of rows into a table.
 
 
 
-![img](../../../../images/flow/insert-rows.png)
+![Insert Rows](../../../../images/flow/insert-rows.png)
 
 
 
-**Example** ![img](../../../../images/strz.jpg)
+**Example** ![Example](../../../../images/strz.jpg)
 The example above takes a file from storage, reads its JSON content, saves the data to a database, and then deletes the storage folder to keep things tidy. Actions used: 1. [Read file from share as a stream](../azure-files/read-file-as-stream.md) 2. [Get JSON DataReader](../json/get-json-datareader.md) 3. Insert rows 4. [Delete directory](../azure-files/delete-directory.md).
 
 </br>

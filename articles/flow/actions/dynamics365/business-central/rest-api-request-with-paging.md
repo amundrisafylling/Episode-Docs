@@ -5,7 +5,7 @@ The `REST API Request with paging` action enables you to call [Dynamics 365 Busi
 > [!NOTE]
 > This action also works for APIs that does not return paged responses, in which case the response will contain only a single page.
 
-![img](/images/flow/dynamics365-bc-api-request-with-paging.png)
+![Dynamics365 Bc API Request With Paging](/images/flow/dynamics365-bc-api-request-with-paging.png)
 
 
 <br/>
@@ -37,7 +37,7 @@ To define a request to the Business Central API, you can start from a template, 
 If you press the `New Request` button in the Configuration dialog, you can choose from a set of predefined request templates.  
 The Business Central API is large, so the template collection contains only a subset of the available APIs. If you cannot find a template for the request you want to make, you can refer to the [Dynamics 365 Business Central v2 API documentation](https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/api-reference/v2.0/) and define the request manually.
 
-![img](/images/flow/dynamics365-bc-new-request.png)
+![Dynamics365 Bc New Request](/images/flow/dynamics365-bc-new-request.png)
 
 ### Defining a request manually
 

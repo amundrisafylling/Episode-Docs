@@ -8,9 +8,9 @@ The returned table name can be used in subsequent database actions, such as load
 
 <br/>
 
-![img](../../../../images/flow/get-database-table-name4dim.png)
+![Get Database Table Name4dim](../../../../images/flow/get-database-table-name4dim.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow loads account data from InVision, fetches account data from Fortnox, and compares them to identify discrepancies.  
 
 It first uses **Get dimension table name** to resolve the physical table name for the Account dimension. This ensures the flow does not rely on a hardcoded table name. Next, [Load to DataTable](../sql-server/load-to-datatable.md) reads the current Account dimension data from the InVision database using the resolved table name. After that, [REST API Request](../fortnox/rest-api-request.md) – **Get Accounts** calls the Fortnox API to retrieve the list of account charts. Finally, [Compare dimension](../built-in/function.md) content compares the data from the InVision Account table with the accounts returned from Fortnox. The comparison evaluates differences between the two datasets, typically to detect missing, new, or changed accounts.  

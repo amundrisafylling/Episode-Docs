@@ -4,7 +4,7 @@ Creates a new user in a Microsoft Entra ID tenant.
 
 ![Example Flow](../../../../images/flow/entra-id-create-user-example.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow creates a user in the Microsoft Entra ID. The user information is received through an [HTTP Trigger](../../triggers/http-trigger.md). After the user is created, the user details are logged using a [function](../built-in/function.md), and a confirmation email with the temporary passwordis sent using the [Send email](../sendgrid/send-email.md) action.
 
 <br/>

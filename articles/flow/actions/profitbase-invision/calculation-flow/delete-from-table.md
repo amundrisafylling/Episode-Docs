@@ -4,10 +4,10 @@ Deletes data from an InVision table based on the data context passed in from InV
 If no Table or Parameter relationships are defined, all rows are deleted from the table.
 
 
-![img](../../../../../images/flow/delete-from-table.png)
+![Delete From Table](../../../../../images/flow/delete-from-table.png)
 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow iterates through projects, calculates time and material [estimates](../../built-in/function.md), removes existing estimate records from the table, and [saves the newly calculated](save-calculation-flow-output.md) results to the database.
 
 

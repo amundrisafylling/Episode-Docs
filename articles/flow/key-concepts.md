@@ -5,7 +5,7 @@ Development takes place via a web-based drag-and-drop interface, with execution 
 
 <br/>
 
-![img](../../images/whatsflow1.png)
+![Whatsflow1](../../images/whatsflow1.png)
 
 ## Tenants
 

@@ -9,9 +9,9 @@ You can define any number of parameters, and optionally a return type.
 
 To call the Extension Entry action from another flowchart, use the [Execute object](../built-in/execute-object-method.md) action and select the `This` globally available variable as the object. Then select the name of the Extension entry as the method, and specify arguments to the parameters (if any).
 
-![img](../../../../images/flow/call-extension-entry.png)
+![Call Extension Entry](../../../../images/flow/call-extension-entry.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow demonstrates how to expose reusable logic through an Extension Entry and how to execute it from a main Flow while enforcing a strict result contract.
 
 The Main flow starts by declaring a result variable and is triggered via a [Flow Hook](flow-hook.md). It then invokes the extension by using the [Execute object method](execute-object-method.md), calling the **ExtensionEntry** method on the current Flow object (This). The return value from the extension is stored in the result variable.
@@ -23,10 +23,10 @@ The Extension flow defines its public API using the Extension Entry action. Insi
 This pattern is useful when building reusable extensions that return standardized status codes, allowing calling Flows to centrally enforce success and error handling logic.
 <br/>
 
-![img](../../../../images/flow/hook-handlerNU.png)
+![Hook Handler Nu](../../../../images/flow/hook-handlerNU.png)
 <br/>
 
-![img](../../../../images/flow/extension-entry.png)
+![Extension Entry](../../../../images/flow/extension-entry.png)
 <br/>
 
 ## Properties

@@ -6,7 +6,7 @@ By default, only Tenant administrators have access to a Workspace. In order for 
 2) Select a Workspace and click the **Access** button
 3) Select (or unselect) the user(s) that you want to grant or deny access to the Workspace  
 
-![img](../../../images/workspace-set-access.png)  
+![Workspace Set Access](../../../images/workspace-set-access.png)  
 
 > [!NOTE]
 > Permissions apply to the entire Workspace, meaning permissions can not be specified for individual Flows or artifacts such as Workspace Objects and Workspace Variables.

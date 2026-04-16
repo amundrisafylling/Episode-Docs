@@ -3,7 +3,7 @@
 This action converts a PDF file into an image (PNG or JPG).  
 Its primary use case is extracting data from PDFs using OCR techniques, rather than relying on text (e.g., Markdown) in cases where text patterns are difficult to parse.
 
-![img](/images/flow/pdf-convert-to-image.png)  
+![PDF Convert To Image](/images/flow/pdf-convert-to-image.png)  
 <p><em>Figure: This Flow retrieves a PDF file (invoice) from an Azure Storage blob container, converts it to an image, and uses an AI model to extract the invoice amount.</em></p>
 
 <br/>

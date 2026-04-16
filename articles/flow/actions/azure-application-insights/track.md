@@ -2,9 +2,9 @@
 
 Sends diagnostics to Azure Application Insights, including a message, custom properties, severity level, and an optional exception.
 
-![img](../../../../images/flow/azure-application-insights-track.png)
+![Azure Application Insights Track](../../../../images/flow/azure-application-insights-track.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This example shows the Track action used in a Catch path to log an exception and diagnostic message to Azure Application Insights. 
 
 ## Properties

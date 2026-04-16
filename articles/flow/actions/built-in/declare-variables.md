@@ -7,7 +7,7 @@ Declares multiple variables simultaneously to store data while the Flow is execu
 
 ![image](../../../../images/flow/declare-variables.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow imports data from an Excel file stored in Azure Blob Storage and inserts it into a SQL table.
 
 The Flow starts by declaring variables for the blob name (BlobName) and the destination SQL table (ResultTable).

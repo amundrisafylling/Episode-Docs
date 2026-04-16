@@ -4,7 +4,7 @@ Sends a message to a user in Microsoft Teams.
 
 Use this action to send a message to a user in Microsoft Teams. The action supports both Text and HTML message formats, and you can also include attachments.
 
-![img](/images/flow/teams-send-chat-message.png)
+![Teams Send Chat Message](/images/flow/teams-send-chat-message.png)
 
 <br/>
 

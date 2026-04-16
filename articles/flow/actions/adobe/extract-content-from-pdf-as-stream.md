@@ -7,9 +7,9 @@ The input is provided as a stream or byte array. This action uses **Adobe PDF Se
 >[!NOTE]
 >If you want to programatically query the document structure of a PDF document, consider using the [Extract content from PDF as document tree](./extract-content-from-pdf-as-object-tree.md) action instead.
 
-![img](../../../../images/flow/extract-content-from-pdf-as-stream.png)
+![Extract Content From PDF As Stream](../../../../images/flow/extract-content-from-pdf-as-stream.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow reads an invoice PDF from cloud storage, extracts its content using Adobe PDF Services, processes the output to extract the relevant result section (e.g., total amount or service details), and saves the result in a new file.
 
 <br/>

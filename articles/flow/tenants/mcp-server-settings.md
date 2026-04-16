@@ -3,7 +3,7 @@
 To enable MCP Clients to use OAuth authorization to Flow MCP Server APIs, you need to configure the MCP Server Settings for your tenant.
 For example, if you try to use the OAuth endpoint of an [MCP Trigger](../triggers/mcp/mcp-tool-trigger.md) without configuring the MCP Server Settings, you will get an `unauthorized` error response from the API. 
 
-![img](/images/flow/mcp-server-settings.png)
+![MCP Server Settings](/images/flow/mcp-server-settings.png)
 
 <br/>
 

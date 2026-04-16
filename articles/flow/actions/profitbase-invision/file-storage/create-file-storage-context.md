@@ -5,9 +5,9 @@ Creates a context for files in an InVision File Storage.
 A `context` defines what a file is associated with, for example a project, employee or product. The context can be a composite definition, meaning it can be associated with a combination of multiple entities such as a project, employee AND product.
 
 
-![img](../../../../../images/flow/create-file-context.png)
+![Create File Context](../../../../../images/flow/create-file-context.png)
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow **creates a File Storage context**, [reads a blob](../../azure-blob-storage/read-blob-as-byte-array.md), and [uploads it as a file to File Storage](add-file-to-file-storage.md) with that context attached.
 
 

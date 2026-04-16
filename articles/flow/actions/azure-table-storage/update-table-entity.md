@@ -2,10 +2,10 @@
 
 Update an entity in an Azure Table.
 
-![img](../../../../images/flow/update-table-entity.png)
+![Update Table Entity](../../../../images/flow/update-table-entity.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow [iterates](foreach-table-entity.md) through each employee in an Azure Table, checks if they’ve been inactive for over 30 days based on `lastLoginDate`, and updates their status to "inactive" if needed. It processes each employee one by one, then ends with a 'Done' step once all are evaluated.
 
 </br>
@@ -28,7 +28,7 @@ This flow [iterates](foreach-table-entity.md) through each employee in an Azure 
 
 ### Properties update mode  
 
-![img](../../../../images/flow/update-table-entity3.png)
+![Update Table Entity3](../../../../images/flow/update-table-entity3.png)
 
 1. **Merge** - Update provided, keep others
 
@@ -42,12 +42,12 @@ Replaces the entity's properties entirely with the provided properties, removing
 
 ### PartitionKey type 
 
-![img](../../../../images/flow/update-table-entity2.png)
+![Update Table Entity2](../../../../images/flow/update-table-entity2.png)
 
 1. **Use an entity property** – This option allows the PartitionKey to be based on a property from the entity. “PartitionKey property” will be applicable if the “PartitionKey type” is set to “Use a custom entity property”.
 
-![img](../../../../images/flow/partitionKeyType2.png)
+![Partition Key Type2](../../../../images/flow/partitionKeyType2.png)
 
 2. **Set a custom value** – This option lets you define a custom value for the PartitionKey. “PartitionKey value” will be applicable if the “PartitionKey type” is set to “Use a custom value”. 
 
-![img](../../../../images/flow/partitionKeyType1.png)
+![Partition Key Type1](../../../../images/flow/partitionKeyType1.png)

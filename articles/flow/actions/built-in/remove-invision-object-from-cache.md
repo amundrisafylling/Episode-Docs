@@ -4,10 +4,10 @@ This action removes an InVision object from the Flow cache.
 
 For performance reasons, Flow will cache data and metadata for InVision objects when used in [Calculation Flows](../profitbase-invision/calculation-flow/overview.md). Specifically, the objects that are cached are [Lookup tables](../profitbase-invision/calculation-flow/lookup-tables.md), [Auto transactions](../profitbase-invision/calculation-flow/auto-transactions.md), [Distribution keys](../profitbase-invision/calculation-flow/distribution-keys.md) and `Dimensions`. 
 
-![img](/images/flow/remove-invision-object-from-cache.png)
+![Remove Invision Object From Cache](/images/flow/remove-invision-object-from-cache.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow first updates the Price List using [custom SQL](../sql-server/update-entity.md), then runs Remove **InVision object from Cache** to explicitly evict that Price List from Flow’s cache (using the objectId). This ensures that the next time the object is used in Calculation Flows, Flow reloads fresh data/metadata instead of continuing to use a stale cached version.
 </br>
 

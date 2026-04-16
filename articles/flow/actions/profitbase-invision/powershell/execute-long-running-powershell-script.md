@@ -3,9 +3,9 @@
 Executes a long-running [PowerShell](../../../../invision/docs/powershell.md) script defined in an InVision Solution.
 
 
-![img](../../../../../images/flow/execute-powershell-script.png) 
+![Execute Powershell Script](../../../../../images/flow/execute-powershell-script.png) 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow inserts data into a database via a parameterized PowerShell script and then deploys a view to reflect the updated data.
 
 

@@ -4,7 +4,7 @@ You can use `Extension flowchart` to break large Flows up into smaller units, or
 
 <br/>
 
-![img](../../../images/modul1.png)
+![Modul1](../../../images/modul1.png)
 
 
 To use this capability, you need to do the following:
@@ -15,4 +15,4 @@ To use this capability, you need to do the following:
 
 <br/>
 
-![img](../../../images/modul2.png)
+![Modul2](../../../images/modul2.png)

@@ -4,9 +4,9 @@ Generates an embedding vector using a Microsoft Foundry embedding model.
 
 Use this action when you want to generate an embedding vector to do manual vector operations (write your own queries) against databases like PostgreSQL or Azure SQL, for example vector search or inserting / updating vector records. 
 
-![img](/images/flow/azure-openai-generate-embedding.png)  
+![Azure Openai Generate Embedding](/images/flow/azure-openai-generate-embedding.png)  
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The example above illustrates part of a Flow that stores a document into SQL Server (used as a vector database). It uses the [Split text](../ai/split-text.md) action to split a large document into chunks. Then, for each chunk, we generate an embedding, and store the text chunk along with the embedding into SQL Server as a vector record.
 
 <br/>
@@ -56,7 +56,7 @@ WHERE VECTOR_DISTANCE('cosine', Vector, @emb) < 0.7
 ## Model
 To find the Model deployment name, look in `Models` screen in [Microsoft Foundry](https://ai.azure.com).  
 
-![img](/images/flow/azure-ai-foundry-deploymentname.png)
+![Azure AI Foundry Deploymentname](/images/flow/azure-ai-foundry-deploymentname.png)
 
 <br/>
 

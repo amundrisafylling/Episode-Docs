@@ -2,9 +2,9 @@
 
 Recreates a View based on definition from Hypergene InVision.
 
-![img](../../../../images/flow/deploy-view.png)
+![Deploy View](../../../../images/flow/deploy-view.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow redeploys views defined in an InVision solution.  
 It is triggered via [HTTP](../../triggers/http-trigger.md), [retrieves](../sql-server/get-datareader.md) all views for the specified solution, [iterates](../built-in/foreach.md) through them, and recreates each view in the target environment based on its current InVision definition.
 

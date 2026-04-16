@@ -6,7 +6,7 @@ The Get Entities action is ideal for retrieving a list of entities from a Postgr
 
 <br/>
 
-![img](../../../../images/flow/get-entities-postgres.png)
+![Get Entities Postgres](../../../../images/flow/get-entities-postgres.png)
 
 <br/>
 

@@ -2,9 +2,9 @@
 
 Reads the contents of an Azure Blob as a [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream). Prefer using streaming over [Read Blob as byte array](../azure-blob-storage/read-blob-as-byte-array.md) if possible. Streaming is generally faster and uses less memory, because streaming doesn't require loading the entire blob into memory before you can start working with the data.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/read-as-stream-amaz.png)
+![Read As Stream Amaz](https://profitbasedocs.blob.core.windows.net/flowimages/read-as-stream-amaz.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 The flow reads an S3 object as a stream, loads the data into a DataTable, and then inserts it into a database.
 </br>
 </br>

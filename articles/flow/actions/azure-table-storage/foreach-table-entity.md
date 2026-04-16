@@ -2,10 +2,10 @@
 
 Iterates over a list of all entities in an Azure table. 
 
-![img](../../../../images/flow/foreach-table-entity.png)
+![Foreach Table Entity](../../../../images/flow/foreach-table-entity.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow iterates through each employee in an Azure Table, checks if they’ve been inactive for over 30 days based on `lastLoginDate`, and [updates](update-table-entity.md) their status to "inactive" if needed. It processes each employee one by one, then ends with a 'Done' step once all are evaluated.
 
 </br>
@@ -31,10 +31,10 @@ Returns a list of the table entities.
 
 **Simple** filtering, accepts input or variable input:
 
-![img](../../../../images/flow/foreach-table-entity5.png)
+![Foreach Table Entity5](../../../../images/flow/foreach-table-entity5.png)
 
 **Advanced** filtering accepts input or variable input:
 
-![img](../../../../images/flow/foreach-table-entity6.png)
+![Foreach Table Entity6](../../../../images/flow/foreach-table-entity6.png)
 
-![img](../../../../images/flow/foreach-table-entity7.png)
+![Foreach Table Entity7](../../../../images/flow/foreach-table-entity7.png)

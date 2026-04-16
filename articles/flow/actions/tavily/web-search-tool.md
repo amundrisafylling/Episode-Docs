@@ -3,10 +3,10 @@
 Defines a Tavily **web search tool** that can be used by an AI Agent (Tools AI agent) or directly by an LLM as a callable tool.  
 This tool performs a web search and returns structured search results that is passed to the Agent or LLM.
 
-![img](../../../../images/flow/web-search-tool.png)
+![Web Search Tool](../../../../images/flow/web-search-tool.png)
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This Flow implements an AI-driven chat endpoint that can use real-time web search to generate more accurate and up-to-date responses.
 It uses the [Chat completion trigger](../../triggers/ai/chat-completion-trigger.md) to receive user input, processes the request through a [Tools AI agent](../agents/tools-ai-agent.md), and leverages the Web search tool when the agent determines that external information is required.
 The final response returned by the agent is logged for debugging or auditing purposes.

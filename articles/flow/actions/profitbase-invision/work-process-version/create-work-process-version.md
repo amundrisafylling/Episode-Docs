@@ -5,7 +5,7 @@ Creates a new Work Process Version in a draft state, ready for configuration and
 
 ![Close Work Process Version flow example](../../../../../images/flow/create-work-process-version.png) 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at the start of a new planning period to create a new Work Process Version in draft state, using the specified work process ID, version name, and permissions. A [condition](../../built-in/if.md) then checks whether the version was successfully created, and if so, passes the version ID to [Deploy Work Process Version](./deploy-work-process-version.md) to make it available for contributor input.
 
 

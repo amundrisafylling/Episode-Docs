@@ -8,7 +8,7 @@ Creates a Parquet file from a [DataReader](https://learn.microsoft.com/en-us/dot
 
 Return value used:
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/parquet-as-byte-array1.png)
+![Parquet As Byte Array1](https://profitbasedocs.blob.core.windows.net/flowimages/parquet-as-byte-array1.png)
 
 <br/>
 
@@ -29,4 +29,4 @@ Returns the Excel file serialized as a [byte](https://learn.microsoft.com/en-us/
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/parquet-as-byte-array2.png)
+![Parquet As Byte Array2](https://profitbasedocs.blob.core.windows.net/flowimages/parquet-as-byte-array2.png)

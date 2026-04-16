@@ -4,7 +4,7 @@ Iterates over rows in a Parquet file.
 
 <br/>
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/parquet-read-rows.png)
+![Parquet Read Rows](https://profitbasedocs.blob.core.windows.net/flowimages/parquet-read-rows.png)
 
 <br/>
 
@@ -23,4 +23,4 @@ Iterates over rows in a Parquet file.
 
 ### Column mapping:
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/column-mapping.png)
+![Column Mapping](https://profitbasedocs.blob.core.windows.net/flowimages/column-mapping.png)

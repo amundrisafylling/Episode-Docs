@@ -2,7 +2,7 @@
 
 Truncates(empties) a table in a SQL Server database.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/SQL-example-truncate.png)
+![SQL Example Truncate](https://profitbasedocs.blob.core.windows.net/flowimages/SQL-example-truncate.png)
 
 ## Properties
 
@@ -18,7 +18,7 @@ Truncates(empties) a table in a SQL Server database.
 
 
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/truncate-table.png)
+![Truncate Table](https://profitbasedocs.blob.core.windows.net/flowimages/truncate-table.png)
 
 <br/>
 

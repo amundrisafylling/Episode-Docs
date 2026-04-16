@@ -2,11 +2,11 @@
 
 Gets detailed information for a specific blob in an Azure Blob container. Use this action if you need properties of a particular blob in a container.
 
-![img](../../../../images/flow/get-blob-info.png)
+![Get Blob Info](../../../../images/flow/get-blob-info.png)
 
 
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow checks if a specified blob in Azure Blob Storage was modified today by first retrieving its metadata, then evaluating the last modified date, and if the date matches today's, it reads the blob content as a byte array for further processing. Used actions: [Get Blob info](), [If](../built-in/if.md) and [Read Blob as byte array](read-blob-as-byte-array.md).
 <br/>
 

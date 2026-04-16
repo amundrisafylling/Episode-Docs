@@ -2,9 +2,9 @@
 
 Reads the contents of an [Azure Blob](https://learn.microsoft.com/en-us/azure/storage/blobs/) into memory as a byte array. You can compare this to downloading a file. For peformance reasons, prefer using [streaming](read-blob-as-stream.md) over reading as byte array if possible. Streaming is generally faster and uses less memory, because streaming doesn't require loading the entire blob into memory before you can start working with the data.
 
-![img](../../../../images/flow/read-blob-as-byte-array.PNG)
+![Read Blob As Byte Array](../../../../images/flow/read-blob-as-byte-array.PNG)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow iterates through blob files in Azure Blob Storage, checks if each file is an Excel file, reads the valid Excel files as byte arrays, and then converts those byte arrays into DataTables for further processing. Used actions: [For each Blob name](foreach-blob-name.md), [If](../built-in/if.md). [Read Blob as byte array]().
 
 > [!NOTE]

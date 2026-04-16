@@ -2,9 +2,9 @@
 
 Executes an [SQL Script](../../../../invision/docs/sqlscripts.md) defined in an InVision Solution that returns a single value.
 
-![img](../../../../../images/flow/execute-sql-script-returning-single-value.png) 
+![Execute SQL Script Returning Single Value](../../../../../images/flow/execute-sql-script-returning-single-value.png) 
 
-**Example** ![img](../../../../../images/strz.jpg)  
+**Example** ![Example](../../../../../images/strz.jpg)  
 This flow executes a SQL query defined in an InVision Solution to retrieve a single value (productId), logs that value for debugging or auditing purposes, and then returns it as the output of the flow.
 
 

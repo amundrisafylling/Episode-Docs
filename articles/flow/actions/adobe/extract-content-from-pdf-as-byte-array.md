@@ -6,9 +6,9 @@ The input is provided as a stream or byte array (typically via a file read block
 >[!NOTE]
 >If you want to programatically query the document structure of a PDF document, consider using the [Extract content from PDF as document tree](./extract-content-from-pdf-as-object-tree.md) action instead.
 
-![img](../../../../images/flow/extract-content-from-pdf-as-byte-array.png)
+![Extract Content From PDF As Byte Array](../../../../images/flow/extract-content-from-pdf-as-byte-array.png)
 
-**Example** ![img](../../../../images/strz.jpg)  
+**Example** ![Example](../../../../images/strz.jpg)  
 This flow reads a PDF from cloud storage, extracts its content using Adobe PDF Services with the `JSON_Hierarchical` format, transforms the output, and stores it in a new file.
 
 <br/>

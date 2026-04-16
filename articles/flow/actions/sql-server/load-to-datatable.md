@@ -2,7 +2,7 @@
 
 Loads data from a SQL Server database into memory as a [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable) object.
 
-![img](https://profitbasedocs.blob.core.windows.net/flowimages/load-to-datatable.png)
+![Load To Datatable](https://profitbasedocs.blob.core.windows.net/flowimages/load-to-datatable.png)
 
 <br/>
 
