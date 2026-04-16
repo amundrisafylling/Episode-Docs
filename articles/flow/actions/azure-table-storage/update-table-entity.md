@@ -12,18 +12,18 @@ This flow [iterates](foreach-table-entity.md) through each employee in an Azure 
 
 ## Properties  
 
-| Name                        | Data Type       | Description              |
+| Name                        | Required       | Description              |
 |-----------------------------|-----------------|---------------|
-| Title                       | Optional        | The title or name of the command.   |
-| Connection                  | Required        | The Azure Table Storage connection.      |
-| Table name                  | Required        | The name of the table where the entity is stored.         |
-| Entity                      | Required        | The entity to update.                     |
-| Properties update mode      | Optional        | Specifies how properties are updated (e.g., Merge - Update provided, keep others).           |
-| PartitionKey type  | Optional   | Specify how the `PartitionKey` is determined (e.g., use an entity property).            |
-| PartitionKey property | Optional | Define the property name used for the `PartitionKey` (if applicable).                    |
-| PartitionKey value | Optional | Define the value of the `PartitionKey` (if applicable).        |
-| RowKey property    | Optional   | Define the property name used for the `RowKey` (if applicable).   |
-| Overwrite existing | Optional   | A boolean option to specify whether to overwrite an existing entity with the same keys (`true`/`false`). |
+| Title                       | No | The title or name of the command.   |
+| Connection                  | Yes | The Azure Table Storage connection.      |
+| Table name                  | Yes | The name of the table where the entity is stored.         |
+| Entity                      | Yes | The entity to update.                     |
+| Properties update mode      | No | Specifies how properties are updated (e.g., Merge - Update provided, keep others).           |
+| PartitionKey type  | No | Specify how the `PartitionKey` is determined (e.g., use an entity property).            |
+| PartitionKey property | No | Define the property name used for the `PartitionKey` (if applicable).                    |
+| PartitionKey value | No | Define the value of the `PartitionKey` (if applicable).        |
+| RowKey property    | No | Define the property name used for the `RowKey` (if applicable).   |
+| Overwrite existing | No | A boolean option to specify whether to overwrite an existing entity with the same keys (`true`/`false`). |
 
 
 ### Properties update mode  

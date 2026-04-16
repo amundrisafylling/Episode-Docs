@@ -1,6 +1,6 @@
 # Overview
 
-Profitbase Flow has built-in support for the Microsoft Fabric REST API, enabling automation of Fabric procedures and processes. 
+Hypergene Flow has built-in support for the Microsoft Fabric REST API, enabling automation of Fabric procedures and processes. 
 
 <br/>
 

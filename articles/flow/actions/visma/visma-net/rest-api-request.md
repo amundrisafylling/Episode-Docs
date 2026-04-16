@@ -16,12 +16,12 @@ The **REST API Request** action allows you to interact with [Visma.Net](https://
 
 | Name            | Type     | Description                                                     |
 |----------------- | -------- | -------------------------------------------------------------- |
-| Title           | Optional | The title or name of the request.                         |
-| Connection      | Required | The [Visma.Net Connection](./visma-net-connection.md) used to make an authenticated request to the Visma.Net REST API. |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Configuration   | Required | Defines the HTTP request to Visma.Net, including the method, URL, parameters, and return type. |
-| Company Id      | Optional | The Company Id to request data from. Default company can be set in the connection. |
-| Description     | Optional | Additional notes or comments about the action or configuration. |
+| Title           | No | The title or name of the request.                         |
+| Connection      | Yes | The [Visma.Net Connection](./visma-net-connection.md) used to make an authenticated request to the Visma.Net REST API. |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Configuration   | Yes | Defines the HTTP request to Visma.Net, including the method, URL, parameters, and return type. |
+| Company Id      | No | The Company Id to request data from. Default company can be set in the connection. |
+| Description     | No | Additional notes or comments about the action or configuration. |
 
 <br>
 

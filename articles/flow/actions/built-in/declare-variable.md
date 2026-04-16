@@ -42,9 +42,9 @@ When the PDF is split into multiple chunks (pages or groups of pages), each chun
 
 | Name            | Required | Description                                               |
 |-----------------|-----------|-----------------------------------------------------------|
-| Variable Name   | Optional  | The name of the variable.                                  |
-| Data Type       | Optional  | The type of data the variable holds.                      |
-| Initial Value   | Optional  | A value or a C# expression to initialize the variable.     |
-| Global          | Optional  | Indicates whether the variable is global (default is not). |
-| Description     | Optional  | A brief description of the variable's purpose.            |
+| Variable Name   | No | The name of the variable.                                  |
+| Required       | No | The type of data the variable holds.                      |
+| Initial Value   | No | A value or a C# expression to initialize the variable.     |
+| Global          | No | Indicates whether the variable is global (default is not). |
+| Description     | No | A brief description of the variable's purpose.            |
 

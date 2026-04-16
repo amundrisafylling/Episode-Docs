@@ -13,13 +13,13 @@ This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at
 
 | Name | Required | Description |
 |------|----------|-------------|
-| Title | Optional | A descriptive title for the action, shown in the Flow designer canvas. |
-| Connection | Required | The [InVision Connection](../invision-connection.md) to authenticate against. |
-| Work Process Version | Required | The version to deploy. Select from the list, choose from a variable, or enter the ID manually. |
-| Include information messages in log | Optional | When enabled, informational messages from InVision are written to the Flow's execution log. Useful for debugging. |
-| Changed by | Optional | The InVision user ID to record as the actor in the version's audit history. If omitted, the connection's service account is used. |
-| Result variable name | Optional | Name of a Flow variable that will receive `true` if the version was deployed successfully, or `false` if the operation failed. |
-| Description | Optional | Free-text notes about this action's purpose or configuration. Not used at runtime. |
+| Title | No | A descriptive title for the action, shown in the Flow designer canvas. |
+| Connection | Yes | The [InVision Connection](../invision-connection.md) to authenticate against. |
+| Work Process Version | Yes | The version to deploy. Select from the list, choose from a variable, or enter the ID manually. |
+| Include information messages in log | No | When enabled, informational messages from InVision are written to the Flow's execution log. Useful for debugging. |
+| Changed by | No | The InVision user ID to record as the actor in the version's audit history. If omitted, the connection's service account is used. |
+| Result variable name | No | Name of a Flow variable that will receive `true` if the version was deployed successfully, or `false` if the operation failed. |
+| Description | No | Free-text notes about this action's purpose or configuration. Not used at runtime. |
 
 ## Result Variable
 

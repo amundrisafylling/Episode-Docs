@@ -15,20 +15,20 @@ This flow processes a user's chat question by first receiving it through a [Chat
 
 | Name                         | Required | Description                                                                                      | 
 |------------------------------|-----------|--------------------------------------------------------------------------------------------------|
-| Title                        | Optional  | The title or name of the action. |
-| Connection                   | Required  | The SQL Server database connection that will be used for the vector search. |
-| Table                        | Required  | The name of the table where the vector search will be performed. |
-| Search text                  | Required  | The input text string used to perform the vector search; can be provided dynamically. |
-| Record definition            | Required  | The definition of columns used in the vector search. Note: The vector column is not returned. See example below. |
-| Filter                       | Optional  | A filter expression to narrow down the records (e.g., category = blue). |
-| Top                          | Optional  | The maximum number of top results to return. |
-| Skip                         | Optional  | The number of top results to skip (default: *0*). |
-| [Distance function](https://learn.microsoft.com/en-us/azure/cosmos-db/gen-ai/distance-functions) | Optional  |  The method for calculating vector similarity, e.g., *Cosine Distance* (default). |
-| Score limit (0–2)            | Optional  | A threshold value that filters results based on similarity score (lower = more similar). |
-| Prompt template              | Optional  | The prompt template controls the output format for your search results. The system replaces placeholders, such as @[fieldName], with the corresponding data from your vector search fields. See example below. |
-| Search result variable name  | Optional  | The name of the variable to store results, e.g. searchResult. |
-| Command timeout (seconds)    | Optional  | The timeout duration for the SQL command (in seconds). |
-| Description                  | Optional  | Additional notes or metadata for the action. |
+| Title                        | No | The title or name of the action. |
+| Connection                   | Yes | The SQL Server database connection that will be used for the vector search. |
+| Table                        | Yes | The name of the table where the vector search will be performed. |
+| Search text                  | Yes | The input text string used to perform the vector search; can be provided dynamically. |
+| Record definition            | Yes | The definition of columns used in the vector search. Note: The vector column is not returned. See example below. |
+| Filter                       | No | A filter expression to narrow down the records (e.g., category = blue). |
+| Top                          | No | The maximum number of top results to return. |
+| Skip                         | No | The number of top results to skip (default: *0*). |
+| [Distance function](https://learn.microsoft.com/en-us/azure/cosmos-db/gen-ai/distance-functions) | No |  The method for calculating vector similarity, e.g., *Cosine Distance* (default). |
+| Score limit (0–2)            | No | A threshold value that filters results based on similarity score (lower = more similar). |
+| Prompt template              | No | The prompt template controls the output format for your search results. The system replaces placeholders, such as @[fieldName], with the corresponding data from your vector search fields. See example below. |
+| Search result variable name  | No | The name of the variable to store results, e.g. searchResult. |
+| Command timeout (seconds)    | No | The timeout duration for the SQL command (in seconds). |
+| Description                  | No | Additional notes or metadata for the action. |
 
 <br/>
 

@@ -15,12 +15,12 @@ The example above retrieves all file informations from a share using the **Get S
 
 | Name                           | Required | Description |
 |--------------------------------|-----------|-------------|
-| Connection                     | Required  | The [Azure Files connection](./connecting-to-azure-files.md) to a share. |
-| Directory                      | Optional  | The directory to retrieve information from. |
-| Prefix                         | Optional  | An optional file name prefix to filter files. |
+| Connection                     | Yes | The [Azure Files connection](./connecting-to-azure-files.md) to a share. |
+| Directory                      | No | The directory to retrieve information from. |
+| Prefix                         | No | An optional file name prefix to filter files. |
 | Include directories            | Boolean   | Whether to include directories along with files. |
 | Include files in subdirectories | Boolean   | Whether to traverse and include items in subfolders. |
-| Result variable name           | Required  | The name of the variable containing the collected information. |
+| Result variable name           | Yes | The name of the variable containing the collected information. |
 
 ## Returns
 

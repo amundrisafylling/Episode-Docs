@@ -68,7 +68,7 @@ Explore what you can do with Profitbase to power every level of the organization
             <img src="https://profitbasedocs.blob.core.windows.net/imagestitlesites/flowheader2.png" alt="Flow">
         </a></br>
                  <a href="articles/flow/flow.md" class="custom-link">
-            Profitbase Flow
+            Hypergene Flow
         </a>
     <p class="doc-tile-text">Automate digital processes and integrate data from various sources through a user-friendly drag-and-drop interface.</p>
                      <a href="articles/flow/flow.md" class="link-button">

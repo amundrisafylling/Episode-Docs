@@ -34,10 +34,10 @@ Do NOT wrap the response in Markdown annotation.
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title            | Optional  |The title of the tool.  |
-| Connection       | Required  | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
-| Dynamic connection | Optional   | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action.    |
-| Capabilities     | Optional | Specifies what actions the tool is allowed to perform. [See details below](#capabilities). |
+| Title            | No |The title of the tool.  |
+| Connection       | Yes | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
+| Dynamic connection | No | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action.    |
+| Capabilities     | No | Specifies what actions the tool is allowed to perform. [See details below](#capabilities). |
 
 
 ## Capabilities

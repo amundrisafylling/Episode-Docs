@@ -1,8 +1,8 @@
 # Overview
 
-Profitbase Flow enables businesses to automate digital processes and integrate data from various sources through a user-friendly drag-and-drop interface. 
+Hypergene Flow enables businesses to automate digital processes and integrate data from various sources through a user-friendly drag-and-drop interface. 
 
-Read about [Profitbase Flow here](../../../flow/flow.md).
+Read about [Hypergene Flow here](../../../flow/flow.md).
 
 You can use Flow to build any type of business logic or data integration, and run directly from InVision, for example by clicking a button in a Workbook.  
 

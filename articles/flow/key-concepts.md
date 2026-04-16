@@ -1,6 +1,6 @@
 # Key Concepts
 
-Profitbase Flow is an automation platform that enables users to create sequences of operations by combining triggers and actions expressing various business processes, rules, and data integrations.  
+Hypergene Flow is an automation platform that enables users to create sequences of operations by combining triggers and actions expressing various business processes, rules, and data integrations.  
 Development takes place via a web-based drag-and-drop interface, with execution options available in both cloud and on-premises environments.
 
 <br/>
@@ -27,7 +27,7 @@ Environments and Workspace Variables are closely related. Each Workspace variabl
 
 ### Environments
 
-Profitbase Flow defines three environments:
+Hypergene Flow defines three environments:
 
 - Development
 - Test

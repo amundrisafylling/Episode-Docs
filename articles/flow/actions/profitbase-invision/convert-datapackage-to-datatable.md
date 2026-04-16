@@ -18,11 +18,11 @@ This flow executes a SQL script[SQL Script returning data](./sql-script/execute-
 
 | Name                | Required | Description |
 |---------------------|----------|-------------|
-| Title               | Optional | A descriptive label for the action displayed in the Flow editor. |
-| Source DataPackage  | Required | The DataPackage, typically returned from a [SQL Script returning data](./sql-script/execute-sql-script-returning-datapackage.md) action, to convert to a .NET DataTable. |
-| Table variable name | Required | The name of the variable that stores the converted DataTable. |
-| Disabled            | Optional | When enabled, the action is skipped during flow execution. |
-| Description         | Optional | Additional notes or comments about the action or configuration. |
+| Title               | No | A descriptive label for the action displayed in the Flow editor. |
+| Source DataPackage  | Yes | The DataPackage, typically returned from a [SQL Script returning data](./sql-script/execute-sql-script-returning-datapackage.md) action, to convert to a .NET DataTable. |
+| Table variable name | Yes | The name of the variable that stores the converted DataTable. |
+| Disabled            | No | When enabled, the action is skipped during flow execution. |
+| Description         | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

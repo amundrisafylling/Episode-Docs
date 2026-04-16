@@ -2,7 +2,7 @@
 
 <br/>
 
-Welcome to the August 2024 update of Profitbase Flow. Here are the most important updates added since the last release. Our main focus remains on expanding support for integrations with the most commonly used business systems, enabling you to use Profitbase to automate any business process in finance and operations.
+Welcome to the August 2024 update of Hypergene Flow. Here are the most important updates added since the last release. Our main focus remains on expanding support for integrations with the most commonly used business systems, enabling you to use Profitbase to automate any business process in finance and operations.
 
 <br/>
 

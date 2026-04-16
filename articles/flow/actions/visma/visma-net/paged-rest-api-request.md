@@ -13,15 +13,15 @@ The **REST API Request with paging** action allows you to use the [Visma.Net](ht
 
 | Name            | Required | Description                                                                                   |
 |----------------- | -------- | -------------------------------------------------------------- |
-| Title           | Optional | The title or name of the request.                         |
-| Connection      | Required | The [Visma.Net Connection](./visma-net-connection.md) used to make an authenticated request to Tripletex REST API.         |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Configuration   | Required | Defines the HTTP request to Visma.Net, including the method, URL, parameters, and return type.  |
-| Company Id      | Optional | The Company Id to request data from. Default company can be set in the connection.        |
-| Start page      | Optional | The page to begin retrieving data from. Defaults to 1 (if not specified).                            |
-| Items per page  | Optional | The number of items to retrieve per page. Defaults to 1000 (if not specified).                  |
-| Max page count  | Optional | The maximum number of pages to fetch. Defaults to 9999 (if not specified).                      |
-| Description     | Optional | Additional notes or comments about the action or configuration.                               |
+| Title           | No | The title or name of the request.                         |
+| Connection      | Yes | The [Visma.Net Connection](./visma-net-connection.md) used to make an authenticated request to Tripletex REST API.         |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Configuration   | Yes | Defines the HTTP request to Visma.Net, including the method, URL, parameters, and return type.  |
+| Company Id      | No | The Company Id to request data from. Default company can be set in the connection.        |
+| Start page      | No | The page to begin retrieving data from. Defaults to 1 (if not specified).                            |
+| Items per page  | No | The number of items to retrieve per page. Defaults to 1000 (if not specified).                  |
+| Max page count  | No | The maximum number of pages to fetch. Defaults to 9999 (if not specified).                      |
+| Description     | No | Additional notes or comments about the action or configuration.                               |
 
 <br>
 

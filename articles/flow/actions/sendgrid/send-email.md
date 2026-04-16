@@ -1,6 +1,6 @@
 # Send Email
 
-Use this action to send emails through your configured **SendGrid** connection in Profitbase Flow.
+Use this action to send emails through your configured **SendGrid** connection in Hypergene Flow.
 
 <br/>
 
@@ -29,15 +29,15 @@ Refer to the official documentation for additional setup and best practices:
 
 | Property            | Required | Description |
 |---------------------|----------|-------------|
-| Title           | Optional  | A custom label for the action in the Flow UI. |
-| Connection      | Required | Choose or create a SendGrid connection with a valid API key. |
-| From email      | Required | The sender's email address. Must match one of the verified senders in the connection. |
-| From name       | Required | The display name for the sender (e.g., "Finance Department"). |
-| To              | Required | One or more recipient email addresses, separated by semicolons. |
-| Subject         | Required | The subject line of the email. |
-| Message         | Required | The main message body. Can include dynamic content or expressions. |
-| Attachments     | Optional | Upload or select files to include as attachments. |
-| Description     | Optional | Internal documentation or notes for Flow designers. Not included in the email. |
+| Title           | No | A custom label for the action in the Flow UI. |
+| Connection      | Yes | Choose or create a SendGrid connection with a valid API key. |
+| From email      | Yes | The sender's email address. Must match one of the verified senders in the connection. |
+| From name       | Yes | The display name for the sender (e.g., "Finance Department"). |
+| To              | Yes | One or more recipient email addresses, separated by semicolons. |
+| Subject         | Yes | The subject line of the email. |
+| Message         | Yes | The main message body. Can include dynamic content or expressions. |
+| Attachments     | No | Upload or select files to include as attachments. |
+| Description     | No | Internal documentation or notes for Flow designers. Not included in the email. |
 
 <br/>
 

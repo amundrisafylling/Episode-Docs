@@ -32,12 +32,12 @@ When the PDF is split into multiple chunks (pages or groups of pages), each chun
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-| Title           | Optional | The title or name of the action.     |
-| Variable to increment         | Required   | The name of variable to increment. |
-| Increment by   | Required      | The number to increment by.   |
-| Description   | Optional | Additional notes or comments about the action or configuration. |
+| Title           | No | The title or name of the action.     |
+| Variable to increment         | Yes | The name of variable to increment. |
+| Increment by   | Yes | The number to increment by.   |
+| Description   | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

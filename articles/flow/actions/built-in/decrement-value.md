@@ -13,12 +13,12 @@ This Flow demonstrates how to decrement a numeric value during execution. It beg
 
 ## Properties
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-| Title           | Optional | The title or name of the action.     |
-| Variable to decrement         | Required   | The name of variable to decrement. |
-| Decrement by   | Required      | The number to decrement by.   |
-| Description   | Optional | Additional notes or comments about the action or configuration. |
+| Title           | No | The title or name of the action.     |
+| Variable to decrement         | Yes | The name of variable to decrement. |
+| Decrement by   | Yes | The number to decrement by.   |
+| Description   | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

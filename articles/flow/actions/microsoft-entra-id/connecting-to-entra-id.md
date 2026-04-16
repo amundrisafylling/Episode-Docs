@@ -3,7 +3,7 @@
 To manage users and applications in your Microsoft Entra ID tenant, you must first establish a connection. This enables you to perform actions such as inviting guest users, listing current users, and managing app registrations within your tenant.
 
 > [!NOTE]
-> Before you can create a Microsoft Entra ID Connection, you need to create a **Microsoft Entra ID App** (also known as a `Service Principal`) and grant it access to the Entra ID API. Profitbase Flow will call the Entra ID API on behalf of the Service Principal, using its credentials.  
+> Before you can create a Microsoft Entra ID Connection, you need to create a **Microsoft Entra ID App** (also known as a `Service Principal`) and grant it access to the Entra ID API. Hypergene Flow will call the Entra ID API on behalf of the Service Principal, using its credentials.  
 >  
 > [Read about how to create a Service Principal here](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app).
 
@@ -11,9 +11,9 @@ To manage users and applications in your Microsoft Entra ID tenant, you must fir
 
 | Name            | Required | Description                                                                 |
 |-----------------|----------|-----------------------------------------------------------------------------|
-| Tenant ID       | Required | The Microsoft Entra Tenant ID associated with the Entra ID subscription. You can find it in the Azure portal where you created the Service Principal. |
-| Client ID       | Required | The ID of the Entra ID App (Service Principal) that has been granted access to the Entra ID API. |
-| Client Secret   | Required | The client secret of the Entra ID App used to authenticate with the Entra ID API. |
+| Tenant ID       | Yes | The Microsoft Entra Tenant ID associated with the Entra ID subscription. You can find it in the Azure portal where you created the Service Principal. |
+| Client ID       | Yes | The ID of the Entra ID App (Service Principal) that has been granted access to the Entra ID API. |
+| Client Secret   | Yes | The client secret of the Entra ID App used to authenticate with the Entra ID API. |
 
 ## Enable Microsoft Entra ID Authentication
 

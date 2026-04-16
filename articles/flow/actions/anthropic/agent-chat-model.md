@@ -11,12 +11,12 @@ This flow uses an AI Agent powered by an Anthropic chat model to retrieve a list
 
 | Name                   | Required | Description |
 |------------------------|-----------|-------------|
-| Title              | Optional  | The display name of the action in your flow. |
-| Connection         | Required  | Defines the [connection](anthropic-connection.md) to Anthropic. The connection provides the API key needed to access Anthropic models. |
-| Model Id           | Required  | The identifier of the Anthropic model to use (e.g., `claude-3-5-sonnet-latest`, `claude-3-opus-latest`). The model determines the capability, response quality, and cost. |
-| Temperature        | Optional  | Controls the creativity and randomness of the model’s output. Lower values produce more precise and deterministic responses, while higher values (closer to 1.0) generate more varied and creative text. |
-| Max completion tokens | Required | Defines the maximum number of tokens the model may generate in its response. Helps control output length and cost. |
-| Description        | Optional  | Additional notes or context about the action. |
+| Title              | No | The display name of the action in your flow. |
+| Connection         | Yes | Defines the [connection](anthropic-connection.md) to Anthropic. The connection provides the API key needed to access Anthropic models. |
+| Model Id           | Yes | The identifier of the Anthropic model to use (e.g., `claude-3-5-sonnet-latest`, `claude-3-opus-latest`). The model determines the capability, response quality, and cost. |
+| Temperature        | No | Controls the creativity and randomness of the model’s output. Lower values produce more precise and deterministic responses, while higher values (closer to 1.0) generate more varied and creative text. |
+| Max completion tokens | Yes | Defines the maximum number of tokens the model may generate in its response. Helps control output length and cost. |
+| Description        | No | Additional notes or context about the action. |
 
 <br/>
 

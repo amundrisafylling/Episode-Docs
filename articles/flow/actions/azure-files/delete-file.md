@@ -15,7 +15,7 @@ The example above retrieves all file informations from a share using the [Get Sh
 
 | Name                     | Required | Description                                                 |
 |--------------------------|-----------|-------------------------------------------------------------|
-| Title                    | Optional  | The name of the action.                                      |
-| Connection               | Required  |  The [Azure Files connection](./connecting-to-azure-files.md) to a Share.   |
-| File name        | Required  | The name and full path to the file to delete.       |
-| Description      | Optional  | Additional information about the action.                     |
+| Title                    | No | The name of the action.                                      |
+| Connection               | Yes |  The [Azure Files connection](./connecting-to-azure-files.md) to a Share.   |
+| File name        | Yes | The name and full path to the file to delete.       |
+| Description      | No | Additional information about the action.                     |

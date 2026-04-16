@@ -1,6 +1,6 @@
 # Fortnox connection
 
-To use Fortnox actions in **Profitbase Flow**, you need to select an **existing connection** or create a new one.
+To use Fortnox actions in **Hypergene Flow**, you need to select an **existing connection** or create a new one.
 
 <br/>
 

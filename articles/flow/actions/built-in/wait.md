@@ -14,7 +14,7 @@ This flow uses the Wait action to pause execution for a defined period of time b
 
 | Property        | Required | Description |
 |-----------------|-----------|-------------|
-| Title       | Optional  | A descriptive name for the action. |
-| Wait duration | Required  | The amount of time the flow execution will pause before continuing. The value can be specified in milliseconds, seconds, or minutes. |
-| Disabled    | Optional  | If enabled, the action will be skipped during flow execution. |
-| Description | Optional  | Optional free-text description explaining why a delay is required in the flow. |
+| Title       | No | A descriptive name for the action. |
+| Wait duration | Yes | The amount of time the flow execution will pause before continuing. The value can be specified in milliseconds, seconds, or minutes. |
+| Disabled    | No | If enabled, the action will be skipped during flow execution. |
+| Description | No | Optional free-text description explaining why a delay is required in the flow. |

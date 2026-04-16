@@ -13,12 +13,12 @@ This flow reads a large dataset (20,000 orders) from Snowflake using a DataReade
 
 | Name                      | Required | Description                                                                              |
 |---------------------------|----------|------------------------------------------------------------------------------------------|
-| Title                     | Optional | A display label for this action in the flow editor.                                      |
-| Connection                | Required | The Snowflake [connection](./connecting-to-snowflake.md) to use.                         |
-| Expression and parameters | Required | The query to execute, along with any optional parameters.                                |
-| Reader variable name      | Optional | The variable that will hold the DataReader for use in subsequent actions.                |
-| Command timeout (sec)     | Optional | How long to wait before the command times out. Default is 120 seconds.                   |
-| Description               | Optional | Notes about this action's configuration.                                                 |
+| Title                     | No | A display label for this action in the flow editor.                                      |
+| Connection                | Yes | The Snowflake [connection](./connecting-to-snowflake.md) to use.                         |
+| Expression and parameters | Yes | The query to execute, along with any optional parameters.                                |
+| Reader variable name      | No | The variable that will hold the DataReader for use in subsequent actions.                |
+| Command timeout (sec)     | No | How long to wait before the command times out. Default is 120 seconds.                   |
+| Description               | No | Notes about this action's configuration.                                                 |
 
 <br/>
 

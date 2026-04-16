@@ -10,7 +10,7 @@ If you store the credentials for the Visma.Net outside Flow (for example in your
 
 | Name            | Required | Description                                                                 |
 |-----------------|-----------|-----------------------------------------------------------------------------|
-| Tenant ID       | Required  | The Tenant Id associated with the subscription.        |
-| Client ID       | Required  | A unique identifier for the client application.        |
-| Client secret   | Required  | A confidential key used to authenticate the client.    |
-| Company ID      | Optional  | The customer Id assosiated with the connection.        |
+| Tenant ID       | Yes | The Tenant Id associated with the subscription.        |
+| Client ID       | Yes | A unique identifier for the client application.        |
+| Client secret   | Yes | A confidential key used to authenticate the client.    |
+| Company ID      | No | The customer Id assosiated with the connection.        |

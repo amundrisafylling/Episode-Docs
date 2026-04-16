@@ -13,12 +13,12 @@ This flow retrieves customer data from SQL Server, applies a transformation step
 
 | Name                 | Required | Description                                                                                       |
 |----------------------|----------|---------------------------------------------------------------------------------------------------|
-| Title                | Optional | A display label for this action in the flow editor.                                               |
-| Connection           | Required | The Snowflake [connection](./connecting-to-snowflake.md) to use.                                  |
-| Source               | Required | The data source to insert from — either a DataReader or a DataTable.                              |
-| Destination table    | Required | The Snowflake table to insert rows into. You can select an existing table or enter a name.        |
-| Result variable name | Optional | Stores the number of inserted rows for use later in the flow.                                     |
-| Description          | Optional | Notes about this action's configuration.                                                          |
+| Title                | No | A display label for this action in the flow editor.                                               |
+| Connection           | Yes | The Snowflake [connection](./connecting-to-snowflake.md) to use.                                  |
+| Source               | Yes | The data source to insert from — either a DataReader or a DataTable.                              |
+| Destination table    | Yes | The Snowflake table to insert rows into. You can select an existing table or enter a name.        |
+| Result variable name | No | Stores the number of inserted rows for use later in the flow.                                     |
+| Description          | No | Notes about this action's configuration.                                                          |
 
 <br/>
 

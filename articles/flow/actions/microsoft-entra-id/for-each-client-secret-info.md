@@ -13,12 +13,12 @@ This flow checks if there are client secrets about to expire in any of the app r
 
 | Name                     | Required | Description                                                                 |
 |--------------------------|----------|-----------------------------------------------------------------------------|
-| Title                    | Optional | The title of the action.                                                    |
-| Connection               | Required | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) **Application.Read.All** to list client secrets for an application (broader permissions like Application.ReadWrite.All also work but are not required). |
-| App ID                   | Required | The ID of the app registration for which to list client secrets.           |
-| Client secret variable name     | Required | The name of the variable that stores the response from the Entra ID API (e.g., EndDate). |
-| Disabled  | Optional | Boolean value indicating whether the action is disabled (true/false).  |
-| Description              | Optional | Additional details or notes about the action.                               |
+| Title                    | No | The title of the action.                                                    |
+| Connection               | Yes | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) **Application.Read.All** to list client secrets for an application (broader permissions like Application.ReadWrite.All also work but are not required). |
+| App ID                   | Yes | The ID of the app registration for which to list client secrets.           |
+| Client secret variable name     | Yes | The name of the variable that stores the response from the Entra ID API (e.g., EndDate). |
+| Disabled  | No | Boolean value indicating whether the action is disabled (true/false).  |
+| Description              | No | Additional details or notes about the action.                               |
 
 <br/>
 

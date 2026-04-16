@@ -23,9 +23,9 @@ In short, this Flow automates the process of loading Excel data from Blob Storag
 
 | Name            | Required | Description                                               |
 |-----------------|-----------|-----------------------------------------------------------|
-| Title                     | Optional  | The title or name of the action.                                                 |
-| Variables   | Required  | Defined variables.                                  |
-| Description     | Optional  | A brief description of the variable's purpose.            |
+| Title                     | No | The title or name of the action.                                                 |
+| Variables   | Yes | Defined variables.                                  |
+| Description     | No | A brief description of the variable's purpose.            |
 
 
 ![image](../../../../images/flow/declare-variables2.png)

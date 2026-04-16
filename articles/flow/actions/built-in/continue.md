@@ -14,5 +14,5 @@ This flow processes a list of customer feedback messages. [If](if.md) the feedba
 
 | Name                      | Type | Description                                                                       |
 | ------------------------- | --------- | --------------------------------------------------------------------------------- |
-| Title                     | Optional  | The title or name of the action.                                                 |
-| Description               | Optional  | Additional notes or comments about the action or configuration.                   |
+| Title                     | No | The title or name of the action.                                                 |
+| Description               | No | Additional notes or comments about the action or configuration.                   |

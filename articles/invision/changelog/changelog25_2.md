@@ -5,7 +5,7 @@ Hypergene InVision 2025.2 is a minor release that adds support for scheduling Fl
 
 ## Scheduling Flows from InVision
 
-In addition to using the built-in scheduler in Profitbase Flow, you can now also schedule Flows from InVision Workbooks and the InVision Designer. This enables creating management dashboards for InVision solutions, including scheduling related Flows which drive business logic, data integrations and financial calculations.
+In addition to using the built-in scheduler in Hypergene Flow, you can now also schedule Flows from InVision Workbooks and the InVision Designer. This enables creating management dashboards for InVision solutions, including scheduling related Flows which drive business logic, data integrations and financial calculations.
 
 ![img](../../../images/changelogs/inVision25_2.png)
 

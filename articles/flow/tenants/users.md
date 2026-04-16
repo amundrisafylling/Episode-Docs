@@ -1,6 +1,6 @@
 # Users
 
-Only authorized users can log in to Profitbase Flow and access tenants. In order to be authorized, the user must be registered and assigned the Admin or Member `role`.  
+Only authorized users can log in to Hypergene Flow and access tenants. In order to be authorized, the user must be registered and assigned the Admin or Member `role`.  
 
 Both admin and member users are managed in the Users screen. If you need to change any properties of a user, such as an email or role (Admin / Member), you can do this at any time after the user has been created. The changes will take effect the next time the user loads the app.  
 

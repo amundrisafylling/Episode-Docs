@@ -16,10 +16,10 @@ Return value used:
 
 | Name                 | Required | Description                                                                                                                                                                          |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Title    |    Optional      |      The title for the create action.               |
-| Source               | Required | Specifies the source of the data, which can either be a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) or [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable). |
-| Result variable name | Optional | The name of the variable you can use to reference the byte array in other actions.  |
-| Description          | Optional |  Additional notes or comments about the action or configuration. |
+| Title    | No |      The title for the create action.               |
+| Source               | Yes | Specifies the source of the data, which can either be a [DataReader](https://learn.microsoft.com/en-us/dotnet/api/system.data.idatareader) or [DataTable](https://learn.microsoft.com/en-us/dotnet/api/system.data.datatable). |
+| Result variable name | No | The name of the variable you can use to reference the byte array in other actions.  |
+| Description          | No |  Additional notes or comments about the action or configuration. |
 
 <br/>
 

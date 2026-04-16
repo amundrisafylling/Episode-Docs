@@ -1,7 +1,7 @@
 
 # Debugging and logging
 
-By default, Profitbase Flow only logs the start and end of executions. If you want to log anything else, you can use the [Log](../../actions/built-in/log.md) action. You can also using a [Function](../../actions/built-in/function.md) action and call the `Context.Log` APIs if you need fine-grained control.  
+By default, Hypergene Flow only logs the start and end of executions. If you want to log anything else, you can use the [Log](../../actions/built-in/log.md) action. You can also using a [Function](../../actions/built-in/function.md) action and call the `Context.Log` APIs if you need fine-grained control.  
 
 
 <br/>

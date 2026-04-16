@@ -7,7 +7,7 @@ If you store the credentials for the Dynamics 365 Business Central API outside F
 This enables dynamically connecting to different Dynamics 365 Business Central subscriptions based on parameters or conditions in a Flow.
 
 > [!NOTE]
-> Before you can create a Dynamics 365 Business Central APIv2 Connection, you need to create a **Microsoft Entra ID App** (also known as a `Service Principal`), and grant it access to the Business Central API. Profitbase Flow will call the Business Central API on behalf of the Service Principal, using its credentials.  
+> Before you can create a Dynamics 365 Business Central APIv2 Connection, you need to create a **Microsoft Entra ID App** (also known as a `Service Principal`), and grant it access to the Business Central API. Hypergene Flow will call the Business Central API on behalf of the Service Principal, using its credentials.  
 >  
 > [Read about how to create a Service Princial here](./dynamics365-business-central-api-v2-connection.md).
 

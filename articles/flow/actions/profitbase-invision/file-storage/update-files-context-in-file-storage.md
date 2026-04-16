@@ -15,9 +15,9 @@ This flow updates the context of multiple files only when the existing context i
 
 | Name | Type | Description |
 |------|------|-------------|
-| Connection | Required | The [InVision connection](../invision-connection.md) used to access File Storage. |
-| File storage | Required | The [File Storage](../../../../invision/docs/filestorage.md) where the files are located. |
-| File references | Required | The list of file reference IDs for the files whose context should be updated. |
-| File context | Required | The new context value to assign to the files. |
-| Disabled | Optional | If selected, the action will not execute. |
-| Description | Optional | A custom description of the action configuration. |
+| Connection | Yes | The [InVision connection](../invision-connection.md) used to access File Storage. |
+| File storage | Yes | The [File Storage](../../../../invision/docs/filestorage.md) where the files are located. |
+| File references | Yes | The list of file reference IDs for the files whose context should be updated. |
+| File context | Yes | The new context value to assign to the files. |
+| Disabled | No | If selected, the action will not execute. |
+| Description | No | A custom description of the action configuration. |

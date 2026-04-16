@@ -14,17 +14,17 @@ This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at
 
 | Name | Required | Description |
 |------|----------|-------------|
-| Title | Optional | A descriptive title for the action, shown in the Flow designer canvas. |
-| Connection | Required | The [InVision Connection](../invision-connection.md) to authenticate against. |
-| Work Process | Required | The Work Process to create a new version for. Select from the list, choose from a variable, or enter the ID manually. |
-| Version name | Required | The name of the new version (e.g. `Budget 2026` or `Forecast Q1`). |
-| Version description | Optional | A short description of the version's purpose or scope. |
-| Source version | Optional | An existing version to copy structure from. Select from the list, choose from a variable, or enter the ID manually. |
-| Copy permissions | Optional | Whether to copy user permissions from the source version. Accepted values: `true` or `false`. |
-| Version properties | Optional | Version-specific parameters defined by the Work Process configuration. Fill in values using the pop-up dialog. |
-| Created by | Optional | The InVision user ID to record as the creator in the audit history. If omitted, the connection's service account is used. |
-| Result variable name | Required | Name of the variable that will receive the ID of the newly created version. Use this ID in subsequent actions such as [Deploy Work Process Version](./deploy-work-process-version.md). |
-| Description | Optional | Free-text notes about this action's purpose or configuration. Not used at runtime. |
+| Title | No | A descriptive title for the action, shown in the Flow designer canvas. |
+| Connection | Yes | The [InVision Connection](../invision-connection.md) to authenticate against. |
+| Work Process | Yes | The Work Process to create a new version for. Select from the list, choose from a variable, or enter the ID manually. |
+| Version name | Yes | The name of the new version (e.g. `Budget 2026` or `Forecast Q1`). |
+| Version description | No | A short description of the version's purpose or scope. |
+| Source version | No | An existing version to copy structure from. Select from the list, choose from a variable, or enter the ID manually. |
+| Copy permissions | No | Whether to copy user permissions from the source version. Accepted values: `true` or `false`. |
+| Version properties | No | Version-specific parameters defined by the Work Process configuration. Fill in values using the pop-up dialog. |
+| Created by | No | The InVision user ID to record as the creator in the audit history. If omitted, the connection's service account is used. |
+| Result variable name | Yes | Name of the variable that will receive the ID of the newly created version. Use this ID in subsequent actions such as [Deploy Work Process Version](./deploy-work-process-version.md). |
+| Description | No | Free-text notes about this action's purpose or configuration. Not used at runtime. |
 
 *Version Properties are defined by the Work Process configuration. Parameter names and available values vary per implementation.*  
 ![Version Properties dialog](https://profitbasedocs.blob.core.windows.net/flowimages/Create-wpv%20(1).png)  

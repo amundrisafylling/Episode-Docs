@@ -2,7 +2,7 @@
 
 When adding a [Databricks](https://www.databricks.com/databricks-documentation) action (e.g., *Execute SQL statement returning data*), you must define a connection to your Databricks workspace.
 
-Profitbase Flow uses a **Base URL** and a **Personal Access Token** to authenticate and execute queries securely.
+Hypergene Flow uses a **Base URL** and a **Personal Access Token** to authenticate and execute queries securely.
 
 
 
@@ -29,7 +29,7 @@ Profitbase Flow uses a **Base URL** and a **Personal Access Token** to authentic
 3. Navigate to the **Access tokens** tab.
 4. Click **Generate new token**.
 5. Optionally, set a comment and expiry time.
-6. Copy the generated token and paste it into the **Access token** Name in Profitbase Flow.
+6. Copy the generated token and paste it into the **Access token** Name in Hypergene Flow.
 
 
 > [!NOTE]

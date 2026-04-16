@@ -15,12 +15,12 @@ Use this action to fetch emails from a personal mailbox in Outlook and process t
 <!--prettier-ignore-->
 | Property            | Required | Description                                               |
 |---------------------|-----------------------------------------------------------------------|
-| Connection          | Required  | Specifies the [Microsoft 365 Outlook connection](outlook-connection.md) that the trigger should use to check for new emails. |
-| Disabled            | Optional  | Specifies if the action should be disabled.  |
-| Filter              | Optional  | Specifies optional filters to restrict which emails to fetch. See detailed description below. | 
-| Folder              | Optional  | Specifies the folder to fetch emails from. |
-| Include attachments | Optional  | Specifies whether or not to fetch the contents of all attachments when the action runs. [Read more about this option below](#attachments). |
-| Output name         | Required  | The name of the output variable that represents the retrieved mail message. You can change it from the default `mailMessage` to something that more clearly describes the received mail, for example `customerFeedbackMessage`. |
+| Connection          | Yes | Specifies the [Microsoft 365 Outlook connection](outlook-connection.md) that the trigger should use to check for new emails. |
+| Disabled            | No | Specifies if the action should be disabled.  |
+| Filter              | No | Specifies optional filters to restrict which emails to fetch. See detailed description below. | 
+| Folder              | No | Specifies the folder to fetch emails from. |
+| Include attachments | No | Specifies whether or not to fetch the contents of all attachments when the action runs. [Read more about this option below](#attachments). |
+| Output name         | Yes | The name of the output variable that represents the retrieved mail message. You can change it from the default `mailMessage` to something that more clearly describes the received mail, for example `customerFeedbackMessage`. |
 
 <br/>
 

@@ -10,8 +10,8 @@ Use this action when you need to create a Flow that returns data to a [SQL Repor
 
 | Name          | Required | Description                       |
 |---------------|----------|-----------------------------------|
-| Source table  | Required | The DataTable to convert to a DataPackage. |
-| Package name  | Optional | The name of the dataset in the DataPackage returned to InVision. You only need to specify this property when returning data to an InVision SQL Report, and the report is using a named dataset to bind to a data grid or chart serie.|
+| Source table  | Yes | The DataTable to convert to a DataPackage. |
+| Package name  | No | The name of the dataset in the DataPackage returned to InVision. You only need to specify this property when returning data to an InVision SQL Report, and the report is using a named dataset to bind to a data grid or chart serie.|
 
 ## Returns
 This action returns a DataPackage object, which is the data structure containing the data and metadata for displaying [SQL Reports](../../../invision/docs/sqlreports.md), [Worksheets](../../../invision/docs/worksheets.md), [Tables](../../../invision/docs/tables.md) and [Table Views](../../../invision/docs/tableview.md) in InVision Workbooks.

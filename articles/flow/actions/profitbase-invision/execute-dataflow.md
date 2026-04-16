@@ -12,11 +12,11 @@ Executes a Dataflow in an InVision Solution.
 ## Properties
 | Name                 | Required | Description                                       |
 |----------------------|----------|---------------------------------------------------|
-| Title                | Optional | A descriptive title for the action.               |
-| Connection           | Required | [InVision Connection](invision-connection.md).                              |
-| Dataflow             | Required | The ID of the Dataflow to run.                    |
-| Execution arguments  | Optional | Specifies the arguments passed to the Dataflow. The arguments must be specified as a JSON string as shown in the [example below](#execution-arguments).  |
-| Description          | Optional | Additional notes or comments that describe the action. |
+| Title                | No | A descriptive title for the action.               |
+| Connection           | Yes | [InVision Connection](invision-connection.md).                              |
+| Dataflow             | Yes | The ID of the Dataflow to run.                    |
+| Execution arguments  | No | Specifies the arguments passed to the Dataflow. The arguments must be specified as a JSON string as shown in the [example below](#execution-arguments).  |
+| Description          | No | Additional notes or comments that describe the action. |
 
 ## Execution arguments
 

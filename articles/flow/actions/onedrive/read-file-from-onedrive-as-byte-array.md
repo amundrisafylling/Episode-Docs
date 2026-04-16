@@ -14,9 +14,9 @@ This flow takes a PDF file from OneDrive, sends it to the [Adobe PDF Services](h
 
 | Name                 | Required | Description                                                                                                                                                     |
 | -------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Connection           | Required | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`.                                                  |
-| File                 | Required | The path to the file in OneDrive. When using a [OneDriveItem](./api-reference/onedrive-item.md), use the `Path` property like shown in the example image below. |
-| Result variable name | Required | The name of the variable containing the file stream.                                                                                                            |
+| Connection           | Yes | The connection to the OneDrive account. Setting up a connection requires a Microsoft `Work or School account`.                                                  |
+| File                 | Yes | The path to the file in OneDrive. When using a [OneDriveItem](./api-reference/onedrive-item.md), use the `Path` property like shown in the example image below. |
+| Result variable name | Yes | The name of the variable containing the file stream.                                                                                                            |
 
 <br/>
 

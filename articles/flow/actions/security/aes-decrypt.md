@@ -9,8 +9,8 @@ This action allows users to decrypt content using the AES algorithm.
 
 | Name                 | Required | Description                         |
 |----------------------|----------|-------------------------------------|
-|   Encryption key | Required | The key used to decrypt the content. This is required by the AES algorithm |
-|  Initialization vector | Required |  The vector used to decrypt the content. |
-| Input content    | Required |  The content to be decrypted (string or byte array). |
-| Output variable name | Required | The name of the output variable. |
-| Output data type | Required | The data type of the output variable. This can be either a string (base 64 encoded) or byte array. |
+|   Encryption key | Yes | The key used to decrypt the content. This is required by the AES algorithm |
+|  Initialization vector | Yes |  The vector used to decrypt the content. |
+| Input content    | Yes |  The content to be decrypted (string or byte array). |
+| Output variable name | Yes | The name of the output variable. |
+| Output data type | Yes | The data type of the output variable. This can be either a string (base 64 encoded) or byte array. |

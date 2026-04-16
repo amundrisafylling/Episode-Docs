@@ -33,10 +33,10 @@ This pattern is useful when building reusable extensions that return standardize
 
 | Name               | Required | Description |
 |--------------------|----------|-------------|
-|  Name           | Optional   | The name of the flowchart entry point. |
-|  Is upgradable  | Optional  | Indicates whether this entry can be upgraded. |
-|  Custom data types  | Required | Allows defining custom data types for the flowchart. |
-|  Custom code    | Optional | Allows adding custom code to extend functionality. |
-|  Description    | Optional | Provides additional information about this flowchart entry. |
+|  Name           | No | The name of the flowchart entry point. |
+|  Is upgradable  | No | Indicates whether this entry can be upgraded. |
+|  Custom data types  | Yes | Allows defining custom data types for the flowchart. |
+|  Custom code    | No | Allows adding custom code to extend functionality. |
+|  Description    | No | Provides additional information about this flowchart entry. |
 
 

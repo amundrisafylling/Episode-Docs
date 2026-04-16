@@ -21,9 +21,9 @@ This Flow automates the process of retrieving employee data from PowerOfficeGo, 
 
 | Name                     | Type                 | Description                                |
 |--------------------------|----------------------|--------------------------------------------|
-| JSON                     | Required             | A string or byte array containing data in a valid JSON format. |
-| [Schema mapping](#schema-mapping)           | Optional             | Enables manually defining the mapping between JSON properties and column names, including data types. |
-| DataTable variable name | Required             | The name of the variable that contains the output from this action.| 
+| JSON                     | Yes | A string or byte array containing data in a valid JSON format. |
+| [Schema mapping](#schema-mapping)           | No | Enables manually defining the mapping between JSON properties and column names, including data types. |
+| DataTable variable name | Yes | The name of the variable that contains the output from this action.| 
 
 <br/>
 

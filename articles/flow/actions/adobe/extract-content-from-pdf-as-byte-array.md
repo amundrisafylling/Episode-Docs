@@ -15,11 +15,11 @@ This flow reads a PDF from cloud storage, extracts its content using Adobe PDF S
 
 ## Properties
 
-| Name            | Required | Description                                                                 |
-|-----------------|----------|-----------------------------------------------------------------------------|
-| fileContent   | Required   | Byte array of the PDF file to be extracted.     |
-| outputFormat  | Required   | Defines the structure of the extracted result. Options: `JSON_Raw`, `JSON_Simplified`, `JSON_Hierarchical`. |
-| fileData      | Optional   | Name of the variable to store the extracted result. Defaults to `fileData`. |
+| Name            | Required |Description         |
+|-----------------|----------|---------|
+| fileContent   | Yes | Byte array of the PDF file to be extracted.     |
+| outputFormat  | Yes | Defines the structure of the extracted result. Options: `JSON_Raw`, `JSON_Simplified`, `JSON_Hierarchical`. |
+| fileData      | No | Name of the variable to store the extracted result. Defaults to `fileData`. |
 
 <br/>
 

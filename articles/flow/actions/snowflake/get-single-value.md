@@ -13,13 +13,13 @@ This flow retrieves a single value (the current user's display name) from Snowfl
 
 | Name                      | Required | Description                                                                                                      |
 |---------------------------|----------|------------------------------------------------------------------------------------------------------------------|
-| Title                     | Optional | A display label for this action in the flow editor.                                                              |
-| Connection                | Required | The Snowflake [connection](./connecting-to-snowflake.md) to use.                                                 |
-| Expression and parameters | Required | The query to execute, along with any optional parameters.                                                        |
-| Result variable name      | Optional | The variable that will hold the returned value for use in subsequent actions.                                    |
-| Result variable type      | Optional | The .NET type to cast the returned value to (e.g. `String`, `Int32`, `DateTime`). Defaults to `String` if unset. |
-| Command timeout (sec)     | Optional | How long to wait before the command times out. Default is 120 seconds.                                           |
-| Description               | Optional | Notes about this action's configuration.                                                                         |
+| Title                     | No | A display label for this action in the flow editor.                                                              |
+| Connection                | Yes | The Snowflake [connection](./connecting-to-snowflake.md) to use.                                                 |
+| Expression and parameters | Yes | The query to execute, along with any optional parameters.                                                        |
+| Result variable name      | No | The variable that will hold the returned value for use in subsequent actions.                                    |
+| Result variable type      | No | The .NET type to cast the returned value to (e.g. `String`, `Int32`, `DateTime`). Defaults to `String` if unset. |
+| Command timeout (sec)     | No | How long to wait before the command times out. Default is 120 seconds.                                           |
+| Description               | No | Notes about this action's configuration.                                                                         |
 
 ## Returns
 

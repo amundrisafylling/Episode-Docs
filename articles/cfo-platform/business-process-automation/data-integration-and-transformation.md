@@ -1,8 +1,8 @@
 # Data integration and transformation
 
-[Profitbase Flow](../../flow/flow.md) offers extensive support for connectors and data adapters across various systems, including databases, ERP systems, email, collaboration tools, cloud storage, files and many more
+[Hypergene Flow](../../flow/flow.md) offers extensive support for connectors and data adapters across various systems, including databases, ERP systems, email, collaboration tools, cloud storage, files and many more
 
-As data is updated in disparate systems by users or applications, Profitbase Flow can pick up these changes and automatically take action to synchronize the data or apply changes to other systems. This makes data flow seamlessly between systems without manual user intervention.
+As data is updated in disparate systems by users or applications, Hypergene Flow can pick up these changes and automatically take action to synchronize the data or apply changes to other systems. This makes data flow seamlessly between systems without manual user intervention.
 
 Flows that support this process typically does the following:
 
@@ -19,7 +19,7 @@ Flows that support this process typically does the following:
 <br/>
 
 ### Example - Connect your ERP system and data platform for reporting
-Here’s an example of setting up an integration between Visma.Net (ERP) and Microsoft Fabric using Profitbase Flow. We'll configure an automated process to continuously retrieve the latest general ledger transactions and upload them to Microsoft Fabric for reporting in Power BI. The entire configuration can be set up with virtually no code.
+Here’s an example of setting up an integration between Visma.Net (ERP) and Microsoft Fabric using Hypergene Flow. We'll configure an automated process to continuously retrieve the latest general ledger transactions and upload them to Microsoft Fabric for reporting in Power BI. The entire configuration can be set up with virtually no code.
 
 The Flow does the following:
 1) **Run on a schedule:** The first step is to add a [Schedule trigger](../../flow/triggers/schedule-trigger.md) to make the Flow run repeatedly on a schedule, for example nightly or hourly. 

@@ -29,9 +29,9 @@ Include all the Word documents as attachments to the email.
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title            | Optional  | The title of the tool.                                 |
-| Connection    | Required | A [Microsoft 365 Outlook connection](./outlook-connection.md) which grants Profitbase Flow access to the email account. |
-| Capabilities     | Optional | Specifies what actions the tool is allowed to perform. [See details below](#capabilities). |
+| Title            | No | The title of the tool.                                 |
+| Connection    | Yes | A [Microsoft 365 Outlook connection](./outlook-connection.md) which grants Hypergene Flow access to the email account. |
+| Capabilities     | No | Specifies what actions the tool is allowed to perform. [See details below](#capabilities). |
 
 
 ## Capabilities

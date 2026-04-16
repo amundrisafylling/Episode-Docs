@@ -1,6 +1,6 @@
 # Microsoft 365 Outlook Connection
 
-To perform actions such as sending emails, reading inbox content, or triggering flows based on incoming messages using **Profitbase Flow**, you need to establish a connection to your Microsoft 365 Outlook account.
+To perform actions such as sending emails, reading inbox content, or triggering flows based on incoming messages using **Hypergene Flow**, you need to establish a connection to your Microsoft 365 Outlook account.
 
 <br/>
 
@@ -10,7 +10,7 @@ You can create an Outlook connection by selecting the **Connection** property in
 
 When creating the connection, you will be prompted to sign in with your Microsoft 365 credentials and decide the **scope of mailbox access**.
 
-By signing in, you authorize **Profitbase Flow** to access Microsoft Outlook **on your behalf** using delegated permissions.
+By signing in, you authorize **Hypergene Flow** to access Microsoft Outlook **on your behalf** using delegated permissions.
 
 <br/>
 

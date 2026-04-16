@@ -20,9 +20,9 @@ If you store the credentials outside Flow (for example, in your own Azure SQL or
 
 | Name               | Data Type  | Description                                                     |
 |--------------------|-----------|------------------------------------------------------------------|
-| Client ID         | Required   | A unique identifier for the client application (Application Id). |
-| Client Secret     | Required   | A confidential key used to authenticate the client.              |
-| Organization ID   | Required   | ID of the organization to request from.                          |
+| Client ID         | Yes | A unique identifier for the client application (Application Id). |
+| Client Secret     | Yes | A confidential key used to authenticate the client.              |
+| Organization ID   | Yes | ID of the organization to request from.                          |
 
 <br/>
 

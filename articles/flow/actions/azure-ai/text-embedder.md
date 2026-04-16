@@ -16,13 +16,13 @@ This flow processes a user's chat question by first receiving it through a [Chat
 
 | Name                  | Required | Description |
 |-----------------------|-----------|-------------|
-| Title                | Optional  | The title of the action. |
-| Connection           | Required  | Defines the [connection](azure-ai-connection.md) to an **Microsoft Foundry** resource. |
-| Enable dynamic connection   | Optional  |   A [Dynamic Connection](create-connection.md) will override the [connection](azure-ai-connection.md) on flow execution.   |
-| Model                | Required  | Specifies the model deployment name, which corresponds to the **Name** (not the model id) of the deployed model in [Microsoft Foundry](https://ai.azure.com). In the Azure Portal, the deployment name can be found under **Resource Management** > **Model Deployments**. |
-| Dimensions | Optional  |  Specifies the number of dimensions to be used. |
-| Result variable name | Required  | Defines the variable name in which the result will be stored. `TextEmbedder`![img](../../../../images/strz2.jpg). |
-| Description         | Optional  | A field to add additional details or notes about the action. |
+| Title                | No | The title of the action. |
+| Connection           | Yes | Defines the [connection](azure-ai-connection.md) to an **Microsoft Foundry** resource. |
+| Enable dynamic connection   | No |   A [Dynamic Connection](create-connection.md) will override the [connection](azure-ai-connection.md) on flow execution.   |
+| Model                | Yes | Specifies the model deployment name, which corresponds to the **Name** (not the model id) of the deployed model in [Microsoft Foundry](https://ai.azure.com). In the Azure Portal, the deployment name can be found under **Resource Management** > **Model Deployments**. |
+| Dimensions | No |  Specifies the number of dimensions to be used. |
+| Result variable name | Yes | Defines the variable name in which the result will be stored. `TextEmbedder`![img](../../../../images/strz2.jpg). |
+| Description         | No | A field to add additional details or notes about the action. |
 
 <br/>
 

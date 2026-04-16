@@ -14,10 +14,10 @@ This flow retrieves a [sitemap](../../actions/http/get-sitemap.md) from a specif
 
 | Name               | Required | Description                                                   |
 |--------------------|-----------|---------------------------------------------------------------|
-| Title              | Optional  | The title or name of the action.                              |
-| Function Name      | Optional  | The name of the function being defined.                       |
-| Function Definition | Required  | The logic or implementation of the function.                 |
-| Description        | Optional  | Additional notes or comments about the action or configuration. |
+| Title              | No | The title or name of the action.                              |
+| Function Name      | No | The name of the function being defined.                       |
+| Function Definition | Yes | The logic or implementation of the function.                 |
+| Description        | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

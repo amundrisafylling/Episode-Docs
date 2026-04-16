@@ -13,20 +13,20 @@ Unlike the standard [chat completion](chat-completion.md), this action returns t
 
 | Name                  | Required | Description |
 |-----------------------|-----------|-------------|
-| Title                 | Optional  | The title of the action. |
-| Connection            | Required  | Defines the [connection](vertexai-connection.md) to **VertexAI**. |
-| Model id              | Required  | ID of the chosen [model](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions). |
-| System prompt         | Optional  | A system-level instruction that guides the model’s behavior and response style. |
-| User prompt           | Required  | The input message from the user, which the model processes to generate a response. |
-| History               | Optional  | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
-| Context               | Optional  | Additional context information to influence the response (if supported). |
-| Prompt template   | Optional  | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
-| Temperature           | Optional  | Controls randomness/creativity of responses. Lower = more focused; higher = more creative. Default: 0.7. |
-| Max completion tokens | Optional  | Sets a limit on the number of tokens in the model’s response. |
-| Enable grounding | Optional | Enables  web search to improve factual reliability by using external or structured context sources. |
-| Disabled                | Optional  | If enabled, the action is skipped during flow execution. |
-| Result variable name  | Optional  | Stores the generated AI response. Default: `response`. |
-| Description           | Optional  | Additional details or notes regarding the chat completion setup. |
+| Title                 | No | The title of the action. |
+| Connection            | Yes | Defines the [connection](vertexai-connection.md) to **VertexAI**. |
+| Model id              | Yes | ID of the chosen [model](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions). |
+| System prompt         | No | A system-level instruction that guides the model’s behavior and response style. |
+| User prompt           | Yes | The input message from the user, which the model processes to generate a response. |
+| History               | No | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
+| Context               | No | Additional context information to influence the response (if supported). |
+| Prompt template   | No | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
+| Temperature           | No | Controls randomness/creativity of responses. Lower = more focused; higher = more creative. Default: 0.7. |
+| Max completion tokens | No | Sets a limit on the number of tokens in the model’s response. |
+| Enable grounding | No | Enables  web search to improve factual reliability by using external or structured context sources. |
+| Disabled                | No | If enabled, the action is skipped during flow execution. |
+| Result variable name  | No | Stores the generated AI response. Default: `response`. |
+| Description           | No | Additional details or notes regarding the chat completion setup. |
 
 <br/>
 

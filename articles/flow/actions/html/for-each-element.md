@@ -18,11 +18,11 @@ This Flow retrieves an HTML page, extracts relevant elements using CSS selectors
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional | The title of the action.   |
-| HTML content | Required | The source HTML document to parse. This can be a [string](https://learn.microsoft.com/en-us/dotnet/api/system.string), a `byte array`, or a [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream). |
-| CSS selectors | Required | CSS selectors are the query expressions to identify elements for extraction. See below for details and examples. | 
-| Return variable name | Optional | Name of the variable containing the current element. |
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No | The title of the action.   |
+| HTML content | Yes | The source HTML document to parse. This can be a [string](https://learn.microsoft.com/en-us/dotnet/api/system.string), a `byte array`, or a [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream). |
+| CSS selectors | Yes | CSS selectors are the query expressions to identify elements for extraction. See below for details and examples. | 
+| Return variable name | No | Name of the variable containing the current element. |
+| Description | No | Additional notes or comments about the action or configuration. |
 
 
 

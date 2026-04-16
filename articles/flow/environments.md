@@ -1,7 +1,7 @@
 #### Environments
 
 
-Profitbase Flow defines three environments: 
+Hypergene Flow defines three environments: 
 
 - Development 
 - Test

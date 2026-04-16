@@ -16,20 +16,20 @@ This flow processes a user's chat question by first receiving it through a [Chat
 
 | Name                  | Required | Description |
 |-----------------------|-----------|-------------|
-| Title             | Optional  | The title of the action. |
-| Connection        | Required  | Defines the [connection](openai-connection.md) to **OpenAI**. |
-| Model id   | Required  | Id of the chosen [Model](https://platform.openai.com/docs/models).|
-| User Prompt       | Required  | The input message from the user, which the model processes to generate a response. |
-| System Prompt     | Optional  | A system-level instruction that guides the model’s behavior and response style. |
-| History           | Optional  | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
-| Context               | Optional  | Additional context information to influence the response (if supported). |
-| Prompt template   | Optional  | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
-| Temperature       | Optional  |Temperature in models controls the randomness and creativity of the generated responses. Lower temperatures (e.g., 0.2) produce more focused, predictable text, ideal for tasks that require precision. Higher temperatures (e.g., 1.5) increase creativity and variability, but may risk generating less coherent or relevant content, making it important to adjust based on your desired outcome. The default is 0.7 if nothing is defined by the user.|
-| Max Completion Tokens | Optional | Sets a limit on the number of tokens (words, characters, or pieces of text) in the model’s response. |
-| Result Variable Name | Optional | Stores the generated AI response. Default: "response". |
-| Enable Grounding        | Optional  | Enables  web search to improve factual reliability by using external or structured context sources. |
-| Disabled                | Optional  | If enabled, the action will be skipped during flow execution. |
-| Description       | Optional  | Additional details or notes regarding the chat completion setup. |
+| Title             | No | The title of the action. |
+| Connection        | Yes | Defines the [connection](openai-connection.md) to **OpenAI**. |
+| Model id   | Yes | Id of the chosen [Model](https://platform.openai.com/docs/models).|
+| User Prompt       | Yes | The input message from the user, which the model processes to generate a response. |
+| System Prompt     | No | A system-level instruction that guides the model’s behavior and response style. |
+| History           | No | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
+| Context               | No | Additional context information to influence the response (if supported). |
+| Prompt template   | No | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
+| Temperature       | No |Temperature in models controls the randomness and creativity of the generated responses. Lower temperatures (e.g., 0.2) produce more focused, predictable text, ideal for tasks that require precision. Higher temperatures (e.g., 1.5) increase creativity and variability, but may risk generating less coherent or relevant content, making it important to adjust based on your desired outcome. The default is 0.7 if nothing is defined by the user.|
+| Max Completion Tokens | No | Sets a limit on the number of tokens (words, characters, or pieces of text) in the model’s response. |
+| Result Variable Name | No | Stores the generated AI response. Default: "response". |
+| Enable Grounding        | No | Enables  web search to improve factual reliability by using external or structured context sources. |
+| Disabled                | No | If enabled, the action will be skipped during flow execution. |
+| Description       | No | Additional details or notes regarding the chat completion setup. |
 
 <br/>
 

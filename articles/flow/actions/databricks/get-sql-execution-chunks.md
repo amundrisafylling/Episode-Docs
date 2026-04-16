@@ -13,12 +13,12 @@ This flow reads customer data, transforms it, iterates over it, and inserts it i
 
 | Name              | Required       | Description												|
 |-------------------|------------|----------------------------------------------------------|
-| Connection        | Required   | Name of the Databricks connection.						|
-| Warehouse Id      | Required   | Id of the Databricks SQL Warehouse.						|
-| Catalog           | Optional   | Name of the Databricks [catalog](https://learn.microsoft.com/en-us/azure/databricks/introduction/).  |
-| Schema            | Optional   | Name of the Databricks schema.							|
-| SQL expression and parameters   | Required   | Definition of the Databricks SQL command.				|
-| Chunk variable name | Optional   | Name of the variable containing the DataReader result.				|
+| Connection        | Yes | Name of the Databricks connection.						|
+| Warehouse Id      | Yes | Id of the Databricks SQL Warehouse.						|
+| Catalog           | No | Name of the Databricks [catalog](https://learn.microsoft.com/en-us/azure/databricks/introduction/).  |
+| Schema            | No | Name of the Databricks schema.							|
+| SQL expression and parameters   | Yes | Definition of the Databricks SQL command.				|
+| Chunk variable name | No | Name of the variable containing the DataReader result.				|
 
 <br/>
 

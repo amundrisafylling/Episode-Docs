@@ -13,18 +13,18 @@ This flow invites a guest user to a Microsoft Entra ID tenant. Instead of using 
 
 | Name                     | Required | Description                                                                 |
 |--------------------------|----------|-----------------------------------------------------------------------------|
-| Title                    | Optional | The title of the action.                                                    |
-| Connection               | Required | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) the delegated or application permission **User.Invite.All** (least privilege) to create invitations. |
-| Email account            | Required | The email address of the user to be invited as a guest.                     |
-| Redirect URL             | Required | The URL to which the guest user is redirected after accepting the invitation. |
-| First name               | Optional | The first name of the guest user (optional).                                |
-| Last name                | Optional | The last name of the guest user (optional).                                 |
-| Send invitation message  | Optional | Specifies whether to send an invitation email to the guest user (default: true). If false, Message body is disabled. |
-| Message body             | Optional | Custom message to include in the invitation email (only applicable if Send invitation message is true).              |
-| Wait for user propagation  | Optional | Specifies whether to pause until the guest user is fully created and synced in the Entra ID tenant (default: true). |
-| Entra ID user variable name     | Required | The name of the variable that stores the response from the Entra ID API (e.g., InviteRedeemUrl). |
-| Disabled  | Optional | Boolean value indicating whether the action is disabled (true/false).  |
-| Description              | Optional | Additional details or notes about the action.                               |
+| Title                    | No | The title of the action.                                                    |
+| Connection               | Yes | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) the delegated or application permission **User.Invite.All** (least privilege) to create invitations. |
+| Email account            | Yes | The email address of the user to be invited as a guest.                     |
+| Redirect URL             | Yes | The URL to which the guest user is redirected after accepting the invitation. |
+| First name               | No | The first name of the guest user (optional).                                |
+| Last name                | No | The last name of the guest user (optional).                                 |
+| Send invitation message  | No | Specifies whether to send an invitation email to the guest user (default: true). If false, Message body is disabled. |
+| Message body             | No | Custom message to include in the invitation email (only applicable if Send invitation message is true).              |
+| Wait for user propagation  | No | Specifies whether to pause until the guest user is fully created and synced in the Entra ID tenant (default: true). |
+| Entra ID user variable name     | Yes | The name of the variable that stores the response from the Entra ID API (e.g., InviteRedeemUrl). |
+| Disabled  | No | Boolean value indicating whether the action is disabled (true/false).  |
+| Description              | No | Additional details or notes about the action.                               |
 
 <br/>
 

@@ -16,14 +16,14 @@ This flow iterates through content, reads the file as byte array, and uploads th
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional | The title of the action.   |
-| Authentication |  Optional | Select an authentication token. See below. |
-| Repository owner | Required | Select or enter the repository owner. |
-| Repository name | Required | Select or enter the repository name. |
-| Branch | Optional | Select or enter a branch name. |
-| Content Path | Required | Path to a content (file) to stream. |
-| Return variable name | Optional | Name of the variable containing the byte array. |
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No | The title of the action.   |
+| Authentication | No | Select an authentication token. See below. |
+| Repository owner | Yes | Select or enter the repository owner. |
+| Repository name | Yes | Select or enter the repository name. |
+| Branch | No | Select or enter a branch name. |
+| Content Path | Yes | Path to a content (file) to stream. |
+| Return variable name | No | Name of the variable containing the byte array. |
+| Description | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

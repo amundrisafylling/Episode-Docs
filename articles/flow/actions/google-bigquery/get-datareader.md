@@ -14,11 +14,11 @@ It executes a SQL query, exposes the result as a **DataReader**, and passes that
 
 | Name | Required | Description |
 |------|----------|-------------|
-| Title | Optional | The name of the action as shown in the flow. |
-| Connection | Required | The Google BigQuery [connection](connecting-to-bigquery.md) used to execute the query. |
-| SQL expression and parameters | Required | The SQL query to execute, including any parameters. |
-| Reader variable name | Optional | Name of the variable that stores the returned DataReader for use by subsequent actions. |
-| Description | Optional | Additional notes about the action or its configuration. |
+| Title | No | The name of the action as shown in the flow. |
+| Connection | Yes | The Google BigQuery [connection](connecting-to-bigquery.md) used to execute the query. |
+| SQL expression and parameters | Yes | The SQL query to execute, including any parameters. |
+| Reader variable name | No | Name of the variable that stores the returned DataReader for use by subsequent actions. |
+| Description | No | Additional notes about the action or its configuration. |
 
 
 <br/>

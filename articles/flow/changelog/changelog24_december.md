@@ -4,7 +4,7 @@
 New version of Flow with support for more systems and features to simplify and automate data integrations and business processes. In this release we added support for TripleTex, Visma.Net, Databricks, Azure Table Storage, and Azure Files. In addition, we’ve added new features for PowerOffice Go, Microsoft Fabric, PostgreSQL, and Hypergene InVision.
 
 ## TripleTex
-Profitbase Flow now has a built-in connector for the TripleTex REST API. The connector handles authentication, paging, faults, and throttling (API quotas), simplifying data integrations with TripleTex.  
+Hypergene Flow now has a built-in connector for the TripleTex REST API. The connector handles authentication, paging, faults, and throttling (API quotas), simplifying data integrations with TripleTex.  
 Read more here: [TripleTex REST API](../actions/tripletex/rest-api-request.md) | [TripleTex REST API for paginated response](../actions/tripletex/paged-rest-api-request.md)
 
 

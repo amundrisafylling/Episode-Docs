@@ -14,17 +14,17 @@ This flow gets a list of issues from in GitHub repository. For each issue, comme
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional | The title of the action.   |
-| Authentication |  Optional | Select an authentication token. See below. |
-| Repository owner | Required | Select or enter the repository owner. |
-| Repository name | Required | Select or enter the repository name. |
-| Number of pages to fetch | Optional | Limit the number of pages to fetch. |
-| Issues number | Optional | Select or enter the issue number. |
-| Comments per page | Optional | Number of comments per page. |
-| Comments since | Optional | Enter the start date to fetch comments from.  |
-| Additional options | Optional | The configuration dialog contains settings for Sort options and Text format for the result (Text / HTML / Raw). |
-| Result variable name | Optional | Name of the variable containing the comment list. |
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No | The title of the action.   |
+| Authentication | No | Select an authentication token. See below. |
+| Repository owner | Yes | Select or enter the repository owner. |
+| Repository name | Yes | Select or enter the repository name. |
+| Number of pages to fetch | No | Limit the number of pages to fetch. |
+| Issues number | No | Select or enter the issue number. |
+| Comments per page | No | Number of comments per page. |
+| Comments since | No | Enter the start date to fetch comments from.  |
+| Additional options | No | The configuration dialog contains settings for Sort options and Text format for the result (Text / HTML / Raw). |
+| Result variable name | No | Name of the variable containing the comment list. |
+| Description | No | Additional notes or comments about the action or configuration. |
 
 
 ### Limitations

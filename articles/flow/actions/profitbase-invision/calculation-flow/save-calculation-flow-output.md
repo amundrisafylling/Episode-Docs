@@ -12,11 +12,11 @@ This flow is triggered by an HTTP request and performs a complete calculation pr
 
 | Name              | Required | Description                                                |
 |-------------------|-----------|------------------------------------------------------------|
-| Title             | Optional  | Custom title for the action.                               |
-| Batch size        | Optional  | Number of rows to write per batch.                         |
-| Timeout (seconds) | Optional  | Number of seconds for the operation to complete.           |
-| Disabled          | Optional  | Disables the action when checked.                          |
-| Description       | Optional  | Additional information or notes about the action.          |
+| Title             | No | Custom title for the action.                               |
+| Batch size        | No | Number of rows to write per batch.                         |
+| Timeout (seconds) | No | Number of seconds for the operation to complete.           |
+| Disabled          | No | Disables the action when checked.                          |
+| Description       | No | Additional information or notes about the action.          |
 
 <br/>
 

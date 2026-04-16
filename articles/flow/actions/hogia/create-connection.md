@@ -17,6 +17,6 @@ If you store the credentials for the Hogia outside Flow (for example in your own
 
 | Name              | Type        | Description                                            |
 |-------------------|-------------|--------------------------------------------------------|
-| Client ID         | Required    | A unique identifier for the client application.        |
-| Client Secret     | Required    | A confidential key used to authenticate the client.    |
-| Organization GUID | Required    | The organization identifier used by Hogia for the target company environment. |
+| Client ID         | Yes | A unique identifier for the client application.        |
+| Client Secret     | Yes | A confidential key used to authenticate the client.    |
+| Organization GUID | Yes | The organization identifier used by Hogia for the target company environment. |

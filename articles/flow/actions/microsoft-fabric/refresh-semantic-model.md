@@ -15,11 +15,11 @@ This action calls the PowerBI [Refresh](https://learn.microsoft.com/en-us/power-
 
 | Name                  | Type              | Description                                        |
 |-----------------------|-------------------|----------------------------------------------------|
-| Connection            | Required          | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). |
-| Workspace             | Required          | The Id of the Workspace that contains the semantic model you want to refresh. You can select a specific workspace, or get the Workspace Id from a variable. |
-| Semantic model        | Required          | The Id of the semantic model to refresh. You can select a specific model, or get the semantic model Id from a variable. |
-| Refresh type          | Optional          | The type of processing to perform. Options are `Full`, `DataOnly`, and `Automatic`. The default is `Automatic`. Read more about refresh types [here](https://learn.microsoft.com/en-us/rest/api/power-bi/datasets/refresh-dataset?utm_source=chatgpt.com#datasetrefreshtype). |
-| Retry count           | Optional          | The number of times the operation retries before failing. The default value is 0. |
+| Connection            | Yes | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). |
+| Workspace             | Yes | The Id of the Workspace that contains the semantic model you want to refresh. You can select a specific workspace, or get the Workspace Id from a variable. |
+| Semantic model        | Yes | The Id of the semantic model to refresh. You can select a specific model, or get the semantic model Id from a variable. |
+| Refresh type          | No | The type of processing to perform. Options are `Full`, `DataOnly`, and `Automatic`. The default is `Automatic`. Read more about refresh types [here](https://learn.microsoft.com/en-us/rest/api/power-bi/datasets/refresh-dataset?utm_source=chatgpt.com#datasetrefreshtype). |
+| Retry count           | No | The number of times the operation retries before failing. The default value is 0. |
 | Wait for completion   |                   | Enable this option if you want the action to wait for the refresh to complete before continuing execution of the Flow. Note that this may take a long time, depending on the size of the model and other factors as described under [Considerations and limitations](#considerations-and-limitations) below. |
 | Raise exception on failure |              | Enable this option if you want the action to raise an error if Power BI reports back that the refresh has failed for any reason. If you disable this option, the Flow will not automatically alert you if the refresh fails. Instead, you can examine the `Status` property of the response object returned from the action.   |
 
@@ -28,7 +28,7 @@ This action calls the PowerBI [Refresh](https://learn.microsoft.com/en-us/power-
 ## Returns
 This action returns a response object with the following properties.
 
-| Name          | Type             | Description                   |
+| Name          | Required | Description                   |
 |---------------|------------------|-------------------------------|
 | OperationId   | String           | The id of the refresh request returned from the Power BI API. |
 | Status        | String           | `Completed`, `Failed`, `Unknown`, `Disabled`, or `Cancelled`.  |

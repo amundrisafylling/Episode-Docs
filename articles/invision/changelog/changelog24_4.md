@@ -58,7 +58,7 @@ We’ve made the following changes to the platform which will improve performanc
 
 ## Bug fixes / enhancements
 
-- InVision will now retry / re-run calls to Profitbase Flow during Work Process Version and Package Deployments if Flow reports back that required resources are missing.
+- InVision will now retry / re-run calls to Hypergene Flow during Work Process Version and Package Deployments if Flow reports back that required resources are missing.
 - Fixed an issue that may cause background services to terminate prematurely during shutdown or scale down phases in Kubernetes.
 
 ## See Also

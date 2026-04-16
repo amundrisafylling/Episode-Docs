@@ -13,14 +13,14 @@ This Flow runs on a [Schedule trigger](../../../triggers/schedule-trigger.md) at
 
 | Name | Required | Description |
 |------|----------|-------------|
-| Title | Optional | A descriptive title for the action, shown in the Flow designer canvas. |
-| Connection | Required | The [InVision Connection](../invision-connection.md) to authenticate against. |
-| Work Process Version | Required | The version to open. Select or enter the ID of the Work Process Version to open. |
-| Include information messages in log | Optional | When enabled, informational messages from InVision are written to the Flow's execution log. Useful for debugging. |
-| Changed by | Optional | The InVision user ID to record as the actor in the version's audit history. If omitted, the connection's service account is used. |
-| Result variable name | Optional | Name of a Flow variable that will receive `true` if the version was opened successfully, or `false` if the operation failed. |
-| Disabled | Optional | When set to `true`, this action is skipped during Flow execution. Useful for temporarily disabling the action during development and testing. |
-| Description | Optional | Free-text notes about this action's purpose or configuration. Not used at runtime. |
+| Title | No | A descriptive title for the action, shown in the Flow designer canvas. |
+| Connection | Yes | The [InVision Connection](../invision-connection.md) to authenticate against. |
+| Work Process Version | Yes | The version to open. Select or enter the ID of the Work Process Version to open. |
+| Include information messages in log | No | When enabled, informational messages from InVision are written to the Flow's execution log. Useful for debugging. |
+| Changed by | No | The InVision user ID to record as the actor in the version's audit history. If omitted, the connection's service account is used. |
+| Result variable name | No | Name of a Flow variable that will receive `true` if the version was opened successfully, or `false` if the operation failed. |
+| Disabled | No | When set to `true`, this action is skipped during Flow execution. Useful for temporarily disabling the action during development and testing. |
+| Description | No | Free-text notes about this action's purpose or configuration. Not used at runtime. |
 
 ## Result Variable
 

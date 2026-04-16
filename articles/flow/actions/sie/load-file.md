@@ -20,11 +20,11 @@ The example above shows how a SIE file is read from the [Fortnox REST API](../fo
 
 | Name            | Required | Description          |
 |-----------------|----------|----------------------|
-| Title           | Optional | The title or name of the action.  |
-| Source          | Required | A stream or byte array containing SIE file content. |
-| Parser options  | Optional | Optional settings about source file and parsing settings (see below). | 
-| Result variable name | Required | The name of the variable that contains the output from this action. | 
-| Description     | Optional | Additional notes or comments about the action. |
+| Title           | No | The title or name of the action.  |
+| Source          | Yes | A stream or byte array containing SIE file content. |
+| Parser options  | No | Optional settings about source file and parsing settings (see below). | 
+| Result variable name | Yes | The name of the variable that contains the output from this action. | 
+| Description     | No | Additional notes or comments about the action. |
 
 <br/>
 

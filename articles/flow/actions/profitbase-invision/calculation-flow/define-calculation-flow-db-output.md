@@ -6,11 +6,11 @@ Defines the target table and columns where the result of a Calculation Flow shou
 
 | Name                 | Type                  | Description                                    |
 |----------------------|-----------------------|------------------------------------------------|
-| Object variable name | Required              | The name of the variable that holds the reference to the in-memory output store while the Calculation Flow runs. This is the name of the storage variable you will be referencing in code when you want to store a calculated record or value.  |
-| Connection           | Required              | A valid [InVision Connection](../invision-connection.md).                   |
-| Target table         | Required              | The table to store calculated values in.       |
-| Target columns       | Optional              | The columns to store the calculated values in, and to create the target data type. If you don't specify any columns, the target type contains all columns in the target table. **For performance reasons, it is recommended to specify the columns explicitly**. |
-| Data mapping         | Optional              | By default, cell values from the input is copied to cells in the output if the column names match. For example, the DepartmentID from the input is copied to the DepartmentID in the output / target. If you want to control this behavior, either because you don't want auto mapping or because the column names does not match (for example source equals AccID and target equals AccountID), you can specify the mapping explicitly. Specifying the mapping explicitly also improves startup performance of the Flow. |
+| Object variable name | Yes | The name of the variable that holds the reference to the in-memory output store while the Calculation Flow runs. This is the name of the storage variable you will be referencing in code when you want to store a calculated record or value.  |
+| Connection           | Yes | A valid [InVision Connection](../invision-connection.md).                   |
+| Target table         | Yes | The table to store calculated values in.       |
+| Target columns       | No | The columns to store the calculated values in, and to create the target data type. If you don't specify any columns, the target type contains all columns in the target table. **For performance reasons, it is recommended to specify the columns explicitly**. |
+| Data mapping         | No | By default, cell values from the input is copied to cells in the output if the column names match. For example, the DepartmentID from the input is copied to the DepartmentID in the output / target. If you want to control this behavior, either because you don't want auto mapping or because the column names does not match (for example source equals AccID and target equals AccountID), you can specify the mapping explicitly. Specifying the mapping explicitly also improves startup performance of the Flow. |
 
 
 ### Data mapping

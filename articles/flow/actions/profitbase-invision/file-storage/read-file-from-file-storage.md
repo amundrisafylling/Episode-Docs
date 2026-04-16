@@ -14,13 +14,13 @@ This flow takes a PDF file from File Storage, sends it to the [Adobe PDF Service
 
 | Name                 | Required | Description                                                                 |
 |----------------------|------------|-----------------------------------------------------------------------------|
-| Title                | Optional   | A descriptive title for the action.                                       |
-| Connection           | Required   | The [InVision connection](../invision-connection.md) used to access File Storage.   |
-| File storage         | Required   | The File Storage location from which the file will be read.               |
-| File reference       | Required   | The reference (path or identifier) of the file to read.                   |
-| Result variable name | Required   | The name of the variable that will store the file contents.               |
-| Disabled             | Optional   | If enabled, the action will not be executed during flow runtime.          |
-| Description          | Optional   | Additional information describing the purpose of the action in the flow.  |
+| Title                | No | A descriptive title for the action.                                       |
+| Connection           | Yes | The [InVision connection](../invision-connection.md) used to access File Storage.   |
+| File storage         | Yes | The File Storage location from which the file will be read.               |
+| File reference       | Yes | The reference (path or identifier) of the file to read.                   |
+| Result variable name | Yes | The name of the variable that will store the file contents.               |
+| Disabled             | No | If enabled, the action will not be executed during flow runtime.          |
+| Description          | No | Additional information describing the purpose of the action in the flow.  |
 
 <br/>
 

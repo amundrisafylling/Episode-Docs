@@ -13,12 +13,12 @@ This flow iterates through all existing users in a Microsoft Entra ID tenant. Fo
 
 | Name                     | Required | Description                                                                 |
 |--------------------------|----------|-----------------------------------------------------------------------------|
-| Title                    | Optional | The title of the action.                                                    |
-| Connection               | Required | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) **User.Read.All** to list users (Directory.Read.All or higher privileges also work but are not required). |
-| User variable name       | Required | The name of the variable that stores the response from the Entra ID API (e.g., Mail). |
-| Include extended profile | Optional  | Defaults to false. If set to true, the response will include extended directory attributes (e.g., companyName, employeeId, department) and the user's manager reference.<br>**Benefit**: Provides a richer user profile in a single query.<br>**Cost**: Results in a larger payload and a slower response time. |
-| Disabled  | Optional | Boolean value indicating whether the action is disabled (true/false).  |
-| Description              | Optional | Additional details or notes about the action.                               |
+| Title                    | No | The title of the action.                                                    |
+| Connection               | Yes | The [Microsoft Entra ID connection](./connecting-to-entra-id.md) to the tenant. The app registration/service principal must have (at minimum) **User.Read.All** to list users (Directory.Read.All or higher privileges also work but are not required). |
+| User variable name       | Yes | The name of the variable that stores the response from the Entra ID API (e.g., Mail). |
+| Include extended profile | No | Defaults to false. If set to true, the response will include extended directory attributes (e.g., companyName, employeeId, department) and the user's manager reference.<br>**Benefit**: Provides a richer user profile in a single query.<br>**Cost**: Results in a larger payload and a slower response time. |
+| Disabled  | No | Boolean value indicating whether the action is disabled (true/false).  |
+| Description              | No | Additional details or notes about the action.                               |
 
 <br/>
 

@@ -18,16 +18,16 @@ This flow example shows a process that loads a DeltaTable by comparing a source 
 
 | Name         | Type            | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-| Title        | Optional        | A descriptive title for the action.               |
-| Connection   | Required        | The [SQL Server Connection](./connection.md).     |
-| Dynamic connection | Optional  | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| Source table name  | Required  | Source table name to load from. |
-| Delta table name   | Required  | Delta table to fill with changes. Flow automatically creates this table. |
-| Target table name  | Required  | Target table to compare against.|
-| Columns and load settings | Required  | List of columns to use in DeltaTable, and settings for historical mode. See below for details. |
-| Result variable name | Optional  | The name of the variable returning the number of rows in the DeltaTable.  |
-| Command timeout (sec) | Optional | The time limit for command execution before it times out. Default is 120 seconds.|
-| Description   | Optional | Additional notes or comments about the action or configuration. |
+| Title        | No | A descriptive title for the action.               |
+| Connection   | Yes | The [SQL Server Connection](./connection.md).     |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| Source table name  | Yes | Source table name to load from. |
+| Delta table name   | Yes | Delta table to fill with changes. Flow automatically creates this table. |
+| Target table name  | Yes | Target table to compare against.|
+| Columns and load settings | Yes | List of columns to use in DeltaTable, and settings for historical mode. See below for details. |
+| Result variable name | No | The name of the variable returning the number of rows in the DeltaTable.  |
+| Command timeout (sec) | No | The time limit for command execution before it times out. Default is 120 seconds.|
+| Description   | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

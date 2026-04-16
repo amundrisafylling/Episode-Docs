@@ -1,8 +1,8 @@
 
 
-# What is Profitbase Flow
+# What is Hypergene Flow
 
-Profitbase Flow is a low-code platform for building AI agents, data integrations, and automating workflows.
+Hypergene Flow is a low-code platform for building AI agents, data integrations, and automating workflows.
 
 #### AI agents
 -  Leverage AI models from Microsoft Foundry, OpenAI, Anthropic, Google VertexAI and Mistral to build AI agents that interact with users and business systems.
@@ -48,6 +48,6 @@ Profitbase Flow is a low-code platform for building AI agents, data integrations
 
 <figure>    
      <img src="../../images/What-is-Flow.png" style="width:100%">
-    <figcaption style="text-align:center"><b>Profitbase Flow - build workflow automations using drag-and-drop</b></figcaption>
+    <figcaption style="text-align:center"><b>Hypergene Flow - build workflow automations using drag-and-drop</b></figcaption>
 </figure>
 

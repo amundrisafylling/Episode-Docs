@@ -15,6 +15,6 @@ The example above illustrates a Flow that reads rows (customer information) from
 
 | Name                      | Required | Description                                                                       |
 | ------------------------- | --------- | --------------------------------------------------------------------------------- |
-| Title                     | Optional  | The title or name of the action.                                                  |
-| Value                     | Required  | The value to return from the Flow.                                                |
-| Description               | Optional  | Additional notes or comments about the action or configuration.                   |
+| Title                     | No | The title or name of the action.                                                  |
+| Value                     | Yes | The value to return from the Flow.                                                |
+| Description               | No | Additional notes or comments about the action or configuration.                   |

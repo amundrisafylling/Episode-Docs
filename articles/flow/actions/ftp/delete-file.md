@@ -13,7 +13,7 @@ This flow retrieves a CSV file from [Azure Blob Storage](../azure-blob-storage/r
 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
-| Title  | Optional |   The title of the action.       |
-| Connection | Required  | Select a connection to the FTP or SFTP server where the file is located. |
-| File path | Required | Select or enter the full path (including filename) of the file to delete. |
-| Description | Optional | Additional notes or comments about the action or configuration. |
+| Title  | No |   The title of the action.       |
+| Connection | Yes | Select a connection to the FTP or SFTP server where the file is located. |
+| File path | Yes | Select or enter the full path (including filename) of the file to delete. |
+| Description | No | Additional notes or comments about the action or configuration. |

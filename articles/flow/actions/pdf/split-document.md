@@ -37,11 +37,11 @@ When the PDF is split into multiple chunks (pages or groups of pages), each chun
 
 | Name                 | Required | Description                                                                                                   |
 | -------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
-| Title                | Optional |   The title of the action.                    |
-| File Data            | Required | Specifies the source of the PDF file.                         |
-| Pages per chunk           | Optional | Defines how many pages should be included in each chunk.                         |
-| Chunk variable name | Optional | The name of the variable in which the chunk(s) will be stored. |
-| Description          | Optional | Additional notes or comments about the action or configuration. |
+| Title                | No |   The title of the action.                    |
+| File Data            | Yes | Specifies the source of the PDF file.                         |
+| Pages per chunk           | No | Defines how many pages should be included in each chunk.                         |
+| Chunk variable name | No | The name of the variable in which the chunk(s) will be stored. |
+| Description          | No | Additional notes or comments about the action or configuration. |
 
 <br/>
 

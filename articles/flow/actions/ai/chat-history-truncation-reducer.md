@@ -15,10 +15,10 @@ This flow ensures chat history is dynamically managed and trimmed, keeping inter
 
 | Name                    | Required | Description                                           |
 |-------------------------|-----------|-------------------------------------------------------|
-| Title                   | Optional  | The name of the action or operation.                  |
-| Target count            | Required  | The desired number of target/history messages after reduction           |
-| Threshold count         | Optional  | The number of messages beyond the 'targetCount' that must be present in order to trigger reduction           |
-| Description             | Optional  | A field to describe the action or its purpose.        |
+| Title                   | No | The name of the action or operation.                  |
+| Target count            | Yes | The desired number of target/history messages after reduction           |
+| Threshold count         | No | The number of messages beyond the 'targetCount' that must be present in order to trigger reduction           |
+| Description             | No | A field to describe the action or its purpose.        |
 
 </br>
 

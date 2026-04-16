@@ -19,10 +19,10 @@ The result is a new forecast period that is pre-populated with data from the pre
 ## Properties
 | Name             | Required | Description               |
 |------------------|--------------|---------------------------|
-| Connection       | Required     | A valid [InVision Connection](../invision-connection.md) used to execute the SQL script.  |
-| Data Store Group | Required     | The ID of the Data Store Group in InVision that will be rolled forward. |
-| Rollover periods | Optional     | The number of periods to roll forward. If not specified, defaults to 1. |
-| Rollover time frame independent descendants | Optional | Specifies whether to roll forward descendant Data Stores and Tables that does not inherit the Time Frame configuration of the Data Store Group. Defaults to `true`. |
+| Connection       | Yes | A valid [InVision Connection](../invision-connection.md) used to execute the SQL script.  |
+| Data Store Group | Yes | The ID of the Data Store Group in InVision that will be rolled forward. |
+| Rollover periods | No | The number of periods to roll forward. If not specified, defaults to 1. |
+| Rollover time frame independent descendants | No | Specifies whether to roll forward descendant Data Stores and Tables that does not inherit the Time Frame configuration of the Data Store Group. Defaults to `true`. |
 
 <br/>
 

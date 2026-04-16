@@ -1,6 +1,6 @@
 # Connecting to PowerOffice Go
 
-To use PowerOffice Go actions in **Profitbase Flow**, you must either select an **existing connection** or create a new one.
+To use PowerOffice Go actions in **Hypergene Flow**, you must either select an **existing connection** or create a new one.
 
 <br/>
 

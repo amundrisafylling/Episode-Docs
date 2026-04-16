@@ -14,9 +14,9 @@ The example above takes a file from storage, reads its JSON content, saves the d
 
 | Name                     | Required | Description                                                 |
 |--------------------------|-----------|-------------------------------------------------------------|
-| Title                    | Optional  | The name of the action.                                      |
-| Connection               | Required  |  The [Azure Files connection](./connecting-to-azure-files.md) to a Share.   |
-| Directory                | Required  | The path to the directory to delete (e.g., /MyFolder).            |
-| Delete all content       | Optional  | If checked, deletes all content within the directory.        |
-| Raise exception on failure | Optional  | If checked, triggers an exception if the deletion fails.     |
-| Description              | Optional  | Additional information about the action.                     |
+| Title                    | No | The name of the action.                                      |
+| Connection               | Yes |  The [Azure Files connection](./connecting-to-azure-files.md) to a Share.   |
+| Directory                | Yes | The path to the directory to delete (e.g., /MyFolder).            |
+| Delete all content       | No | If checked, deletes all content within the directory.        |
+| Raise exception on failure | No | If checked, triggers an exception if the deletion fails.     |
+| Description              | No | Additional information about the action.                     |

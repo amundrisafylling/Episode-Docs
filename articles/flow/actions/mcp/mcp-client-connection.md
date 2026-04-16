@@ -1,7 +1,7 @@
 # MCP client connection
 
 
-The **MCP Client Tool connection** defines how Profitbase Flow connects to an MCP Server. This connection allows data exchange through supported transport protocols, with optional authentication if required by the server.
+The **MCP Client Tool connection** defines how Hypergene Flow connects to an MCP Server. This connection allows data exchange through supported transport protocols, with optional authentication if required by the server.
 
 When adding an MCP action, select an [existing connection](../../workspaces/workspace-objects.md) or create a new one.
 

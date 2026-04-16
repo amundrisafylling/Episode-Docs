@@ -12,7 +12,7 @@ The example above illustrates a Flow that can be called by an AI agent because i
 
 ## Properties
 
-| Name        | Type             | Description                               |
+| Name        | Required | Description                               |
 |-------------|------------------|-------------------------------------------|
 | Title       | Optional         | A human-readable title for the tool that can be displayed to users. Note that it's up to the _MCP client_ to choose whether to display the title, or just the `Tool name`.    |
 | Tool name   | Required         | The name of the tool exposed to the AI model. It is important to choose a clear, concise and descriptive name, making it easier for the AI model to reason about whether to use the tool or not. |

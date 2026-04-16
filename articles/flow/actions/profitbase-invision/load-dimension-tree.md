@@ -6,13 +6,13 @@ Loads an entire dimension to memory as a parent-child [DimensionTree](./load-dim
 
 | Name                  | Required | Description |
 |-----------------------|----------|-------------|
-| Title                 | Optional | A descriptive label for the action displayed in the Flow editor. |
-| Connection            | Required | Defines the [InVision connection](invision-connection.md) used to access the Hypergene InVision environment. The connection contains the credentials required to load the dimension structure. |
-| Object variable name  | Required | The variable name used to store the loaded dimension tree. The dimension data can be referenced later in the flow using this variable. |
-| Dimension             | Required | The dimension to load from the InVision model. The action retrieves the full hierarchical structure of the selected dimension. |
-| Dimension properties  | Optional | Specifies additional dimension properties to include in the result. This allows the flow to access extra metadata for each dimension member. |
-| Disabled              | Optional | If enabled, the action will be skipped during flow execution. This allows the step to remain in the flow without being executed. |
-| Description           | Optional | Additional information describing the purpose of the action. This is only used for documentation within the Flow. |
+| Title                 | No | A descriptive label for the action displayed in the Flow editor. |
+| Connection            | Yes | Defines the [InVision connection](invision-connection.md) used to access the Hypergene InVision environment. The connection contains the credentials required to load the dimension structure. |
+| Object variable name  | Yes | The variable name used to store the loaded dimension tree. The dimension data can be referenced later in the flow using this variable. |
+| Dimension             | Yes | The dimension to load from the InVision model. The action retrieves the full hierarchical structure of the selected dimension. |
+| Dimension properties  | No | Specifies additional dimension properties to include in the result. This allows the flow to access extra metadata for each dimension member. |
+| Disabled              | No | If enabled, the action will be skipped during flow execution. This allows the step to remain in the flow without being executed. |
+| Description           | No | Additional information describing the purpose of the action. This is only used for documentation within the Flow. |
 
 ## Example
 

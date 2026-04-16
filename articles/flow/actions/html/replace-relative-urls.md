@@ -12,9 +12,9 @@ A typical use case for this action is storing information from a website (such a
 
 | Name          | Type                  | Description                            |
 |---------------|-----------------------|----------------------------------------|
-| HTML content  | Required              | A [string](https://learn.microsoft.com/en-us/dotnet/api/system.string), [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream) or `byte array` containing an HTML document or an HTML fragment. |
-| Base URL      | Required              | The base URL of the web site that the HTML document originates from. |
-| Result variable name | Required       | The name of the variable that contains the output from this action. |
+| HTML content  | Yes | A [string](https://learn.microsoft.com/en-us/dotnet/api/system.string), [Stream](https://learn.microsoft.com/en-us/dotnet/api/system.io.stream) or `byte array` containing an HTML document or an HTML fragment. |
+| Base URL      | Yes | The base URL of the web site that the HTML document originates from. |
+| Result variable name | Yes | The name of the variable that contains the output from this action. |
 
 <br/>
 

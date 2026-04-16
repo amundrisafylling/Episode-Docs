@@ -13,12 +13,12 @@ This flow [receives](../../triggers/power-bi/writeback-table-trigger.md) a Delta
 
 | Name           | Required | Description        |
 |----------------|----------|--------------------|
-| Title   | Optional | A display label for this action in the flow editor.  |
-| Connection  | Required | The Snowflake [connection](./connecting-to-snowflake.md) to use.      |
-| DeltaSet     | Required | The DeltaSet containing the changes to apply.  |
-| Target table   | Required | The Snowflake table to save changes into. If this differs from the table the data is read from in the Power BI model, ensure the target table has columns with matching names and data types as defined in the Writeback Table visual's column definitions.      |
-| [Save data options](#save-data-options)       | Optional | Overrides the default behaviour for applying DeltaSet changes. See [Save data options](#save-data-options) below. |
-| Command timeout (sec)  | Optional | How long to wait before the command times out. Default is 120 seconds.    |
+| Title   | No | A display label for this action in the flow editor.  |
+| Connection  | Yes | The Snowflake [connection](./connecting-to-snowflake.md) to use.      |
+| DeltaSet     | Yes | The DeltaSet containing the changes to apply.  |
+| Target table   | Yes | The Snowflake table to save changes into. If this differs from the table the data is read from in the Power BI model, ensure the target table has columns with matching names and data types as defined in the Writeback Table visual's column definitions.      |
+| [Save data options](#save-data-options)       | No | Overrides the default behaviour for applying DeltaSet changes. See [Save data options](#save-data-options) below. |
+| Command timeout (sec)  | No | How long to wait before the command times out. Default is 120 seconds.    |
 
 ## Save data options
 

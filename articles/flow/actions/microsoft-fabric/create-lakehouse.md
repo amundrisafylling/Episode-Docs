@@ -9,12 +9,12 @@ Creates a Lakehouse in a Microsoft Fabric Workspace.
 ## Properties
 | Name          | Required | Description                             |
 |---------------|----------|-----------------------------------------|
-| Connection    | Required | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Note! Make sure to choose an authentication method and user with the required priviliges.  |
-| Workspace Id  | Required | The Workspace that you want to create the Lakehouse in. |
-| Lakehouse name | Required | The name of the Lakehouse. Note that the name must be unique within the Workspace.  |
-|Enable schemas| Optional | Determines whether schemas are used to organize and structure tables within a lakehouse. Default is false. |
-| Wait for provisioning to complete | Optional | Even though a Lakehouse has been created, it may take some time for all Lakehouse features to be ready for use. For example, the SQL Endpoint may not be ready for use immediately after a Lakehouse has been completed. If this property is set to `true`, Flow will wait until the SQL Endpoint has been fully provisioned before continuing execution. |
-| Result variable name| Optional | The name of the variable that contains the lakehouse info. |
+| Connection    | Yes | The [Microsoft Fabric Connection](./microsoft-fabric-connection.md) used to make an authenticated request to the Microsoft Fabric REST API. To create a Connection, [please follow these steps](./microsoft-fabric-connection.md). Note! Make sure to choose an authentication method and user with the required priviliges.  |
+| Workspace Id  | Yes | The Workspace that you want to create the Lakehouse in. |
+| Lakehouse name | Yes | The name of the Lakehouse. Note that the name must be unique within the Workspace.  |
+|Enable schemas| No | Determines whether schemas are used to organize and structure tables within a lakehouse. Default is false. |
+| Wait for provisioning to complete | No | Even though a Lakehouse has been created, it may take some time for all Lakehouse features to be ready for use. For example, the SQL Endpoint may not be ready for use immediately after a Lakehouse has been completed. If this property is set to `true`, Flow will wait until the SQL Endpoint has been fully provisioned before continuing execution. |
+| Result variable name| No | The name of the variable that contains the lakehouse info. |
 
 <br/>
 

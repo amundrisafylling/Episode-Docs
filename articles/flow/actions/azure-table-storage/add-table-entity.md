@@ -9,15 +9,15 @@ Add an entity to an Azure Table.
 
 | Name                   | Required | Description          |
 |------------------------|------------|-------------------|
-| Title              | Optional   | A user-defined title for the action.            |
-| Connection         | Required   | Specify the [connection](connecting-to-azure-table-storage.md) to the Azure Table Storage account.            |
-| Table name         | Required   | The name of the table to insert into.                    |
-| Entity             | Required   | The entity data to be inserted into the table.            |
-| PartitionKey type  | Optional   | Specify how the `PartitionKey` is determined (e.g., use an entity property).            |
-| PartitionKey property | Optional | Define the property name used for the `PartitionKey` (if applicable).          |
-| PartitionKey value | Optional | Define the value of the `PartitionKey` (if applicable).        |
-| RowKey property    | Optional   | Define the property name used for the `RowKey` (if applicable).   |
-| Overwrite existing | Optional   | A boolean option to specify whether to overwrite an existing entity with the same keys (`true`/`false`). |
+| Title              | No | A user-defined title for the action.            |
+| Connection         | Yes | Specify the [connection](connecting-to-azure-table-storage.md) to the Azure Table Storage account.            |
+| Table name         | Yes | The name of the table to insert into.                    |
+| Entity             | Yes | The entity data to be inserted into the table.            |
+| PartitionKey type  | No | Specify how the `PartitionKey` is determined (e.g., use an entity property).            |
+| PartitionKey property | No | Define the property name used for the `PartitionKey` (if applicable).          |
+| PartitionKey value | No | Define the value of the `PartitionKey` (if applicable).        |
+| RowKey property    | No | Define the property name used for the `RowKey` (if applicable).   |
+| Overwrite existing | No | A boolean option to specify whether to overwrite an existing entity with the same keys (`true`/`false`). |
 
 
 ### PartitionKey type 

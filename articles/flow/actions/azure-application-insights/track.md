@@ -11,11 +11,11 @@ This example shows the Track action used in a Catch path to log an exception and
 
 | Name                    | Required | Description                                                                 |
 |-------------------------|-----------|-----------------------------------------------------------------------------|
-| Title                   | Optional  | A descriptive label for the action.                                         |
-| Connection              | Required  | Azure Application Insights [connection](connection.md) used to authenticate and connect.     |
-| Message                 | Required  | The diagnostics message to log.                                             |
-| Properties              | Optional  | Key-value telemetry properties to include with the message.                 |
-| Include system properties | Optional | Include Flow/job/system context properties with the telemetry entry.        |
-| Severity                | Optional  | Diagnostics severity,  (Verbose, Information, Warning, Error, Critical). Severity controls how the telemetry entry is categorized and filtered in Azure Application Insights.     |
-| Exception               | Optional  | An exception object to attach to the telemetry entry (if available).        |
-| Description             | Optional  | Additional notes or comments about the action or configuration.             |
+| Title                   | No | A descriptive label for the action.                                         |
+| Connection              | Yes | Azure Application Insights [connection](connection.md) used to authenticate and connect.     |
+| Message                 | Yes | The diagnostics message to log.                                             |
+| Properties              | No | Key-value telemetry properties to include with the message.                 |
+| Include system properties | No | Include Flow/job/system context properties with the telemetry entry.        |
+| Severity                | No | Diagnostics severity,  (Verbose, Information, Warning, Error, Critical). Severity controls how the telemetry entry is categorized and filtered in Azure Application Insights.     |
+| Exception               | No | An exception object to attach to the telemetry entry (if available).        |
+| Description             | No | Additional notes or comments about the action or configuration.             |

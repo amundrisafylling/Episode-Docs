@@ -14,13 +14,13 @@ The Flow above illustrates how to use the `Insert or Update row` action to save 
 
 | Name                  | Required | Description                                                                       |
 | --------------------- | -------- | --------------------------------------------------------------------------------- |
-| Title                 | Optional | A descriptive title for the action.                                               |
-| Connection            | Required | The PostgreSQL database [connection](postgresql-connection.md).                   |
-| Table name            | Required | The name of the table to insert or update a row.                                  |
-| Column value mapping  | Required | Defines the row to update by specifying the columns and corresponding values.     |
-| Result variable name  | Optional | Name of the variable containing the action performed.                             |
-| Command timeout (sec) | Optional | The time limit for command execution before it times out. Default is 120 seconds. |
-| Description           | Optional | Additional notes or comments about the action.                                    |
+| Title                 | No | A descriptive title for the action.                                               |
+| Connection            | Yes | The PostgreSQL database [connection](postgresql-connection.md).                   |
+| Table name            | Yes | The name of the table to insert or update a row.                                  |
+| Column value mapping  | Yes | Defines the row to update by specifying the columns and corresponding values.     |
+| Result variable name  | No | Name of the variable containing the action performed.                             |
+| Command timeout (sec) | No | The time limit for command execution before it times out. Default is 120 seconds. |
+| Description           | No | Additional notes or comments about the action.                                    |
 
 <br/>
 

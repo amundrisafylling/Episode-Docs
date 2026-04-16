@@ -20,21 +20,21 @@ This flow processes a user's chat question by first receiving it through a [Chat
 
 | Name                  | Required | Description |
 |-----------------------|-----------|-------------|
-| Title             | Optional  | The title of the action. |
-| Connection        | Required  | Defines the [connection](azure-ai-connection.md) to **Microsoft Foundry** resource. |
-| Enable dynamic connection   | Optional  |    A [Dynamic Connection](create-connection.md) will override the [connection](azure-ai-connection.md) on flow execution.   |
-| Model             | Required  | Specifies the model deployment name, which corresponds to the custom name chosen during model deployment in the Azure portal or in [Microsoft Foundry](https://ai.azure.com) ([see below](#models--endpoints)). In the Azure Portal, the deployment name can be found under **Resource Management** > **Model Deployments**. |
-| User Prompt       | Required  | The input message from the user, which the model processes to generate a response. |
-| System Prompt     | Optional  | A system-level instruction that guides the model’s behavior and response style. |
-| History           | Optional  | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
-| Context           | Optional  | Typically used for RAG, and provides additional information or domain-specific knowledge to the chat model so it can make more accurate responses. The input can be a string (text) or a vector search result, such as the result from the PostgreSQL [Vector Search](../postgresql/vector-search.md) action. |
-| Prompt template   | Optional  | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
-| Temperature       | Optional  |Temperature in models controls the randomness and creativity of the generated responses. Lower temperatures (e.g., 0.2) produce more focused, predictable text, ideal for tasks that require precision. Higher temperatures (e.g., 1.5) increase creativity and variability, but may risk generating less coherent or relevant content, making it important to adjust based on your desired outcome.  The default is 0.7 if nothing is defined by the user.|
-| Max Completion Tokens | Optional | Sets a limit on the number of tokens (words, characters, or pieces of text) in the model’s response. |
-| Result Variable Name | Optional | Stores the generated AI response. Default: "response". |
-| Enable Grounding        | Optional  | Enables grounding to improve factual accuracy using external or structured context. |
-| Disabled                | Optional  | If enabled, the action is skipped during flow execution. |
-| Description       | Optional  | Additional details or notes regarding the chat completion setup. |
+| Title             | No | The title of the action. |
+| Connection        | Yes | Defines the [connection](azure-ai-connection.md) to **Microsoft Foundry** resource. |
+| Enable dynamic connection   | No |    A [Dynamic Connection](create-connection.md) will override the [connection](azure-ai-connection.md) on flow execution.   |
+| Model             | Yes | Specifies the model deployment name, which corresponds to the custom name chosen during model deployment in the Azure portal or in [Microsoft Foundry](https://ai.azure.com) ([see below](#models--endpoints)). In the Azure Portal, the deployment name can be found under **Resource Management** > **Model Deployments**. |
+| User Prompt       | Yes | The input message from the user, which the model processes to generate a response. |
+| System Prompt     | No | A system-level instruction that guides the model’s behavior and response style. |
+| History           | No | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
+| Context           | No | Typically used for RAG, and provides additional information or domain-specific knowledge to the chat model so it can make more accurate responses. The input can be a string (text) or a vector search result, such as the result from the PostgreSQL [Vector Search](../postgresql/vector-search.md) action. |
+| Prompt template   | No | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
+| Temperature       | No |Temperature in models controls the randomness and creativity of the generated responses. Lower temperatures (e.g., 0.2) produce more focused, predictable text, ideal for tasks that require precision. Higher temperatures (e.g., 1.5) increase creativity and variability, but may risk generating less coherent or relevant content, making it important to adjust based on your desired outcome.  The default is 0.7 if nothing is defined by the user.|
+| Max Completion Tokens | No | Sets a limit on the number of tokens (words, characters, or pieces of text) in the model’s response. |
+| Result Variable Name | No | Stores the generated AI response. Default: "response". |
+| Enable Grounding        | No | Enables grounding to improve factual accuracy using external or structured context. |
+| Disabled                | No | If enabled, the action is skipped during flow execution. |
+| Description       | No | Additional details or notes regarding the chat completion setup. |
 
 <br/>
 

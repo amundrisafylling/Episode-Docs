@@ -42,7 +42,7 @@ When you press `Save`, this field will be updated in the data source.
 
 #### 4) Configure the backend (Writeback)
 To save user comments, you must specify the API endpoint for the service that updates the data source. You have two options for doing this:  
-1) Use Profitbase Flow with a [Writeback Comments trigger](../../flow/triggers/power-bi/writeback-comments-trigger.md) and and [Save DeltaSet](../../flow/actions/sql-server/save-deltaset.md) action. This is the easiest option, and only takes a few minutes to set up. This is demonstrated in the video above.
+1) Use Hypergene Flow with a [Writeback Comments trigger](../../flow/triggers/power-bi/writeback-comments-trigger.md) and and [Save DeltaSet](../../flow/actions/sql-server/save-deltaset.md) action. This is the easiest option, and only takes a few minutes to set up. This is demonstrated in the video above.
 2) Create an Azure Function and implement the API for saving data to the data source yourself. If you choose this option, you will need a license for the visual.
 
 When you have created the backend, paste the endpoint address into the API Url setting in the Formatting panel.  

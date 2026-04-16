@@ -15,12 +15,12 @@ The example above illustrates part of a Flow that stores a document into SQL Ser
 
 | Name            | Type                   | Description                             |
 |-----------------|------------------------|-----------------------------------------|
-| Title           | Optional               | The title of the action.                |
-| Connection      | Required               | Defines the [connection](azure-ai-connection.md) to an **Microsoft Foundry** resource. |
-| Enable dynamic connection   | Optional  |    A [Dynamic Connection](create-connection.md) will override the [connection](azure-ai-connection.md) on flow execution.   |
-| Model           | Required               | Specifies the name of the deployed embedding model, which corresponds to the **Name** (not the model id) of the deployed embedding model in Microsoft Foundry or the Azure portal. In [Microsoft Foundry](https://ai.azure.com), the deployment name can be found in the Deployments screen as shown [below](#model). <br/> **NOTE!** Make sure you select an `Embeddings` model (for example text-embedding-3-large), and not something else like _Chat completion_ or _Text to speech_.   |
-| Dimensions      | Optional               | Some embedding models (like text-embedding-3-*) support configurable dimensionalities, for example 768 or 1536. Make sure you don't specify a dimensionality greater than the max value of the model.| 
-| Input           | Required               | The (text) input that you want to generate an embedding for. |
+| Title           | No | The title of the action.                |
+| Connection      | Yes | Defines the [connection](azure-ai-connection.md) to an **Microsoft Foundry** resource. |
+| Enable dynamic connection   | No |    A [Dynamic Connection](create-connection.md) will override the [connection](azure-ai-connection.md) on flow execution.   |
+| Model           | Yes | Specifies the name of the deployed embedding model, which corresponds to the **Name** (not the model id) of the deployed embedding model in Microsoft Foundry or the Azure portal. In [Microsoft Foundry](https://ai.azure.com), the deployment name can be found in the Deployments screen as shown [below](#model). <br/> **NOTE!** Make sure you select an `Embeddings` model (for example text-embedding-3-large), and not something else like _Chat completion_ or _Text to speech_.   |
+| Dimensions      | No | Some embedding models (like text-embedding-3-*) support configurable dimensionalities, for example 768 or 1536. Make sure you don't specify a dimensionality greater than the max value of the model.| 
+| Input           | Yes | The (text) input that you want to generate an embedding for. |
 
 <br/>
 

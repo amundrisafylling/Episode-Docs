@@ -3,7 +3,7 @@
 
 The Profitbase Data Platform is part of the Profitbase CFO Platform, and is the hub for all data integrations, reporting and data analysis. It is built on [Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/), making it easy to integrate with 3rd party data platforms, APIs, Power BI and other analytics tools.
 
-Profitbase uses [Profitbase Flow](../../flow/flow.md) for data integration workloads. It has pre-built integrations for various ERP systems, file formats, APIs and data platforms such as Microsoft Fabric, Snowflake and Databricks. It also supports connectors to a wide range of other services such as databases, cloud storage solutions, email, file shares, and message brokers.
+Profitbase uses [Hypergene Flow](../../flow/flow.md) for data integration workloads. It has pre-built integrations for various ERP systems, file formats, APIs and data platforms such as Microsoft Fabric, Snowflake and Databricks. It also supports connectors to a wide range of other services such as databases, cloud storage solutions, email, file shares, and message brokers.
 
 ![img](/images/data-platform/Profitbase-data-integration-platform-overview.svg)
 
@@ -13,12 +13,12 @@ Each customer gets their own [Workspace](https://learn.microsoft.com/en-us/fabri
 
 #### ERP integrations
 
-For ERP system integrations, Profitbase Flow connects to the ERP systems to extract, transform, and load data into the Lakehouse using pre-built integration Flows. Because ERP systems vary widely, each pre-built integration is purpose-built to handle the unique intricacies of a specific ERP system.    
+For ERP system integrations, Hypergene Flow connects to the ERP systems to extract, transform, and load data into the Lakehouse using pre-built integration Flows. Because ERP systems vary widely, each pre-built integration is purpose-built to handle the unique intricacies of a specific ERP system.    
 Once the data is in the Lakehouse, it becomes available to [Profitbase Planner](../../planner/planner.md) and other solutions on the CFO Platform. 
 
 #### File, API, and database integrations
 
-Profitbase Flow supports connections to a wide range of APIs, cloud storage solutions like [AWS S3](https://aws.amazon.com/s3/) and [Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction), and databases such as SQL Server and PostgreSQL. With support for file formats like [Parquet](https://parquet.apache.org/), CSV, and Excel, along with powerful data transformation capabilities, it enables integration of most business data into the data platform without needing additional tools.
+Hypergene Flow supports connections to a wide range of APIs, cloud storage solutions like [AWS S3](https://aws.amazon.com/s3/) and [Azure Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction), and databases such as SQL Server and PostgreSQL. With support for file formats like [Parquet](https://parquet.apache.org/), CSV, and Excel, along with powerful data transformation capabilities, it enables integration of most business data into the data platform without needing additional tools.
 
 #### Querying data on the Data Platform
 

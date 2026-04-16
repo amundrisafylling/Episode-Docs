@@ -15,11 +15,11 @@ The example above illustrates part of a Flow that stores a document into SQL Ser
 
 | Name            | Type                   | Description                             |
 |-----------------|------------------------|-----------------------------------------|
-| Title           | Optional               | The title of the action.                |
-| Connection      | Required               | Defines the [connection](openai-connection.md) to **OpenAI**. |
-| Embedding model | Required               | Name (id) of the chosen [Embedding Model](https://platform.openai.com/docs/models).|
-| Dimensions      | Optional               | Some embedding models support configurable dimensionalities, for example 768 or 1536. Make sure you don't specify a dimensionality greater than the max value of the model.| 
-| Input           | Required               | The (text) input that you want to generate an embedding for. |
+| Title           | No | The title of the action.                |
+| Connection      | Yes | Defines the [connection](openai-connection.md) to **OpenAI**. |
+| Embedding model | Yes | Name (id) of the chosen [Embedding Model](https://platform.openai.com/docs/models).|
+| Dimensions      | No | Some embedding models support configurable dimensionalities, for example 768 or 1536. Make sure you don't specify a dimensionality greater than the max value of the model.| 
+| Input           | Yes | The (text) input that you want to generate an embedding for. |
 
 <br/>
 

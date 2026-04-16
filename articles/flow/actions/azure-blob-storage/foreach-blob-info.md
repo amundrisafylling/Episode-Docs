@@ -14,11 +14,11 @@ This flow iterates through all blobs in an Azure blob container, checks if each 
 | Name             | Required |Description                                             |
 |------------------|-----------|--------------------------------------------------------|
 | Title |   |  |
-| Connection       | Required  | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
-| Dynamic connection | Optional   | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action.    |
-| Blob name prefix filter| Optional  | Prefix filter for blob properties **Note!** The prefix is case sensitive. |
-| Blob info | Optional | The name of the Flow variable that contains the blob info. |
-| Description | Optional | Additional notes or comments about the action or configuration.  |
+| Connection       | Yes | The [Azure Blob container connection](./azure-blob-container-connection.md). The currently supported options are `SAS URI` and `Connection string + container name`.    |
+| Dynamic connection | No | A connection dynamically created using the [Create Azure Blob container connection](./create-azure-blob-container-connection.md) action.    |
+| Blob name prefix filter| No | Prefix filter for blob properties **Note!** The prefix is case sensitive. |
+| Blob info | No | The name of the Flow variable that contains the blob info. |
+| Description | No | Additional notes or comments about the action or configuration.  |
 
 <br/>
 

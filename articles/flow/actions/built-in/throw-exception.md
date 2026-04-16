@@ -12,8 +12,8 @@ This flow retrieves filtered client data from a [GraphQL API](../graphql/graphql
 
 | Name        | Required | Description |
 |------------|----------|-------------|
-| Title      | Optional | The title of the action. |
-| Exception text | Required | A user defined error message. |
-| Description    | Optional | Additional notes or comments about the actions's purpose or configuration.  |
+| Title      | No | The title of the action. |
+| Exception text | Yes | A user defined error message. |
+| Description    | No | Additional notes or comments about the actions's purpose or configuration.  |
 
 <br/>

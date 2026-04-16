@@ -8,12 +8,12 @@ Optionally, you can also specify the `Domain` if you are not hosted in the stand
 <br/>
 
 ## Properties
-| Name            | Type             | Description                      |
+| Name            | Required | Description                      |
 |-----------------|------------------|----------------------------------|
-| Portfolio ID    | Required         | The Portfolio ID to connect to.  |
-| Domain          | Optional         | Specify the domain if you are not hosted in the standard Portfolios cloud environment. The default value is 'https://hub.thinking1.com'. |
-| User name       | Required         | The user name to authenticate with.    |
-| Password        | Required         | The password to authenticate with.     |
+| Portfolio ID    | Yes | The Portfolio ID to connect to.  |
+| Domain          | No | Specify the domain if you are not hosted in the standard Portfolios cloud environment. The default value is 'https://hub.thinking1.com'. |
+| User name       | Yes | The user name to authenticate with.    |
+| Password        | Yes | The password to authenticate with.     |
 
 <br/>
 

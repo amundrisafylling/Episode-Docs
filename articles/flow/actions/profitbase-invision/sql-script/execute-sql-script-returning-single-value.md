@@ -15,15 +15,15 @@ This flow executes a SQL query defined in an InVision Solution to retrieve a sin
 
 | Name                 | Required | Description                                                                                     |
 |----------------------|------------|-------------------------------------------------------------------------------------------------|
-| Title                | Optional   | A custom title for the action. If not specified, the default action name is used.              |
-| Connection           | Required   | A valid [InVision Connection](../invision-connection.md) used to execute the SQL script.                                     |
-| SQL Script           | Required   | The InVision SQL script to execute. Returns a single scalar value. This script is created and stored in InVision.  |
-| Language             | Optional   | The language or dialect of the SQL script, when applicable.                                     |
-| Parameters           | Optional   | Defines input parameters for the SQL script.                                                    |
-| Result variable name | Required   | The name of the variable where the scalar result will be stored.                                |
-| Result variable type | Required   | The data type of the return value (e.g., String, Number, Boolean).                             |
-| Disabled             | Optional   | When enabled, the action is skipped during runtime.                                             |
-| Description          | Optional   | Additional notes describing the purpose or usage of the action.                                |
+| Title                | No | A custom title for the action. If not specified, the default action name is used.              |
+| Connection           | Yes | A valid [InVision Connection](../invision-connection.md) used to execute the SQL script.                                     |
+| SQL Script           | Yes | The InVision SQL script to execute. Returns a single scalar value. This script is created and stored in InVision.  |
+| Language             | No | The language or dialect of the SQL script, when applicable.                                     |
+| Parameters           | No | Defines input parameters for the SQL script.                                                    |
+| Result variable name | Yes | The name of the variable where the scalar result will be stored.                                |
+| Result variable type | Yes | The data type of the return value (e.g., String, Number, Boolean).                             |
+| Disabled             | No | When enabled, the action is skipped during runtime.                                             |
+| Description          | No | Additional notes describing the purpose or usage of the action.                                |
 
 ## Returns
 

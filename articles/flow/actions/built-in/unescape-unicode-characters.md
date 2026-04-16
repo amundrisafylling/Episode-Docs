@@ -14,8 +14,8 @@ This flow demonstrates how Unescape Unicode characters converts escaped Unicode 
 ## Properties
 | Name                 | Required | Description                                           |
 |--------------------- |-----------|-------------------------------------------------------|
-| String to unescape   | Required  | A string that may contain escaped unicode characters. If the string is null / empty, or does not contain escaped unicode characters, no operation is performed. |
-| Output variable name | Required  | The name of the variable containing the unescaped string. |
+| String to unescape   | Yes | A string that may contain escaped unicode characters. If the string is null / empty, or does not contain escaped unicode characters, no operation is performed. |
+| Output variable name | Yes | The name of the variable containing the unescaped string. |
 
 <br/>
 

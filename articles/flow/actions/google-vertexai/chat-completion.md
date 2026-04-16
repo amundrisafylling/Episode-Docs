@@ -10,20 +10,20 @@ Unlike the [streaming](streaming-chat-completion.md) version, this action delive
 
 | Name                  | Required | Description |
 |-----------------------|-----------|-------------|
-| Title             | Optional  | The title of the action. |
-| Connection        | Required  | Defines the [connection](vertexai-connection.md) to **VertexAI**. |
-| Model id   | Required  | Id of the chosen [model](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions).|
-| User Prompt       | Required  | The input message from the user, which the model processes to generate a response. |
-| System Prompt     | Optional  | A system-level instruction that guides the model’s behavior and response style. |
-| History           | Optional  | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
-| Context               | Optional  | Additional context information to influence the response (if supported). |
-| Prompt template   | Optional  | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
-| Temperature       | Optional  |Temperature in models controls the randomness and creativity of the generated responses. Lower temperatures (e.g., 0.2) produce more focused, predictable text, ideal for tasks that require precision. Higher temperatures (e.g., 1.5) increase creativity and variability, but may risk generating less coherent or relevant content, making it important to adjust based on your desired outcome. The default is 0.7 if nothing is defined by the user.|
-| Max Completion Tokens | Optional | Sets a limit on the number of tokens (words, characters, or pieces of text) in the model’s response. |
-| Enable grounding | Optional  | Enables  web search to improve factual reliability by using external or structured context sources. |
-| Disabled                | Optional  | If enabled, the action is skipped during flow execution. |
-| Result Variable Name | Optional | Stores the generated AI response. Default: "response". |
-| Description       | Optional  | Additional details or notes regarding the chat completion setup. |
+| Title             | No | The title of the action. |
+| Connection        | Yes | Defines the [connection](vertexai-connection.md) to **VertexAI**. |
+| Model id   | Yes | Id of the chosen [model](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions).|
+| User Prompt       | Yes | The input message from the user, which the model processes to generate a response. |
+| System Prompt     | No | A system-level instruction that guides the model’s behavior and response style. |
+| History           | No | A record of past interactions that provides context to the conversation, helping the model maintain continuity. |
+| Context               | No | Additional context information to influence the response (if supported). |
+| Prompt template   | No | Defines the structure of the prompt sent to the model. The system replaces the placeholders @@context and @@userPrompt with the relevant information. See example below. |
+| Temperature       | No |Temperature in models controls the randomness and creativity of the generated responses. Lower temperatures (e.g., 0.2) produce more focused, predictable text, ideal for tasks that require precision. Higher temperatures (e.g., 1.5) increase creativity and variability, but may risk generating less coherent or relevant content, making it important to adjust based on your desired outcome. The default is 0.7 if nothing is defined by the user.|
+| Max Completion Tokens | No | Sets a limit on the number of tokens (words, characters, or pieces of text) in the model’s response. |
+| Enable grounding | No | Enables  web search to improve factual reliability by using external or structured context sources. |
+| Disabled                | No | If enabled, the action is skipped during flow execution. |
+| Result Variable Name | No | Stores the generated AI response. Default: "response". |
+| Description       | No | Additional details or notes regarding the chat completion setup. |
 
 <br/>
 

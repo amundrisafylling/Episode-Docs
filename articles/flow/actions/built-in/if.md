@@ -15,11 +15,11 @@ This flow retrieves a [sitemap](../../actions/http/get-sitemap.md) from a specif
 <br/>
 
 
-| Name         | Data type       | Description                                       |
+| Name         | Required       | Description                                       |
 |--------------|-----------------|---------------------------------------------------|
-| Title           | Optional | The title or name of the action.     |
-| Condition         | Required   | Executes an action only if the specified condition evaluates to true. |
-| Description   |    Optional   | Aditional informations about the action. |
+| Title           | No | The title or name of the action.     |
+| Condition         | Yes | Executes an action only if the specified condition evaluates to true. |
+| Description   | No | Aditional informations about the action. |
 
 <br/>
 

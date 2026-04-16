@@ -9,13 +9,13 @@ A typical use case for this action is to save the changes made by users in the [
 ## Properties
 | Name         | Required | Description                                 |
 |--------------|-----------|---------------------------------------------|
-| Title        | Optional  | A descriptive title of the action.          |
-| Connection      | Required | The [SQL Server Connection](./connection.md).         |
-| Dynamic connection | Optional | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
-| DeltaSet     | Required  | The DeltaSet to save to the target table.   |
-| Target table | Required  | The name of the table where data will be stored. If this differs from the table the data is read from in the Power BI model, ensure the target table has columns with matching names and data types as defined in the column definitions of the Writeback Table visual. |
-| [Save data options](#save-data-options) | Optional | For advanced scenarios (see below), use this option to override the default behavior for applying DeltaSet changes.  |  
-| Command timeout | Optional | The time limit in seconds for command execution before it times out. Default is 120 seconds.|
+| Title        | No | A descriptive title of the action.          |
+| Connection      | Yes | The [SQL Server Connection](./connection.md).         |
+| Dynamic connection | No | Use this option if you need to use a connection created by the [Create Connection](./create-connection.md) action. |
+| DeltaSet     | Yes | The DeltaSet to save to the target table.   |
+| Target table | Yes | The name of the table where data will be stored. If this differs from the table the data is read from in the Power BI model, ensure the target table has columns with matching names and data types as defined in the column definitions of the Writeback Table visual. |
+| [Save data options](#save-data-options) | No | For advanced scenarios (see below), use this option to override the default behavior for applying DeltaSet changes.  |  
+| Command timeout | No | The time limit in seconds for command execution before it times out. Default is 120 seconds.|
 
 <br/>
 
