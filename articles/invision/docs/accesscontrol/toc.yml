@@ -1,23 +1,23 @@
-        - name: Overview
-          href: ../accesscontrol.md
-        - name: How to's
-          href: howto/index.md
-          items:
-          - name: How To Create and Manage Microsoft Entra ID Identities and Access Groups
-            href: howto/azuread.md
-          - name: How To Manage Access to Data and Workbooks
-            href: howto/dataworkbooks.md
-          - name: How To Create Identities and Access Groups
-            href: howto/identities.md
-          - name: How To Manage Access to Workbooks
-            href: howto/wbacess.md
-        - name: Access groups
-          href: accessgroups.md
-        - name: Data Permissions
-          href: dataperm.md
-        - name: HTTP API
-          href: httpapi.md
-        - name: Identities
-          href: identities.md
-        - name: Workbook Permissions
-          href: workbookperm.md
+- name: Overview
+  href: ../accesscontrol.md
+- name: How to's
+  href: howto/index.md
+  items:
+  - name: How To Create and Manage Microsoft Entra ID Identities and Access Groups
+    href: howto/azuread.md
+  - name: How To Manage Access to Data and Workbooks
+    href: howto/dataworkbooks.md
+  - name: How To Create Identities and Access Groups
+    href: howto/identities.md
+  - name: How To Manage Access to Workbooks
+    href: howto/wbacess.md
+- name: Access groups
+  href: accessgroups.md
+- name: Data Permissions
+  href: dataperm.md
+- name: HTTP API
+  href: httpapi.md
+- name: Identities
+  href: identities.md
+- name: Workbook Permissions
+  href: workbookperm.md

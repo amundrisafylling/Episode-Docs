@@ -1,15 +1,15 @@
-        - name: Overview
-          href: ../tableview.md
-        - name: How to's
-          href: howto.md
-          items:
-          - name: How to create a table view
-            href: howto/creatingtableview.md
-          - name: How to use hierarchical filter in table view
-            href: howto/filter.md
-          - name: How to use row selectability condition
-            href: howto/rowselectcondition.md
-          - name: How to use custom cell renderer in table view
-            href: howto/tableview-custom-cell.md
-          - name: How to use macro expansion in table view
-            href: howto/tableviewmacro.md
+- name: Overview
+  href: ../tableview.md
+- name: How to's
+  href: howto.md
+  items:
+  - name: How to create a table view
+    href: howto/creatingtableview.md
+  - name: How to use hierarchical filter in table view
+    href: howto/filter.md
+  - name: How to use row selectability condition
+    href: howto/rowselectcondition.md
+  - name: How to use custom cell renderer in table view
+    href: howto/tableview-custom-cell.md
+  - name: How to use macro expansion in table view
+    href: howto/tableviewmacro.md

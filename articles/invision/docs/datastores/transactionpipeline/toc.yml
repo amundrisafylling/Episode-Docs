@@ -1,31 +1,31 @@
-          - name: Transaction pipeline
-            href: index.md
-          - name: Cell adapter
-            href: celladapter/index.md
-            items:
-            - name: Input coonfiguration
-              href: celladapter/inputconfig.md
-            - name: Output
-              href: celladapter/output.md
-            - name: Ruleset
-              href: celladapter/ruleset.md
-          - name: Condition expressions
-            href: conditionexpressions.md
-          - name: Distributer
-            href: distributer/index.md
-            items:
-            - name: Input configuration
-              href: distributer/inputconfig.md
-            - name: Output
-              href: distributer/output.md
-            - name: Ruleset
-              href: distributer/ruleset.md
-          - name: Spawner
-            href: spawner/index.md
-            items:
-            - name: Input configuration
-              href: spawner/inputconfig.md
-            - name: Output
-              href: spawner/output.md
-            - name: Ruleset
-              href: spawner/ruleset.md
+- name: Transaction pipeline
+  href: index.md
+- name: Cell adapter
+  href: celladapter/index.md
+  items:
+  - name: Input coonfiguration
+    href: celladapter/inputconfig.md
+  - name: Output
+    href: celladapter/output.md
+  - name: Ruleset
+    href: celladapter/ruleset.md
+- name: Condition expressions
+  href: conditionexpressions.md
+- name: Distributer
+  href: distributer/index.md
+  items:
+  - name: Input configuration
+    href: distributer/inputconfig.md
+  - name: Output
+    href: distributer/output.md
+  - name: Ruleset
+    href: distributer/ruleset.md
+- name: Spawner
+  href: spawner/index.md
+  items:
+  - name: Input configuration
+    href: spawner/inputconfig.md
+  - name: Output
+    href: spawner/output.md
+  - name: Ruleset
+    href: spawner/ruleset.md

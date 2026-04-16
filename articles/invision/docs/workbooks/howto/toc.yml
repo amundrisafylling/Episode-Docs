@@ -1,26 +1,26 @@
-          - name: Overview
-            href: ../howto.md
-          - name: How to create a Workbook
-            href: creatingworkbook.md
-          - name: How to create a popup page
-            href: popup.md
-          - name: How to work with components
-            href: components.md
-          - name: How to stack components
-            href: componentstacking.md          
-          - name: How to set up interactions
-            href: interactions.md          
-          - name: How to create a Stepper
-            href: stepperbasic.md
-          - name: How to use the Step Navigated To event in Stepper
-            href: stepperdisable.md
-          - name: How to set up buttons in Stepper
-            href: steppersetup.md
-          - name: How to create Subscreens for tabs
-            href: subscreens.md
-          - name: How to configure a Workbook as the homepage
-            href: workbookhomepage.md
-          - name: How to define up a Workbook menu
-            href: workbookmenu.md
-          - name: Initialize a Workbook from the URL
-            href: initializing.md
+- name: Overview
+  href: ../howto.md
+- name: How to create a Workbook
+  href: creatingworkbook.md
+- name: How to create a popup page
+  href: popup.md
+- name: How to work with components
+  href: components.md
+- name: How to stack components
+  href: componentstacking.md          
+- name: How to set up interactions
+  href: interactions.md          
+- name: How to create a Stepper
+  href: stepperbasic.md
+- name: How to use the Step Navigated To event in Stepper
+  href: stepperdisable.md
+- name: How to set up buttons in Stepper
+  href: steppersetup.md
+- name: How to create Subscreens for tabs
+  href: subscreens.md
+- name: How to configure a Workbook as the homepage
+  href: workbookhomepage.md
+- name: How to define up a Workbook menu
+  href: workbookmenu.md
+- name: Initialize a Workbook from the URL
+  href: initializing.md

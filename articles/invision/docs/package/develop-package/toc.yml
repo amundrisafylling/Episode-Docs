@@ -1,6 +1,6 @@
-          - name: Overview
-            href: ../develop-package.md
-          - name: Create package
-            href: create-package/toc.yml
-          - name: Create package upgrade
-            href: create-package-upgrade/toc.yml
+- name: Overview
+  href: ../develop-package.md
+- name: Create package
+  href: create-package/toc.yml
+- name: Create package upgrade
+  href: create-package-upgrade/toc.yml

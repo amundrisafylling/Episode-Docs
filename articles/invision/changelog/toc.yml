@@ -1,62 +1,62 @@
-      - name: Overview
-        href: ../changelog.md
-      - name: Changelog 2026.1
-        href: changelog26_1.md  
-      - name: Changelog 2025.6
-        href: changelog25_6.md
-      - name: Changelog 2025.5
-        href: changelog25_5.md
-      - name: Changelog 2025.4
-        href: changelog25_4.md
-      - name: Changelog 2025.3
-        href: changelog25_3.md
-      - name: Changelog 2025.2
-        href: changelog25_2.md
-      - name: Changelog 2025.1
-        href: changelog25_1.md
-      - name: Changelog 2024.5
-        href: changelog24_5.md
-      - name: Changelog 2024.4
-        href: changelog24_4.md
-      - name: Changelog 2024.3
-        href: changelog24_3.md
-      - name: Changelog 2024.2
-        href: changelog24_2.md
-      - name: Changelog 2024.1
-        href: changelog24_1.md
-      - name: Changelog 2023.7
-        href: changelog23_7.md
-      - name: Changelog 2023.6
-        href: changelog23_6.md
-      - name: Changelog 2023.5
-        href: changelog23_5.md
-      - name: Changelog 2023.4
-        href: changelog23_4.md
-      - name: Changelog 2023.3
-        href: changelog23_3.md
-      - name: Changelog 2023.2
-        href: changelog23_2.md
-      - name: Changelog 2023.1
-        href: changelog23_1.md
-      - name: Changelog 2022.5
-        href: changelog22_5.md
-      - name: Changelog 2022.4
-        href: changelog22_4.md
-      - name: Changelog 2022.3 pt.2
-        href: changelog22_3_2.md
-      - name: Changelog 2022.3 pt.1
-        href: changelog22_3_1.md     
-      - name: Changelog 2022.2
-        href: changelog22_2.md
-      - name: Changelog 2022.1
-        href: changelog22_1.md
-      - name: Changelog 5.2
-        href: changelog52.md
-      - name: Changelog 5.1
-        href: changelog51.md
-      - name: Changelog 5.0
-        href: changelog5.md
-      - name: Changelog 4.1
-        href: changelog41.md
-      - name: Changelog 4.0
-        href: changelog40.md
+- name: Overview
+  href: ../changelog.md
+- name: Changelog 2026.1
+  href: changelog26_1.md  
+- name: Changelog 2025.6
+  href: changelog25_6.md
+- name: Changelog 2025.5
+  href: changelog25_5.md
+- name: Changelog 2025.4
+  href: changelog25_4.md
+- name: Changelog 2025.3
+  href: changelog25_3.md
+- name: Changelog 2025.2
+  href: changelog25_2.md
+- name: Changelog 2025.1
+  href: changelog25_1.md
+- name: Changelog 2024.5
+  href: changelog24_5.md
+- name: Changelog 2024.4
+  href: changelog24_4.md
+- name: Changelog 2024.3
+  href: changelog24_3.md
+- name: Changelog 2024.2
+  href: changelog24_2.md
+- name: Changelog 2024.1
+  href: changelog24_1.md
+- name: Changelog 2023.7
+  href: changelog23_7.md
+- name: Changelog 2023.6
+  href: changelog23_6.md
+- name: Changelog 2023.5
+  href: changelog23_5.md
+- name: Changelog 2023.4
+  href: changelog23_4.md
+- name: Changelog 2023.3
+  href: changelog23_3.md
+- name: Changelog 2023.2
+  href: changelog23_2.md
+- name: Changelog 2023.1
+  href: changelog23_1.md
+- name: Changelog 2022.5
+  href: changelog22_5.md
+- name: Changelog 2022.4
+  href: changelog22_4.md
+- name: Changelog 2022.3 pt.2
+  href: changelog22_3_2.md
+- name: Changelog 2022.3 pt.1
+  href: changelog22_3_1.md     
+- name: Changelog 2022.2
+  href: changelog22_2.md
+- name: Changelog 2022.1
+  href: changelog22_1.md
+- name: Changelog 5.2
+  href: changelog52.md
+- name: Changelog 5.1
+  href: changelog51.md
+- name: Changelog 5.0
+  href: changelog5.md
+- name: Changelog 4.1
+  href: changelog41.md
+- name: Changelog 4.0
+  href: changelog40.md

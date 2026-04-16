@@ -1,6 +1,6 @@
-        - name: Overview
-          href: ../forms.md
-        - name: Form elements
-          href: formelements/toc.yml
-        - name: Form schemas
-          href: formschemas/toc.yml
+- name: Overview
+  href: ../forms.md
+- name: Form elements
+  href: formelements/toc.yml
+- name: Form schemas
+  href: formschemas/toc.yml

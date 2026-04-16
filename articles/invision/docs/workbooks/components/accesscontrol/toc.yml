@@ -1,10 +1,10 @@
-            - name: Overview
-              href: ../accesscontrol.md
-            - name: Access group management
-              href: accessgroupman.md
-            - name: Data permissions
-              href: dataperm.md
-            - name: Identity management
-              href: identitymanagement.md
-            - name: Workbook permissions
-              href: workbookperm.md
+- name: Overview
+  href: ../accesscontrol.md
+- name: Access group management
+  href: accessgroupman.md
+- name: Data permissions
+  href: dataperm.md
+- name: Identity management
+  href: identitymanagement.md
+- name: Workbook permissions
+  href: workbookperm.md

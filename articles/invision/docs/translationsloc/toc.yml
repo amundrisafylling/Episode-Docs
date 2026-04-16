@@ -1,7 +1,7 @@
-       - name: Overview
-         href: ../translationsloc.md
-       - name: How to's
-         href: howto.md
-         items:
-          - name: How to setup translations
-            href: howto/setup.md
+- name: Overview
+  href: ../translationsloc.md
+- name: How to's
+  href: howto.md
+  items:
+  - name: How to setup translations
+    href: howto/setup.md

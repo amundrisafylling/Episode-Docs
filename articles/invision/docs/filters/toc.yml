@@ -1,15 +1,15 @@
-        - name: Overview
-          href: ../filters.md
-        - name: How to's
-          href: howto/index.md
-          items:
-          - name: How to filter the table
-            href: howto/filteringtable.md
-          - name: How to filter the worksheet
-            href: howto/filteringworksheet.md
-          - name: How to create and use flat filter
-            href: howto/flatfilter.md
-          - name: How to create and use hierarchical filter
-            href: howto/hierarchicalfilter.md
-          - name: How to use default selection and slicing
-            href: howto/slicing.md
+- name: Overview
+  href: ../filters.md
+- name: How to's
+  href: howto/index.md
+  items:
+  - name: How to filter the table
+    href: howto/filteringtable.md
+  - name: How to filter the worksheet
+    href: howto/filteringworksheet.md
+  - name: How to create and use flat filter
+    href: howto/flatfilter.md
+  - name: How to create and use hierarchical filter
+    href: howto/hierarchicalfilter.md
+  - name: How to use default selection and slicing
+    href: howto/slicing.md

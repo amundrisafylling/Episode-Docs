@@ -1,18 +1,18 @@
-        - name: Overview
-          href: ../workbooks.md
-        - name: How to's
-          href: howto/toc.yml
-        - name: Pages
-          href: pages.md
-        - name: Popups
-          href: popups.md
-        - name: Drawers 
-          href: drawers.md
-        - name: Components
-          href: components/toc.yml
-        - name: Programming model
-          href: programmingmodel/toc.yml
-        - name: Subscreens
-          href: subscreens.md
-        - name: Themes and styles
-          href: themesandstyles.md
+- name: Overview
+  href: ../workbooks.md
+- name: How to's
+  href: howto/toc.yml
+- name: Pages
+  href: pages.md
+- name: Popups
+  href: popups.md
+- name: Drawers 
+  href: drawers.md
+- name: Components
+  href: components/toc.yml
+- name: Programming model
+  href: programmingmodel/toc.yml
+- name: Subscreens
+  href: subscreens.md
+- name: Themes and styles
+  href: themesandstyles.md

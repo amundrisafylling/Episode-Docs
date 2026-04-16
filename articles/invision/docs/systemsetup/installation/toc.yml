@@ -1,16 +1,16 @@
-          - name: Overview
-            href: ../installation.md    
-          - name: Azure Active Directory Authentication
-            href: azureactdirauthent.md
-          - name: IBM Security Verify Authentication
-            href: ibmsecurity.md
-            items:
-            - name: Configure webb app backend
-              href: ibmsecurity/configure-webb-app-backend.md
-          - name: On-premise Installation
-            href: onpreminstallation.md
-            items:
-            - name: Ports and Firewall Settings
-              href: onpreminstallation/portsfirewall.md
-            - name: Service User Accounts
-              href: onpreminstallation/serviceuseraccounts.md
+- name: Overview
+  href: ../installation.md    
+- name: Azure Active Directory Authentication
+  href: azureactdirauthent.md
+- name: IBM Security Verify Authentication
+  href: ibmsecurity.md
+  items:
+  - name: Configure webb app backend
+    href: ibmsecurity/configure-webb-app-backend.md
+- name: On-premise Installation
+  href: onpreminstallation.md
+  items:
+  - name: Ports and Firewall Settings
+    href: onpreminstallation/portsfirewall.md
+  - name: Service User Accounts
+    href: onpreminstallation/serviceuseraccounts.md

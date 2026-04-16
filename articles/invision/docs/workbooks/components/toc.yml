@@ -1,50 +1,50 @@
-          - name: Overview
-            href: ../components.md
-          - name: Access control editors
-            href: accesscontrol/toc.yml
-          - name: AI Chat
-            href: ai-chat.md
-          - name: Component placeholder
-            href: component_placeholder.md
-          - name: Data flow
-            href: dataflow.md
-          - name: Data flow schedule
-            href: dataflowschedule.md
-          - name: Dimension editor
-            href: dimensioneditor.md
-          - name: Extension
-            href: extension.md
-          - name: File storage
-            href: filestorage.md
-          - name: Filter
-            href: filter/toc.yml
-          - name: Flow schedule
-            href: flowschedule.md
-          - name: Form Elements
-            href: formelements.md
-          - name: Forms
-            href: formschemas.md
-          - name: Input Elements
-            href: inputelement.md
-          - name: Progress Indicator
-            href: progressindicator.md
-          - name: Reports
-            href: reports.md
-          - name: Script
-            href: script.md
-          - name: Table
-            href: table.md
-          - name: Table Explorer
-            href: table-explorer.md
-          - name: TableView
-            href: tableview.md
-          - name: UI Elements
-            href: uielements/toc.yml
-          - name: User chat
-            href: userchat/toc.yml
-          - name: Workflow
-            href: workflow.md
-          - name: Work process editor
-            href: workprocesseditor.md
-          - name: Worksheet
-            href: worksheet.md
+- name: Overview
+  href: ../components.md
+- name: Access control editors
+  href: accesscontrol/toc.yml
+- name: AI Chat
+  href: ai-chat.md
+- name: Component placeholder
+  href: component_placeholder.md
+- name: Data flow
+  href: dataflow.md
+- name: Data flow schedule
+  href: dataflowschedule.md
+- name: Dimension editor
+  href: dimensioneditor.md
+- name: Extension
+  href: extension.md
+- name: File storage
+  href: filestorage.md
+- name: Filter
+  href: filter/toc.yml
+- name: Flow schedule
+  href: flowschedule.md
+- name: Form Elements
+  href: formelements.md
+- name: Forms
+  href: formschemas.md
+- name: Input Elements
+  href: inputelement.md
+- name: Progress Indicator
+  href: progressindicator.md
+- name: Reports
+  href: reports.md
+- name: Script
+  href: script.md
+- name: Table
+  href: table.md
+- name: Table Explorer
+  href: table-explorer.md
+- name: TableView
+  href: tableview.md
+- name: UI Elements
+  href: uielements/toc.yml
+- name: User chat
+  href: userchat/toc.yml
+- name: Workflow
+  href: workflow.md
+- name: Work process editor
+  href: workprocesseditor.md
+- name: Worksheet
+  href: worksheet.md

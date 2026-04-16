@@ -1,4 +1,4 @@
- - name: JsonDataReader
-   href: json-data-reader/json-data-reader.md
- - name: JsonDataReaderSchema
-   href: json-data-reader/json-data-reader-schema.md
+- name: JsonDataReader
+  href: json-data-reader/json-data-reader.md
+- name: JsonDataReaderSchema
+  href: json-data-reader/json-data-reader-schema.md

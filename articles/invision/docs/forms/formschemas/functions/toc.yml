@@ -1,4 +1,4 @@
-            - name: Functions
-              href: ../functions.md
-            - name: Calling functions from external events
-              href: callingfunctions.md
+- name: Functions
+  href: ../functions.md
+- name: Calling functions from external events
+  href: callingfunctions.md

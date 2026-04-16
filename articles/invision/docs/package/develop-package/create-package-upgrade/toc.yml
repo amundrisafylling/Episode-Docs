@@ -1,9 +1,9 @@
-            - name: Overview
-              href: ../create-package-upgrade.md
-            - name: Create package upgrade using Visual Studio
-              href: create-package-upgrade-using-vs.md
-              items:
-              - name: Step by step guide
-                href: create-package-upgrade-using-vs/upgrade-stepbystep.md
-            - name: Publish package upgrade
-              href: pub-pack-upgrade.md
+- name: Overview
+  href: ../create-package-upgrade.md
+- name: Create package upgrade using Visual Studio
+  href: create-package-upgrade-using-vs.md
+  items:
+  - name: Step by step guide
+    href: create-package-upgrade-using-vs/upgrade-stepbystep.md
+- name: Publish package upgrade
+  href: pub-pack-upgrade.md

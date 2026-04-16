@@ -1,60 +1,60 @@
-      - name: Overview
-        href: ../videos.md
-      - name: Getting started
-        href: gettingstarted.md
-        items:
-        - name: Installation and setup
-          href: gettingstarted/installation.md
-        - name: Developer tools
-          href: gettingstarted/developertools.md
-        - name: Interface
-          href: gettingstarted/interface.md
-      - name: Access control
-        href: accesscontrol.md
-      - name: Accessibility
-        href: accessibility.md
-      - name: Data flow
-        href: dataflows.md
-      - name: Data stores
-        href: datastores.md
-      - name: Dimensions
-        href: dimensions.md
-      - name: File storage
-        href: filestorage.md
-      - name: Filters
-        href: filters.md
-      - name: Form schemas
-        href: formschemas.md
-      - name: Json data api
-        href: jsondataapi.md
-      - name: Localization
-        href: localization.md
-      - name: Packages
-        href: packages.md
-      - name: PowerShell
-        href: powershell.md
-      - name: SQL reports
-        href: sqlreports.md
-      - name: SQL scripts
-        href: sqlscripts.md
-      - name: Tables
-        href: tables.md
-      - name: Table view
-        href: tableview.md
-      - name: Themes and styles
-        href: themesandstyles.md
-      - name: Views
-        href: views.md
-      - name: Workbook menu
-        href: workbookmenu.md
-      - name: Workbooks
-        href: workbooks.md
-        items:
-        - name: Components
-          href: workbooks/components.md
-        - name: Interactions
-          href: workbooks/interactions.md
-      - name: Work process
-        href: workprocess.md
-      - name: Worksheet
-        href: worksheet.md
+- name: Overview
+  href: ../videos.md
+- name: Getting started
+  href: gettingstarted.md
+  items:
+  - name: Installation and setup
+    href: gettingstarted/installation.md
+  - name: Developer tools
+    href: gettingstarted/developertools.md
+  - name: Interface
+    href: gettingstarted/interface.md
+- name: Access control
+  href: accesscontrol.md
+- name: Accessibility
+  href: accessibility.md
+- name: Data flow
+  href: dataflows.md
+- name: Data stores
+  href: datastores.md
+- name: Dimensions
+  href: dimensions.md
+- name: File storage
+  href: filestorage.md
+- name: Filters
+  href: filters.md
+- name: Form schemas
+  href: formschemas.md
+- name: Json data api
+  href: jsondataapi.md
+- name: Localization
+  href: localization.md
+- name: Packages
+  href: packages.md
+- name: PowerShell
+  href: powershell.md
+- name: SQL reports
+  href: sqlreports.md
+- name: SQL scripts
+  href: sqlscripts.md
+- name: Tables
+  href: tables.md
+- name: Table view
+  href: tableview.md
+- name: Themes and styles
+  href: themesandstyles.md
+- name: Views
+  href: views.md
+- name: Workbook menu
+  href: workbookmenu.md
+- name: Workbooks
+  href: workbooks.md
+  items:
+  - name: Components
+    href: workbooks/components.md
+  - name: Interactions
+    href: workbooks/interactions.md
+- name: Work process
+  href: workprocess.md
+- name: Worksheet
+  href: worksheet.md

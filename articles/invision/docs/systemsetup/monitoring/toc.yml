@@ -1,4 +1,4 @@
-          - name: Overview
-            href: ../monitoring.md
-          - name: HTTP API
-            href: httpapi.md
+- name: Overview
+  href: ../monitoring.md
+- name: HTTP API
+  href: httpapi.md

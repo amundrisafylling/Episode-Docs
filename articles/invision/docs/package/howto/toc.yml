@@ -1,10 +1,10 @@
-          - name: Overview
-            href: ../howto.md
-          - name: How to create a package
-            href: create.md
-          - name: How to deploy a package
-            href: deploy.md
-          - name: How to upgrade a package
-            href: upgrade.md
-          - name: How to upgrade a package in package management screen
-            href: upgradepackmanagement.md
+- name: Overview
+  href: ../howto.md
+- name: How to create a package
+  href: create.md
+- name: How to deploy a package
+  href: deploy.md
+- name: How to upgrade a package
+  href: upgrade.md
+- name: How to upgrade a package in package management screen
+  href: upgradepackmanagement.md

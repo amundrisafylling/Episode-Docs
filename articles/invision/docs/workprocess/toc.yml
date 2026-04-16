@@ -1,15 +1,15 @@
-        - name: Overview
-          href: ../workprocess.md
-        - name: How to's
-          href: howto.md
-          items:
-          - name: How to define admin in work process
-            href: howto/clientside.md
-          - name: How to setup work process
-            href: howto/setup.md
-          - name: How to create a Work Process Version
-            href: howto/versioning.md
-        - name: Work process configuration
-          href: workprocessconfiguration.md
-        - name: Work Process Versions
-          href: workprocessversions.md
+- name: Overview
+  href: ../workprocess.md
+- name: How to's
+  href: howto.md
+  items:
+  - name: How to define admin in work process
+    href: howto/clientside.md
+  - name: How to setup work process
+    href: howto/setup.md
+  - name: How to create a Work Process Version
+    href: howto/versioning.md
+- name: Work process configuration
+  href: workprocessconfiguration.md
+- name: Work Process Versions
+  href: workprocessversions.md

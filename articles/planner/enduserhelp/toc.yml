@@ -1,18 +1,18 @@
-  - name: Version 6.1
+- name: Version 6.1
+  items:
+  - name: Configuration and Operation
     items:
-    - name: Configuration and Operation
-      items:
-      - name: Account module
-        href: V6.1/Profitbase_Planner_Account_module_v3_5.md
-      - name: CapEx module
-        href: V6.1/Profitbase_Planner_CapEx_module_v3_6.md
-      - name: Loan module
-        href: V6.1/Profitbase_Planner_Loan_module_v3_5.md
-      - name: Personnel module
-        href: V6.1/Profitbase_Planner_Personnel_module_v3_5.md
-      - name: Driver-based module
-        href: V6.1/Profitbase_Planner_Driver_based_module.md
-    - name: Customization patterns
-      href: V6.1/Profitbase_Planner_Customization_Patterns.md
-    - name: Data requirements
-      href: V6.1/Profitbase_Planner_Data_Requirements_v5_6.md
+    - name: Account module
+      href: V6.1/Profitbase_Planner_Account_module_v3_5.md
+    - name: CapEx module
+      href: V6.1/Profitbase_Planner_CapEx_module_v3_6.md
+    - name: Loan module
+      href: V6.1/Profitbase_Planner_Loan_module_v3_5.md
+    - name: Personnel module
+      href: V6.1/Profitbase_Planner_Personnel_module_v3_5.md
+    - name: Driver-based module
+      href: V6.1/Profitbase_Planner_Driver_based_module.md
+  - name: Customization patterns
+    href: V6.1/Profitbase_Planner_Customization_Patterns.md
+  - name: Data requirements
+    href: V6.1/Profitbase_Planner_Data_Requirements_v5_6.md

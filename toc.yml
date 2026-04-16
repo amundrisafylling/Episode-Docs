@@ -1,19 +1,19 @@
-  items:
-  - name: CFO Platform
-    href: articles/cfo-platform/toc.yml
-  - name: Power BI
-    href: articles/PowerBI/toc.yml    
-  - name: Budgeting and forecasting
-    href: articles/planner/toc.yml
-  - name: Risk
-    href: articles/risk/toc.yml
-  - name: InVision
-    href: articles/invision/toc.yml
-  - name: Flow
-    href: articles/flow/toc.yml  
-  - name: Hypergene website
-    href: https://www.hypergene.com/en
-  - name: Profitbase website
-    href: https://www.profitbase.com/
-  - name: Blog
-    href: https://blogs.profitbase.com/
+items:
+- name: CFO Platform
+  href: articles/cfo-platform/toc.yml
+- name: Power BI
+  href: articles/PowerBI/toc.yml    
+- name: Budgeting and forecasting
+  href: articles/planner/toc.yml
+- name: Risk
+  href: articles/risk/toc.yml
+- name: InVision
+  href: articles/invision/toc.yml
+- name: Flow
+  href: articles/flow/toc.yml  
+- name: Hypergene website
+  href: https://www.hypergene.com/en
+- name: Profitbase website
+  href: https://www.profitbase.com/
+- name: Blog
+  href: https://blogs.profitbase.com/

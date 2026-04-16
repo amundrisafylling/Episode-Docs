@@ -1,6 +1,6 @@
-          - name: Overview
-            href: ../onsave.md
-          - name: API references
-            href: apireferences.md
-          - name: Sql script service
-            href: sqlscriptservice.md
+- name: Overview
+  href: ../onsave.md
+- name: API references
+  href: apireferences.md
+- name: Sql script service
+  href: sqlscriptservice.md

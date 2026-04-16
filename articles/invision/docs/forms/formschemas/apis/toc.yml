@@ -1,16 +1,16 @@
-            - name: Overview
-              href: ../apis.md
-            - name: Control API
-              href: controlproxyAPI.md
-            - name: Data bindings API
-              href: databindingsAPI.md
-            - name: Data service API
-              href: dataserviceapi.md
-            - name: Form runtime API
-              href: formrunAPI.md
-            - name: Form runtime
-              href: formruntime.md
-            - name: Web functions API
-              href: webfunctionsAPI.md
-            - name: Flow API
-              href: flow-api.md
+- name: Overview
+  href: ../apis.md
+- name: Control API
+  href: controlproxyAPI.md
+- name: Data bindings API
+  href: databindingsAPI.md
+- name: Data service API
+  href: dataserviceapi.md
+- name: Form runtime API
+  href: formrunAPI.md
+- name: Form runtime
+  href: formruntime.md
+- name: Web functions API
+  href: webfunctionsAPI.md
+- name: Flow API
+  href: flow-api.md

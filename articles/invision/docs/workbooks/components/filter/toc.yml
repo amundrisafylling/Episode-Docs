@@ -1,4 +1,4 @@
-            - name: Filter
-              href: ../filter.md
-            - name: Filter slicing
-              href: filterslicing.md
+- name: Filter
+  href: ../filter.md
+- name: Filter slicing
+  href: filterslicing.md

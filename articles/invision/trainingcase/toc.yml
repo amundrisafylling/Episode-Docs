@@ -1,6 +1,6 @@
-      - name: Overview
-        href: index.md
-      - name: Invision trainingcase
-        href: invisiontrainingcase.md
-      - name: Invision trainingcase 2
-        href: invisiontrainingcase2.md
+- name: Overview
+  href: index.md
+- name: Invision trainingcase
+  href: invisiontrainingcase.md
+- name: Invision trainingcase 2
+  href: invisiontrainingcase2.md

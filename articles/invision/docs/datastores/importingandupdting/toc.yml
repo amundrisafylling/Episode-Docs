@@ -1,22 +1,22 @@
-          - name: Importing and updating data from data sources
-            href: index.md
-          - name: Binding source columns to DS columns
-            href: bindingsourcecoumns.md
-          - name: Customization options
-            href: customization.md
-          - name: Source
-            href: source/index.md
-            items:
-            - name: Data source properties
-              href: source/datasourceproperties.md
-            - name: Transforms
-              href: source/transforms/index.md
-              items:
-              - name: Aggregate
-                href: source/transforms/aggregate.md
-              - name: Custom SQL
-                href: source/transforms/customsql.md
-              - name: Pivot
-                href: source/transforms/pivot.md
-              - name: Unpivot
-                href: source/transforms/unpivot.md
+- name: Importing and updating data from data sources
+  href: index.md
+- name: Binding source columns to DS columns
+  href: bindingsourcecoumns.md
+- name: Customization options
+  href: customization.md
+- name: Source
+  href: source/index.md
+  items:
+  - name: Data source properties
+    href: source/datasourceproperties.md
+  - name: Transforms
+    href: source/transforms/index.md
+    items:
+    - name: Aggregate
+      href: source/transforms/aggregate.md
+    - name: Custom SQL
+      href: source/transforms/customsql.md
+    - name: Pivot
+      href: source/transforms/pivot.md
+    - name: Unpivot
+      href: source/transforms/unpivot.md

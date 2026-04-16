@@ -1,6 +1,6 @@
-              - name: Overview
-                href: ../publ-packages.md
-              - name: Package properties
-                href: package-properties.md
-              - name: Form
-                href: form.md
+- name: Overview
+  href: ../publ-packages.md
+- name: Package properties
+  href: package-properties.md
+- name: Form
+  href: form.md

@@ -1,4 +1,4 @@
-          - name: Overview
-            href: ../howto.md
-          - name: How to use macros in the TableView
-            href: usingmacrostbv.md
+- name: Overview
+  href: ../howto.md
+- name: How to use macros in the TableView
+  href: usingmacrostbv.md
