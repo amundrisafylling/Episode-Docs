@@ -1,24 +1,24 @@
-        - name: Overview
-          href: ../directives.md
-        - name: How to's
-          href: howto/index.md
-          items:
-          - name: How To Set Up Translations
-            href: howto/localize.md
-          - name: How to use step name directive
-            href: howto/stepname.md
-        - name: C# Directives
-          href: csharpdirectives/index.md
-          items:
-          - name: Context Directives
-            href: csharpdirectives/contextdir.md
-          - name: "Directive(“directive expression”) : System.Object"
-            href: csharpdirectives/directive.md
-          - name: Localize
-            href: csharpdirectives/localize.md
-        - name: Object directives
-          href: object.md
-        - name: SolutionVariable[Name]
-          href: solution-variable-name.md
-        - name: Standard directives
-          href: standarddirectives.md
+- name: Overview
+  href: ../directives.md
+- name: How to's
+  href: howto/index.md
+  items:
+  - name: How To Set Up Translations
+    href: howto/localize.md
+  - name: How to use step name directive
+    href: howto/stepname.md
+- name: C# Directives
+  href: csharpdirectives/index.md
+  items:
+  - name: Context Directives
+    href: csharpdirectives/contextdir.md
+  - name: "Directive(“directive expression”) : System.Object"
+    href: csharpdirectives/directive.md
+  - name: Localize
+    href: csharpdirectives/localize.md
+- name: Object directives
+  href: object.md
+- name: SolutionVariable[Name]
+  href: solution-variable-name.md
+- name: Standard directives
+  href: standarddirectives.md

@@ -1,10 +1,10 @@
-        - name: Overview
-          href: ../dataflows.md
-        - name: How to's
-          href: howto/toc.yml
-        - name: Data context
-          href: datacontext/toc.yml
-        - name: Execution
-          href: execution/toc.yml
-        - name: Parametrization
-          href: parametrization/toc.yml
+- name: Overview
+  href: ../dataflows.md
+- name: How to's
+  href: howto/toc.yml
+- name: Data context
+  href: datacontext/toc.yml
+- name: Execution
+  href: execution/toc.yml
+- name: Parametrization
+  href: parametrization/toc.yml

@@ -1,7 +1,7 @@
-      - name: Overview
-        href: ../homepage.md
-      - name: How to's
-        href: howto.md
-        items:
-        - name: How to set up workbook as a homepage
-          href: howto/homepage.md
+- name: Overview
+  href: ../homepage.md
+- name: How to's
+  href: howto.md
+  items:
+  - name: How to set up workbook as a homepage
+    href: howto/homepage.md

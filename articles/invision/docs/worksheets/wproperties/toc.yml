@@ -1,4 +1,4 @@
-          - name: Worksheet properties
-            href: ../wproperties.md
-          - name: Context menu options
-            href: contextmenuoptions.md
+- name: Worksheet properties
+  href: ../wproperties.md
+- name: Context menu options
+  href: contextmenuoptions.md

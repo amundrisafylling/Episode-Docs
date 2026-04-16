@@ -1,8 +1,8 @@
-          - name: Execution
-            href: index.md
-          - name: Command line
-            href: commandline.md
-          - name: HTTP API
-            href: httpapi.md
-          - name: Scheduling execution
-            href: scheduledexecution.md
+- name: Execution
+  href: index.md
+- name: Command line
+  href: commandline.md
+- name: HTTP API
+  href: httpapi.md
+- name: Scheduling execution
+  href: scheduledexecution.md

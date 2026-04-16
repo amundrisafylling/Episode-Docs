@@ -1,8 +1,8 @@
-            - name: Overview
-              href: ../create-package.md
-            - name: Define package
-              href: define-package.md
-            - name: Export package
-              href: export-package.md
-            - name: Configuration options
-              href: configuration-options/toc.yml
+- name: Overview
+  href: ../create-package.md
+- name: Define package
+  href: define-package.md
+- name: Export package
+  href: export-package.md
+- name: Configuration options
+  href: configuration-options/toc.yml

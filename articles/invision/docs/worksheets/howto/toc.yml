@@ -1,20 +1,20 @@
-          - name: Overview
-            href: ../howto.md
-          - name: How to use cell validation in spreadsheets
-            href: cellvalidation.md
-          - name: How to use a conditional formatting
-            href: conditionalformating.md
-          - name: How to use cell renderers
-            href: customcellrenderer.md
-          - name: How to use a custom query
-            href: customquery.md
-          - name: How to create a custom row
-            href: customrow.md
-          - name: How to create a dropdown
-            href: dropdown.md
-          - name: How to modify spreadsheets with custom JS
-            href: javascript.md
-          - name: How to use styling functions
-            href: stylingfunctions.md
-          - name: How to use column captions for time frame columns
-            href: timeframecolumns.md
+- name: Overview
+  href: ../howto.md
+- name: How to use cell validation in spreadsheets
+  href: cellvalidation.md
+- name: How to use a conditional formatting
+  href: conditionalformating.md
+- name: How to use cell renderers
+  href: customcellrenderer.md
+- name: How to use a custom query
+  href: customquery.md
+- name: How to create a custom row
+  href: customrow.md
+- name: How to create a dropdown
+  href: dropdown.md
+- name: How to modify spreadsheets with custom JS
+  href: javascript.md
+- name: How to use styling functions
+  href: stylingfunctions.md
+- name: How to use column captions for time frame columns
+  href: timeframecolumns.md

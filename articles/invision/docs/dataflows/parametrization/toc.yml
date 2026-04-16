@@ -1,6 +1,6 @@
-          - name: Parametrization
-            href: index.md
-          - name: Global parameters
-            href: globalparameters.md
-          - name: Programmatically change global parameters
-            href: programmatically-set-glob-param.md
+- name: Parametrization
+  href: index.md
+- name: Global parameters
+  href: globalparameters.md
+- name: Programmatically change global parameters
+  href: programmatically-set-glob-param.md

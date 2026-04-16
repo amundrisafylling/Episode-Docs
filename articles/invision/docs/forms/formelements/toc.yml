@@ -1,10 +1,10 @@
-          - name: Overview
-            href: ../formelements.md
-          - name: Date picker
-            href: datepicker.md
-          - name: Dropdown
-            href: dropdown.md
-          - name: Label
-            href: label.md
-          - name: Textbox
-            href: textbox.md
+- name: Overview
+  href: ../formelements.md
+- name: Date picker
+  href: datepicker.md
+- name: Dropdown
+  href: dropdown.md
+- name: Label
+  href: label.md
+- name: Textbox
+  href: textbox.md

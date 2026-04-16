@@ -1,17 +1,17 @@
-            - name: Overview
-              href: user-chat.md
-            - name: How to's
-              href: howto/index.md
-              items:
-              - name: Display in workbooks
-                href: howto/display-in-workbook.md
-              - name: How to map context items
-                href: howto/context-mapping.md
-              - name: How to use context text
-                href: howto/context-text.md
-              - name: How to use context link
-                href: howto/context-link.md
-            - name: Context items
-              href: context-item.md
-            - name: Capabilities
-              href: capabilities.md
+- name: Overview
+  href: user-chat.md
+- name: How to's
+  href: howto/index.md
+  items:
+  - name: Display in workbooks
+    href: howto/display-in-workbook.md
+  - name: How to map context items
+    href: howto/context-mapping.md
+  - name: How to use context text
+    href: howto/context-text.md
+  - name: How to use context link
+    href: howto/context-link.md
+- name: Context items
+  href: context-item.md
+- name: Capabilities
+  href: capabilities.md

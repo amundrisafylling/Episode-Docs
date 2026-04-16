@@ -1,8 +1,8 @@
-        - name: Overview
-          href: ../dataflowitems.md
-        - name: Built-in Data Flow Items
-          href: builtindfitems.md
-        - name: Class libraries
-          href: classlibraries.md
-        - name: Task templates
-          href: tasktemplates.md
+- name: Overview
+  href: ../dataflowitems.md
+- name: Built-in Data Flow Items
+  href: builtindfitems.md
+- name: Class libraries
+  href: classlibraries.md
+- name: Task templates
+  href: tasktemplates.md

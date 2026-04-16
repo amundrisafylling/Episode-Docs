@@ -1,119 +1,119 @@
-          - name: Overview
-            href: ../programmingmodel.md
-          - name: Component stacking
-            href: componentstacking.md          
-          - name: Instructions
-            href: instructions.md
-            items:
-            - name: AddHeader
-              href: instructions/addheader.md
-            - name: ConfigInvocation
-              href: instructions/configinvocation.md
-            - name: ConfigureMessage
-              href: instructions/configuremessage.md
-            - name: Contains
-              href: instructions/containsvalue.md
-            - name: CssClass
-              href: instructions/cssclass.md
-            - name: EnableIf
-              href: instructions/enableif.md
-            - name: ExecuteIf
-              href: instructions/executeif.md
-            - name: Filter
-              href: instructions/filter.md
-            - name: GetActivePage
-              href: instructions/getactivepage.md
-            - name: HasFilterChanged
-              href: instructions/hasfilterchanged.md
-            - name: Http
-              href: instructions/http.md
-            - name: IsAppReadOnly
-              href: instructions/isappreadonly.md
-            - name: IsFilterSet
-              href: instructions/isfilterset.md
-            - name: IsHostPageActive
-              href: instructions/ishostpageactive.md
-            - name: LoadMinMax
-              href: instructions/loadminmax.md
-            - name: LoadOptions
-              href: instructions/loadoptions.md
-            - name: OpenBrowserWindow
-              href: instructions/openbrowserwindow.md
-            - name: OpenSpreadsheetEditor
-              href: instructions/openspreadsheeteditor.md
-            - name: Popup
-              href: instructions/popup.md
-            - name: Reload
-              href: instructions/reload.md
-            - name: ResetCaption
-              href: instructions/resetcaption.md
-            - name: Set
-              href: instructions/set.md
-            - name: SetAppTitle
-              href: instructions/setapptitle.md
-            - name: SetCaption
-              href: instructions/setcaption.md
-            - name: SetCaptionSuffix
-              href: instructions/setcaptionsuffix.md
-            - name: SetDataModified
-              href: instructions/setdatamodified.md
-            - name: SetEventData
-              href: instructions/seteventdata.md
-            - name: SetFieldValue
-              href: instructions/setfieldvalue.md
-            - name: SetIf
-              href: instructions/setif.md
-            - name: SetParamValue
-              href: instructions/setparamvalue.md
-            - name: SetReadOnly
-              href: instructions/setreadonly.md
-            - name: SetSrc
-              href: instructions/setsrc.md
-            - name: SetSrcIf
-              href: instructions/setsrcif.md
-            - name: SetText
-              href: instructions/settext.md
-            - name: SetTextIf
-              href: instructions/settextif.md
-            - name: ShowToastNotification
-              href: instructions/showtoastnotification.md
-            - name: UseFlow
-              href: instructions/use-flow.md
-            - name: Validate
-              href: instructions/validate.md
-            - name: Var
-              href: instructions/var.md
-          - name: Interaction model
-            href: interactionmodel.md
-            items:
-            - name: Sending messages between workbooks
-              href: interactionmodel/sendingmsgbetween.md
-            - name: Workbook actions
-              href: interactionmodel/workbookactions.md
-            - name: Workbook events
-              href: interactionmodel/workbookevents.md
-          - name: Variables
-            href: variables.md
-          - name: APIs
-            href: apis.md
-            items:
-              - name: Base APIs
-                href: apis/base-apis.md
-              - name: Dialog Service APIs
-                href: apis/dialog-service-apis.md
-              - name: Toast notification APIs
-                href: apis/toast-notification-apis.md
-              - name: Filter APIs
-                href: apis/filter-apis.md
-              - name: Flow APIs
-                href: apis/flow-apis.md
-              - name: HTTP APIs
-                href: apis/http-apis.md
-              - name: Message Hub APIs
-                href: apis/message-hub-apis.md
-              - name: Localization APIs
-                href: apis/localization-apis.md
-              - name: Page APIs
-                href: apis/page-apis.md
-              - name: Section APIs
-                href: apis/section-apis.md
+- name: Overview
+  href: ../programmingmodel.md
+- name: Component stacking
+  href: componentstacking.md          
+- name: Instructions
+  href: instructions.md
+  items:
+  - name: AddHeader
+    href: instructions/addheader.md
+  - name: ConfigInvocation
+    href: instructions/configinvocation.md
+  - name: ConfigureMessage
+    href: instructions/configuremessage.md
+  - name: Contains
+    href: instructions/containsvalue.md
+  - name: CssClass
+    href: instructions/cssclass.md
+  - name: EnableIf
+    href: instructions/enableif.md
+  - name: ExecuteIf
+    href: instructions/executeif.md
+  - name: Filter
+    href: instructions/filter.md
+  - name: GetActivePage
+    href: instructions/getactivepage.md
+  - name: HasFilterChanged
+    href: instructions/hasfilterchanged.md
+  - name: Http
+    href: instructions/http.md
+  - name: IsAppReadOnly
+    href: instructions/isappreadonly.md
+  - name: IsFilterSet
+    href: instructions/isfilterset.md
+  - name: IsHostPageActive
+    href: instructions/ishostpageactive.md
+  - name: LoadMinMax
+    href: instructions/loadminmax.md
+  - name: LoadOptions
+    href: instructions/loadoptions.md
+  - name: OpenBrowserWindow
+    href: instructions/openbrowserwindow.md
+  - name: OpenSpreadsheetEditor
+    href: instructions/openspreadsheeteditor.md
+  - name: Popup
+    href: instructions/popup.md
+  - name: Reload
+    href: instructions/reload.md
+  - name: ResetCaption
+    href: instructions/resetcaption.md
+  - name: Set
+    href: instructions/set.md
+  - name: SetAppTitle
+    href: instructions/setapptitle.md
+  - name: SetCaption
+    href: instructions/setcaption.md
+  - name: SetCaptionSuffix
+    href: instructions/setcaptionsuffix.md
+  - name: SetDataModified
+    href: instructions/setdatamodified.md
+  - name: SetEventData
+    href: instructions/seteventdata.md
+  - name: SetFieldValue
+    href: instructions/setfieldvalue.md
+  - name: SetIf
+    href: instructions/setif.md
+  - name: SetParamValue
+    href: instructions/setparamvalue.md
+  - name: SetReadOnly
+    href: instructions/setreadonly.md
+  - name: SetSrc
+    href: instructions/setsrc.md
+  - name: SetSrcIf
+    href: instructions/setsrcif.md
+  - name: SetText
+    href: instructions/settext.md
+  - name: SetTextIf
+    href: instructions/settextif.md
+  - name: ShowToastNotification
+    href: instructions/showtoastnotification.md
+  - name: UseFlow
+    href: instructions/use-flow.md
+  - name: Validate
+    href: instructions/validate.md
+  - name: Var
+    href: instructions/var.md
+- name: Interaction model
+  href: interactionmodel.md
+  items:
+  - name: Sending messages between workbooks
+    href: interactionmodel/sendingmsgbetween.md
+  - name: Workbook actions
+    href: interactionmodel/workbookactions.md
+  - name: Workbook events
+    href: interactionmodel/workbookevents.md
+- name: Variables
+  href: variables.md
+- name: APIs
+  href: apis.md
+  items:
+    - name: Base APIs
+      href: apis/base-apis.md
+    - name: Dialog Service APIs
+      href: apis/dialog-service-apis.md
+    - name: Toast notification APIs
+      href: apis/toast-notification-apis.md
+    - name: Filter APIs
+      href: apis/filter-apis.md
+    - name: Flow APIs
+      href: apis/flow-apis.md
+    - name: HTTP APIs
+      href: apis/http-apis.md
+    - name: Message Hub APIs
+      href: apis/message-hub-apis.md
+    - name: Localization APIs
+      href: apis/localization-apis.md
+    - name: Page APIs
+      href: apis/page-apis.md
+    - name: Section APIs
+      href: apis/section-apis.md

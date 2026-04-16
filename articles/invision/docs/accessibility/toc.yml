@@ -1,15 +1,15 @@
-        - name: Overview
-          href: ../accessibility.md
-        - name: How to's
-          href: howto/index.md
-          items:
-          - name: How to setup high contrast
-            href: howto/highkontrast.md
-          - name: How to setup hotkey
-            href: howto/hotkey.md
-        - name: Aria-labelledby
-          href: aria.md
-        - name: High contrast
-          href: highcontrast.md
-        - name: Hotkeys
-          href: hotkey.md
+- name: Overview
+  href: ../accessibility.md
+- name: How to's
+  href: howto/index.md
+  items:
+  - name: How to setup high contrast
+    href: howto/highkontrast.md
+  - name: How to setup hotkey
+    href: howto/hotkey.md
+- name: Aria-labelledby
+  href: aria.md
+- name: High contrast
+  href: highcontrast.md
+- name: Hotkeys
+  href: hotkey.md

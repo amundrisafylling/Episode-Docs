@@ -1,10 +1,10 @@
-            - name: Overview
-              href: ../data.md
-            - name: Dimension models
-              href: dimensionmodels.md
-            - name: Lists
-              href: lists.md
-            - name: Models
-              href: models.md
-            - name: Set models
-              href: setmodels.md
+- name: Overview
+  href: ../data.md
+- name: Dimension models
+  href: dimensionmodels.md
+- name: Lists
+  href: lists.md
+- name: Models
+  href: models.md
+- name: Set models
+  href: setmodels.md

@@ -1,30 +1,30 @@
-        - name: Overview
-          href: index.md
-          items:
-          - name: Dimension composition
-            href: dimcomposition.md
-          - name: After publish
-            href: post-publish-actions.md
-        - name: How to's
-          href: howto/index.md
-          items:
-          - name: How to create and display a dimension
-            href: howto/createdim.md
-          - name: How to create a composite dimension
-            href: howto/dimcomp.md
-          - name: How to use the dimension editor
-            href: howto/dimeditor.md
-          - name: How to enable support for multiple languages
-            href: howto/multilang.md
-          - name: How to create a time dimension
-            href: howto/timedim.md
-          - name: How to configure translation of dimension name
-            href: howto/transl.md
-          - name: Set default data for new dimension members
-            href: howto/set-default-data-for-new-dimension-members.md
-        - name: Automating import of data to dimensions
-          href: dimautomating.md
-        - name: Dimension composition
-          href: dimcomposition.md
-        - name: After publish
-          href: post-publish-actions.md
+- name: Overview
+  href: index.md
+  items:
+  - name: Dimension composition
+    href: dimcomposition.md
+  - name: After publish
+    href: post-publish-actions.md
+- name: How to's
+  href: howto/index.md
+  items:
+  - name: How to create and display a dimension
+    href: howto/createdim.md
+  - name: How to create a composite dimension
+    href: howto/dimcomp.md
+  - name: How to use the dimension editor
+    href: howto/dimeditor.md
+  - name: How to enable support for multiple languages
+    href: howto/multilang.md
+  - name: How to create a time dimension
+    href: howto/timedim.md
+  - name: How to configure translation of dimension name
+    href: howto/transl.md
+  - name: Set default data for new dimension members
+    href: howto/set-default-data-for-new-dimension-members.md
+- name: Automating import of data to dimensions
+  href: dimautomating.md
+- name: Dimension composition
+  href: dimcomposition.md
+- name: After publish
+  href: post-publish-actions.md

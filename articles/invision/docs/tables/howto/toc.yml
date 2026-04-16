@@ -1,20 +1,20 @@
-          - name: Overview
-            href: ../howto.md
-          - name: How to use cell validation
-            href: /cellvalidation.md
-          - name: How to create and edit table schema
-            href: creatingtable.md
-          - name: How to create a table view
-            href: creatingtableview.md
-          - name: How to create a dropdown
-            href: dropdown.md
-          - name: How to modify table with custom JS
-            href: javascript.md
-          - name: How to set cell action link tapped event
-            href: table-events-cell-action-link.md
-          - name: How to set data modified and item ddded events
-            href: table-events-data-modified.md
-          - name: How to use custom cell renderer in table view
-            href: tableview-custom-cell.md
-          - name: How to use macro expansion in table view
-            href: tableviewmacro.md
+- name: Overview
+  href: ../howto.md
+- name: How to use cell validation
+  href: /cellvalidation.md
+- name: How to create and edit table schema
+  href: creatingtable.md
+- name: How to create a table view
+  href: creatingtableview.md
+- name: How to create a dropdown
+  href: dropdown.md
+- name: How to modify table with custom JS
+  href: javascript.md
+- name: How to set cell action link tapped event
+  href: table-events-cell-action-link.md
+- name: How to set data modified and item ddded events
+  href: table-events-data-modified.md
+- name: How to use custom cell renderer in table view
+  href: tableview-custom-cell.md
+- name: How to use macro expansion in table view
+  href: tableviewmacro.md

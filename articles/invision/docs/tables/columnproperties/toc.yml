@@ -1,24 +1,24 @@
-          - name: Overview
-            href: ../columnproperties.md
-          - name: Basic column properties
-            href: basiccolproperties.md
-          - name: Caption
-            href: caption.md
-          - name: Caption formatter
-            href: captionformatter.md
-          - name: Cell renderer
-            href: cellrenderer.md
-          - name: Custom action conditions
-            href: customactionconditions.md
-          - name: Dropdown selection
-            href: dropdownselection.md
-          - name: Formatter
-            href: formatter.md
-          - name: Is hidden
-            href: ishidden.md
-          - name: Read only
-            href: readonly.md
-          - name: Source column predicate
-            href: sourcecolumnpredicate.md
-          - name: Display Order Expression
-            href: displayorderexpression.md
+- name: Overview
+  href: ../columnproperties.md
+- name: Basic column properties
+  href: basiccolproperties.md
+- name: Caption
+  href: caption.md
+- name: Caption formatter
+  href: captionformatter.md
+- name: Cell renderer
+  href: cellrenderer.md
+- name: Custom action conditions
+  href: customactionconditions.md
+- name: Dropdown selection
+  href: dropdownselection.md
+- name: Formatter
+  href: formatter.md
+- name: Is hidden
+  href: ishidden.md
+- name: Read only
+  href: readonly.md
+- name: Source column predicate
+  href: sourcecolumnpredicate.md
+- name: Display Order Expression
+  href: displayorderexpression.md

@@ -1,26 +1,26 @@
-        - name: Overview
-          href: ../tables.md
-        - name: How to's
-          href: howto/toc.yml
-        - name: Calculations
-          href: calculations/toc.yml
-        - name: Code-behind
-          href: code-behind.md
-        - name: Cell validation
-          href: cellvalidation.md
-        - name: Column captions
-          href: colcaptions.md
-        - name: Column properties
-          href: columnproperties/toc.yml
-        - name: Custom query
-          href: customquery.md
-        - name: Filters
-          href: filters.md
-        - name: Layout
-          href: layout.md
-        - name: Ranked input
-          href: rankedinput.md
-        - name: Row styling
-          href: rowstyling.md
-        - name: Stacked column headers
-          href: stackedcolhead.md
+- name: Overview
+  href: ../tables.md
+- name: How to's
+  href: howto/toc.yml
+- name: Calculations
+  href: calculations/toc.yml
+- name: Code-behind
+  href: code-behind.md
+- name: Cell validation
+  href: cellvalidation.md
+- name: Column captions
+  href: colcaptions.md
+- name: Column properties
+  href: columnproperties/toc.yml
+- name: Custom query
+  href: customquery.md
+- name: Filters
+  href: filters.md
+- name: Layout
+  href: layout.md
+- name: Ranked input
+  href: rankedinput.md
+- name: Row styling
+  href: rowstyling.md
+- name: Stacked column headers
+  href: stackedcolhead.md

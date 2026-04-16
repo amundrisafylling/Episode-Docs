@@ -1,20 +1,20 @@
-          - name: Overview
-            href: index.md
-          - name: How to Automate Import of the Primary Dimension
-            href: autocopy.md
-          - name: How to Automate Import of Data to Dimension
-            href: autoimport.md
-          - name: How To Control Flow and Branching
-            href: controlflow.md
-          - name: How to Check if Dataflow Succeeded using @Event.Data.Success condition
-            href: eventdatasuccess.md
-          - name: How To Execute from Workbook with Arguments
-            href: execute.md
-          - name: How To Execute Using dfcmdutil Command Line Tool
-            href: execute-dfcmdutil.md
-          - name: How To Automate PowerShell Script with Data Flow
-            href: filenamesautom.md
-          - name: How To Register and Execute Guest Executable
-            href: guestexecutable.md
-          - name: How To Parameterize the execution of Data Flows
-            href: parameterization.md
+- name: Overview
+  href: index.md
+- name: How to Automate Import of the Primary Dimension
+  href: autocopy.md
+- name: How to Automate Import of Data to Dimension
+  href: autoimport.md
+- name: How To Control Flow and Branching
+  href: controlflow.md
+- name: How to Check if Dataflow Succeeded using @Event.Data.Success condition
+  href: eventdatasuccess.md
+- name: How To Execute from Workbook with Arguments
+  href: execute.md
+- name: How To Execute Using dfcmdutil Command Line Tool
+  href: execute-dfcmdutil.md
+- name: How To Automate PowerShell Script with Data Flow
+  href: filenamesautom.md
+- name: How To Register and Execute Guest Executable
+  href: guestexecutable.md
+- name: How To Parameterize the execution of Data Flows
+  href: parameterization.md

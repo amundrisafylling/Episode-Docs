@@ -1,16 +1,16 @@
-          - name: Overview
-            href: ../howto.md
-          - name: How To Setup InVision Service with Azure Active Directory Authentication
-            href: ad-authentication.md
-          - name: How To Create Azure App Registration
-            href: azure-registration.md
-          - name: How To Setup Azure Service Bus
-            href: azuread.md
-          - name: How To Install Desktop Designer and Connect to Service
-            href: install.md
-          - name: How To Upgrade the InVision Instance
-            href: instance.md
-          - name: How To Setup InVision Service with Windows Authentication
-            href: win-authentication.md
-          - name: Entra ID App Registrations
-            href: entra-id-app-registrations.md
+- name: Overview
+  href: ../howto.md
+- name: How To Setup InVision Service with Azure Active Directory Authentication
+  href: ad-authentication.md
+- name: How To Create Azure App Registration
+  href: azure-registration.md
+- name: How To Setup Azure Service Bus
+  href: azuread.md
+- name: How To Install Desktop Designer and Connect to Service
+  href: install.md
+- name: How To Upgrade the InVision Instance
+  href: instance.md
+- name: How To Setup InVision Service with Windows Authentication
+  href: win-authentication.md
+- name: Entra ID App Registrations
+  href: entra-id-app-registrations.md

@@ -1,6 +1,6 @@
-          - name: Data context
-            href: index.md
-          - name: Data context scope
-            href: datacontextscope.md
-          - name: Global data context
-            href: globaldatacontext.md
+- name: Data context
+  href: index.md
+- name: Data context scope
+  href: datacontextscope.md
+- name: Global data context
+  href: globaldatacontext.md

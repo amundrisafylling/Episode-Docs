@@ -1,8 +1,8 @@
-        - name: Overview
-          href: ../macros.md
-        - name: How to's
-          href: howto/toc.yml
-        - name: Using macros in SQL statements
-          href: usingmacros.md
-        - name: Writing macros
-          href: writingmacros/toc.yml
+- name: Overview
+  href: ../macros.md
+- name: How to's
+  href: howto/toc.yml
+- name: Using macros in SQL statements
+  href: usingmacros.md
+- name: Writing macros
+  href: writingmacros/toc.yml

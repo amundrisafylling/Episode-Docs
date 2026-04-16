@@ -1,10 +1,10 @@
-          - name: How to's
-            href: index.md
-          - name: How to change tracking
-            href: changetracking.md
-          - name: How to set up rollover calculations
-            href: rollover.md
-          - name: How to create schema and source mapping
-            href: schema.md
-          - name: How to set up time frame
-            href: timeframe.md
+- name: How to's
+  href: index.md
+- name: How to change tracking
+  href: changetracking.md
+- name: How to set up rollover calculations
+  href: rollover.md
+- name: How to create schema and source mapping
+  href: schema.md
+- name: How to set up time frame
+  href: timeframe.md

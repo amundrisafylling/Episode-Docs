@@ -1,59 +1,59 @@
-            - name: Overview
-              href: ../controls.md
-            - name: App header button
-              href: app-header-button.md
-            - name: Button
-              href: button.md
-            - name: Camera
-              href: camera.md
-            - name: Datepicker
-              href: datepicker.md
-            - name: Dropdown Treeview
-              href: dropdown-treeview.md
-            - name: Dropdown
-              href: dropdown.md
-            - name: Grid
-              href: grid.md
-            - name: Headings
-              href: headings.md
-            - name: Html
-              href: html.md
-            - name: Image
-              href: image.md
-            - name: Input
-              href: input.md
-            - name: Label
-              href: label.md
-            - name: Layout
-              href: layout.md
-            - name: Listbox
-              href: listbox.md
-              items:
-              - name: Rendering items
-                href: listbox/renderingitems.md
-            - name: Popout
-              href: popout.md
-            - name: Richtexteditor
-              href: richtexteditor.md
-            - name: Spinner
-              href: spinner.md
-            - name: Splitbutton
-              href: splitbutton.md
-            - name: Tab Control
-              href: tabcontrol.md
-            - name: Text
-              href: text.md
-            - name: Textarea
-              href: textarea.md
-            - name: Togglebutton
-              href: togglebutton.md
-            - name: Toolbar
-              href: toolbar.md
-            - name: Treeview
-              href: treeview.md
-            - name: Control (base)
-              href: control.md
-            - name: Editable control (base)
-              href: editablecontrol.md
-            - name: Text control (base)
-              href: textcontrol.md
+- name: Overview
+  href: ../controls.md
+- name: App header button
+  href: app-header-button.md
+- name: Button
+  href: button.md
+- name: Camera
+  href: camera.md
+- name: Datepicker
+  href: datepicker.md
+- name: Dropdown Treeview
+  href: dropdown-treeview.md
+- name: Dropdown
+  href: dropdown.md
+- name: Grid
+  href: grid.md
+- name: Headings
+  href: headings.md
+- name: Html
+  href: html.md
+- name: Image
+  href: image.md
+- name: Input
+  href: input.md
+- name: Label
+  href: label.md
+- name: Layout
+  href: layout.md
+- name: Listbox
+  href: listbox.md
+  items:
+  - name: Rendering items
+    href: listbox/renderingitems.md
+- name: Popout
+  href: popout.md
+- name: Richtexteditor
+  href: richtexteditor.md
+- name: Spinner
+  href: spinner.md
+- name: Splitbutton
+  href: splitbutton.md
+- name: Tab Control
+  href: tabcontrol.md
+- name: Text
+  href: text.md
+- name: Textarea
+  href: textarea.md
+- name: Togglebutton
+  href: togglebutton.md
+- name: Toolbar
+  href: toolbar.md
+- name: Treeview
+  href: treeview.md
+- name: Control (base)
+  href: control.md
+- name: Editable control (base)
+  href: editablecontrol.md
+- name: Text control (base)
+  href: textcontrol.md

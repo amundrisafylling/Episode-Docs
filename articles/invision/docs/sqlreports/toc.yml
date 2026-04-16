@@ -1,17 +1,17 @@
-        - name: Overview
-          href: ../sqlreports.md
-        - name: How to's
-          href: howto.md
-          items:
-          - name: How to create SQL reports
-            href: howto/basics.md
-          - name: How to create charts
-            href: howto/charts.md
-          - name: How to use ChartInteractionEvent
-            href: howto/interactionevents.md
-        - name: Code-behind
-          href: code-behind.md
-        - name: Chart formatting
-          href: chartformatting.md
-        - name: Data queries
-          href: dataqueries.md
+- name: Overview
+  href: ../sqlreports.md
+- name: How to's
+  href: howto.md
+  items:
+  - name: How to create SQL reports
+    href: howto/basics.md
+  - name: How to create charts
+    href: howto/charts.md
+  - name: How to use ChartInteractionEvent
+    href: howto/interactionevents.md
+- name: Code-behind
+  href: code-behind.md
+- name: Chart formatting
+  href: chartformatting.md
+- name: Data queries
+  href: dataqueries.md

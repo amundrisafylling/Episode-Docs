@@ -1,42 +1,42 @@
-          - name: Overview
-            href: ../calculations.md
-          - name: AppVariables in formulas
-            href: appvariables.md
-          - name: Arithmetic operators
-            href: arithmeticop.md
-          - name: Calculation instance factory
-            href: calcinstfactory.md
-          - name: Cell addressing
-            href: celladressing.md
-          - name: Cell and row styling functions
-            href: cellnrowstylfunc.md
-          - name: Comparison operators
-            href: comparisonop.md
-          - name: Date functions
-            href: datefunc.md
-          - name: Eaze
-            href: eaze.md
-          - name: Financial functions
-            href: financialfunc.md
-          - name: Keywords
-            href: keywords.md
-          - name: Logical functions
-            href: logicalfunc.md
-          - name: Logical operators
-            href: logicalop.md
-          - name: Math / trig functions
-            href: mathfunc.md
-          - name: Misc functions
-            href: miscfunc.md
-          - name: Other binary operators
-            href: otherbop.md
-          - name: Row collection functions
-            href: rowcollfunc.md
-          - name: Statistical functions
-            href: statisticfunc.md
-          - name: System functions
-            href: sysfunc.md
-          - name: Text functions
-            href: textfunc.md
-          - name: Date for time frame columns in formulas
-            href: usingdate.md
+- name: Overview
+  href: ../calculations.md
+- name: AppVariables in formulas
+  href: appvariables.md
+- name: Arithmetic operators
+  href: arithmeticop.md
+- name: Calculation instance factory
+  href: calcinstfactory.md
+- name: Cell addressing
+  href: celladressing.md
+- name: Cell and row styling functions
+  href: cellnrowstylfunc.md
+- name: Comparison operators
+  href: comparisonop.md
+- name: Date functions
+  href: datefunc.md
+- name: Eaze
+  href: eaze.md
+- name: Financial functions
+  href: financialfunc.md
+- name: Keywords
+  href: keywords.md
+- name: Logical functions
+  href: logicalfunc.md
+- name: Logical operators
+  href: logicalop.md
+- name: Math / trig functions
+  href: mathfunc.md
+- name: Misc functions
+  href: miscfunc.md
+- name: Other binary operators
+  href: otherbop.md
+- name: Row collection functions
+  href: rowcollfunc.md
+- name: Statistical functions
+  href: statisticfunc.md
+- name: System functions
+  href: sysfunc.md
+- name: Text functions
+  href: textfunc.md
+- name: Date for time frame columns in formulas
+  href: usingdate.md

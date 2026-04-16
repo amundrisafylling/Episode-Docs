@@ -1,19 +1,19 @@
-        - name: Overview
-          href: ../filestorage.md
-        - name: How to's
-          href: howto/index.md
-          items:
-          - name: How to create a file storage
-            href: howto/creatingfilestorage.md
-          - name: How to set up file click action
-            href: howto/fileclickaction.md
-          - name: How to get all file names from a file storage
-            href: howto/filenames.md
-          - name: How to set up a file storage
-            href: howto/settingfilestorage.md
-        - name: Context
-          href: context.md
-        - name: Display modes
-          href: display-modes.md
-        - name: File storage setup
-          href: setup.md
+- name: Overview
+  href: ../filestorage.md
+- name: How to's
+  href: howto/index.md
+  items:
+  - name: How to create a file storage
+    href: howto/creatingfilestorage.md
+  - name: How to set up file click action
+    href: howto/fileclickaction.md
+  - name: How to get all file names from a file storage
+    href: howto/filenames.md
+  - name: How to set up a file storage
+    href: howto/settingfilestorage.md
+- name: Context
+  href: context.md
+- name: Display modes
+  href: display-modes.md
+- name: File storage setup
+  href: setup.md

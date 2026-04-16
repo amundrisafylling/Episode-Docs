@@ -1,6 +1,6 @@
-          - name: Overview
-            href: ../../package.md
-          - name: Upgrade package
-            href: ../upgrade-package.md
-          - name: Production upgrade
-            href: production-upgrade.md
+- name: Overview
+  href: ../../package.md
+- name: Upgrade package
+  href: ../upgrade-package.md
+- name: Production upgrade
+  href: production-upgrade.md

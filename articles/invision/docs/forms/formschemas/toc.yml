@@ -1,18 +1,18 @@
-          - name: Overview
-            href: ../formschemas.md
-          - name: How to's
-            href: howto/toc.yml
-          - name: APIs
-            href: apis/toc.yml
-          - name: Controls
-            href: controls/toc.yml
-          - name: Data
-            href: data/toc.yml
-          - name: Event handlers
-            href: eventhandlers.md
-          - name: Functions
-            href: functions/toc.yml
-          - name: Styling and layout
-            href: stylinglayout.md
-          - name: Using the XML edit
-            href: usingXMLedit.md
+- name: Overview
+  href: ../formschemas.md
+- name: How to's
+  href: howto/toc.yml
+- name: APIs
+  href: apis/toc.yml
+- name: Controls
+  href: controls/toc.yml
+- name: Data
+  href: data/toc.yml
+- name: Event handlers
+  href: eventhandlers.md
+- name: Functions
+  href: functions/toc.yml
+- name: Styling and layout
+  href: stylinglayout.md
+- name: Using the XML edit
+  href: usingXMLedit.md

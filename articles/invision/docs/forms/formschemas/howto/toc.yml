@@ -1,14 +1,14 @@
-            - name: Overview
-              href: ../howto.md
-            - name: How to setup controls
-              href: controls.md
-            - name: How to setup a dropdown
-              href: dropdown.md
-            - name: How to use functions in forms
-              href: functions.md
-            - name: How to use a listbox
-              href: listbox.md
-            - name: How to use models and databindings
-              href: models-databinding.md
-            - name: How to configure layout
-              href: style.md
+- name: Overview
+  href: ../howto.md
+- name: How to setup controls
+  href: controls.md
+- name: How to setup a dropdown
+  href: dropdown.md
+- name: How to use functions in forms
+  href: functions.md
+- name: How to use a listbox
+  href: listbox.md
+- name: How to use models and databindings
+  href: models-databinding.md
+- name: How to configure layout
+  href: style.md

@@ -1,11 +1,11 @@
-        - name: Overview
-          href: ../sqlscripts.md
-        - name: How to's
-          href: howto.md
-          items:
-          - name: Run SQL script from workbook
-            href: howto/runSqlScriptFromWorkbook.md
-          - name: How to create and execute from data flow
-            href: howto/setup.md
-          - name: Run SQL script when saving worksheets or tables
-            href: howto/sqlscriptservice.md
+- name: Overview
+  href: ../sqlscripts.md
+- name: How to's
+  href: howto.md
+  items:
+  - name: Run SQL script from workbook
+    href: howto/runSqlScriptFromWorkbook.md
+  - name: How to create and execute from data flow
+    href: howto/setup.md
+  - name: Run SQL script when saving worksheets or tables
+    href: howto/sqlscriptservice.md

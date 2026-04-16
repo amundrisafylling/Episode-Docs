@@ -1,82 +1,82 @@
-      - name: Overview
-        href: index.md
-      - name: System setup
-        href: systemsetup/toc.yml
-      - name: Access control
-        href: accesscontrol/toc.yml
-      - name: Accessibility
-        href: accessibility/toc.yml
-      - name: Best practice
-        href: bestpractice/toc.yml
-      - name: AI chat
-        href: ai-chat/toc.yml
-      - name: Dataflow items
-        href: dataflowitems/toc.yml
-      - name: Dataflows
-        href: dataflows/toc.yml
-      - name: Data pool
-        href: datapool.md
-      - name: Data Stores
-        href: datastores/toc.yml
-      - name: Dimensions
-        href: dimensions/toc.yml
-      - name: Directives
-        href: directives/toc.yml
-      - name: File Storage
-        href: filestorage/toc.yml
-      - name: Filters
-        href: filters/toc.yml
-      - name: Flows
-        href: flows/toc.yml
-      - name: Forms
-        href: forms/toc.yml
-      - name: Header
-        href: header/toc.yml
-      - name: Homepage
-        href: homepage/toc.yml
-      - name: Javascript
-        href: javascript.md
-      - name: Macros
-        href: macros/toc.yml
-      - name: Packages
-        href: package/toc.yml
-      - name: PowerShell
-        href: powershell/toc.yml
-      - name: Solution variables
-        href: solution-variables.md
-      - name: SQL Reports
-        href: sqlreports/toc.yml
-      - name: SQL Scripts
-        href: sqlscripts/toc.yml
-      - name: Stored Procedures
-        href: stored-procedures.md
-      - name: System views
-        href: systemviews.md
-      - name: Tables
-        href: tables/toc.yml
-      - name: Table Explorer
-        href: tableexplorer/toc.yml
-      - name: TableView
-        href: tableview/toc.yml
-      - name: Time frame
-        href: timeframe.md
-      - name: Translations / Localization
-        href: translationsloc/toc.yml
-      - name: Troubleshooting
-        href: troubleshooting.md
-      - name: Views
-        href: views.md
-      - name: Web Functions
-        href: webfunctions/toc.yml
-      - name: Web service APIs
-        href: webserviceapis/toc.yml
-      - name: Workbook menu
-        href: workbookmenu.md
-      - name: Workbooks
-        href: workbooks/toc.yml
-      - name: Workflow
-        href: workflow/toc.yml
-      - name: Work Process
-        href: workprocess/toc.yml
-      - name: Worksheets
-        href: worksheets/toc.yml
+- name: Overview
+  href: index.md
+- name: System setup
+  href: systemsetup/toc.yml
+- name: Access control
+  href: accesscontrol/toc.yml
+- name: Accessibility
+  href: accessibility/toc.yml
+- name: Best practice
+  href: bestpractice/toc.yml
+- name: AI chat
+  href: ai-chat/toc.yml
+- name: Dataflow items
+  href: dataflowitems/toc.yml
+- name: Dataflows
+  href: dataflows/toc.yml
+- name: Data pool
+  href: datapool.md
+- name: Data Stores
+  href: datastores/toc.yml
+- name: Dimensions
+  href: dimensions/toc.yml
+- name: Directives
+  href: directives/toc.yml
+- name: File Storage
+  href: filestorage/toc.yml
+- name: Filters
+  href: filters/toc.yml
+- name: Flows
+  href: flows/toc.yml
+- name: Forms
+  href: forms/toc.yml
+- name: Header
+  href: header/toc.yml
+- name: Homepage
+  href: homepage/toc.yml
+- name: Javascript
+  href: javascript.md
+- name: Macros
+  href: macros/toc.yml
+- name: Packages
+  href: package/toc.yml
+- name: PowerShell
+  href: powershell/toc.yml
+- name: Solution variables
+  href: solution-variables.md
+- name: SQL Reports
+  href: sqlreports/toc.yml
+- name: SQL Scripts
+  href: sqlscripts/toc.yml
+- name: Stored Procedures
+  href: stored-procedures.md
+- name: System views
+  href: systemviews.md
+- name: Tables
+  href: tables/toc.yml
+- name: Table Explorer
+  href: tableexplorer/toc.yml
+- name: TableView
+  href: tableview/toc.yml
+- name: Time frame
+  href: timeframe.md
+- name: Translations / Localization
+  href: translationsloc/toc.yml
+- name: Troubleshooting
+  href: troubleshooting.md
+- name: Views
+  href: views.md
+- name: Web Functions
+  href: webfunctions/toc.yml
+- name: Web service APIs
+  href: webserviceapis/toc.yml
+- name: Workbook menu
+  href: workbookmenu.md
+- name: Workbooks
+  href: workbooks/toc.yml
+- name: Workflow
+  href: workflow/toc.yml
+- name: Work Process
+  href: workprocess/toc.yml
+- name: Worksheets
+  href: worksheets/toc.yml
