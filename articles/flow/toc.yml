@@ -137,6 +137,8 @@
       href: actions/hypergene-portfolios/toc.yml
     - name: JSON
       href: actions/json/toc.yml
+    - name: Machine Learning
+      href: actions/machine-learning/toc.yml
     - name: Markdown
       href: actions/markdown/toc.yml      
     - name: Microsoft Entra ID
