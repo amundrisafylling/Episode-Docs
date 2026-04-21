@@ -1,28 +1,27 @@
-# Risk
+# Profitbase Risk
 
+Profitbase Risk helps your organization identify, manage, and mitigate risks across departments and at group level. Track risk development over time, manage risk submissions, and generate reports — all from a single web interface.
 
-## About Profitbase Risk
+## Key areas
 
-Profitbase Risk is a flexible and reliable automated risk management software program that businesses can trust to identify, manage, and mitigate risk and safeguard their organization, assets, and reputation.
+- [Risks](workbooks/risks.md) — register and manage risks at the department level
+- [Risk Submission](workbooks/risk-submission.md) — govern risk status and approval workflows
+- [Group Risks](workbooks/group-risks.md) — manage risk at group or company level
+- [Risk Reports](workbooks/risk-reports.md) — view reports on risk development over time
 
-This site contains the user guides needed to accomplish key tasks in Profitbase Risk.
+## How the interface works
 
-Profitbase Risk provides a web interface organized in [Workbooks](workbooks.md). These workbooks are grouped as listed below. This is the same grouping that will appear in the menu in every workbook.  
-Workbook and data are subject to access restrictions depending on the user role. This means that users will only see a relevant subset of the full menu in Workbooks. There are no access restrictions on this help site.
-<br/>
+Profitbase Risk provides a web interface organized into [Workbooks](workbooks.md). Workbooks are grouped the same way as in the navigation menu, which you can open by clicking the menu icon in the upper left corner.
 
-![](https://profitbasedocs.blob.core.windows.net/riskimages/risk-left-menu.png)
+![Risk navigation menu](https://profitbasedocs.blob.core.windows.net/riskimages/risk-left-menu.png)
 
-<br/>
-The picture above shows the menu present in all workbooks for navigating in Profitbase Risk. Clicking the "Hamburger" icon in the upper left corner will show the menu.
-<br/>
-<br/>
+The workbooks and data you see depend on your user role — you may only have access to a subset of the full menu. This documentation covers all available workbooks regardless of access level.
 
-## About Profitbase Risk
+## What you can do
 
-Profitbase Risk provides the ability to identify, manage and mitigate risks on a department and group level. It allows you to track risk development over time, and handle risks at all levels of the organization. The main parts of Profitbase Risk are:
+Profitbase Risk supports risk management at every level of the organization:
 
-- [Risks](workbooks/risks.md) allow users to register and manage risks at the department level.
-- [Risk Submission](workbooks/risk-submission.md) governs risk status.
-- [Group Risks](workbooks/group-risks.md) manage risk at a group/company level.
-- [Risk reports](workbooks/risk-reports.md) see reports of risk development.
+- **Department level** — individual teams register risks, assess likelihood and impact, and define mitigation actions
+- **Group level** — management gets a consolidated view of risks across all departments
+- **Over time** — track how risks evolve with historical reporting and trend analysis
+- **Submission workflows** — control when risk assessments are open, submitted, or approved

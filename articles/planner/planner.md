@@ -1,82 +1,58 @@
 # Planner
-## About Profitbase Planner
 
-Profitbase Planner is a financial planning tool covering the annual budgeting and rolling forecast processes.
+Profitbase Planner is a financial planning tool for annual budgeting and rolling forecast processes. It combines configurable input modules, a finance simulation engine, and detailed reporting to deliver accurate balance sheets and cash flow projections.
 
-This site contains the help needed for different users to use Profitbase Planner.
+## Key areas
 
-Profitbase Planner is made up of a set of Web pages that are organized in what we call [Workbooks](workbooks/workbooks.md).
-Workbooks are grouped here on this site the same way as the navigation menu appearing in all workbooks. Workbook and data are subject to access restrictions depending on the user role. It means that users may only see a subset of the full menu in Workbooks. There are no access restrictions on this help site so any user will have access to it.
+- [Finance Settings](workbooks/financial-planning/finance-settings.md) — financial settings and assumptions
+- [Input Modules](modules/modules.md) — convenient input for year and/or period planning
+- [Finance Reports](workbooks/financial-planning/finance-reports.md) — inspect results from simulation
+- [Finance Simulation](workbooks/financial-planning/finance-simulation.md) — scenario planning with "best" and "worst" case results
+- [Operation Manager](workbooks/administration/operation-manager.md) — run and schedule data processing flows
+- [Data Management](workbooks/data-management/data-management.md) — exchange rates, dimensions, and transaction tables
+- [Administration](workbooks/administration/administration.md) — user access and module configuration
 
-<br/>
+## How the interface works
 
+Profitbase Planner is organized into [Workbooks](workbooks/workbooks.md), accessible through a side menu. Click the hamburger icon in the upper left corner to open navigation.
 
-![](https://profitbasedocs.blob.core.windows.net/plannerimages/menu.jpg)
+![Planner navigation menu](https://profitbasedocs.blob.core.windows.net/plannerimages/menu.jpg)
 
-<br/>
+The menu reflects the work processes (budget, forecast, etc.) and versions you have created. Each version is a self-contained mini solution with its own data and workbooks. The workbooks and data you see depend on your user role — you may only have access to a subset of the full menu. This documentation covers all workbooks regardless of access level.
 
-The picture above shows the menu present in all [workbooks](workbooks/workbooks.md) for navigating in Planner. Clicking the hamburger menu in the upper left corner opens up a side menu.
-<br/>
+> [!NOTE]
+> Applies to Planner 5 or later. Different work processes can be defined, such as budget, forecast, and similar. For each work process, one or more versions can be created.
 
-**Applies to:** ![img](https://profitbasedocs.blob.core.windows.net/icons/yes-icon.png) Planner 5 or later
+## Input modules
 
-Different work processes can be defined, such as budget, forecast and similar. For each work process, one or more versions can be created. A version is a self contained mini solution with regard to data and individual workbooks.
+The success of a rolling forecast solution depends on how easy it is for users to provide input. Planner offers a rich set of modules to cover everything from simple on-account input to complex driver-based planning:
 
-The hamburger menu will reflect the work processes and versions created.
+- [Input on Account](modules/account.md) — traditional account-level input, straightforward for finance users
+- [Payroll](modules/personnel.md) — input by employee or category, headcount, full-time percentage, and benefit costs
+- [CapEx](workbooks/financial-planning/capex.md) — investment planning
+- [Loan](workbooks/financial-planning/loan.md) — loan planning including ongoing loans
+- [Driver Based](modules/driver-based.md) — model income and costs from a single driver such as quantity sold *(Planner 5+)*
+- [Sales Forecast](modules/sales-forecast.md) — driver-based forecast input *(Planner 4.x)*
+- [Sales Gross Margin](modules/sales-gm.md) — sales and gross margin budget input *(Planner 4.x)*
 
-<br/>
+All input modules are optional, configurable, and can be launched from the profit and loss summary report.
 
-## About Profitbase Planner
+### Example: driver-based input
 
-Profitbase Planner provides the ability to do extensive and accurate planning for financial planning processes such as rolling forecast and budget. The main parts of Planner are:
+![Driver based input module](https://profitbasedocs.blob.core.windows.net/plannerimages/salesmodule.jpg)
 
-- [Finance Settings](workbooks/financial-planning/finance-settings.md) to set up the financial settings and assumptions.
-- [Input modules](modules/modules.md) to give users a convenient way to provide plan input on year and/or periods.
-- Finance simulation engine that process input and apply the settings to calculate balance and accurate cashflow.
-- [Finance Reports](workbooks/financial-planning/finance-reports.md) to inspect results form simulation.
-- [Operation Manager](workbooks/administration/operation-manager.md) to run and schedule data processing flows.
-- [Data Management](workbooks/data-management/data-management.md) for manage exchange rates, dimensions and transaction tables.
-- [Administration](workbooks/administration/administration.md) to manager user access and configure input modules.
+The driver-based module shows the quantity driver at the top, which controls calculations below. Users can add detail-level adjustments in the middle section. The bottom table displays results posted to financial accounts.
 
-The success of most rolling Forecast solutions depends on how easy and efficient it is for the casual user to provide input. Planner, therefore, offers a rich set of Modules to make it convenient for users to provide input on:
+## Planning and simulation workflow
 
-- [Input on Account](modules/account.md) - traditional and easy but not necessarly easy for non-finance users.
-- [Payroll input](modules/personnel.md) - allows for input on employee or employee category and headcount and percent of full-time. Here you can input additional cost for benefits.
-- [CapEx](workbooks/financial-planning/capex.md) - a plan for investments.
-- [Loan](workbooks/financial-planning/loan.md) - a plan for loans including ongoing loans.
+Input combined with finance settings controls the outcome of the finance simulation engine, which calculates balances and generates accurate cash flow. You can also run [scenario simulations](workbooks/financial-planning/finance-simulation.md) to explore best-case and worst-case results. Results can be inspected in Finance Reports or exported for use in external reporting tools.
 
-**Applies to:** ![img](https://profitbasedocs.blob.core.windows.net/icons/yes-icon.png) Planner 5 or later
+### Profit and loss summary
 
-- [Driver based](modules/driver-based.md) - driver-based planning. Here you can model to drive a set of income and cost inputs from one single input (e.g. quantity sold).
+![Profit and loss summary report](https://profitbasedocs.blob.core.windows.net/plannerimages/summary.jpg)
 
-<br/>
+### Cash flow report
 
-**Applies to:** ![img](https://profitbasedocs.blob.core.windows.net/icons/yes-icon.png) Planner 4.x
+![Cash flow report](https://profitbasedocs.blob.core.windows.net/plannerimages/cashtotal.jpg)
 
-- [Sales Forecast](modules/sales-forecast.md) - driver-based forecast input. Here you can model to drive a set of income and cost inputs from one single input (e.g. quantity sold).
-- [Sales Gross Margin budget input](modules/sales-gm.md) - allows to input sales and gross margin for budget.
-
-The picture below shows an example of the Driver based input module:
-<br/>
-
-![](https://profitbasedocs.blob.core.windows.net/plannerimages/salesmodule.jpg)
-<br/>
-
-The picture above shows an example of product driver based input. At the top, you see the quantity which is the driver for everything below. However, the user may go to details in the middle part to add and override to extend the input. The table at the bottom shows the results from the input and details adjustments posted on financial accounts.
-
-Input modules are optional and configurable to be able to cover most cases from simple on-account input to complex driver-based planning.
-
-All input modules can be launched from - and contribute the profit and loss summary report (see picture above).
-<br/>
-
-![](https://profitbasedocs.blob.core.windows.net/plannerimages/summary.jpg)
-<br/>
-
-This input combined with the finance settings is what controls the outcome from finance simulation, which calculates and posts the balances to get a correct cash flow. In addition, one can do [finance scenario simulation](workbooks/financial-planning/finance-simulation.md) to "play" with input and create "Best" and "Worst" case results. Results from simulation can be inspected in Finance reports or exported for external consumption by external reporting tools.
-<br/>
-
-![](https://profitbasedocs.blob.core.windows.net/plannerimages/cashtotal.jpg)
-<br/>
-
-The picture above shows an example of a cash report. Simulated cash can be broken down to each operational activity to see effects from VAT terms, vacation pay terms, etc. As shown above, if the operation is not generating cash, you will be in trouble.
-
+Simulated cash can be broken down by operational activity to see the effects of VAT terms, vacation pay terms, and other factors on liquidity.

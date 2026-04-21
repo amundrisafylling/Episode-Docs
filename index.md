@@ -1,91 +1,113 @@
+---
+_layout: landing
+_disableToc: true
+_disableBreadcrumb: true
+_disableAffix: true
+title: Profitbase Documentation
+---
 
+<div class="landing-page">
 
-# Learn Profitbase
-
-Explore what you can do with Profitbase to power every level of the organization.
-
-<div class="flex-container">
-
-<div class="flex-column">
-        <a href="articles/PowerBI/power-bi.md">
-            <img src="https://profitbasedocs.blob.core.windows.net/imagestitlesites/powerBIheader2.png" alt="PowerBI">
-        </a> </br>
-        <a href="articles/PowerBI/power-bi.md" class="custom-link">
-            Power BI Custom Visuals
-        </a>
-    <p class="doc-tile-text">Advanced Reporting, Simplified with Profitbase and Power BI.</p>
-            <a href="articles/PowerBI/power-bi.md" class="link-button">
-            Read more...
-        </a>
+<div class="landing-hero">
+  <h1>Profitbase documentation</h1>
+  <p>Financial planning, analysis, consolidation, low-code apps, and workflow automation</p>
 </div>
 
-<div class="flex-column">
-        <a href="articles/planner/planner.md">
-            <img src="https://profitbasedocs.blob.core.windows.net/imagestitlesites/budgforrecastingheader2.png" alt="Budgeting and forecasting">
-        </a></br>
-                <a href="articles/planner/planner.md" class="custom-link">
-             Budgeting and forecasting
-        </a>
-    <p class="doc-tile-text">Move away from Excel with our flexible Budgeting and Forecasting Software.</p>
-                    <a href="articles/planner/planner.md" class="link-button">
-             Read more...
-        </a>
+<div class="landing-search">
+  <div class="search-box">
+    <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5.5" stroke="currentColor" stroke-width="1.5"></circle><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
+    <input type="text" class="landing-search-input" placeholder="What are you looking for?" autocomplete="off">
+    <span class="search-kbd">Search</span>
+  </div>
+  <div class="landing-search-results"></div>
 </div>
 
-<div class="flex-column">
-        <a href="articles/risk/risk.md">
-            <img src="https://profitbasedocs.blob.core.windows.net/imagestitlesites/riskheader2.png" alt="Risk">
-        </a></br>
-                 <a href="articles/risk/risk.md" class="custom-link">
-            Risk Management
-        </a>
-    <p class="doc-tile-text">Safeguard your company’s values and assets.</p>
-                  <a href="articles/risk/risk.md" class="link-button">
-            Read more...
-        </a>
+<!--
+<div class="landing-section">
+  <div class="section-label">Get started by role</div>
+  <div class="role-grid">
+    <a href="articles/planner/planner.md" class="role-card">
+      <div class="role-icon role-icon-fp">FP</div>
+      <h3>Financial planner</h3>
+      <p>Budgets, forecasts, simulations, reports</p>
+    </a>
+    <a href="articles/invision/docs/systemsetup.md" class="role-card">
+      <div class="role-icon role-icon-ad">AD</div>
+      <h3>Admin / configurator</h3>
+      <p>Modules, users, settings, access control</p>
+    </a>
+    <a href="articles/invision/invision.md" class="role-card">
+      <div class="role-icon role-icon-dv">DV</div>
+      <h3>Developer</h3>
+      <p>InVision apps, Flow automations, APIs</p>
+    </a>
+  </div>
+</div>
+-->
+
+<div class="landing-section">
+  <div class="section-label">Products</div>
+  <div class="product-grid">
+    <a href="articles/planner/planner.md" class="product-card">
+      <div class="product-icon">
+        <img src="images/products/planner.svg" alt="Planner">
+      </div>
+      <div>
+        <h3>Planner</h3>
+        <p>Budgeting, forecasting, financial simulation</p>
+      </div>
+    </a>
+    <a href="articles/invision/invision.md" class="product-card">
+      <div class="product-icon">
+        <img src="images/products/invision.svg" alt="InVision">
+      </div>
+      <div>
+        <h3>InVision</h3>
+        <p>Low-code business apps, data stores, worksheets</p>
+      </div>
+    </a>
+    <a href="articles/flow/flow.md" class="product-card">
+      <div class="product-icon">
+        <img src="images/products/flow.svg" alt="Flow">
+      </div>
+      <div>
+        <h3>Flow <span class="badge-new">new</span></h3>
+        <p>AI agents, data integrations, workflow automation</p>
+      </div>
+    </a>
+    <a href="articles/PowerBI/power-bi.md" class="product-card">
+      <div class="product-icon">
+        <img src="images/products/powerbi.svg" alt="Power BI visuals">
+      </div>
+      <div>
+        <h3>Power BI visuals</h3>
+        <p>Financial matrix, gantt chart, risk matrix</p>
+      </div>
+    </a>
+    <a href="articles/risk/risk.md" class="product-card">
+      <div class="product-icon">
+        <img src="images/products/risk.svg" alt="Risk management">
+      </div>
+      <div>
+        <h3>Risk management</h3>
+        <p>Safeguard your company's values and assets</p>
+      </div>
+    </a>
+  </div>
 </div>
 
-
-</div>
-</br>
-<div class="flex-container">
-
-<div class="flex-column">
-        <a href="articles/invision/invision.md">
-            <img src="https://profitbasedocs.blob.core.windows.net/imagestitlesites/lowcodeheader2.png" alt="Invision">
-        </a></br>
-                <a href="articles/invision/invision.md" class="custom-link">
-           Hypergene InVision
-        </a>   
-    <p class="doc-tile-text">Build advanced business apps with low-code.</p>
-           <a href="articles/invision/invision.md" class="link-button">
-           Read more...
-        </a>   
+<div class="landing-section">
+  <div class="section-label">Popular topics</div>
+  <div class="popular-links">
+    <a href="articles/planner/workbooks/financial-planning/finance-settings.md" class="pill-link">Finance settings</a>
+    <a href="articles/invision/docs/datastores.md" class="pill-link">Data stores</a>
+    <a href="articles/planner/modules/driver-based.md" class="pill-link">Driver-based planning</a>
+    <a href="articles/flow/actions/dynamics365/business-central/rest-api-request-with-paging.md" class="pill-link">Connecting to D365 BC</a>
+    <a href="articles/flow/flow.md" class="pill-link">AI agents in Flow</a>
+    <a href="articles/invision/docs/worksheets.md" class="pill-link">Worksheets</a>
+    <a href="articles/PowerBI/financial-reporting-matrix/financial-reporting-matrix.md" class="pill-link">Financial reporting matrix</a>
+    <a href="articles/invision/docs/webserviceapis.md" class="pill-link">REST API</a>
+  </div>
 </div>
 
-<div class="flex-column">
-        <a href="articles/flow/flow.md">
-            <img src="https://profitbasedocs.blob.core.windows.net/imagestitlesites/flowheader2.png" alt="Flow">
-        </a></br>
-                 <a href="articles/flow/flow.md" class="custom-link">
-            Hypergene Flow
-        </a>
-    <p class="doc-tile-text">Automate digital processes and integrate data from various sources through a user-friendly drag-and-drop interface.</p>
-                     <a href="articles/flow/flow.md" class="link-button">
-            Read more...
-        </a>
-</div>
-
-<div class="flex-column">
-        <a href="https://www.profitbase.no">
-            <img src="https://profitbasedocs.blob.core.windows.net/imagestitlesites/PBheader2.png" alt="Profitbase">
-        </a></br>
-                <a href="https://www.profitbase.com" class="custom-link">
-            Profitbase website 
-        </a>
-    <p class="doc-tile-text">Visit our website!</p>
-                    <a href="https://www.profitbase.com" class="link-button">
-            Here... 
-        </a>
-</div>
 </div>
