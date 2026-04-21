@@ -2,6 +2,7 @@
 _layout: landing
 _disableToc: true
 _disableBreadcrumb: true
+_disableAffix: true
 title: Profitbase Documentation
 ---
 
@@ -12,6 +13,16 @@ title: Profitbase Documentation
   <p>Financial planning, analysis, consolidation, low-code apps, and workflow automation</p>
 </div>
 
+<div class="landing-search">
+  <div class="search-box">
+    <svg class="search-icon" width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="7" cy="7" r="5.5" stroke="currentColor" stroke-width="1.5"></circle><path d="M11 11l3.5 3.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path></svg>
+    <input type="text" class="landing-search-input" placeholder="What are you looking for?" autocomplete="off">
+    <span class="search-kbd">Search</span>
+  </div>
+  <div class="landing-search-results"></div>
+</div>
+
+<!--
 <div class="landing-section">
   <div class="section-label">Get started by role</div>
   <div class="role-grid">
@@ -32,13 +43,14 @@ title: Profitbase Documentation
     </a>
   </div>
 </div>
+-->
 
 <div class="landing-section">
   <div class="section-label">Products</div>
   <div class="product-grid">
     <a href="articles/planner/planner.md" class="product-card">
       <div class="product-icon">
-        <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><rect x="2" y="3" width="12" height="10" rx="1.5" stroke="#FF7415" stroke-width="1.2"/><path d="M5 7h6M5 9.5h4" stroke="#FF7415" stroke-width="1"/></svg>
+        <img src="images/products/planner.svg" alt="Planner">
       </div>
       <div>
         <h3>Planner</h3>
@@ -47,7 +59,7 @@ title: Profitbase Documentation
     </a>
     <a href="articles/invision/invision.md" class="product-card">
       <div class="product-icon">
-        <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="5" height="5" rx="1" stroke="#FF7415" stroke-width="1.2"/><rect x="9" y="9" width="5" height="5" rx="1" stroke="#FF7415" stroke-width="1.2"/></svg>
+        <img src="images/products/invision.svg" alt="InVision">
       </div>
       <div>
         <h3>InVision</h3>
@@ -55,8 +67,8 @@ title: Profitbase Documentation
       </div>
     </a>
     <a href="articles/flow/flow.md" class="product-card">
-      <div class="product-icon product-icon-accent">
-        <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><circle cx="4" cy="8" r="2" stroke="#fff" stroke-width="1.2"/><circle cx="12" cy="5" r="2" stroke="#fff" stroke-width="1.2"/><circle cx="12" cy="11" r="2" stroke="#fff" stroke-width="1.2"/><path d="M6 7.2l4-1.5M6 8.8l4 1.5" stroke="#fff" stroke-width="0.8"/></svg>
+      <div class="product-icon">
+        <img src="images/products/flow.svg" alt="Flow">
       </div>
       <div>
         <h3>Flow <span class="badge-new">new</span></h3>
@@ -65,7 +77,7 @@ title: Profitbase Documentation
     </a>
     <a href="articles/PowerBI/power-bi.md" class="product-card">
       <div class="product-icon">
-        <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><rect x="2" y="6" width="3" height="7" rx="0.5" stroke="#FF7415" stroke-width="1"/><rect x="6.5" y="4" width="3" height="9" rx="0.5" stroke="#FF7415" stroke-width="1"/><rect x="11" y="2" width="3" height="11" rx="0.5" stroke="#FF7415" stroke-width="1"/></svg>
+        <img src="images/products/powerbi.svg" alt="Power BI visuals">
       </div>
       <div>
         <h3>Power BI visuals</h3>
@@ -74,7 +86,7 @@ title: Profitbase Documentation
     </a>
     <a href="articles/risk/risk.md" class="product-card">
       <div class="product-icon">
-        <svg width="20" height="20" viewBox="0 0 16 16" fill="none"><path d="M8 2L14 13H2L8 2z" stroke="#FF7415" stroke-width="1.2" stroke-linejoin="round"/><path d="M8 7v3" stroke="#FF7415" stroke-width="1.2" stroke-linecap="round"/><circle cx="8" cy="11.5" r="0.5" fill="#FF7415"/></svg>
+        <img src="images/products/risk.svg" alt="Risk management">
       </div>
       <div>
         <h3>Risk management</h3>

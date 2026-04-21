@@ -1,102 +1,98 @@
 /* ==========================================================
-   Hypergene Profitbase Docs — v4 WIDE LAYOUT
+   Hypergene Profitbase Docs — v6 BRAND ALIGNED
+   Based on Hypergene Brand Book v1.0
    ========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
 :root {
   --brand-orange: #FF7415;
+  --brand-orange-primary: #EF4C07;
   --brand-orange-light: #FFF0E0;
-  --brand-orange-dark: #854F0B;
-  --brand-dark: #0d1822;
+  --brand-orange-mid: #FF8F43;
+  --brand-purple: #714AA0;
+  --brand-purple-light: #E7CBFD;
+  --brand-green: #64DBAE;
+  --brand-green-light: #CAF1D2;
+  --brand-dark: #28272C;
+  --brand-dark-secondary: #3A3941;
+  --brand-bg-light: #F6F6F5;
+  --brand-text-primary-dark: #F9F9F8;
+  --brand-text-secondary-dark: #CFD1D2;
+  --brand-text-brand: #EF4C07;
+  --brand-text-brand-dark: #FF7415;
 }
 
 /* ==========================================================
-   LAYOUT — wider containers
-   DocFX modern uses .container-xxl which caps at 1320px
-   We push it wider and let content breathe
+   LAYOUT
    ========================================================== */
 
 .container-xxl {
   max-width: 1600px !important;
 }
 
-/* Desktop only — wider padding and column adjustments */
 @media (min-width: 992px) {
   .container-xxl {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
   }
-
-  /* Sidebar TOC — slightly narrower to give center more room */
   main .toc-offcanvas {
     width: 260px !important;
     min-width: 260px !important;
   }
-
-  /* Right rail "In this article" — slightly narrower */
   main .affix {
     width: 200px !important;
     min-width: 200px !important;
   }
 }
 
-/* Article content area — wider */
-main .content {
-  max-width: 100% !important;
-}
-
-main .content article {
-  max-width: 100% !important;
-}
-
-/* Center content column — take all remaining space */
+main .content { max-width: 100% !important; }
+main .content article { max-width: 100% !important; }
 main .content > .actionbar + article,
-main .content article {
-  flex: 1 !important;
-  min-width: 0 !important;
-}
+main .content article { flex: 1 !important; min-width: 0 !important; }
 
 /* ==========================================================
-   MOBILE — fixes for small screens
+   MOBILE
    ========================================================== */
+
 @media (max-width: 991px) {
   .container-xxl {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
   }
-
-  /* Article must take full width on mobile */
   main .content article {
     width: 100% !important;
     max-width: 100% !important;
     overflow-x: hidden !important;
   }
-
-  /* Tables scroll horizontally on mobile */
   article table {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-
-  /* Images scale down */
   article img {
     max-width: 100% !important;
     height: auto !important;
   }
 }
 
-/* --- NAVBAR --- */
+/* ==========================================================
+   NAVBAR
+   ========================================================== */
+
 header.bg-body {
   background: var(--brand-dark) !important;
   border-bottom: 2px solid var(--brand-orange) !important;
 }
 header .navbar { background: var(--brand-dark) !important; }
-header .navbar-brand { color: #fff !important; }
+header .navbar-brand { color: var(--brand-text-primary-dark) !important; }
 header .navbar-brand img { height: 28px; width: auto; }
-header > nav .nav-link { color: rgba(255,255,255,0.6) !important; font-size: 13px !important; }
-header > nav .nav-link:hover { color: #fff !important; }
+header > nav .nav-link {
+  color: var(--brand-text-secondary-dark) !important;
+  font-size: 13px !important;
+}
+header > nav .nav-link:hover { color: var(--brand-text-primary-dark) !important; }
 
-/* Dropdown items inside navbar — must use page colors, not white */
 header .dropdown-menu .nav-link,
 header .dropdown-menu .nav-item .nav-link {
   color: var(--bs-body-color) !important;
@@ -104,31 +100,72 @@ header .dropdown-menu .nav-item .nav-link {
   padding: 6px 16px !important;
   white-space: normal !important;
 }
-
 header .dropdown-menu .nav-link:hover,
 header .dropdown-menu .nav-item .nav-link:hover {
   background: var(--brand-orange-light) !important;
-  color: var(--brand-orange-dark) !important;
+  color: var(--brand-text-brand) !important;
 }
-
 [data-bs-theme="dark"] header .dropdown-menu .nav-link,
 [data-bs-theme="dark"] header .dropdown-menu .nav-item .nav-link {
-  color: rgba(255,255,255,0.85) !important;
+  color: var(--brand-text-primary-dark) !important;
 }
-
 [data-bs-theme="dark"] header .dropdown-menu .nav-link:hover,
 [data-bs-theme="dark"] header .dropdown-menu .nav-item .nav-link:hover {
-  background: #3d2a10 !important;
-  color: #FB973E !important;
+  background: var(--brand-dark-secondary) !important;
+  color: var(--brand-text-brand-dark) !important;
 }
+
 header .form-control {
   background: rgba(255,255,255,0.08) !important;
   border-color: rgba(255,255,255,0.12) !important;
-  color: rgba(255,255,255,0.8) !important;
+  color: var(--brand-text-primary-dark) !important;
 }
-header .form-control::placeholder { color: rgba(255,255,255,0.35) !important; }
-header .bi-search { color: rgba(255,255,255,0.4) !important; }
-header .btn { color: rgba(255,255,255,0.7) !important; }
+header .form-control::placeholder { color: var(--brand-text-secondary-dark) !important; }
+header .bi-search { color: var(--brand-text-secondary-dark) !important; }
+header .btn { color: var(--brand-text-secondary-dark) !important; }
+
+/* Hide navbar search on landing page — landing has its own */
+body[data-layout="landing"] header .search {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* ==========================================================
+   NAVBAR DROPDOWNS
+   ========================================================== */
+
+header .dropdown-menu {
+  background: var(--bs-body-bg) !important;
+  border: 1px solid var(--bs-border-color) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+  padding: 8px 0 !important;
+}
+header .dropdown-menu .dropdown-item {
+  color: var(--bs-body-color) !important;
+  padding: 6px 16px !important;
+  font-size: 13px !important;
+}
+header .dropdown-menu .dropdown-item:hover,
+header .dropdown-menu .dropdown-item:focus {
+  background: var(--brand-orange-light) !important;
+  color: var(--brand-text-brand) !important;
+}
+[data-bs-theme="dark"] header .dropdown-menu {
+  background: var(--brand-dark-secondary) !important;
+  border-color: #555 !important;
+}
+[data-bs-theme="dark"] header .dropdown-menu .dropdown-item {
+  color: var(--brand-text-primary-dark) !important;
+}
+[data-bs-theme="dark"] header .dropdown-menu .dropdown-item:hover {
+  background: var(--brand-dark) !important;
+  color: var(--brand-text-brand-dark) !important;
+}
 
 /* ==========================================================
    LANDING PAGE
@@ -146,13 +183,12 @@ article .landing-hero {
   padding: 48px 0 36px !important;
   display: block !important;
 }
-
 article .landing-hero h1 {
-  font-size: 32px !important;
-  font-weight: 600 !important;
-  margin-bottom: 8px !important;
+  font-family: 'DM Serif Display', serif !important;
+  font-size: 36px !important;
+  font-weight: 400 !important;
+  margin-bottom: 10px !important;
 }
-
 article .landing-hero p {
   font-size: 17px !important;
   max-width: 600px !important;
@@ -163,7 +199,6 @@ article .landing-section {
   margin-bottom: 36px !important;
   display: block !important;
 }
-
 article .section-label {
   font-size: 11px !important;
   font-weight: 700 !important;
@@ -173,13 +208,78 @@ article .section-label {
   display: block !important;
 }
 
-/* --- Role cards — 3 columns --- */
+/* ==========================================================
+   LANDING SEARCH — real input
+   ========================================================== */
+
+article .landing-search {
+  max-width: 520px !important;
+  margin: 0 auto 36px !important;
+  display: block !important;
+  position: relative !important;
+}
+
+article .search-box {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  padding: 0 18px !important;
+  border: 1px solid var(--bs-border-color) !important;
+  border-radius: 10px !important;
+  background: var(--bs-body-bg) !important;
+  transition: border-color 0.2s !important;
+  height: 48px !important;
+}
+
+article .search-box:focus-within {
+  border-color: var(--brand-orange) !important;
+  box-shadow: 0 0 0 2px rgba(255, 116, 21, 0.15) !important;
+}
+
+article .search-box .search-icon {
+  color: var(--bs-secondary-color) !important;
+  flex-shrink: 0 !important;
+}
+
+article .landing-search-input {
+  flex: 1 !important;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  font-size: 15px !important;
+  color: var(--bs-body-color) !important;
+  padding: 0 !important;
+  height: 100% !important;
+}
+
+article .landing-search-input::placeholder {
+  color: var(--bs-secondary-color) !important;
+}
+
+article .search-kbd {
+  flex-shrink: 0 !important;
+  font-size: 11px !important;
+  padding: 2px 8px !important;
+  border: 1px solid var(--bs-border-color) !important;
+  border-radius: 4px !important;
+  color: var(--bs-secondary-color) !important;
+}
+
+article .search-kbd:hover {
+  background: var(--brand-orange-light) !important;
+  border-color: var(--brand-orange) !important;
+  color: var(--brand-text-brand) !important;
+}
+
+/* ==========================================================
+   ROLE CARDS — brand purple and green
+   ========================================================== */
+
 article .role-grid {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
   gap: 16px !important;
 }
-
 @media (max-width: 768px) {
   article .role-grid { grid-template-columns: 1fr !important; }
 }
@@ -194,58 +294,33 @@ article .role-card {
   color: inherit !important;
   transition: border-color 0.2s !important;
 }
-
 article .role-card:hover {
   border-color: var(--brand-orange) !important;
   box-shadow: 0 0 0 1px var(--brand-orange) !important;
   text-decoration: none !important;
   color: inherit !important;
 }
-
-article .role-card h3 {
-  font-size: 16px !important;
-  font-weight: 600 !important;
-  margin: 0 0 4px !important;
-}
-
-article .role-card p {
-  font-size: 14px !important;
-  margin: 0 !important;
-  line-height: 1.5 !important;
-}
+article .role-card h3 { font-size: 16px !important; font-weight: 600 !important; margin: 0 0 4px !important; }
+article .role-card p { font-size: 14px !important; margin: 0 !important; line-height: 1.5 !important; }
 
 article .role-icon {
-  width: 40px !important;
-  height: 40px !important;
-  border-radius: 10px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  font-size: 15px !important;
-  font-weight: 700 !important;
-  margin-bottom: 14px !important;
+  width: 40px !important; height: 40px !important; border-radius: 10px !important;
+  display: flex !important; align-items: center !important; justify-content: center !important;
+  font-size: 15px !important; font-weight: 700 !important; margin-bottom: 14px !important;
 }
+article .role-icon-fp { background: var(--brand-orange-light) !important; color: var(--brand-text-brand) !important; }
+article .role-icon-ad { background: var(--brand-purple-light) !important; color: var(--brand-purple) !important; }
+article .role-icon-dv { background: var(--brand-green-light) !important; color: #0a6847 !important; }
 
-article .role-icon-fp {
-  background: var(--brand-orange-light) !important;
-  color: var(--brand-orange-dark) !important;
-}
-article .role-icon-ad {
-  background: #f0eeee !important;
-  color: #555 !important;
-}
-article .role-icon-dv {
-  background: #e1f5ee !important;
-  color: #085041 !important;
-}
+/* ==========================================================
+   PRODUCT CARDS — all orange bg
+   ========================================================== */
 
-/* --- Product cards — 3 columns on wide, 2 on medium --- */
 article .product-grid {
   display: grid !important;
   grid-template-columns: repeat(3, 1fr) !important;
   gap: 16px !important;
 }
-
 @media (max-width: 1024px) {
   article .product-grid { grid-template-columns: repeat(2, 1fr) !important; }
 }
@@ -254,205 +329,120 @@ article .product-grid {
 }
 
 article .product-card {
-  display: flex !important;
-  gap: 14px !important;
-  align-items: flex-start !important;
+  display: flex !important; gap: 14px !important; align-items: flex-start !important;
   background: var(--bs-body-bg) !important;
   border: 1px solid var(--bs-border-color) !important;
-  border-radius: 10px !important;
-  padding: 20px !important;
-  text-decoration: none !important;
-  color: inherit !important;
+  border-radius: 10px !important; padding: 20px !important;
+  text-decoration: none !important; color: inherit !important;
   transition: border-color 0.2s !important;
 }
-
 article .product-card:hover {
   border-color: var(--brand-orange) !important;
   box-shadow: 0 0 0 1px var(--brand-orange) !important;
-  text-decoration: none !important;
-  color: inherit !important;
+  text-decoration: none !important; color: inherit !important;
 }
-
-article .product-card h3 {
-  font-size: 16px !important;
-  font-weight: 600 !important;
-  margin: 0 0 3px !important;
-}
-
-article .product-card p {
-  font-size: 14px !important;
-  margin: 0 !important;
-  line-height: 1.5 !important;
-}
+article .product-card h3 { font-size: 16px !important; font-weight: 600 !important; margin: 0 0 3px !important; }
+article .product-card p { font-size: 14px !important; margin: 0 !important; line-height: 1.5 !important; }
 
 article .product-icon {
-  width: 44px !important;
-  height: 44px !important;
-  min-width: 44px !important;
-  border-radius: 10px !important;
-  background: var(--brand-dark) !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
+  width: 44px !important; height: 44px !important; min-width: 44px !important;
+  border-radius: 10px !important; background: var(--brand-orange) !important;
+  display: flex !important; align-items: center !important; justify-content: center !important;
   flex-shrink: 0 !important;
 }
-
-article .product-icon-accent {
-  background: var(--brand-orange) !important;
+article .product-icon img {
+  width: 24px !important; height: 24px !important;
+  filter: brightness(0) invert(1) !important;
 }
 
 article .badge-new {
-  font-size: 10px !important;
-  padding: 2px 8px !important;
-  border-radius: 6px !important;
-  background: var(--brand-orange-light) !important;
-  color: var(--brand-orange-dark) !important;
-  font-weight: 600 !important;
-  margin-left: 6px !important;
-  vertical-align: middle !important;
+  font-size: 10px !important; padding: 2px 8px !important; border-radius: 6px !important;
+  background: var(--brand-orange-light) !important; color: var(--brand-text-brand) !important;
+  font-weight: 600 !important; margin-left: 6px !important; vertical-align: middle !important;
   display: inline-block !important;
 }
 
-/* --- Popular topic pills --- */
-article .popular-links {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 10px !important;
-}
+/* ==========================================================
+   POPULAR TOPIC PILLS
+   ========================================================== */
+
+article .popular-links { display: flex !important; flex-wrap: wrap !important; gap: 10px !important; }
 
 article .pill-link {
-  font-size: 14px !important;
-  padding: 8px 18px !important;
-  border-radius: 8px !important;
+  font-size: 14px !important; padding: 8px 18px !important; border-radius: 8px !important;
   border: 1px solid var(--bs-border-color) !important;
-  text-decoration: none !important;
-  transition: all 0.15s !important;
-  background: var(--bs-body-bg) !important;
-  display: inline-block !important;
+  text-decoration: none !important; transition: all 0.15s !important;
+  background: var(--bs-body-bg) !important; display: inline-block !important;
+  color: var(--bs-body-color) !important;
 }
-
 article .pill-link:hover {
   border-color: var(--brand-orange) !important;
+  color: var(--brand-text-brand) !important;
   text-decoration: none !important;
 }
 
 /* ==========================================================
    DARK MODE
    ========================================================== */
-[data-bs-theme="dark"] article .role-icon-fp { background: #3d2a10 !important; color: #FB973E !important; }
-[data-bs-theme="dark"] article .role-icon-ad { background: #333 !important; color: #ccc !important; }
-[data-bs-theme="dark"] article .role-icon-dv { background: #0a3d2e !important; color: #9FE1CB !important; }
-[data-bs-theme="dark"] article .product-icon { background: #2a2a2a !important; }
-[data-bs-theme="dark"] article .badge-new { background: #3d2a10 !important; color: #FB973E !important; }
-[data-bs-theme="dark"] article .pill-link:hover { color: var(--brand-orange) !important; }
 
-/* Screenshots: white frame in dark mode */
+[data-bs-theme="dark"] article .role-icon-fp { background: #3d2a10 !important; color: var(--brand-orange-mid) !important; }
+[data-bs-theme="dark"] article .role-icon-ad { background: #3b2d54 !important; color: #C0A4E8 !important; }
+[data-bs-theme="dark"] article .role-icon-dv { background: #1a3d2e !important; color: var(--brand-green) !important; }
+[data-bs-theme="dark"] article .product-icon { background: var(--brand-orange) !important; }
+[data-bs-theme="dark"] article .badge-new { background: #3d2a10 !important; color: var(--brand-orange-mid) !important; }
+[data-bs-theme="dark"] article .pill-link:hover { color: var(--brand-text-brand-dark) !important; }
+
 [data-bs-theme="dark"] article img {
-  background: #fff;
-  border-radius: 6px;
-  padding: 4px;
+  background: #fff; border-radius: 6px; padding: 4px;
 }
 [data-bs-theme="dark"] article .product-icon svg,
+[data-bs-theme="dark"] article .product-icon img,
 [data-bs-theme="dark"] article .role-icon svg {
-  background: transparent !important;
-  padding: 0 !important;
+  background: transparent !important; padding: 0 !important;
+}
+[data-bs-theme="dark"] article .product-icon img {
+  filter: brightness(0) invert(1) !important;
 }
 
 /* ==========================================================
-   ARTICLE PAGES — sidebar + callouts + feedback
+   ARTICLE PAGES
    ========================================================== */
 
 .toc .nav-link.active {
   background: var(--brand-orange-light) !important;
-  color: var(--brand-orange-dark) !important;
+  color: var(--brand-text-brand) !important;
   border-radius: 6px !important;
 }
-
 [data-bs-theme="dark"] .toc .nav-link.active {
   background: #3d2a10 !important;
-  color: #FB973E !important;
+  color: var(--brand-text-brand-dark) !important;
 }
 
 div.TIP, div.tip { border-left: 3px solid var(--brand-orange) !important; }
 div.WARNING, div.warning { border-left: 3px solid #EF9F27 !important; }
 
 .feedback-row {
-  display: flex !important;
-  align-items: center !important;
-  gap: 10px !important;
-  padding: 16px 0 !important;
-  margin-top: 32px !important;
-  border-top: 1px solid var(--bs-border-color) !important;
-  font-size: 14px !important;
+  display: flex !important; align-items: center !important; gap: 10px !important;
+  padding: 16px 0 !important; margin-top: 32px !important;
+  border-top: 1px solid var(--bs-border-color) !important; font-size: 14px !important;
 }
-
 .feedback-row button {
-  padding: 4px 14px !important;
-  border: 1px solid var(--bs-border-color) !important;
-  border-radius: 6px !important;
-  background: transparent !important;
-  font-size: 13px !important;
-  cursor: pointer !important;
+  padding: 4px 14px !important; border: 1px solid var(--bs-border-color) !important;
+  border-radius: 6px !important; background: transparent !important;
+  font-size: 13px !important; cursor: pointer !important;
 }
-
 .feedback-row button:hover {
   border-color: var(--brand-orange) !important;
+  color: var(--brand-text-brand) !important;
 }
 
 /* ==========================================================
-   SIDEBAR TOC — text wrapping
-   Long page titles must wrap instead of being cut off
+   SIDEBAR TOC
    ========================================================== */
 
 .toc .nav-link {
-  white-space: normal !important;
-  word-wrap: break-word !important;
-  overflow-wrap: break-word !important;
-  text-overflow: unset !important;
-  overflow: visible !important;
-  line-height: 1.4 !important;
+  white-space: normal !important; word-wrap: break-word !important;
+  overflow-wrap: break-word !important; text-overflow: unset !important;
+  overflow: visible !important; line-height: 1.4 !important;
 }
-
-.toc-offcanvas,
-.offcanvas-body {
-  overflow-x: hidden !important;
-}
-
-/* ==========================================================
-   NAVBAR DROPDOWNS
-   Dark navbar needs light dropdown menus
-   ========================================================== */
-
-header .dropdown-menu {
-  background: var(--bs-body-bg) !important;
-  border: 1px solid var(--bs-border-color) !important;
-  border-radius: 8px !important;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
-  padding: 8px 0 !important;
-}
-
-header .dropdown-menu .dropdown-item {
-  color: var(--bs-body-color) !important;
-  padding: 6px 16px !important;
-  font-size: 13px !important;
-}
-
-header .dropdown-menu .dropdown-item:hover,
-header .dropdown-menu .dropdown-item:focus {
-  background: var(--brand-orange-light) !important;
-  color: var(--brand-orange-dark) !important;
-}
-
-[data-bs-theme="dark"] header .dropdown-menu {
-  background: #2a2a2a !important;
-  border-color: #444 !important;
-}
-
-[data-bs-theme="dark"] header .dropdown-menu .dropdown-item {
-  color: rgba(255,255,255,0.85) !important;
-}
-
-[data-bs-theme="dark"] header .dropdown-menu .dropdown-item:hover {
-  background: #3d2a10 !important;
-  color: #FB973E !important;
-}
+.toc-offcanvas, .offcanvas-body { overflow-x: hidden !important; }
