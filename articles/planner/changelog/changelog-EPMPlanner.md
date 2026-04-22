@@ -6,6 +6,7 @@ This package provide the financial planning function and can be organized in pro
 
 ## EPM Planner Versions
 
+- [EPM Planner 6.2.3](#epm-planner-623) - Released 2026.04.22
 - [EPM Planner 6.2.2](#epm-planner-622) - Released 2026.04.08
 - [EPM Planner 6.2.1](#epm-planner-621) - Released 2026.03.16
 - [EPM Planner 6.2.0](#epm-planner-620) - Released 2026.01.22
@@ -22,7 +23,29 @@ This package provide the financial planning function and can be organized in pro
 
 ## Unreleased
 
-**Known issues:** [GitHub Milestone](https://github.com/Profitbase/Planner/milestone/87)
+**Known issues:** [GitHub Milestone](https://github.com/Profitbase/Planner/milestone/90)
+
+## EPM Planner 6.2.3
+
+**Fixes:**
+
+- Account/plan overview:
+   - Plan overview account details - display social cost transactions over two rows (#2236)
+   - Account module display error message when at non-leaf level in setup that does not allow multi department input (#2242)
+   - Input on local account - adjustments EPM Planner (#2254)
+   - Account module - input on local accounts - drop down is not filtered on report line (#2265)
+- Personnel:
+   - Personnel - dimension column ordering not correct for FTE and Headcount tabs (#2245)
+- Driver based:
+   - Driver based models columnsetup, YTD visible = true hides ytd columns (#2238)
+   - Historic1 column in driver based models does is incorrect (#2258)
+- Fixed assets:
+   - Fixed assets input fails on save - gives error message (#2239)
+- Version deployment:
+   - Version deployment fails is sql aggregate calculations used for driver based models (#2237)
+   - New version fails on duplicate values in FctAccInputDistributerRulesOverrideTempStore when input on CurrencyForeignor AccountSRc (local account) is used (#2240)
+- Data quality:
+   - Transaction processing - remove leading/trailing spaces in DepartmentID when comparing transaction slices (#2248)
 
 ## EPM Planner 6.2.2
 
