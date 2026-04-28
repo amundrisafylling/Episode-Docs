@@ -1,62 +1,92 @@
 - name: Overview
   href: financial-reporting-matrix.md
 - name: Getting started
-  href: getting-started/toc.yml 
+  href: getting-started/toc.yml
 - name: Security
   href: security.md
-- name: Adding data to the visual
-  href: adding-data-to-the-visual.md
+- name: Data
+  items:
+    - name: Adding data to the visual
+      href: adding-data-to-the-visual.md
+    - name: Data limit
+      href: data-limit.md
 - name: Title
   href: title.md
-- name: Most used functions
-  href: most-used-functions.md
-- name: Statistical functions
-  href: statistical-functions.md
-- name: Column styling
-  href: column-styling/toc.yml
-- name: Row expansion
-  href: row-expansion/toc.yml
-- name: Row and Column totals
+- name: Columns
+  items:
+    - name: Column styling
+      href: column-styling/toc.yml
+    - name: Hide empty columns
+      href: hide-empty-columns.md
+    - name: Column expansion
+      href: column-expansion/toc.yml
+- name: Rows
+  items:
+    - name: Row expansion
+      href: row-expansion/toc.yml
+    - name: Hide empty rows
+      href: hide-empty-rows.md
+- name: Totals
   href: row-and-column-totals/toc.yml
-- name: Column expansion
-  href: column-expansion/toc.yml
-- name: Values options
-  href: values-options/toc.yml
-- name: Custom subtotals - rows
-  href: custom-subtotals-rows.md
-- name: Row styles - appearance
-  href: row-styles-appearance/toc.yml
-- name: Hiding rows
-  href: hiding-rows.md
-- name: Hide empty rows
-  href: hide-empty-rows.md
-- name: Hiding columns
-  href: hide-column.md
-- name: Hide empty columns
-  href: hide-empty-columns.md
-- name: Formatting
-  href: formatting/toc.yml
-- name: Custom columns
-  href: custom-columns/toc.yml
-- name: Overriding column calculations
-  href: overriding-column-calculations.md
-- name: Ragged hierarchies
-  href: ragged-hierarchies.md
-- name: Web URL
-  href: web-url.md
-- name: Applied steps
-  href: applied-steps.md
-- name: Data Bars
-  href: data-bars.md
-- name: Export to Excel
-  href: export-to-excel.md
-- name: Measure Placement
-  href: measure-placement.md
-- name: Calculations
-  href: calculations/toc.yml
-- name: Testing beta versions in developer mode
-  href: testing-beta-versions-in-developer-mode.md
+- name: Sorting & hierarchies
+  items:
+    - name: Sorting rows / columns
+      href: sorting-rows-columns.md
+    - name: Ragged hierarchies
+      href: ragged-hierarchies.md
+    - name: Drill down
+      href: drill-down.md
+- name: Edit mode
+  items:
+    - name: Applied steps
+      href: applied-steps.md
+    - name: Calculations
+      href: calculations.md
+    - name: Custom columns
+      href: custom-columns/toc.yml
+    - name: Custom subtotals - rows
+      href: custom-subtotals-rows.md
+    - name: Row styles - appearance
+      href: row-styles-appearance/toc.yml
+    - name: Cell formatting using Format function
+      href: formatting/cell-formatting-using-format-function.md
+    - name: Conditional formatting
+      href: formatting/conditional-formatting.md
+    - name: Data Bars
+      href: data-bars.md
+    - name: Pin columns
+      href: column-styling/pin-columns.md
+    - name: Hiding rows
+      href: hiding-rows.md
+    - name: Hiding columns
+      href: hide-column.md
+    - name: Hide Row and Hide Row Hierarchy
+      href: hide-row-and-hide-row-hierarchy.md
+    - name: Overriding column calculations
+      href: overriding-column-calculations.md
+- name: Values & formatting
+  items:
+    - name: Values options
+      href: values-options/toc.yml
+    - name: Formatting
+      href: formatting/toc.yml
+    - name: Measure Placement
+      href: measure-placement.md
+    - name: Set separators for thousands and decimals
+      href: thousand-and-decimal-separators.md
+- name: Interaction
+  items:
+    - name: Web URL
+      href: web-url.md
+    - name: Tooltip
+      href: tooltip.md
+    - name: Commenting
+      href: commenting.md
+    - name: Copy cell value
+      href: copy-cell-value.md
 - name: Theming
   href: theming/toc.yml
-- name: Set separators for thousands and decimals
-  href: thousand-and-decimal-separators.md
+- name: Export to Excel
+  href: export-to-excel.md
+- name: Testing beta versions in developer mode
+  href: testing-beta-versions-in-developer-mode.md

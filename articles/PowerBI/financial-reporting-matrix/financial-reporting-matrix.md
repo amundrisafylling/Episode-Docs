@@ -302,7 +302,7 @@ The **Financial Reporting Matrix** is a Power BI custom visual by Profitbase for
     <td>Apply format strings to individual cells.</td>
   </tr>
   <tr>
-    <td><b><a href="invert-sign-factor.md">Invert sign factor</a></b></td>
+    <td><b><a href="row-styles-appearance/invert-sign-factor.md">Invert sign factor</a></b></td>
     <td>Flip the sign of specific rows (e.g. income-statement credits).</td>
   </tr>
 </table>
@@ -311,56 +311,64 @@ The **Financial Reporting Matrix** is a Power BI custom visual by Profitbase for
 
 <table>
   <tr>
-    <td><b><a href="calculations/calculations.md">Calculations (overview)</a></b></td>
+    <td><b><a href="calculations.md">Calculations (overview)</a></b></td>
     <td>How the formula engine works.</td>
   </tr>
   <tr>
-    <td><b><a href="calculations/using-functions-in-column-calculations.md">Using functions in column calculations</a></b></td>
+    <td><b><a href="calculations.md#using-functions-in-column-calculations">Using functions in column calculations</a></b></td>
     <td>Call functions inside custom column formulas.</td>
   </tr>
   <tr>
-    <td><b><a href="most-used-functions.md">Most used functions</a></b></td>
-    <td>Quick reference to the most common functions.</td>
-  </tr>
-  <tr>
-    <td><b><a href="calculations/financial-functions.md">Financial functions</a></b></td>
-    <td>Finance-specific functions such as NPV and IRR.</td>
-  </tr>
-  <tr>
-    <td><b><a href="calculations/date-functions.md">Date functions</a></b></td>
-    <td>Date and time functions.</td>
-  </tr>
-  <tr>
-    <td><b><a href="calculations/logical-functions.md">Logical functions</a></b></td>
-    <td>IF, AND, OR, and related logic.</td>
-  </tr>
-  <tr>
-    <td><b><a href="calculations/math-functions.md">Math functions</a></b></td>
-    <td>Arithmetic and numeric functions.</td>
-  </tr>
-  <tr>
-    <td><b><a href="calculations/text-functions.md">Text functions</a></b></td>
-    <td>String manipulation functions.</td>
-  </tr>
-  <tr>
-    <td><b><a href="calculations/table-functions.md">Table functions</a></b></td>
-    <td>Functions that operate over tables and rows.</td>
-  </tr>
-  <tr>
-    <td><b><a href="statistical-functions.md">Statistical functions</a></b></td>
-    <td>Aggregations and statistical functions.</td>
-  </tr>
-  <tr>
-    <td><b><a href="calculations/operators.md">Operators</a></b></td>
+    <td><b><a href="calculations.md#operators">Operators</a></b></td>
     <td>Arithmetic, comparison, and text operators.</td>
   </tr>
   <tr>
-    <td><b><a href="calculations/keywords.md">Keywords</a></b></td>
+    <td><b><a href="calculations.md#keywords">Keywords</a></b></td>
     <td>Reserved keywords available in formulas.</td>
   </tr>
   <tr>
-    <td><b><a href="calculations/offset.md">Offset</a></b></td>
+    <td><b><a href="calculations.md#logical-functions">Logical functions</a></b></td>
+    <td>IF, AND, OR, and related logic.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#financial-functions">Financial functions</a></b></td>
+    <td>Finance-specific functions such as CAGR, YoY, AMORLINC.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#math--trig-functions">Math functions</a></b></td>
+    <td>Arithmetic and numeric functions.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#statistical-functions">Statistical functions</a></b></td>
+    <td>Aggregations and statistical functions.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#text-functions">Text functions</a></b></td>
+    <td>String manipulation functions.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#date-functions">Date functions</a></b></td>
+    <td>Date and time functions.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#system-functions">System functions</a></b></td>
+    <td>ARRAY, NEWID, EVAL, JsonParse / JsonStringify.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#row-collection-functions">Row collection functions</a></b></td>
+    <td>Add, find, and inspect rows from formulas.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#cell-and-row-styling-functions">Cell and row styling functions</a></b></td>
+    <td>SETROWSTYLE and SETCELLSTYLE for conditional appearance.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#offset">Offset</a></b></td>
     <td>Reference other rows, columns, or prior periods.</td>
+  </tr>
+  <tr>
+    <td><b><a href="calculations.md#table-functions">Table functions</a></b></td>
+    <td>ColumnHeader, RowHeader, Row().style, JSON-string columns.</td>
   </tr>
   <tr>
     <td><b><a href="custom-columns/add-measure.md">Custom measures (Add measure)</a></b></td>

@@ -7,10 +7,28 @@ _(Available from v7.1)_
 ![image](https://user-images.githubusercontent.com/82056309/226594444-703c6060-3387-4e06-b64b-2357dfc72856.png)
 
 
+***
+
+
 ### Above Columns:
 * New view available is Above Columns, where each column header is repeated under each measure:
 
 ![image](https://user-images.githubusercontent.com/82056309/226594573-103da42b-fec2-421c-af34-7a40545982ee.png)
+
+### Add column formula in "Measures above columns"
+
+_available from v8.1.x_
+
+With the layout "Measures above columns", you are now able to use the function "Add column formula":
+
+![image](https://github.com/user-attachments/assets/6372062a-6833-4b90-bbd5-57d2c2f5d499)
+
+The formula you create in the field will be shown in all columns below the measure.
+
+![image](https://github.com/user-attachments/assets/d9b5b3bd-038e-46d6-af8d-c049890c468e)
+
+
+***
 
 
 ### In rows:
@@ -55,7 +73,3 @@ By changing back to _Default_, it reappears:
 
 This is made by design, so please chose your layout before you start adding steps.
 If not, you might have to do it twice.
-
-
-
-

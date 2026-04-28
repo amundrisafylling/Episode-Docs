@@ -1,4 +1,12 @@
 - name: Overview
   href: customize-row-styles.md
+- name: Add custom indent
+  href: add-custom-indent.md
+- name: Invert sign factor
+  href: invert-sign-factor.md
+- name: Row Options
+  href: row-options.md
 - name: Update all row styles with conditions
   href: update-all-row-styles-with-or-without-conditions.md
+- name: Update multiple rows
+  href: update-multiple-rows.md
