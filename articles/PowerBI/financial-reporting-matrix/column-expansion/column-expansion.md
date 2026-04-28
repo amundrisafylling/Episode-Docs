@@ -1,4 +1,4 @@
-_**#Premium feature**_  
+_**#Premium feature**_
 
 Note! This feature is only available in version 4 and above.
 
@@ -7,5 +7,5 @@ When a column is collapsed, its children are automatically summarized and the to
 
 ![Column expansion](https://profitbasedocs.blob.core.windows.net/pbireportingmatrix/CollapsibleColumnHeaders.PNG)
 
-* [Enable column expansion](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki/Enable-column-expansion)  
-* [Default expansion](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/wiki/Default-column-expansion)
+* [Enable column expansion](enable-column-expansion.md)
+* [Default expansion](default-column-expansion.md)

@@ -2,5 +2,7 @@
   href: custom-columns.md
 - name: Add custom columns
   href: add-custom-columns.md
+- name: Custom measures
+  href: add-measure.md
 - name: Styling custom columns
   href: styling-custom-columns.md

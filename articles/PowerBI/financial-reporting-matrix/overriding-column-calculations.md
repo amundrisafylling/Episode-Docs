@@ -1,4 +1,4 @@
-You can override the values coming from the data model, row calculations, or custom column calculations by right-clicking a column header and choosing “Replace column formula”. 
+You can override the values coming from the data model, row calculations, or custom column calculations by right-clicking a column header and choosing “Add column formula”.
 
 The calculation will apply to all columns coming from the same field in the Value Field setting.
 
@@ -9,13 +9,14 @@ To override column values coming from the data model, follow these steps:
 
 
 
-**Step 1** 
+**Step 1**
 
 ![Enter edit mode](https://profitbasedocs.blob.core.windows.net/pbireportingmatrix/OverridingColumnCalc1.png)
 
 **Step 2**
 
 ![Right click the column and choose “Replace column formula”](https://profitbasedocs.blob.core.windows.net/pbireportingmatrix/OverridingColumnCalc2.png)
+
 
 **Step 3**
 

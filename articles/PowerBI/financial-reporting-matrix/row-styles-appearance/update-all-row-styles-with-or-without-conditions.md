@@ -20,10 +20,10 @@ To customize all row, perform the following 4 steps:
 
 
 **You can also reference** the value of other columns. For instance, only apply the style where the value of "Is Cost" is greater than 0:
+
 ![image](https://user-images.githubusercontent.com/82056309/175514705-238c9db0-ae35-4395-a2f6-1ac3b9c9c193.png)
 
 Using && or || will allow you do add multiple conditions at once.
 
 **Then you can hide** the "Is Cost" - column, so it doesn't show in the report:
 ![image](https://user-images.githubusercontent.com/82056309/175514959-5a16685f-5431-4d27-af14-d2208386b990.png)
-
