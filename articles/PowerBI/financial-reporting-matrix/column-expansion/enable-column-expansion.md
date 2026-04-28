@@ -13,3 +13,8 @@ Follow these 3 steps to enable column expansion.
 3) You should now be able to collapse columns with automatically summarized totals and expand to view details.  
 
 ![Expanded and collapsed columns example](https://profitbasedocs.blob.core.windows.net/pbireportingmatrix/CollapsedColumnsExample.PNG)
+
+## Expansion icon size
+_Available From version 8.2.x._
+
+![image](https://github.com/user-attachments/assets/bf83f523-872e-4297-ba63-87fe0bdc3b21)

@@ -1,8 +1,11 @@
 This Security Statement is aimed at providing you with information about the measures put in place to ensure your data is handled securely by the Financial Reporting Matrix. Financial data is highly sensitive information, and we are committed to protecting your data from any unwanted or unauthorized access.
 
+
 ### 1. Certified by Microsoft
 The Financial Reporting Matrix is certified by Microsoft. This means that the visual is tested by Microsoft to verify 
 that it doesn't access external services or resources, and that it follow secure coding patterns and guidelines.
+
+![Skjermbilde 2025-06-26 092848](https://github.com/user-attachments/assets/aee7767a-4b8f-4ccc-8406-fe6651c4bd67)
 
 ### 2. Hosting model and data  
 The image below describes how the Visual is hosted and isolated in Power BI, and how data is ingested and managed by the Visual.
@@ -36,26 +39,33 @@ This Visual is build using React.js, which is an open-source front-end JavaScrip
 #### 3rd party libraries used by the Visual  
 The following 3rd party is used by the Visual. We monitor new releases and security vulnerability reports of these libraries, and keep them up to date to ensure our Visual does expose security vulnerabilities.  
 
-* **antd** v4.15.5  
-* **classnames** v2.3.1  
-* **core-js** v3.12.1  
-* **immutable** v4.0.0-rc-12  
-* **lodash.clonedeep** v4.5.0  
-* **moment** v2.29.1  
-* **react** v17.0.2  
-* **react-dom** v17.0.2  
-* **react-color** v2.19.3  
-* **react-contexify** v5.0.0  
-* **react-error-boundary** v3.1.3  
-* **react-resize-detector** v6.7.1  
-* **react-select** v4.3.1  
-* **react-table** v7.0.4  
-* **slate** v0.47.9  
-* **slate-react** v0.22.10  
-* **styled-components** v5.3.0  
-* **tweetnacl** v1.0.3  
-* **tweetnacl-util** v 0.15.1  
-* **underscore** v1.13.1  
+* "antd": "^5.12.5",
+* "classnames": "^2.3.2",
+* "core-js": "3.34.0",
+* "eslint-config-prettier": "^8.5.0",
+* "eslint-plugin-react-hooks": "^4.6.0",
+* "exceljs": "^4.3.0",
+* "immutable": "4.3.4",
+* "lodash.clonedeep": "^4.5.0",
+* "moment": "^2.29.4",
+* "powerbi-visuals-api": "~5.10.0",
+* "powerbi-visuals-utils-dataviewutils": "^6.0.1",
+* "powerbi-visuals-utils-formattingmodel": "^5.0.1",
+* "powerbi-visuals-utils-formattingutils": "^6.0.1",
+* "react": "^18.2.0",
+* "react-color": "^2.19.3",
+* "react-contexify": "^5.0.0",
+* "react-dom": "^18.2.0",
+* "react-error-boundary": "4.0.12",
+* "react-resize-detector": "^9.1.1",
+* "react-select": "5.7.7",
+* "react-table": "^7.8.0",
+* "slate": "0.101.4",
+* "slate-react": "^0.101.3",
+* "styled-components": "6.1.1",
+* "tweetnacl": "^1.0.3",
+* "tweetnacl-util": "^0.15.1",
+* "underscore": "^1.13.6"
 
 ### Questions?  
-If you have any questions, please contact us at post@profitbase.no, or [ask a question in our forum](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues).
+If you have any questions, please contact us at pbi.visuals@profitbase.no, or [ask a question in our forum](https://github.com/Profitbase/PowerBI-visuals-FinancialReportingMatrix/issues).
