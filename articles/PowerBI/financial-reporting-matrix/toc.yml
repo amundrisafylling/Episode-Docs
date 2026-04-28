@@ -1,5 +1,7 @@
 - name: Overview
   href: financial-reporting-matrix.md
+- name: Ask AI
+  href: ask-ai.md
 - name: Getting started
   href: getting-started/toc.yml
 - name: Security
