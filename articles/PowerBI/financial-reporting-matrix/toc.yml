@@ -2,6 +2,8 @@
   href: financial-reporting-matrix.md
 - name: Getting started
   href: getting-started/toc.yml
+- name: FAQ
+  href: faq.md
 - name: Security
   href: security.md
 - name: Data
