@@ -5,7 +5,7 @@ Typical use cases include inserting a JSON document into a relational database t
 
 > [!NOTE]
 > The JSON documents must have a valid JSON format, meaning it must be a singel object starting and ending with curly brackets (`{` and `}`), OR a collection of objects, starting or ending with square brackets (`[` and `]`).  
-> The tabular data must also be present at the root level, and not in a nested field.
+> If the tabular data is present on a nested field instead of the root level, you must specify the [Root path](#root-path).
 
 <br/>
 
@@ -13,7 +13,7 @@ Typical use cases include inserting a JSON document into a relational database t
 
 
 **Example** ![Example](../../../../images/strz.jpg)  
-This Flow automates the process of retrieving employee data from PowerOfficeGo, transforming it to a DataTable, and inserting it into a database.
+This Flow retrieves employees from the PowerOfficeGo REST API (in a JSON format), transforms it to a DataTable, and inserts it into a database.
 
 <br/>
 
@@ -21,15 +21,16 @@ This Flow automates the process of retrieving employee data from PowerOfficeGo, 
 
 | Name                     | Type                 | Description                                |
 |--------------------------|----------------------|--------------------------------------------|
-| JSON                     | Yes | A string or byte array containing data in a valid JSON format. |
+| JSON                     | Required | A string or byte array containing data in a valid JSON format. |
 | [Schema mapping](#schema-mapping)           | No | Enables manually defining the mapping between JSON properties and column names, including data types. |
-| DataTable variable name | Yes | The name of the variable that contains the output from this action.| 
+| Root path                | Optional | The path to the JSON property in the document to read. Specify the root path if you need to read from an object or array within the JSON document instead of the start of the document. If you need to target a property multiple levels down, use `.` (period) as a separator. [Read more here.](#root-path) |
+| DataTable variable name | Optional | The name of the variable that contains the output from this action.| 
 
 <br/>
 
 ## Returns
 
-DataTable.
+.NET DataTable.
 <br/>
 
 ## Details
@@ -83,7 +84,49 @@ The JSON above is converted to the following table.
 
 > [!NOTE]
 > The JSON documents must have a valid JSON format, meaning it must be a singel object starting and ending with curly brackets (`{` and `}`), OR a collection of objects, starting or ending with square brackets (`[` and `]`).  
-> The tabular data must also be present at the root level, and not in a nested field.
+> If the tabular data is present on a nested field instead of the root level, you must specify the [Root path](#root-path).
+
+<br/>
+
+### Root path
+
+Specify the root path if you need to read from an object or array within the JSON document instead of the start of the document.  
+If you have the following JSON document, and need to read the "Finance" array, then specify `Finance` as root path.
+
+```json
+{
+   "Finance":[
+      {      
+         "accountId": "3000",
+         "amount": 45000,      
+      },
+      {      
+         "accountId": "3020",
+         "amount": 12500.76,      
+      },
+   ]
+}
+```
+
+Similarly, if you need to read "Finance" from the JSON document below, specify `Company.Finance` as the root path.  
+Note the use of `.` (period) to specify the path to nested objects.
+
+```json
+{
+   "Company": {
+      "Finance":[
+         {      
+            "accountId": "3000",
+            "amount": 45000,      
+         },
+         {      
+            "accountId": "3020",
+            "amount": 12500.76,      
+         },
+      ]
+   }
+}
+```
 
 <br/>
 
@@ -184,5 +227,4 @@ In a JSON document, relationships between nested objects are represented using a
 | JSON path        | Column name     | Data type          |
 |------------------|-----------------|--------------------|
 | address.country  | Country         | string             |
-
 
