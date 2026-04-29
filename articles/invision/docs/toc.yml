@@ -1,4 +1,4 @@
-- name: System setup
+﻿- name: System setup
   href: systemsetup/toc.yml
   topicHref: systemsetup.md
 - name: Access control
@@ -9,6 +9,7 @@
   topicHref: accessibility.md
 - name: Best practice
   href: bestpractice/toc.yml
+  topicHref: bestpractice/overview.md
 - name: AI chat
   href: ai-chat/overview.md
 - name: Dataflow items
@@ -42,6 +43,7 @@
   topicHref: forms.md
 - name: Header
   href: header/toc.yml
+  topicHref: header/overview.md
 - name: Homepage
   href: homepage/toc.yml
   topicHref: homepage.md

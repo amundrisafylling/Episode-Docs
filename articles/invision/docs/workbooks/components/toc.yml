@@ -1,4 +1,4 @@
-- name: Access control editors
+﻿- name: Access control editors
   href: accesscontrol/toc.yml
   topicHref: accesscontrol.md
 - name: AI Chat
@@ -17,6 +17,7 @@
   href: filestorage.md
 - name: Filter
   href: filter/toc.yml
+  topicHref: filter/overview.md
 - name: Flow schedule
   href: flowschedule.md
 - name: Form Elements

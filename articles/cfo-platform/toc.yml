@@ -1,7 +1,6 @@
 - name: Business process automation
+  href: business-process-automation/overview.md
   items:
-    - name: Overview
-      href: business-process-automation/overview.md
     - name: "Data integration and transformation"
       href: business-process-automation/data-integration-and-transformation.md
     - name: Data monitoring and alerts
@@ -9,6 +8,4 @@
     - name: Convert spreadsheets to web apps
       href: business-process-automation/convert-spreadsheets-to-web-apps.md
 - name: Data platform
-  items:
-    - name: Overview
-      href: data-platform/overview.md    
+  href: data-platform/overview.md

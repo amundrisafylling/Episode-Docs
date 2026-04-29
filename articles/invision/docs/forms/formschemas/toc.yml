@@ -1,4 +1,4 @@
-- name: How to's
+﻿- name: How to's
   href: howto/toc.yml
   topicHref: howto.md
 - name: APIs
@@ -14,6 +14,7 @@
   href: eventhandlers.md
 - name: Functions
   href: functions/toc.yml
+  topicHref: functions/overview.md
 - name: Styling and layout
   href: stylinglayout.md
 - name: Using the XML edit
