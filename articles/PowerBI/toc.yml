@@ -1,14 +1,15 @@
-- name: Overview
-  href: power-bi.md
 - name: Videos
   href: power-bi-videos.md
 - name: Financial Reporting Matrix
   href: financial-reporting-matrix/toc.yml
+  topicHref: financial-reporting-matrix/financial-reporting-matrix.md
 - name: Gantt
   href: gantt/toc.yml
+  topicHref: gantt/gantt.md
 - name: Writeback Table
-  href: writeback-table/toc.yml
+  href: writeback-table/overview.md
 - name: Writeback Comments
   href: writeback-comments/toc.yml
+  topicHref: writeback-comments/overview.md
 - name: Risk Matrix
-  href: risk-matrix/toc.yml
+  href: risk-matrix/risk-matrix.md

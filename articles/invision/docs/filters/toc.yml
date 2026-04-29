@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../filters.md
 - name: How to's
   href: howto/index.md
   items:

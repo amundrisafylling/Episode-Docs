@@ -1,9 +1,9 @@
-- name: Overview
-  href: ../tables.md
 - name: How to's
   href: howto/toc.yml
+  topicHref: howto.md
 - name: Calculations
   href: calculations/toc.yml
+  topicHref: calculations.md
 - name: Code-behind
   href: code-behind.md
 - name: Cell validation
@@ -12,6 +12,7 @@
   href: colcaptions.md
 - name: Column properties
   href: columnproperties/toc.yml
+  topicHref: columnproperties.md
 - name: Custom query
   href: customquery.md
 - name: Filters

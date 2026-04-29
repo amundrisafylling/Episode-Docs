@@ -1,7 +1,6 @@
-- name: Overview
-  href: ../workbooks.md
 - name: How to's
   href: howto/toc.yml
+  topicHref: howto.md
 - name: Pages
   href: pages.md
 - name: Popups
@@ -10,8 +9,10 @@
   href: drawers.md
 - name: Components
   href: components/toc.yml
+  topicHref: components.md
 - name: Programming model
   href: programmingmodel/toc.yml
+  topicHref: programmingmodel.md
 - name: Subscreens
   href: subscreens.md
 - name: Themes and styles

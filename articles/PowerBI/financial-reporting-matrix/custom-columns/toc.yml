@@ -1,5 +1,3 @@
-- name: Overview
-  href: custom-columns.md
 - name: Add custom columns
   href: add-custom-columns.md
 - name: Custom measures

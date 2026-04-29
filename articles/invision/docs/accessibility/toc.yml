@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../accessibility.md
 - name: How to's
   href: howto/index.md
   items:

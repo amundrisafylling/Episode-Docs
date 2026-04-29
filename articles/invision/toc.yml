@@ -1,12 +1,14 @@
-- name: Overview
-  href: invision.md
 - name: Ask AI
   href: ask-ai.md
 - name: Docs
-  href: docs/toc.yml    
+  href: docs/toc.yml
+  topicHref: docs/index.md
 - name: Videos
   href: videos/toc.yml
+  topicHref: videos.md
 - name: Change log
   href: changelog/toc.yml
+  topicHref: changelog.md
 - name: Trainingcase
   href: trainingcase/toc.yml
+  topicHref: trainingcase/index.md
