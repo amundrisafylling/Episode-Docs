@@ -1,5 +1,3 @@
-- name: Overview
-  href: overview.md  
 - name: Connection
   href: microsoft-fabric-connection.md
 - name: Create Data Pipeline

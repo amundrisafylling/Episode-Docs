@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../../package.md
 - name: Upgrade package
   href: ../upgrade-package.md
 - name: Production upgrade

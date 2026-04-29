@@ -1,7 +1,6 @@
-- name: Overview
-  href: ../components.md
 - name: Access control editors
   href: accesscontrol/toc.yml
+  topicHref: accesscontrol.md
 - name: AI Chat
   href: ai-chat.md
 - name: Component placeholder
@@ -40,8 +39,10 @@
   href: tableview.md
 - name: UI Elements
   href: uielements/toc.yml
+  topicHref: uielements.md
 - name: User chat
   href: userchat/toc.yml
+  topicHref: userchat/user-chat.md
 - name: Workflow
   href: workflow.md
 - name: Work process editor

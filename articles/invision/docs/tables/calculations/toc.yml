@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../calculations.md
 - name: AppVariables in formulas
   href: appvariables.md
 - name: Arithmetic operators

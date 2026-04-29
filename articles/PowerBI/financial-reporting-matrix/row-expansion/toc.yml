@@ -1,5 +1,3 @@
-- name: Overview
-  href: row-expansion.md
 - name: Allow or deny expansion for individual rows
   href: allow-or-deny-expansion-for-individual-rows.md
 - name: Default expand rows

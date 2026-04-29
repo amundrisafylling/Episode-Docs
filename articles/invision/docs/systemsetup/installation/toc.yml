@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../installation.md    
 - name: Azure Active Directory Authentication
   href: azureactdirauthent.md
 - name: IBM Security Verify Authentication

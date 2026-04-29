@@ -1,4 +1,2 @@
-- name: Overview
-  href: formatting.md
 - name: Treat columns as measures
   href: treat-columns-as-measures.md

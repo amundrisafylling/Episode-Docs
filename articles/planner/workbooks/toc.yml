@@ -2,6 +2,7 @@
   href: workbooks.md
 - name: Financial Planning
   href: financial-planning/toc.yml
+  topicHref: financial-planning/plan-overview.md
 - name: Process and Tasks
   href: process-and-tasks/toc.yml
 - name: Data Management

@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../sqlscripts.md
 - name: How to's
   href: howto.md
   items:

@@ -1,5 +1,3 @@
-- name: Overview
-  href: overview.md
 - name: Microsoft Foundry connection
   href: azure-ai-connection.md
 - name: Create Azure AI connection

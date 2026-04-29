@@ -1,9 +1,9 @@
-- name: Overview
-  href: ../worksheets.md
 - name: How to's
   href: howto/toc.yml
+  topicHref: howto.md
 - name: Calculations
   href: calculations/toc.yml
+  topicHref: calculations.md
 - name: Code-behind
   href: code-behind.md
 - name: Cell validation
@@ -22,6 +22,7 @@
   href: filters.md
 - name: On save
   href: onsave/toc.yml
+  topicHref: onsave.md
 - name: Row styling
   href: rowstyling.md
 - name: Stacked column headers

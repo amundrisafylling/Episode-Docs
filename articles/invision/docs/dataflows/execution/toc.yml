@@ -1,5 +1,3 @@
-- name: Execution
-  href: index.md
 - name: Command line
   href: commandline.md
 - name: HTTP API

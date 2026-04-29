@@ -1,82 +1,107 @@
-- name: Overview
-  href: index.md
 - name: System setup
   href: systemsetup/toc.yml
+  topicHref: systemsetup.md
 - name: Access control
   href: accesscontrol/toc.yml
+  topicHref: accesscontrol.md
 - name: Accessibility
   href: accessibility/toc.yml
+  topicHref: accessibility.md
 - name: Best practice
   href: bestpractice/toc.yml
 - name: AI chat
-  href: ai-chat/toc.yml
+  href: ai-chat/overview.md
 - name: Dataflow items
   href: dataflowitems/toc.yml
+  topicHref: dataflowitems.md
 - name: Dataflows
   href: dataflows/toc.yml
+  topicHref: dataflows.md
 - name: Data pool
   href: datapool.md
 - name: Data Stores
   href: datastores/toc.yml
+  topicHref: datastores.md
 - name: Dimensions
   href: dimensions/toc.yml
+  topicHref: dimensions/index.md
 - name: Directives
   href: directives/toc.yml
+  topicHref: directives.md
 - name: File Storage
   href: filestorage/toc.yml
+  topicHref: filestorage.md
 - name: Filters
   href: filters/toc.yml
+  topicHref: filters.md
 - name: Flows
   href: flows/toc.yml
+  topicHref: flows/overview.md
 - name: Forms
   href: forms/toc.yml
+  topicHref: forms.md
 - name: Header
   href: header/toc.yml
 - name: Homepage
   href: homepage/toc.yml
+  topicHref: homepage.md
 - name: Javascript
   href: javascript.md
 - name: Macros
   href: macros/toc.yml
+  topicHref: macros.md
 - name: Packages
   href: package/toc.yml
+  topicHref: package.md
 - name: PowerShell
   href: powershell/toc.yml
+  topicHref: powershell.md
 - name: Solution variables
   href: solution-variables.md
 - name: SQL Reports
   href: sqlreports/toc.yml
+  topicHref: sqlreports.md
 - name: SQL Scripts
   href: sqlscripts/toc.yml
+  topicHref: sqlscripts.md
 - name: Stored Procedures
   href: stored-procedures.md
 - name: System views
   href: systemviews.md
 - name: Tables
   href: tables/toc.yml
+  topicHref: tables.md
 - name: Table Explorer
   href: tableexplorer/toc.yml
+  topicHref: tableexplorer.md
 - name: TableView
   href: tableview/toc.yml
+  topicHref: tableview.md
 - name: Time frame
   href: timeframe.md
 - name: Translations / Localization
   href: translationsloc/toc.yml
+  topicHref: translationsloc.md
 - name: Troubleshooting
   href: troubleshooting.md
 - name: Views
   href: views.md
 - name: Web Functions
   href: webfunctions/toc.yml
+  topicHref: webfunctions.md
 - name: Web service APIs
-  href: webserviceapis/toc.yml
+  href: webserviceapis.md
 - name: Workbook menu
   href: workbookmenu.md
 - name: Workbooks
   href: workbooks/toc.yml
+  topicHref: workbooks.md
 - name: Workflow
   href: workflow/toc.yml
+  topicHref: workflow.md
 - name: Work Process
   href: workprocess/toc.yml
+  topicHref: workprocess.md
 - name: Worksheets
   href: worksheets/toc.yml
+  topicHref: worksheets.md

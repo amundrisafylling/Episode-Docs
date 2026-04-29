@@ -1,9 +1,8 @@
-- name: Overview
-  href: financial-reporting-matrix.md
 - name: Ask AI
   href: ask-ai.md
 - name: Getting started
   href: getting-started/toc.yml
+  topicHref: getting-started/getting-started.md
 - name: Security
   href: security.md
 - name: Data
@@ -18,18 +17,22 @@
   items:
     - name: Column styling
       href: column-styling/toc.yml
+      topicHref: column-styling/column-styling.md
     - name: Hide empty columns
       href: hide-empty-columns.md
     - name: Column expansion
       href: column-expansion/toc.yml
+      topicHref: column-expansion/column-expansion.md
 - name: Rows
   items:
     - name: Row expansion
       href: row-expansion/toc.yml
+      topicHref: row-expansion/row-expansion.md
     - name: Hide empty rows
       href: hide-empty-rows.md
 - name: Totals
   href: row-and-column-totals/toc.yml
+  topicHref: row-and-column-totals/row-and-column-totals.md
 - name: Sorting & hierarchies
   items:
     - name: Sorting rows / columns
@@ -46,10 +49,12 @@
       href: calculations.md
     - name: Custom columns
       href: custom-columns/toc.yml
+      topicHref: custom-columns/custom-columns.md
     - name: Custom subtotals - rows
       href: custom-subtotals-rows.md
     - name: Row styles - appearance
       href: row-styles-appearance/toc.yml
+      topicHref: row-styles-appearance/customize-row-styles.md
     - name: Cell formatting using Format function
       href: formatting/cell-formatting-using-format-function.md
     - name: Conditional formatting
@@ -70,8 +75,10 @@
   items:
     - name: Values options
       href: values-options/toc.yml
+      topicHref: values-options/values-options.md
     - name: Formatting
       href: formatting/toc.yml
+      topicHref: formatting/formatting.md
     - name: Measure Placement
       href: measure-placement.md
     - name: Set separators for thousands and decimals
@@ -88,6 +95,7 @@
       href: copy-cell-value.md
 - name: Theming
   href: theming/toc.yml
+  topicHref: theming/theming.md
 - name: Export to Excel
   href: export-to-excel.md
 - name: Testing beta versions in developer mode

@@ -1,7 +1,5 @@
-- name: Overview
-  href: ../howto.md
 - name: How to use cell validation
-  href: /cellvalidation.md
+  href: cellvalidation.md
 - name: How to create and edit table schema
   href: creatingtable.md
 - name: How to create a table view

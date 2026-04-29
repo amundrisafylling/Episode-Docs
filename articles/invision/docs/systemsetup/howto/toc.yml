@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../howto.md
 - name: How To Setup InVision Service with Azure Active Directory Authentication
   href: ad-authentication.md
 - name: How To Create Azure App Registration

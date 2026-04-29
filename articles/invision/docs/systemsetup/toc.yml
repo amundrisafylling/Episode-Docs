@@ -1,12 +1,14 @@
-- name: Overview
-  href: ../systemsetup.md
 - name: How to's
   href: howto/toc.yml
+  topicHref: howto.md
 - name: Installation
   href: installation/toc.yml
+  topicHref: installation.md
 - name: Language
   href: language.md
 - name: Monitoring
   href: monitoring/toc.yml
+  topicHref: monitoring.md
 - name: System requirements
   href: systemrequirements/toc.yml
+  topicHref: systemrequirements.md
