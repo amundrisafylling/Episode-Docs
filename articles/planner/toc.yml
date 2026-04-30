@@ -1,6 +1,4 @@
-- name: Overview
-  href: planner.md
-- name: Ask AI
+﻿- name: Ask AI
   href: ask-ai.md
 - name: Getting Started
   href: getting-started.md
@@ -15,9 +13,13 @@
     href: getting-started/package-upgrade.md
 - name: Modules
   href: modules/toc.yml
+  topicHref: modules/modules.md
 - name: Workbooks
   href: workbooks/toc.yml
+  topicHref: workbooks/workbooks.md
 - name: Changelog
   href: changelog/toc.yml
+  topicHref: changelog/overview.md
 - name: End user help
   href: enduserhelp/toc.yml
+  topicHref: enduserhelp/overview.md

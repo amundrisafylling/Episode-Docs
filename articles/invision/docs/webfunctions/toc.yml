@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../webfunctions.md
 - name: Run web functions from workbooks
   href: calling.md
 - name: Run web functions from forms

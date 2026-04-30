@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../formelements.md
 - name: Date picker
   href: datepicker.md
 - name: Dropdown

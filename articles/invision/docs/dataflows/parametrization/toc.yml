@@ -1,5 +1,3 @@
-- name: Parametrization
-  href: index.md
 - name: Global parameters
   href: globalparameters.md
 - name: Programmatically change global parameters

@@ -1,5 +1,3 @@
-- name: Overview
-  href: ../workprocess.md
 - name: How to's
   href: howto.md
   items:

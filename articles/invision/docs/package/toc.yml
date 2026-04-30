@@ -1,10 +1,11 @@
-- name: Overview
-  href: ../package.md
 - name: How to's
   href: howto/toc.yml
+  topicHref: howto.md
 - name: Deploy package
   href: deploy-package.md
 - name: Develop package
   href: develop-package/toc.yml
+  topicHref: develop-package.md
 - name: Upgrade package
   href: upgrade-package/toc.yml
+  topicHref: ../package.md

@@ -1,5 +1,3 @@
-- name: Importing and updating data from data sources
-  href: index.md
 - name: Binding source columns to DS columns
   href: bindingsourcecoumns.md
 - name: Customization options

@@ -1,4 +1,6 @@
-- name: "Visma Business NXT"
+﻿- name: "Visma Business NXT"
   href: visma-business-nxt/toc.yml
+  topicHref: visma-business-nxt/overview.md
 - name: "Visma Net"
   href: visma-net/toc.yml
+  topicHref: visma-net/overview.md

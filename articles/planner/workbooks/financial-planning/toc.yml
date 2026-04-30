@@ -127,7 +127,6 @@
   - name: Report
     href: opening-balance/report.md
 - name: Plan overview
-  href: plan-overview.md
   items:
   - name: Account Details Report
     href: plan-overview/account-details.md
